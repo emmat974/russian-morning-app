@@ -2,7 +2,9 @@ const DATA_FILES = [
   'data/serie-familles.json',
   'data/serie-formes.json',
   'data/serie-contextes.json',
-  'data/serie-rappel.json'
+  'data/serie-rappel.json',
+  'data/serie-mot-juste.json',
+  'data/serie-ecriture-contextuelle.json'
 ];
 
 const state = {
@@ -22,13 +24,23 @@ function showScreen(id) {
 }
 
 function normalize(value) {
-  return value
-    .toLowerCase()
+  // Les accents toniques des manuels ne font pas partie de l’orthographe russe.
+  // On retire donc tous les signes diacritiques avant de comparer les réponses.
+  return String(value ?? '')
+    .toLocaleLowerCase('ru')
     .normalize('NFD')
     .replace(/[\u0300-\u036f]/g, '')
     .replace(/ё/g, 'е')
-    .replace(/[.,!?;:]/g, '')
+    .replace(/[.,!?;:«»"'’`]/g, '')
+    .replace(/\s+/g, ' ')
     .trim();
+}
+
+function withoutStress(value) {
+  return String(value ?? '')
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .normalize('NFC');
 }
 
 function shuffle(items) {
@@ -132,14 +144,25 @@ function checkText() {
 
 function finishQuestion(correct, selected) {
   const question = state.questions[state.index];
+  const displayedAnswer = withoutStress(question.answer);
+  const displayedSelected = withoutStress(selected);
+
   if (correct) {
     state.score += 1;
     $('feedback').className = 'feedback good';
-    $('feedback').innerHTML = `<strong>Correct.</strong> ${question.explanation}`;
+    const accentNote = selected !== question.answer && normalize(selected) === normalize(question.answer)
+      ? '<br><span class="muted">Les accents toniques sont seulement des repères de prononciation : ils ne sont pas obligatoires dans ta réponse.</span>'
+      : '';
+    $('feedback').innerHTML = `<strong>Correct.</strong> ${question.explanation}${accentNote}`;
   } else {
     state.mistakes.push({ question, selected });
     $('feedback').className = 'feedback bad';
-    $('feedback').innerHTML = `<strong>Piège.</strong> La réponse était <strong>${question.answer}</strong>.<br>${question.explanation}`;
+    $('feedback').innerHTML = `
+      <strong>Piège.</strong><br>
+      Tu as écrit : <strong>${displayedSelected || '—'}</strong><br>
+      Forme attendue : <strong>${displayedAnswer}</strong><br>
+      ${question.explanation}
+    `;
   }
   $('feedback').classList.remove('hidden');
   $('nextBtn').textContent = state.index === state.questions.length - 1 ? 'Voir le résultat' : 'Question suivante';
@@ -172,7 +195,7 @@ function renderEnd() {
   state.mistakes.forEach(({ question, selected }) => {
     const item = document.createElement('div');
     item.className = 'mistake-item';
-    item.innerHTML = `<strong>${question.prompt}</strong><br><span class="muted">Ta réponse : ${selected || '—'} · Réponse : ${question.answer}</span>`;
+    item.innerHTML = `<strong>${question.prompt}</strong><br><span class="muted">Ta réponse : ${withoutStress(selected) || '—'} · Réponse : ${withoutStress(question.answer)}</span>`;
     $('mistakes').appendChild(item);
   });
 }

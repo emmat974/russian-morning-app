@@ -1,0 +1,114 @@
+{
+  "title": "Série — Le mot juste dans la phrase",
+  "sessionSize": 10,
+  "questions": [
+    {
+      "type": "choice",
+      "label": "Choisis le mot exact",
+      "prompt": "Сего́дня ___ То́ни приезжа́ет в Москву́.",
+      "context": "Ce matin, Tony arrive à Moscou.",
+      "options": ["у́тро", "у́тром", "у́тра", "у́тренний", "ве́чером", "сего́дня"],
+      "answer": "у́тром",
+      "explanation": "Dans cette phrase, утром sert à situer l’action dans le temps : ce matin."
+    },
+    {
+      "type": "choice",
+      "label": "Choisis le mot exact",
+      "prompt": "Алексе́й приглаша́ет То́ни к себе́ ___.",
+      "context": "Alexeï invite Tony chez lui.",
+      "options": ["дом", "до́ма", "домо́й", "до́мом", "дома́шний", "дому"],
+      "answer": "домо́й",
+      "explanation": "Домой exprime ici le déplacement vers chez soi."
+    },
+    {
+      "type": "choice",
+      "label": "Choisis le mot exact",
+      "prompt": "В конце́ ве́чера Ири́на прино́сит ___ пиро́г.",
+      "context": "Irina apporte une tarte faite maison.",
+      "options": ["дом", "до́ма", "домо́й", "дома́шний", "дома́шняя", "дома́шнее"],
+      "answer": "дома́шний",
+      "explanation": "Пирог est masculin : il faut donc домашний."
+    },
+    {
+      "type": "choice",
+      "label": "Choisis le mot exact",
+      "prompt": "То́ни ви́дит всю ___ Алексе́я.",
+      "context": "Tony voit toute la famille d’Alexeï.",
+      "options": ["семья́", "семьи́", "семье́", "семью́", "семьёй", "семе́йный"],
+      "answer": "семью́",
+      "explanation": "Dans la phrase du chapitre, семья devient семью après видит."
+    },
+    {
+      "type": "choice",
+      "label": "Choisis le mot exact",
+      "prompt": "Алексе́й показыва́ет То́ни семе́йные ___.",
+      "context": "Alexeï montre à Tony des photographies de famille.",
+      "options": ["фотогра́фия", "фотогра́фии", "фотогра́фию", "фотогра́фий", "фотогра́фией", "фотограф"],
+      "answer": "фотогра́фии",
+      "explanation": "Ici, фотографии désigne plusieurs photographies montrées par Alexeï."
+    },
+    {
+      "type": "choice",
+      "label": "Choisis le mot exact",
+      "prompt": "На одно́й ___ То́ни ви́дит двух дете́й.",
+      "context": "Sur une photographie, Tony voit deux enfants.",
+      "options": ["фотогра́фия", "фотогра́фии", "фотогра́фию", "фотогра́фий", "фотогра́фией", "фотогра́фиях"],
+      "answer": "фотогра́фии",
+      "explanation": "Après на одной, le texte emploie фотографии. La forme ressemble au pluriel, ce qui constitue le piège."
+    },
+    {
+      "type": "choice",
+      "label": "Choisis le mot exact",
+      "prompt": "Его́ ___ ещё не гото́ва.",
+      "context": "Sa chambre n’est pas encore prête.",
+      "options": ["ко́мната", "ко́мнату", "ко́мнате", "ко́мнаты", "ко́мнатой", "гости́ница"],
+      "answer": "ко́мната",
+      "explanation": "Комната est ici le sujet de la phrase."
+    },
+    {
+      "type": "choice",
+      "label": "Choisis le mot exact",
+      "prompt": "То́ни зака́зывает чай и буты́лку ___.",
+      "context": "Tony commande du thé et une bouteille d’eau.",
+      "options": ["вода́", "во́ду", "воды́", "водо́й", "воде́", "буты́лка"],
+      "answer": "воды́",
+      "explanation": "Dans l’expression бутылку воды, la forme attendue est воды."
+    },
+    {
+      "type": "choice",
+      "label": "Choisis le mot exact",
+      "prompt": "Его́ па́па гото́вит у́жин на ___.",
+      "context": "Son père prépare le dîner dans la cuisine.",
+      "options": ["ку́хня", "ку́хню", "ку́хне", "ку́хни", "ку́хней", "гости́ной"],
+      "answer": "ку́хне",
+      "explanation": "Après на pour indiquer le lieu, le chapitre utilise на кухне."
+    },
+    {
+      "type": "choice",
+      "label": "Choisis le mot exact",
+      "prompt": "Его́ мла́дшая сестра́ сиди́т в ___ и чита́ет кни́гу.",
+      "context": "Sa petite sœur est assise dans le salon et lit un livre.",
+      "options": ["гости́ная", "гости́ную", "гости́ной", "гости́нице", "гости́ницы", "ку́хне"],
+      "answer": "гости́ной",
+      "explanation": "Dans в гостиной, гостиной indique le lieu où elle se trouve."
+    },
+    {
+      "type": "choice",
+      "label": "Choisis le mot exact",
+      "prompt": "То́ни благодари́т ___ за тёплый приём.",
+      "context": "Tony remercie la famille pour son accueil chaleureux.",
+      "options": ["семья́", "семьи́", "семье́", "семью́", "семьёй", "семе́йный"],
+      "answer": "семью́",
+      "explanation": "Благодарить porte ici sur la famille : le texte emploie семью."
+    },
+    {
+      "type": "choice",
+      "label": "Choisis le mot exact",
+      "prompt": "То́ни дово́лен ___.",
+      "context": "Tony est satisfait de sa soirée.",
+      "options": ["ве́чер", "ве́чера", "ве́черу", "ве́чером", "ве́чере", "ве́черний"],
+      "answer": "ве́чером",
+      "explanation": "Après доволен, le chapitre emploie вечером."
+    }
+  ]
+}
