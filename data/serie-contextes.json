@@ -1,0 +1,96 @@
+{
+  "title": "Série — Sens selon le contexte",
+  "sessionSize": 10,
+  "questions": [
+    {
+      "type": "choice",
+      "label": "Comprendre la nuance",
+      "prompt": "до́ма",
+      "context": "Quelle traduction correspond le mieux ?",
+      "options": ["à la maison", "vers la maison", "fait maison", "la maison"],
+      "answer": "à la maison",
+      "explanation": "дома exprime généralement la position : à la maison."
+    },
+    {
+      "type": "choice",
+      "label": "Comprendre la nuance",
+      "prompt": "домо́й",
+      "context": "Quelle traduction correspond le mieux ?",
+      "options": ["à la maison", "vers chez soi", "fait maison", "de la maison"],
+      "answer": "vers chez soi",
+      "explanation": "домой exprime une direction."
+    },
+    {
+      "type": "choice",
+      "label": "Comprendre la nuance",
+      "prompt": "дома́шний",
+      "context": "Dans домашний пирог.",
+      "options": ["fait maison", "à la maison", "vers chez soi", "maison familiale"],
+      "answer": "fait maison",
+      "explanation": "домашний est un adjectif. Dans ce contexte, il signifie fait maison."
+    },
+    {
+      "type": "choice",
+      "label": "Comprendre la nuance",
+      "prompt": "О́чень прия́тно.",
+      "context": "Lors d’une présentation.",
+      "options": ["Très agréable", "Enchanté", "Très heureux", "C’est intéressant"],
+      "answer": "Enchanté",
+      "explanation": "La traduction naturelle de la formule est Enchanté, même si приятно signifie littéralement agréable."
+    },
+    {
+      "type": "choice",
+      "label": "Comprendre la nuance",
+      "prompt": "Мне то́же.",
+      "context": "Réponse après Очень приятно.",
+      "options": ["Moi aussi", "À moi également", "Je vous en prie", "Moi non plus"],
+      "answer": "Moi aussi",
+      "explanation": "Dans ce dialogue, Мне тоже répond naturellement Moi aussi."
+    },
+    {
+      "type": "choice",
+      "label": "Comprendre la nuance",
+      "prompt": "ря́дом с гости́ницей",
+      "context": "Le café est…",
+      "options": ["près de l’hôtel", "dans l’hôtel", "derrière l’hôtel", "vers l’hôtel"],
+      "answer": "près de l’hôtel",
+      "explanation": "рядом с signifie près de / à côté de."
+    },
+    {
+      "type": "choice",
+      "label": "Comprendre la nuance",
+      "prompt": "к себе́ домо́й",
+      "context": "Alexeï invite Tony…",
+      "options": ["chez lui", "chez Tony", "à l’hôtel", "dans sa chambre"],
+      "answer": "chez lui",
+      "explanation": "себе renvoie au sujet, ici Alexeï."
+    },
+    {
+      "type": "choice",
+      "label": "Comprendre la nuance",
+      "prompt": "не́сколько ме́сяцев наза́д",
+      "context": "Ils ont fait connaissance…",
+      "options": ["il y a quelques mois", "pendant quelques mois", "dans quelques mois", "depuis quelques mois"],
+      "answer": "il y a quelques mois",
+      "explanation": "назад marque ici le recul dans le temps : il y a."
+    },
+    {
+      "type": "choice",
+      "label": "Comprendre la nuance",
+      "prompt": "Вы похо́жи!",
+      "context": "Tony regarde une photo d’Alexeï et de sa sœur.",
+      "options": ["Vous vous ressemblez", "Vous êtes beaux", "Vous êtes proches", "Vous êtes pareils aujourd’hui"],
+      "answer": "Vous vous ressemblez",
+      "explanation": "похожи exprime la ressemblance."
+    },
+    {
+      "type": "choice",
+      "label": "Comprendre la nuance",
+      "prompt": "тёплый приём",
+      "context": "Tony remercie la famille.",
+      "options": ["un accueil chaleureux", "un repas chaud", "une soirée calme", "une famille gentille"],
+      "answer": "un accueil chaleureux",
+      "explanation": "Ici тёплый est figuré : chaleureux, pas simplement chaud."
+    }
+  ]
+}

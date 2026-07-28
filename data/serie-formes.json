@@ -1,0 +1,96 @@
+{
+  "title": "Série — Choisir la bonne forme",
+  "sessionSize": 10,
+  "questions": [
+    {
+      "type": "choice",
+      "label": "Compléter la phrase",
+      "prompt": "Сего́дня ___ То́ни приезжа́ет в Москву́.",
+      "context": "Ce matin, Tony arrive à Moscou.",
+      "options": ["у́тро", "у́тром", "у́тра", "ве́чером"],
+      "answer": "у́тром",
+      "explanation": "утром indique ici le moment où l’action se déroule."
+    },
+    {
+      "type": "choice",
+      "label": "Compléter la phrase",
+      "prompt": "Алексе́й приглаша́ет То́ни к себе́ ___.",
+      "context": "Alexeï invite Tony chez lui.",
+      "options": ["дом", "до́ма", "домо́й", "дома́шний"],
+      "answer": "домо́й",
+      "explanation": "домой contient une idée de direction vers chez soi. дома signifie plutôt à la maison."
+    },
+    {
+      "type": "choice",
+      "label": "Compléter la phrase",
+      "prompt": "В конце́ ве́чера Ири́на прино́сит ___ пиро́г.",
+      "context": "Irina apporte une tarte faite maison.",
+      "options": ["дом", "до́ма", "домо́й", "дома́шний"],
+      "answer": "дома́шний",
+      "explanation": "домашний est ici un adjectif : fait maison."
+    },
+    {
+      "type": "choice",
+      "label": "Compléter la phrase",
+      "prompt": "То́ни ви́дит всю ___ Алексе́я.",
+      "context": "Tony voit toute la famille d’Alexeï.",
+      "options": ["семья́", "семьи́", "семью́", "семе́йную"],
+      "answer": "семью́",
+      "explanation": "Après видеть, семья apparaît ici sous la forme семью."
+    },
+    {
+      "type": "choice",
+      "label": "Compléter la phrase",
+      "prompt": "Алексе́й показыва́ет То́ни семе́йные ___.",
+      "context": "Alexeï montre à Tony des photographies de famille.",
+      "options": ["фотогра́фия", "фотогра́фии", "фотогра́фию", "фотогра́фий"],
+      "answer": "фотогра́фии",
+      "explanation": "Ici on parle de plusieurs photographies et la forme attendue est фотографии."
+    },
+    {
+      "type": "choice",
+      "label": "Compléter la phrase",
+      "prompt": "На одно́й ___ То́ни ви́дит двух дете́й.",
+      "context": "Sur une photographie, Tony voit deux enfants.",
+      "options": ["фотогра́фия", "фотогра́фии", "фотогра́фию", "фотогра́фий"],
+      "answer": "фотогра́фии",
+      "explanation": "Après на одной, le texte utilise фотографии. Le piège vient du fait que la forme ressemble au pluriel."
+    },
+    {
+      "type": "choice",
+      "label": "Compléter la phrase",
+      "prompt": "Его́ ко́мната ещё не ___.",
+      "context": "Sa chambre n’est pas encore prête.",
+      "options": ["гото́в", "гото́ва", "гото́во", "гото́вы"],
+      "answer": "гото́ва",
+      "explanation": "комната est féminin, donc готов devient готова."
+    },
+    {
+      "type": "choice",
+      "label": "Compléter la phrase",
+      "prompt": "Он немно́го уста́л, но о́чень ___.",
+      "context": "Il est un peu fatigué, mais très heureux.",
+      "options": ["рада", "рад", "рады", "ра́дость"],
+      "answer": "рад",
+      "explanation": "Tony est masculin : рад. рада serait la forme féminine."
+    },
+    {
+      "type": "choice",
+      "label": "Compléter la phrase",
+      "prompt": "Э́то моя́ ба́бушка. Она́ о́чень ___.",
+      "context": "C’est ma grand-mère. Elle est très gentille.",
+      "options": ["до́брый", "до́брая", "до́брое", "до́брые"],
+      "answer": "до́брая",
+      "explanation": "бабушка est féminin : добрая."
+    },
+    {
+      "type": "choice",
+      "label": "Compléter la phrase",
+      "prompt": "То́ни благодари́т семью́ за тёплый ___.",
+      "context": "Tony remercie la famille pour son accueil chaleureux.",
+      "options": ["приём", "приёма", "приёму", "приёмом"],
+      "answer": "приём",
+      "explanation": "Dans l’expression за тёплый приём, le texte emploie приём."
+    }
+  ]
+}

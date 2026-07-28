@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#111827" />
+  <title>Russe du matin</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="app-shell">
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">Chapitres 1 & 2</p>
+        <h1>Russe du matin</h1>
+      </div>
+      <button id="newSessionBtn" class="ghost-btn" type="button">Nouvelle série</button>
+    </header>
+
+    <section id="startScreen" class="panel center-panel">
+      <p id="setLabel" class="set-label">Chargement…</p>
+      <h2>Une courte série pour automatiser les formes.</h2>
+      <p class="muted">Les mauvaises réponses sont volontairement proches.</p>
+      <button id="startBtn" class="primary-btn" type="button" disabled>Commencer</button>
+    </section>
+
+    <section id="quizScreen" class="panel hidden" aria-live="polite">
+      <div class="progress-row">
+        <span id="progressText">1 / 10</span>
+        <span id="scoreText">0 bonne réponse</span>
+      </div>
+      <div class="progress-track"><div id="progressBar" class="progress-bar"></div></div>
+
+      <div class="question-block">
+        <p id="questionType" class="eyebrow"></p>
+        <h2 id="questionPrompt"></h2>
+        <p id="questionContext" class="context"></p>
+      </div>
+
+      <div id="choices" class="choices"></div>
+
+      <div id="textMode" class="hidden text-mode">
+        <label for="answerInput">Ta réponse</label>
+        <input id="answerInput" type="text" autocomplete="off" autocapitalize="off" spellcheck="false" />
+        <button id="validateBtn" class="primary-btn" type="button">Valider</button>
+      </div>
+
+      <div id="feedback" class="feedback hidden"></div>
+      <button id="nextBtn" class="primary-btn hidden" type="button">Question suivante</button>
+    </section>
+
+    <section id="endScreen" class="panel center-panel hidden">
+      <p class="eyebrow">Session terminée</p>
+      <h2 id="finalScore"></h2>
+      <p id="finalMessage" class="muted"></p>
+      <div id="mistakes" class="mistakes"></div>
+      <button id="restartBtn" class="primary-btn" type="button">Refaire une autre série</button>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

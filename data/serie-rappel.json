@@ -1,0 +1,96 @@
+{
+  "title": "Série — Rappel actif",
+  "sessionSize": 10,
+  "questions": [
+    {
+      "type": "text",
+      "label": "Écrire un seul mot",
+      "prompt": "le matin",
+      "context": "Forme utilisée pour situer une action dans le temps.",
+      "answer": "у́тром",
+      "accepted": ["утром"],
+      "explanation": "утром est la forme utilisée dans Сегодня утром."
+    },
+    {
+      "type": "text",
+      "label": "Écrire un seul mot",
+      "prompt": "vers chez soi",
+      "context": "Famille de дом.",
+      "answer": "домо́й",
+      "accepted": ["домой"],
+      "explanation": "домой contient l’idée de déplacement vers chez soi."
+    },
+    {
+      "type": "text",
+      "label": "Écrire un seul mot",
+      "prompt": "fait maison",
+      "context": "Comme dans « tarte faite maison ».",
+      "answer": "дома́шний",
+      "accepted": ["домашний"],
+      "explanation": "домашний est l’adjectif issu de дом."
+    },
+    {
+      "type": "text",
+      "label": "Retrouver la forme de base",
+      "prompt": "семью́ → ?",
+      "context": "Écris la forme de dictionnaire.",
+      "answer": "семья́",
+      "accepted": ["семья"],
+      "explanation": "семью vient de семья."
+    },
+    {
+      "type": "text",
+      "label": "Retrouver la forme de base",
+      "prompt": "фотогра́фии → ?",
+      "context": "Écris la forme de dictionnaire.",
+      "answer": "фотогра́фия",
+      "accepted": ["фотография"],
+      "explanation": "La forme de dictionnaire est фотография."
+    },
+    {
+      "type": "text",
+      "label": "Compléter un seul mot",
+      "prompt": "Его́ ко́мната ещё не ___.",
+      "context": "Sa chambre n’est pas encore prête.",
+      "answer": "гото́ва",
+      "accepted": ["готова"],
+      "explanation": "комната est féminin, donc готова."
+    },
+    {
+      "type": "text",
+      "label": "Compléter un seul mot",
+      "prompt": "Она́ о́чень ___.",
+      "context": "Elle est très gentille.",
+      "answer": "до́брая",
+      "accepted": ["добрая"],
+      "explanation": "La forme féminine est добрая."
+    },
+    {
+      "type": "text",
+      "label": "Compléter un seul mot",
+      "prompt": "То́ни ___ чай.",
+      "context": "Tony commande du thé.",
+      "answer": "зака́зывает",
+      "accepted": ["заказывает"],
+      "explanation": "заказывает est la forme conjuguée employée dans le chapitre 1."
+    },
+    {
+      "type": "text",
+      "label": "Compléter un seul mot",
+      "prompt": "Алексе́й ___ фотогра́фии.",
+      "context": "Alexeï montre des photographies.",
+      "answer": "показыва́ет",
+      "accepted": ["показывает"],
+      "explanation": "показывает signifie il montre."
+    },
+    {
+      "type": "text",
+      "label": "Écrire la formule",
+      "prompt": "Enchanté",
+      "context": "Formule du chapitre 2.",
+      "answer": "О́чень прия́тно",
+      "accepted": ["Очень приятно", "очень приятно"],
+      "explanation": "Очень приятно est la formule naturelle pour dire Enchanté."
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "title": "Série — Familles trompeuses",
+  "sessionSize": 10,
+  "questions": [
+    {
+      "type": "choice",
+      "label": "Retrouver la forme de base",
+      "prompt": "семью́",
+      "context": "То́ни ви́дит всю семью́ Алексе́я.",
+      "options": ["семья́", "семе́йный", "семьи́", "семью́"],
+      "answer": "семья́",
+      "explanation": "семью́ est une forme de семья́. Les autres réponses appartiennent à la même famille ou sont des formes voisines."
+    },
+    {
+      "type": "choice",
+      "label": "Retrouver la forme de base",
+      "prompt": "фотогра́фии",
+      "context": "Алексе́й показыва́ет семе́йные фотогра́фии.",
+      "options": ["фотогра́фия", "фотогра́фий", "фотогра́фию", "фотогра́фии"],
+      "answer": "фотогра́фия",
+      "explanation": "La forme de dictionnaire est фотография. Les autres choix sont volontairement des formes du même mot."
+    },
+    {
+      "type": "choice",
+      "label": "Retrouver la forme de base",
+      "prompt": "гости́ницей",
+      "context": "Кафе́ ря́дом с гости́ницей.",
+      "options": ["гости́ница", "гости́нице", "гости́ницу", "гости́ницы"],
+      "answer": "гости́ница",
+      "explanation": "гостиницей vient de гостиница. Ici tous les pièges gardent presque le même aspect."
+    },
+    {
+      "type": "choice",
+      "label": "Même famille ou non ?",
+      "prompt": "Quel mot appartient à la même famille que дом ?",
+      "context": "Une seule réponse est liée à l’idée de maison.",
+      "options": ["домо́й", "ду́мает", "други́е", "дово́лен"],
+      "answer": "домо́й",
+      "explanation": "домой signifie vers chez soi. думает ressemble visuellement, mais vient d’un autre mot."
+    },
+    {
+      "type": "choice",
+      "label": "Même famille ou non ?",
+      "prompt": "Quel mot appartient à la même famille que семья́ ?",
+      "context": "Attention aux mots qui commencent presque pareil.",
+      "options": ["семе́йный", "сего́дня", "семь", "себя́"],
+      "answer": "семе́йный",
+      "explanation": "семейный signifie familial. семь signifie sept : ressemblance trompeuse, autre mot."
+    },
+    {
+      "type": "choice",
+      "label": "Retrouver l’infinitif",
+      "prompt": "показыва́ет",
+      "context": "Алексе́й показыва́ет То́ни фотогра́фии.",
+      "options": ["показыва́ть", "показа́ть", "спра́шивать", "показыва́ет"],
+      "answer": "показыва́ть",
+      "explanation": "Dans ce chapitre, la forme de référence travaillée est показывать. показать est un verbe proche mais distinct."
+    },
+    {
+      "type": "choice",
+      "label": "Retrouver l’infinitif",
+      "prompt": "понима́ет",
+      "context": "То́ни понима́ет э́то сло́во.",
+      "options": ["понима́ть", "понима́ет", "отвеча́ть", "объясня́ть"],
+      "answer": "понима́ть",
+      "explanation": "понимает est la forme conjuguée de понимать."
+    },
+    {
+      "type": "choice",
+      "label": "Retrouver l’infinitif",
+      "prompt": "зака́зывает",
+      "context": "То́ни зака́зывает чай.",
+      "options": ["зака́зывать", "заказа́ть", "показыва́ть", "зака́зывает"],
+      "answer": "зака́зывать",
+      "explanation": "заказывать est l’infinitif présent dans le vocabulaire du chapitre. заказать est proche, mais ce n’est pas la forme attendue ici."
+    },
+    {
+      "type": "choice",
+      "label": "Retrouver la forme de base",
+      "prompt": "дете́й",
+      "context": "То́ни ви́дит двух дете́й.",
+      "options": ["де́ти", "ребёнок", "дете́й", "де́тский"],
+      "answer": "де́ти",
+      "explanation": "детей renvoie ici au pluriel дети. ребёнок est le singulier lexical, donc le piège est plausible."
+    },
+    {
+      "type": "choice",
+      "label": "Retrouver la forme de base",
+      "prompt": "бра́том",
+      "context": "Forme d’entraînement proche du dialogue sur la famille.",
+      "options": ["брат", "бра́та", "бра́ту", "бра́том"],
+      "answer": "брат",
+      "explanation": "братом vient de брат. Les autres choix sont d’autres formes possibles du même mot."
+    }
+  ]
+}
