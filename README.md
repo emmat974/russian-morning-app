@@ -35,3 +35,7 @@ Chaque série est choisie aléatoirement au démarrage.
 
 ## Explications pédagogiques V2
 Chaque question contient désormais une micro-leçon structurée : règle, comparaison, explication du piège et mémo. Les mêmes explications apparaissent après une bonne ou une mauvaise réponse.
+
+
+## Version pédagogique vérifiée
+Chaque question affiche désormais la phrase russe complète et sa traduction avant l’explication. Les six fichiers JSON ont été vérifiés individuellement afin que chaque règle corresponde exactement à la phrase visible.

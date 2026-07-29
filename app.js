@@ -175,9 +175,15 @@ function renderLesson(question, selected, correct) {
     .map(line => `<li>${escapeHtml(withoutStress(line))}</li>`)
     .join('');
   const selectedText = withoutStress(selected);
-  const answerText = withoutStress(question.answer);
+  const fullSentence = withoutStress(question.fullSentence || question.prompt.replace('___', question.answer));
+  const fullTranslation = question.fullTranslation || question.context || '';
   return `
     <div class="lesson-block">
+      <div class="source-sentence">
+        <strong>Phrase complète du chapitre</strong>
+        <p class="source-russian">${escapeHtml(fullSentence)}</p>
+        ${fullTranslation ? `<p class="source-translation">${escapeHtml(fullTranslation)}</p>` : ''}
+      </div>
       <p><strong>Pourquoi cette forme ?</strong><br>${escapeHtml(withoutStress(lesson.rule || question.explanation))}</p>
       ${!correct ? `<p><strong>Pourquoi « ${escapeHtml(selectedText)} » ne convient pas ?</strong><br>${escapeHtml(withoutStress(lesson.trap || 'Cette forme correspond à un autre rôle dans la phrase.'))}</p>` : ''}
       ${observations ? `<div><strong>Compare :</strong><ul>${observations}</ul></div>` : ''}

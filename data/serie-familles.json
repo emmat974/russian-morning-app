@@ -14,16 +14,19 @@
         "семью́"
       ],
       "answer": "семья́",
-      "explanation": "Семья est ici le mot de base, la forme utilisée pour nommer « la famille » sans autre rôle imposé par la phrase.",
+      "explanation": "Семью est une forme du nom семья. Pour retrouver la forme du dictionnaire, on remonte de la terminaison -ю vers -я : семью → семья.",
       "lesson": {
-        "rule": "Семья est ici le mot de base, la forme utilisée pour nommer « la famille » sans autre rôle imposé par la phrase.",
+        "rule": "Семью est une forme du nom семья. Pour retrouver la forme du dictionnaire, on remonte de la terminaison -ю vers -я : семью → семья.",
         "observe": [
-          "Это семья. — C’est une famille.",
-          "Я вижу семью. — Je vois la famille."
+          "семья — famille",
+          "видеть семью — voir la famille",
+          "говорить о семье — parler de la famille"
         ],
-        "trap": "Семью est une forme modifiée quand la famille reçoit directement l’action. Семейный est l’adjectif « familial ».",
-        "memory": "Pour identifier la forme du dictionnaire, cherche généralement la forme qui peut suivre Это."
-      }
+        "trap": "Семейный appartient aussi à la même famille, mais c’est l’adjectif « familial ». La question demande ici le nom de base. Семьи et семью sont déjà des formes modifiées du nom.",
+        "memory": "Pour les féminins en -я, une forme en -ю revient souvent à -я au dictionnaire."
+      },
+      "fullSentence": "В квартире Тони видит всю семью Алексея.",
+      "fullTranslation": "Dans l’appartement, Tony voit toute la famille d’Alexeï."
     },
     {
       "type": "choice",
@@ -37,17 +40,18 @@
         "фотогра́фии"
       ],
       "answer": "фотогра́фия",
-      "explanation": "Фотография est la forme de dictionnaire au singulier : « une photographie ».",
+      "explanation": "Фотографии vient du nom фотография. La forme du dictionnaire est le singulier фотография.",
       "lesson": {
-        "rule": "Фотография est la forme de dictionnaire au singulier : « une photographie ».",
+        "rule": "Фотографии vient du nom фотография. La forme du dictionnaire est le singulier фотография.",
         "observe": [
-          "Это фотография. — C’est une photographie.",
-          "Я вижу фотографию. — Je vois une photographie.",
-          "На фотографии… — Sur la photographie…"
+          "фотография — une photographie",
+          "фотографии — des photographies / sur une photographie selon le contexte"
         ],
-        "trap": "Фотографии peut être pluriel ou une autre forme singulière selon le contexte. Ici, on cherche la forme de base.",
-        "memory": "La forme de base des noms féminins se termine souvent par -а ou -я."
-      }
+        "trap": "Фотографий, фотографию et фотографии sont des formes utilisées dans des contextes différents. La forme de dictionnaire demandée est фотография.",
+        "memory": "Cherche la forme singulière de base en -ия."
+      },
+      "fullSentence": "Алексей показывает Тони семейные фотографии.",
+      "fullTranslation": "Alexeï montre à Tony des photographies de famille."
     },
     {
       "type": "choice",
@@ -61,15 +65,19 @@
         "гости́ницы"
       ],
       "answer": "гости́ница",
-      "explanation": "гостиницей vient de гостиница. Ici tous les pièges gardent presque le même aspect.",
+      "explanation": "Гостиницей vient du nom гостиница (« hôtel »). La terminaison change après рядом с, mais le noyau гостиниц- reste visible.",
       "lesson": {
-        "rule": "гостиницей vient de гостиница. Ici tous les pièges gardent presque le même aspect.",
+        "rule": "Гостиницей vient du nom гостиница (« hôtel »). La terminaison change après рядом с, mais le noyau гостиниц- reste visible.",
         "observe": [
-          "Réponse correcte : гости́ница"
+          "гостиница — hôtel",
+          "в гостинице — dans l’hôtel",
+          "рядом с гостиницей — près de l’hôtel"
         ],
-        "trap": "Les autres propositions sont des formes possibles dans d’autres constructions, mais elles ne remplissent pas le même rôle ici.",
-        "memory": "Relis la phrase entière et cherche le rôle du mot : sujet, destination, lieu, contenu ou objet de l’action."
-      }
+        "trap": "Гостинице, гостиницу et гостиницы sont d’autres formes du même nom, pas sa forme de dictionnaire.",
+        "memory": "Retire la terminaison contextuelle et cherche le féminin en -а."
+      },
+      "fullSentence": "Кафе рядом с гостиницей.",
+      "fullTranslation": "Le café est près de l’hôtel."
     },
     {
       "type": "choice",
@@ -83,15 +91,20 @@
         "дово́лен"
       ],
       "answer": "домо́й",
-      "explanation": "домой signifie vers chez soi. думает ressemble visuellement, mais vient d’un autre mot.",
+      "explanation": "Домой est directement construit sur дом et conserve l’idée de maison / chez soi.",
       "lesson": {
-        "rule": "домой signifie vers chez soi. думает ressemble visuellement, mais vient d’un autre mot.",
+        "rule": "Домой est directement construit sur дом et conserve l’idée de maison / chez soi.",
         "observe": [
-          "Réponse correcte : домо́й"
+          "дом — maison",
+          "дома — à la maison",
+          "домой — vers chez soi",
+          "домашний — domestique / fait maison"
         ],
-        "trap": "Les autres propositions sont des formes possibles dans d’autres constructions, mais elles ne remplissent pas le même rôle ici.",
-        "memory": "Relis la phrase entière et cherche le rôle du mot : sujet, destination, lieu, contenu ou objet de l’action."
-      }
+        "trap": "Думает vient de думать (« penser »), другие signifie « autres » et доволен « satisfait ». Leur ressemblance visuelle est un piège.",
+        "memory": "Une famille de mots partage à la fois une racine et une idée commune."
+      },
+      "fullSentence": "Алексей приглашает Тони к себе домой.",
+      "fullTranslation": "Alexeï invite Tony chez lui."
     },
     {
       "type": "choice",
@@ -105,15 +118,19 @@
         "себя́"
       ],
       "answer": "семе́йный",
-      "explanation": "семейный signifie familial. семь signifie sept : ressemblance trompeuse, autre mot.",
+      "explanation": "Семейный signifie « familial » et dérive de семья (« famille »). Dans la phrase, семейные décrit des photographies de famille.",
       "lesson": {
-        "rule": "семейный signifie familial. семь signifie sept : ressemblance trompeuse, autre mot.",
+        "rule": "Семейный signifie « familial » et dérive de семья (« famille »). Dans la phrase, семейные décrit des photographies de famille.",
         "observe": [
-          "Réponse correcte : семе́йный"
+          "семья — famille",
+          "семейный — familial",
+          "семейные фотографии — photos de famille"
         ],
-        "trap": "Les autres propositions sont des formes possibles dans d’autres constructions, mais elles ne remplissent pas le même rôle ici.",
-        "memory": "Relis la phrase entière et cherche le rôle du mot : sujet, destination, lieu, contenu ou objet de l’action."
-      }
+        "trap": "Семь signifie « sept », сегодня « aujourd’hui » et себя « soi-même ». Ils se ressemblent partiellement, mais n’appartiennent pas à la famille de семья.",
+        "memory": "Vérifie le sens partagé, pas seulement les premières lettres."
+      },
+      "fullSentence": "Алексей показывает Тони семейные фотографии.",
+      "fullTranslation": "Alexeï montre à Tony des photographies de famille."
     },
     {
       "type": "choice",
@@ -127,17 +144,18 @@
         "показыва́ет"
       ],
       "answer": "показыва́ть",
-      "explanation": "Показывает est la forme du verbe показывать avec un sujet à la troisième personne du singulier : Алексей / он.",
+      "explanation": "Показывает est une forme conjuguée de показывать (« montrer »). L’infinitif se termine en -ть.",
       "lesson": {
-        "rule": "Показывает est la forme du verbe показывать avec un sujet à la troisième personne du singulier : Алексей / он.",
+        "rule": "Показывает est une forme conjuguée de показывать (« montrer »). L’infinitif se termine en -ть.",
         "observe": [
-          "я показываю — je montre",
-          "он показывает — il montre",
-          "они показывают — ils montrent"
+          "показывать — montrer",
+          "он показывает — il montre"
         ],
-        "trap": "Показываю correspond à « je montre » et показывают à « ils montrent ». Алексей est une seule personne : показывает.",
-        "memory": "Он / Алексей → terminaison -ет : показывает."
-      }
+        "trap": "Показать est un autre infinitif proche, généralement perfectif : « montrer une fois / mener l’action à son terme ». Показывает vient précisément de показывать. Показывает lui-même n’est pas l’infinitif.",
+        "memory": "Pour retrouver l’infinitif d’un verbe conjugué, cherche la forme en -ть et vérifie le même radical."
+      },
+      "fullSentence": "Алексей показывает Тони семейные фотографии.",
+      "fullTranslation": "Alexeï montre à Tony des photographies de famille."
     },
     {
       "type": "choice",
@@ -151,16 +169,18 @@
         "объясня́ть"
       ],
       "answer": "понима́ть",
-      "explanation": "Понимает est une forme conjuguée du verbe понимать, « comprendre ».",
+      "explanation": "Понимает est la forme conjuguée de понимать (« comprendre »).",
       "lesson": {
-        "rule": "Понимает est une forme conjuguée du verbe понимать, « comprendre ».",
+        "rule": "Понимает est la forme conjuguée de понимать (« comprendre »).",
         "observe": [
           "понимать — comprendre",
           "он понимает — il comprend"
         ],
-        "trap": "La terminaison -ет montre ici une forme conjuguée, pas l’infinitif.",
-        "memory": "-ть marque souvent l’infinitif : понимать."
-      }
+        "trap": "Отвечать signifie « répondre » et объяснять « expliquer ». Понимает est déjà conjugué ; la question demande l’infinitif понимать.",
+        "memory": "Le radical понима- reste stable entre понимать et понимает."
+      },
+      "fullSentence": "Тони понимает это слово.",
+      "fullTranslation": "Tony comprend ce mot."
     },
     {
       "type": "choice",
@@ -174,16 +194,18 @@
         "зака́зывает"
       ],
       "answer": "зака́зывать",
-      "explanation": "Заказывает vient de заказывать, « commander ». L’infinitif se reconnaît à -ть.",
+      "explanation": "Заказывает est une forme conjuguée de заказывать (« commander »).",
       "lesson": {
-        "rule": "Заказывает vient de заказывать, « commander ». L’infinitif se reconnaît à -ть.",
+        "rule": "Заказывает est une forme conjuguée de заказывать (« commander »).",
         "observe": [
           "заказывать — commander",
-          "Тони заказывает чай. — Tony commande du thé."
+          "он заказывает — il commande"
         ],
-        "trap": "Заказать est un verbe proche, mais la famille grammaticale travaillée dans le chapitre est заказывать → заказывает.",
-        "memory": "Pour retrouver l’infinitif, cherche la forme en -ть correspondant au sens et à la racine."
-      }
+        "trap": "Заказать est un infinitif proche, souvent utilisé pour envisager la commande comme une action achevée. La forme exacte заказывает appartient au verbe заказывать.",
+        "memory": "Observe la suite заказыва- dans les deux formes."
+      },
+      "fullSentence": "Тони заказывает чай, бутерброд и бутылку воды.",
+      "fullTranslation": "Tony commande du thé, un sandwich et une bouteille d’eau."
     },
     {
       "type": "choice",
@@ -197,17 +219,19 @@
         "де́тский"
       ],
       "answer": "де́ти",
-      "explanation": "Детей est une forme du pluriel дети, « enfants ». Le singulier lexical est ребёнок, mais le pluriel change de racine.",
+      "explanation": "Детей est une forme du pluriel дети (« enfants »). Avec deux et après видит, le russe utilise ici двух детей.",
       "lesson": {
-        "rule": "Детей est une forme du pluriel дети, « enfants ». Le singulier lexical est ребёнок, mais le pluriel change de racine.",
+        "rule": "Детей est une forme du pluriel дети (« enfants »). Avec deux et après видит, le russe utilise ici двух детей.",
         "observe": [
-          "ребёнок — un enfant",
-          "дети — des enfants",
-          "двух детей — deux enfants"
+          "дети — les enfants",
+          "два ребёнка — deux enfants",
+          "видеть двух детей — voir deux enfants"
         ],
-        "trap": "Ребёнок est le singulier, mais on ne forme pas le pluriel en ajoutant simplement une terminaison : дети est irrégulier.",
-        "memory": "Apprends ensemble : ребёнок → дети → детей."
-      }
+        "trap": "Ребёнок est le singulier « un enfant », mais la question demande la forme plurielle de base liée à детей : дети. Детский est l’adjectif « enfantin / pour enfants ».",
+        "memory": "Le pluriel de ребёнок est irrégulier : дети."
+      },
+      "fullSentence": "На одной фотографии Тони видит двух детей.",
+      "fullTranslation": "Sur une photographie, Tony voit deux enfants."
     },
     {
       "type": "choice",
@@ -221,16 +245,19 @@
         "бра́том"
       ],
       "answer": "брат",
-      "explanation": "Братом est une forme du nom брат, « frère ».",
+      "explanation": "Братом est une forme du nom брат (« frère »). La forme de dictionnaire est брат.",
       "lesson": {
-        "rule": "Братом est une forme du nom брат, « frère ».",
+        "rule": "Братом est une forme du nom брат (« frère »). La forme de dictionnaire est брат.",
         "observe": [
           "брат — frère",
-          "с братом — avec le frère"
+          "с братом — avec le frère",
+          "нет брата — il n’y a pas de frère"
         ],
-        "trap": "Брата, брату et брате sont d’autres formes du même mot. Ici, la question demande la forme de base.",
-        "memory": "Après с au sens « avec », брат devient братом."
-      }
+        "trap": "Брата, брату et братом sont des formes contextuelles du même nom. La forme de base est брат.",
+        "memory": "Pour un masculin consonantique, la forme du dictionnaire finit souvent directement par la consonne."
+      },
+      "fullSentence": "У меня есть мама, папа и один брат.",
+      "fullTranslation": "J’ai une mère, un père et un frère."
     }
   ]
 }

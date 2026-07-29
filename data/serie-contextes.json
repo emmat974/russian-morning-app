@@ -14,16 +14,18 @@
         "la maison"
       ],
       "answer": "à la maison",
-      "explanation": "Дома indique que quelqu’un se trouve à la maison, sans mouvement.",
+      "explanation": "Дома indique une position : quelqu’un se trouve chez lui, sans déplacement.",
       "lesson": {
-        "rule": "Дома indique que quelqu’un se trouve à la maison, sans mouvement.",
+        "rule": "Дома indique une position : quelqu’un se trouve chez lui, sans déplacement.",
         "observe": [
-          "Я дома. — Je suis à la maison.",
-          "Я иду домой. — Je vais chez moi."
+          "Он дома. — Il est à la maison.",
+          "Он идёт домой. — Il rentre chez lui."
         ],
-        "trap": "Домой contient une direction. Ici, aucune direction : on indique seulement le lieu.",
-        "memory": "Дома = où ? Домой = vers où ?"
-      }
+        "trap": "« Vers la maison » correspond à домой. « Fait maison » correspond à домашний. Дом est simplement le nom « maison ».",
+        "memory": "Position → дома ; direction → домой."
+      },
+      "fullSentence": "Алексей находится дома.",
+      "fullTranslation": "Alexeï est à la maison."
     },
     {
       "type": "choice",
@@ -37,17 +39,18 @@
         "de la maison"
       ],
       "answer": "vers chez soi",
-      "explanation": "Домой exprime un mouvement vers la maison ou vers chez soi. Дома exprime au contraire une position : être à la maison.",
+      "explanation": "Домой exprime un déplacement ou une direction vers chez soi.",
       "lesson": {
-        "rule": "Домой exprime un mouvement vers la maison ou vers chez soi. Дома exprime au contraire une position : être à la maison.",
+        "rule": "Домой exprime un déplacement ou une direction vers chez soi.",
         "observe": [
-          "Он идёт домой. — Il rentre chez lui.",
-          "Он дома. — Il est à la maison.",
-          "дом — la maison"
+          "идти домой — rentrer chez soi",
+          "быть дома — être à la maison"
         ],
-        "trap": "Дом est le nom « maison ». Дома signifie « à la maison ». Домашний signifie « domestique / fait maison ». Le verbe пригласить et l’idée de venir chez Alexeï imposent ici la direction : домой.",
-        "memory": "Mouvement vers la maison → домой. Position à la maison → дома."
-      }
+        "trap": "« À la maison » correspond à дома. « Fait maison » correspond à домашний.",
+        "memory": "Le -ой de домой accompagne ici l’idée de direction vers chez soi."
+      },
+      "fullSentence": "Алексей приглашает Тони к себе домой.",
+      "fullTranslation": "Alexeï invite Tony chez lui."
     },
     {
       "type": "choice",
@@ -61,17 +64,20 @@
         "maison familiale"
       ],
       "answer": "fait maison",
-      "explanation": "Домашний est un adjectif formé sur дом. Il signifie « domestique » ou « fait maison ». Il doit s’accorder avec le nom qu’il décrit.",
+      "explanation": "Домашний est un adjectif dérivé de дом. Avec пирог, il signifie « fait maison ».",
       "lesson": {
-        "rule": "Домашний est un adjectif formé sur дом. Il signifie « domestique » ou « fait maison ». Il doit s’accorder avec le nom qu’il décrit.",
+        "rule": "Домашний est un adjectif dérivé de дом. Avec пирог, il signifie « fait maison ».",
         "observe": [
-          "домашний пирог — une tarte/un gâteau fait maison",
-          "домашняя еда — de la nourriture faite maison",
-          "домашнее задание — les devoirs"
+          "дом — maison",
+          "дома — à la maison",
+          "домой — vers chez soi",
+          "домашний пирог — tarte faite maison"
         ],
-        "trap": "Пирог est masculin, donc on choisit домашний. Дом, дома et домой ne sont pas des adjectifs et ne peuvent pas décrire пирог.",
-        "memory": "Le mot décrit un nom ? Cherche la forme adjectivale en -ий / -ая / -ее."
-      }
+        "trap": "Ce mot ne décrit ni une position ni un mouvement : il décrit la qualité du пирог.",
+        "memory": "Quand le mot décrit un nom, pense à l’adjectif домашний."
+      },
+      "fullSentence": "Ирина приносит домашний пирог.",
+      "fullTranslation": "Irina apporte une tarte faite maison."
     },
     {
       "type": "choice",
@@ -85,15 +91,18 @@
         "C’est intéressant"
       ],
       "answer": "Enchanté",
-      "explanation": "La traduction naturelle de la formule est Enchanté, même si приятно signifie littéralement agréable.",
+      "explanation": "Dans une présentation, Очень приятно est une formule naturelle qui correspond à « Enchanté ». La traduction mot à mot « très agréable » n’est pas celle qu’on utilise dans ce contexte.",
       "lesson": {
-        "rule": "La traduction naturelle de la formule est Enchanté, même si приятно signifie littéralement agréable.",
+        "rule": "Dans une présentation, Очень приятно est une formule naturelle qui correspond à « Enchanté ». La traduction mot à mot « très agréable » n’est pas celle qu’on utilise dans ce contexte.",
         "observe": [
-          "Réponse correcte : Enchanté"
+          "Очень приятно. — Enchanté.",
+          "Мне тоже. — Moi aussi."
         ],
-        "trap": "Les autres propositions sont des formes possibles dans d’autres constructions, mais elles ne remplissent pas le même rôle ici.",
-        "memory": "Relis la phrase entière et cherche le rôle du mot : sujet, destination, lieu, contenu ou objet de l’action."
-      }
+        "trap": "« Très agréable » est seulement une traduction littérale isolée. Le contexte d’une présentation impose « Enchanté ».",
+        "memory": "Apprends les expressions comme des blocs, pas toujours mot à mot."
+      },
+      "fullSentence": "— Да, меня зовут Тони. Очень приятно.",
+      "fullTranslation": "— Oui, je m’appelle Tony. Enchanté."
     },
     {
       "type": "choice",
@@ -107,16 +116,18 @@
         "Moi non plus"
       ],
       "answer": "Moi aussi",
-      "explanation": "Мне тоже signifie littéralement quelque chose comme « à moi aussi », mais la réponse naturelle en français est « Moi aussi ».",
+      "explanation": "Мне тоже répond à Очень приятно et signifie naturellement « Moi aussi ». Мне signifie ici « à moi » et тоже « aussi ».",
       "lesson": {
-        "rule": "Мне тоже signifie littéralement quelque chose comme « à moi aussi », mais la réponse naturelle en français est « Moi aussi ».",
+        "rule": "Мне тоже répond à Очень приятно et signifie naturellement « Moi aussi ». Мне signifie ici « à moi » et тоже « aussi ».",
         "observe": [
           "Очень приятно. — Enchanté.",
           "Мне тоже. — Moi aussi."
         ],
-        "trap": "Тоже signifie « aussi », mais la construction complète nécessite мне dans ce dialogue.",
-        "memory": "Réponse courte à un sentiment : Мне тоже."
-      }
+        "trap": "« Je vous en prie » correspond à пожалуйста. « Moi non plus » demanderait une construction négative.",
+        "memory": "Тоже ajoute l’idée « aussi »."
+      },
+      "fullSentence": "— Мне тоже. Меня зовут Ирина.",
+      "fullTranslation": "— Moi aussi. Je m’appelle Irina."
     },
     {
       "type": "choice",
@@ -130,16 +141,19 @@
         "vers l’hôtel"
       ],
       "answer": "près de l’hôtel",
-      "explanation": "Рядом с signifie « près de / à côté de ». Après с dans cette expression, гостиница devient гостиницей.",
+      "explanation": "Рядом с signifie « près de / à côté de ». La préposition с impose ici la forme гостиницей.",
       "lesson": {
-        "rule": "Рядом с signifie « près de / à côté de ». Après с dans cette expression, гостиница devient гостиницей.",
+        "rule": "Рядом с signifie « près de / à côté de ». La préposition с impose ici la forme гостиницей.",
         "observe": [
           "рядом с гостиницей — près de l’hôtel",
-          "рядом с домом — près de la maison"
+          "в гостинице — dans l’hôtel",
+          "идти в гостиницу — aller à l’hôtel"
         ],
-        "trap": "Гостиница est la forme de base. Гостинице apparaît notamment avec в pour dire « dans l’hôtel ». Ici, рядом с impose гостиницей.",
-        "memory": "Retiens le bloc : рядом с + forme en -ой/-ей."
-      }
+        "trap": "« Dans l’hôtel » serait в гостинице ; « vers l’hôtel » serait в гостиницу. Рядом с exprime seulement la proximité.",
+        "memory": "Retiens le groupe entier : рядом с + nom."
+      },
+      "fullSentence": "Он решает подождать в маленьком кафе рядом с гостиницей.",
+      "fullTranslation": "Il décide d’attendre dans un petit café près de l’hôtel."
     },
     {
       "type": "choice",
@@ -153,15 +167,18 @@
         "dans sa chambre"
       ],
       "answer": "chez lui",
-      "explanation": "К себе домой signifie « chez lui / vers chez lui ». Себе renvoie au sujet Alexeï et домой exprime la direction.",
+      "explanation": "Себе renvoie au sujet Алексей : chez lui-même. Домой indique la direction vers son domicile.",
       "lesson": {
-        "rule": "К себе домой signifie « chez lui / vers chez lui ». Себе renvoie au sujet Alexeï et домой exprime la direction.",
+        "rule": "Себе renvoie au sujet Алексей : chez lui-même. Домой indique la direction vers son domicile.",
         "observe": [
-          "Алексей приглашает Тони к себе домой. — Alexeï invite Tony chez lui."
+          "Он приглашает друга к себе домой. — Il invite un ami chez lui.",
+          "Тони идёт домой. — Tony rentre chez lui."
         ],
-        "trap": "Домой seul indique « vers chez soi », mais к себе précise que le « soi » est Alexeï.",
-        "memory": "К себе = vers chez soi ; домой renforce l’idée de retour/direction."
-      }
+        "trap": "Chez Tony aurait besoin d’un autre repère. L’expression renvoie au sujet de la phrase, Алексей.",
+        "memory": "К себе renvoie au sujet ; домой exprime la direction."
+      },
+      "fullSentence": "Алексей приглашает Тони к себе домой.",
+      "fullTranslation": "Alexeï invite Tony chez lui."
     },
     {
       "type": "choice",
@@ -175,16 +192,19 @@
         "depuis quelques mois"
       ],
       "answer": "il y a quelques mois",
-      "explanation": "Назад placé après une durée situe un événement dans le passé : несколько месяцев назад = il y a quelques mois.",
+      "explanation": "Назад placé après une durée situe l’événement avant le moment présent.",
       "lesson": {
-        "rule": "Назад placé après une durée situe un événement dans le passé : несколько месяцев назад = il y a quelques mois.",
+        "rule": "Назад placé après une durée situe l’événement avant le moment présent.",
         "observe": [
           "два дня назад — il y a deux jours",
-          "несколько месяцев назад — il y a quelques mois"
+          "несколько месяцев назад — il y a quelques mois",
+          "через несколько месяцев — dans quelques mois"
         ],
-        "trap": "Назад seul signifie « en arrière », mais après une durée il devient un marqueur temporel.",
-        "memory": "Durée + назад = il y a…"
-      }
+        "trap": "« Dans quelques mois » utilise через. « Pendant quelques mois » ne contient pas l’idée назад.",
+        "memory": "Durée + назад = il y a cette durée."
+      },
+      "fullSentence": "Они познакомились в интернете несколько месяцев назад.",
+      "fullTranslation": "Ils ont fait connaissance sur Internet il y a quelques mois."
     },
     {
       "type": "choice",
@@ -198,16 +218,18 @@
         "Vous êtes pareils aujourd’hui"
       ],
       "answer": "Vous vous ressemblez",
-      "explanation": "Похожи est la forme plurielle courte de похожий. Avec вы, elle signifie ici « vous vous ressemblez / vous êtes semblables ».",
+      "explanation": "Похожи décrit plusieurs personnes comme semblables. Вы désigne ici Alexeï et sa sœur, donc la traduction naturelle est « Vous vous ressemblez ».",
       "lesson": {
-        "rule": "Похожи est la forme plurielle courte de похожий. Avec вы, elle signifie ici « vous vous ressemblez / vous êtes semblables ».",
+        "rule": "Похожи décrit plusieurs personnes comme semblables. Вы désigne ici Alexeï et sa sœur, donc la traduction naturelle est « Vous vous ressemblez ».",
         "observe": [
-          "Вы похожи. — Vous vous ressemblez.",
-          "Он похож на отца. — Il ressemble à son père."
+          "он похож на брата — il ressemble à son frère",
+          "они похожи — ils se ressemblent"
         ],
-        "trap": "Похож serait singulier masculin. Вы appelle la forme plurielle похожи.",
-        "memory": "Вы / они → похожи."
-      }
+        "trap": "Похожи ne signifie pas « beaux » ni simplement « proches ». Il exprime une ressemblance.",
+        "memory": "Похож signifie « semblable / ressemblant »."
+      },
+      "fullSentence": "— Это я и моя сестра, когда мы были маленькими. — Вы похожи!",
+      "fullTranslation": "— C’est ma sœur et moi quand nous étions petits. — Vous vous ressemblez !"
     },
     {
       "type": "choice",
@@ -221,16 +243,18 @@
         "une famille gentille"
       ],
       "answer": "un accueil chaleureux",
-      "explanation": "Тёплый signifie littéralement « chaud », mais avec приём il prend un sens figuré : « chaleureux ».",
+      "explanation": "Тёплый signifie littéralement « chaud », mais avec приём (« accueil »), il prend un sens figuré : « chaleureux ».",
       "lesson": {
-        "rule": "Тёплый signifie littéralement « chaud », mais avec приём il prend un sens figuré : « chaleureux ».",
+        "rule": "Тёплый signifie littéralement « chaud », mais avec приём (« accueil »), il prend un sens figuré : « chaleureux ».",
         "observe": [
           "тёплый чай — du thé chaud",
           "тёплый приём — un accueil chaleureux"
         ],
-        "trap": "Il faut traduire l’expression entière, pas chaque mot séparément.",
-        "memory": "Le contexte décide : chaleur réelle avec чай, chaleur humaine avec приём."
-      }
+        "trap": "La traduction dépend du nom accompagné : ici, on ne parle ni d’un repas ni d’une température réelle.",
+        "memory": "Une même qualité peut devenir figurée selon le nom."
+      },
+      "fullSentence": "Тони благодарит семью за тёплый приём.",
+      "fullTranslation": "Tony remercie la famille pour son accueil chaleureux."
     }
   ]
 }
