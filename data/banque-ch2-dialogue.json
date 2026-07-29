@@ -1,0 +1,229 @@
+{
+  "title": "Chapitre 2 — Dialogue",
+  "chapter": 2,
+  "section": "dialogue",
+  "questions": [
+    {
+      "type": "choice",
+      "label": "Complète le dialogue",
+      "prompt": "— Вы, наве́рное, ___?",
+      "context": "Vous êtes probablement Tony ?",
+      "answer": "То́ни",
+      "explanation": "Наверное signifie « probablement ». La mère vérifie l’identité de la personne devant elle : Тони.",
+      "lesson": {
+        "rule": "Наверное signifie « probablement ». La mère vérifie l’identité de la personne devant elle : Тони.",
+        "trap": "Les autres noms désignent d’autres personnes ou « la famille » et ne correspondent pas au contexte du dialogue.",
+        "observe": [
+          "Вы, наверное, Тони? — Vous êtes probablement Tony ?",
+          "Наверное, да. — Probablement, oui."
+        ],
+        "memory": "Наверное exprime une supposition."
+      },
+      "fullSentence": "— Вы, наверное, Тони?",
+      "fullTranslation": "— Vous êtes probablement Tony ?",
+      "family": "наверное",
+      "options": [
+        "То́ни",
+        "Алексе́й",
+        "Ири́на",
+        "семья́"
+      ]
+    },
+    {
+      "type": "text",
+      "label": "Écris la bonne forme",
+      "prompt": "— Да, меня́ ___ То́ни.",
+      "context": "Oui, je m’appelle Tony.",
+      "answer": "зову́т",
+      "explanation": "Меня зовут est une expression fixe pour donner son nom : littéralement « on m’appelle ».",
+      "lesson": {
+        "rule": "Меня зовут est une expression fixe pour donner son nom : littéralement « on m’appelle ».",
+        "trap": "Зову signifie « j’appelle », зовёшь « tu appelles », зовёт « il/elle appelle ». Dans la présentation, on utilise зовут.",
+        "observe": [
+          "Меня зовут Тони. — Je m’appelle Tony.",
+          "Как вас зовут? — Comment vous appelez-vous ?"
+        ],
+        "memory": "Apprends меня зовут comme un bloc complet."
+      },
+      "fullSentence": "— Да, меня зовут Тони.",
+      "fullTranslation": "— Oui, je m’appelle Tony.",
+      "family": "звать",
+      "accepted": [
+        "зову́т"
+      ],
+      "suggestions": [
+        "зову́",
+        "зову́т",
+        "зовёшь",
+        "зовёт"
+      ]
+    },
+    {
+      "type": "choice",
+      "label": "Complète le dialogue",
+      "prompt": "— О́чень ___.",
+      "context": "Enchanté.",
+      "answer": "прия́тно",
+      "explanation": "Очень приятно est l’expression habituelle pour dire « enchanté ». Приятно est ici une forme impersonnelle : « c’est agréable ».",
+      "lesson": {
+        "rule": "Очень приятно est l’expression habituelle pour dire « enchanté ». Приятно est ici une forme impersonnelle : « c’est agréable ».",
+        "trap": "Приятный est un adjectif qui doit accompagner un nom ; доволен signifie « satisfait » et добрый « gentil/bon ».",
+        "observe": [
+          "Очень приятно. — Enchanté.",
+          "Мне приятно. — Cela me fait plaisir."
+        ],
+        "memory": "Mémorise l’expression entière Очень приятно."
+      },
+      "fullSentence": "— Очень приятно.",
+      "fullTranslation": "— Enchanté.",
+      "family": "приятно",
+      "options": [
+        "прия́тный",
+        "прия́тно",
+        "доволен",
+        "до́брый"
+      ]
+    },
+    {
+      "type": "text",
+      "label": "Écris la bonne forme",
+      "prompt": "— Мне ___. Меня́ зову́т Ири́на.",
+      "context": "Moi aussi. Je m’appelle Irina.",
+      "answer": "то́же",
+      "explanation": "Тоже signifie « aussi ». Irina répond qu’elle est elle aussi enchantée.",
+      "lesson": {
+        "rule": "Тоже signifie « aussi ». Irina répond qu’elle est elle aussi enchantée.",
+        "trap": "Ещё signifie « encore », уже « déjà », теперь « maintenant ».",
+        "observe": [
+          "Мне тоже. — Moi aussi.",
+          "Я тоже понимаю. — Moi aussi, je comprends."
+        ],
+        "memory": "Тоже ajoute la même idée à une autre personne : « aussi »."
+      },
+      "fullSentence": "— Мне тоже. Меня зовут Ирина.",
+      "fullTranslation": "— Moi aussi. Je m’appelle Irina.",
+      "family": "тоже",
+      "accepted": [
+        "то́же"
+      ],
+      "suggestions": [
+        "то́же",
+        "ещё",
+        "уже́",
+        "тепе́рь"
+      ]
+    },
+    {
+      "type": "choice",
+      "label": "Complète le dialogue",
+      "prompt": "— У тебя́ больша́я ___?",
+      "context": "Tu as une grande famille ?",
+      "answer": "семья́",
+      "explanation": "Dans la construction У тебя есть…, ce que l’on possède est présenté comme sujet. On utilise donc la forme de base семья.",
+      "lesson": {
+        "rule": "Dans la construction У тебя есть…, ce que l’on possède est présenté comme sujet. On utilise donc la forme de base семья.",
+        "trap": "Семью serait un objet direct, семье signifie notamment « à la famille », семьёй « avec la famille ».",
+        "observe": [
+          "У меня есть семья. — J’ai une famille.",
+          "Я вижу семью. — Je vois la famille."
+        ],
+        "memory": "Après У меня/тебя есть, le nom possédé reste souvent sous sa forme de base."
+      },
+      "fullSentence": "— У тебя большая семья?",
+      "fullTranslation": "— Tu as une grande famille ?",
+      "family": "семья",
+      "options": [
+        "семья́",
+        "семью́",
+        "семье́",
+        "семьёй"
+      ]
+    },
+    {
+      "type": "text",
+      "label": "Écris la bonne forme",
+      "prompt": "— У меня́ есть ма́ма, па́па и оди́н ___.",
+      "context": "J’ai une mère, un père et un frère.",
+      "answer": "брат",
+      "explanation": "Один indique un seul élément masculin. Брат reste sous sa forme de base : один брат.",
+      "lesson": {
+        "rule": "Один indique un seul élément masculin. Брат reste sous sa forme de base : один брат.",
+        "trap": "Брата signifie notamment « du frère » ou apparaît après certaines quantités, брату « au frère », братом « avec le frère ».",
+        "observe": [
+          "один брат — un frère",
+          "два брата — deux frères",
+          "с братом — avec le frère"
+        ],
+        "memory": "Après один, utilise la forme singulière de base."
+      },
+      "fullSentence": "— У меня есть мама, папа и один брат.",
+      "fullTranslation": "— J’ai une mère, un père et un frère.",
+      "family": "брат",
+      "accepted": [
+        "брат"
+      ],
+      "suggestions": [
+        "брат",
+        "бра́та",
+        "бра́ту",
+        "бра́том"
+      ]
+    },
+    {
+      "type": "choice",
+      "label": "Complète le dialogue",
+      "prompt": "— Твой брат ста́рше ___ тебя́?",
+      "context": "Ton frère est plus âgé ou plus jeune que toi ?",
+      "answer": "и́ли",
+      "explanation": "Или relie les deux possibilités opposées : старше ou младше.",
+      "lesson": {
+        "rule": "Или relie les deux possibilités opposées : старше ou младше.",
+        "trap": "И additionne, но oppose deux propositions et а marque souvent un contraste. Ici on choisit entre deux réponses.",
+        "observe": [
+          "старше или младше — plus âgé ou plus jeune",
+          "чай или кофе — thé ou café"
+        ],
+        "memory": "Deux possibilités : или."
+      },
+      "fullSentence": "— Твой брат старше или младше тебя?",
+      "fullTranslation": "— Ton frère est plus âgé ou plus jeune que toi ?",
+      "family": "или",
+      "options": [
+        "и",
+        "и́ли",
+        "но",
+        "а"
+      ]
+    },
+    {
+      "type": "text",
+      "label": "Écris la bonne forme",
+      "prompt": "— Нет, у него́ нет ___.",
+      "context": "Non, il n’a pas d’enfants.",
+      "answer": "дете́й",
+      "explanation": "Après нет, le russe emploie une forme exprimant l’absence : нет детей, « il n’y a pas d’enfants ».",
+      "lesson": {
+        "rule": "Après нет, le russe emploie une forme exprimant l’absence : нет детей, « il n’y a pas d’enfants ».",
+        "trap": "Дети est la forme de base plurielle, детям signifie « aux enfants », детьми « avec les enfants ».",
+        "observe": [
+          "есть дети — il y a des enfants",
+          "нет детей — il n’y a pas d’enfants",
+          "с детьми — avec les enfants"
+        ],
+        "memory": "Apprends le contraste есть дети / нет детей."
+      },
+      "fullSentence": "— Нет, у него нет детей.",
+      "fullTranslation": "— Non, il n’a pas d’enfants.",
+      "family": "дети",
+      "accepted": [
+        "дете́й"
+      ],
+      "suggestions": [
+        "де́ти",
+        "дете́й",
+        "де́тям",
+        "детьми́"
+      ]
+    }
+  ]
+}

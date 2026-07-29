@@ -1,10 +1,15 @@
 const DATA_FILES = [
-  'data/serie-familles.json',
-  'data/serie-formes.json',
-  'data/serie-contextes.json',
-  'data/serie-rappel.json',
-  'data/serie-mot-juste.json',
-  'data/serie-ecriture-contextuelle.json'
+  'data/banque-ch1-recit.json',
+  'data/banque-ch1-dialogue.json',
+  'data/banque-ch2-recit.json',
+  'data/banque-ch2-dialogue.json'
+];
+
+const SESSION_PLAN = [
+  { chapter: 1, section: 'recit', count: 3 },
+  { chapter: 1, section: 'dialogue', count: 2 },
+  { chapter: 2, section: 'recit', count: 3 },
+  { chapter: 2, section: 'dialogue', count: 2 }
 ];
 
 const state = {
@@ -54,28 +59,67 @@ function shuffle(items) {
 
 async function loadRandomSet() {
   $('startBtn').disabled = true;
-  $('setLabel').textContent = 'Chargement…';
-  const candidates = shuffle(DATA_FILES);
+  $('setLabel').textContent = 'Composition d’une série équilibrée…';
 
-  for (const file of candidates) {
-    try {
+  try {
+    const banks = await Promise.all(DATA_FILES.map(async file => {
       const response = await fetch(file, { cache: 'no-store' });
-      if (!response.ok) throw new Error(`HTTP ${response.status}`);
-      state.set = await response.json();
-      state.questions = shuffle(state.set.questions).slice(0, state.set.sessionSize || 10);
-      $('setLabel').textContent = state.set.title;
-      $('startBtn').disabled = false;
-      return;
-    } catch (error) {
-      console.warn(`Impossible de charger ${file}`, error);
+      if (!response.ok) throw new Error(`${file}: HTTP ${response.status}`);
+      return response.json();
+    }));
+
+    const selected = [];
+    const usedFamilies = new Set();
+
+    SESSION_PLAN.forEach(part => {
+      const bank = banks.find(item => item.chapter === part.chapter && item.section === part.section);
+      if (!bank) return;
+      const candidates = shuffle(bank.questions);
+      let added = 0;
+
+      // Premier passage : éviter de répéter une même famille dans la série.
+      for (const question of candidates) {
+        if (added >= part.count) break;
+        const family = question.family || normalize(question.answer);
+        if (usedFamilies.has(family)) continue;
+        selected.push(question);
+        usedFamilies.add(family);
+        added += 1;
+      }
+
+      // Deuxième passage de secours si une banque ne contient pas assez de familles différentes.
+      for (const question of candidates) {
+        if (added >= part.count) break;
+        if (selected.includes(question)) continue;
+        selected.push(question);
+        added += 1;
+      }
+    });
+
+    // Mélange global, tout en évitant autant que possible deux questions du même bloc à la suite.
+    const remaining = shuffle(selected);
+    const ordered = [];
+    while (remaining.length) {
+      const previous = ordered.at(-1);
+      let index = remaining.findIndex(question =>
+        !previous || question.chapter !== previous.chapter || question.section !== previous.section
+      );
+      if (index < 0) index = 0;
+      const [question] = remaining.splice(index, 1);
+      ordered.push(question);
     }
+
+    state.set = { title: 'Série équilibrée — récits et dialogues' };
+    state.questions = ordered;
+    $('setLabel').textContent = '10 questions : Ch. 1 récit/dialogue + Ch. 2 récit/dialogue';
+    $('startBtn').disabled = false;
+  } catch (error) {
+    console.warn('Impossible de charger les banques', error);
+    $('setLabel').textContent = 'Erreur de chargement';
+    document.querySelector('#startScreen .muted').textContent =
+      'L’application doit être ouverte via GitHub Pages ou un petit serveur web.';
   }
-
-  $('setLabel').textContent = 'Erreur de chargement';
-  document.querySelector('#startScreen .muted').textContent =
-    'L’application doit être ouverte via un petit serveur web, pas directement en file://.';
 }
-
 function startSession() {
   state.index = 0;
   state.score = 0;

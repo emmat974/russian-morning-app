@@ -1,0 +1,231 @@
+{
+  "title": "Chapitre 1 — Dialogue",
+  "chapter": 1,
+  "section": "dialogue",
+  "questions": [
+    {
+      "type": "choice",
+      "label": "Complète le dialogue",
+      "prompt": "— Здра́вствуйте! Что вы ___?",
+      "context": "Bonjour ! Que désirez-vous ?",
+      "answer": "хоти́те",
+      "explanation": "Вы est la forme polie « vous ». Le verbe хотеть prend avec вы la forme хотите.",
+      "lesson": {
+        "rule": "Вы est la forme polie « vous ». Le verbe хотеть prend avec вы la forme хотите.",
+        "trap": "Хочу signifie « je veux », хочешь « tu veux » et хотят « ils veulent ».",
+        "observe": [
+          "я хочу — je veux",
+          "ты хочешь — tu veux",
+          "вы хотите — vous voulez"
+        ],
+        "memory": "Dans un dialogue poli, repère вы : il appelle souvent une forme verbale en -те."
+      },
+      "fullSentence": "— Здравствуйте! Что вы хотите?",
+      "fullTranslation": "— Bonjour ! Que désirez-vous ?",
+      "family": "хотеть",
+      "options": [
+        "хочу́",
+        "хо́чешь",
+        "хоти́те",
+        "хо́тят"
+      ]
+    },
+    {
+      "type": "text",
+      "label": "Écris la bonne forme",
+      "prompt": "— Я хоте́л бы чай и бутербро́д, ___.",
+      "context": "Je voudrais du thé et un sandwich, s’il vous plaît.",
+      "answer": "пожа́луйста",
+      "explanation": "Пожалуйста sert ici à rendre la demande polie : « s’il vous plaît ».",
+      "lesson": {
+        "rule": "Пожалуйста sert ici à rendre la demande polie : « s’il vous plaît ».",
+        "trap": "Извините signifie « excusez-moi », конечно « bien sûr » et хорошо « très bien ». Ils ne ferment pas cette demande de la même façon.",
+        "observe": [
+          "чай, пожалуйста — du thé, s’il vous plaît",
+          "Повторите, пожалуйста. — Répétez, s’il vous plaît."
+        ],
+        "memory": "Пожалуйста peut accompagner directement une demande ou une commande."
+      },
+      "fullSentence": "— Я хотел бы чай и бутерброд, пожалуйста.",
+      "fullTranslation": "— Je voudrais du thé et un sandwich, s’il vous plaît.",
+      "family": "пожалуйста",
+      "accepted": [
+        "пожа́луйста"
+      ],
+      "suggestions": [
+        "пожа́луйста",
+        "извини́те",
+        "коне́чно",
+        "хорошо́"
+      ]
+    },
+    {
+      "type": "choice",
+      "label": "Complète le dialogue",
+      "prompt": "— Вам чёрный чай ___ зелёный?",
+      "context": "Vous voulez du thé noir ou du thé vert ?",
+      "answer": "и́ли",
+      "explanation": "Или relie deux choix possibles et signifie « ou ».",
+      "lesson": {
+        "rule": "Или relie deux choix possibles et signifie « ou ».",
+        "trap": "И signifie « et », но « mais », без « sans ». Le serveur propose ici une alternative.",
+        "observe": [
+          "чай или кофе — thé ou café",
+          "чёрный или зелёный — noir ou vert"
+        ],
+        "memory": "Quand on te propose deux possibilités, cherche или."
+      },
+      "fullSentence": "— Вам чёрный чай или зелёный?",
+      "fullTranslation": "— Vous voulez du thé noir ou du thé vert ?",
+      "family": "или",
+      "options": [
+        "и",
+        "и́ли",
+        "но",
+        "без"
+      ]
+    },
+    {
+      "type": "text",
+      "label": "Écris la bonne forme",
+      "prompt": "— Извини́те, я не ___.",
+      "context": "Excusez-moi, je ne comprends pas.",
+      "answer": "понима́ю",
+      "explanation": "Le sujet est я, « je ». Понимать prend donc la forme понимаю.",
+      "lesson": {
+        "rule": "Le sujet est я, « je ». Понимать prend donc la forme понимаю.",
+        "trap": "Понимаешь correspond à « tu comprends », понимает à « il/elle comprend », понимаем à « nous comprenons ».",
+        "observe": [
+          "я понимаю — je comprends",
+          "он понимает — il comprend",
+          "мы понимаем — nous comprenons"
+        ],
+        "memory": "Repère toujours le sujet avant de choisir la terminaison du verbe."
+      },
+      "fullSentence": "— Извините, я не понимаю.",
+      "fullTranslation": "— Excusez-moi, je ne comprends pas.",
+      "family": "понимать",
+      "accepted": [
+        "понима́ю"
+      ],
+      "suggestions": [
+        "понима́ю",
+        "понима́ешь",
+        "понима́ет",
+        "понима́ем"
+      ]
+    },
+    {
+      "type": "choice",
+      "label": "Complète le dialogue",
+      "prompt": "— Мо́жно ещё ___?",
+      "context": "Pouvez-vous répéter ? / Encore une fois ?",
+      "answer": "раз",
+      "explanation": "Ещё раз est une expression fixe qui signifie « encore une fois ».",
+      "lesson": {
+        "rule": "Ещё раз est une expression fixe qui signifie « encore une fois ».",
+        "trap": "Слово signifie « mot », день « jour », вопрос « question ». Ils ne forment pas l’expression demandée.",
+        "observe": [
+          "ещё раз — encore une fois",
+          "Скажите ещё раз. — Dites-le encore une fois."
+        ],
+        "memory": "Mémorise le bloc entier ещё раз."
+      },
+      "fullSentence": "— Можно ещё раз?",
+      "fullTranslation": "— Pouvez-vous répéter ? / Encore une fois ?",
+      "family": "ещё раз",
+      "options": [
+        "раз",
+        "сло́во",
+        "день",
+        "вопро́с"
+      ]
+    },
+    {
+      "type": "text",
+      "label": "Écris la bonne forme",
+      "prompt": "— Нет, ___ са́хара.",
+      "context": "Non, sans sucre.",
+      "answer": "без",
+      "explanation": "Без signifie « sans ». Après без, сахар prend ici la forme сахара : « sans sucre ».",
+      "lesson": {
+        "rule": "Без signifie « sans ». Après без, сахар prend ici la forme сахара : « sans sucre ».",
+        "trap": "С signifie « avec », для « pour » et на « sur/à ». Ils changeraient complètement le sens.",
+        "observe": [
+          "без сахара — sans sucre",
+          "с сахаром — avec du sucre",
+          "без воды — sans eau"
+        ],
+        "memory": "Apprends les deux blocs opposés : с сахаром / без сахара."
+      },
+      "fullSentence": "— Нет, без сахара.",
+      "fullTranslation": "— Non, sans sucre.",
+      "family": "сахар",
+      "accepted": [
+        "без"
+      ],
+      "suggestions": [
+        "без",
+        "с",
+        "для",
+        "на"
+      ]
+    },
+    {
+      "type": "choice",
+      "label": "Complète le dialogue",
+      "prompt": "— Что-нибу́дь ___?",
+      "context": "Autre chose ?",
+      "answer": "ещё",
+      "explanation": "Что-нибудь ещё forme la question « autre chose ? ». Ещё apporte l’idée de supplément.",
+      "lesson": {
+        "rule": "Что-нибудь ещё forme la question « autre chose ? ». Ещё apporte l’idée de supplément.",
+        "trap": "Уже signifie « déjà », тоже « aussi » et теперь « maintenant ».",
+        "observe": [
+          "что-нибудь ещё — autre chose",
+          "ещё чай — encore du thé",
+          "ещё раз — encore une fois"
+        ],
+        "memory": "Ещё sert souvent à ajouter : encore, davantage, autre chose."
+      },
+      "fullSentence": "— Что-нибудь ещё?",
+      "fullTranslation": "— Autre chose ?",
+      "family": "ещё",
+      "options": [
+        "ещё",
+        "уже́",
+        "то́же",
+        "тепе́рь"
+      ]
+    },
+    {
+      "type": "text",
+      "label": "Écris la bonne forme",
+      "prompt": "— Буты́лку воды́, ___.",
+      "context": "Une bouteille d’eau, s’il vous plaît.",
+      "answer": "пожа́луйста",
+      "explanation": "Пожалуйста transforme le groupe nominal en commande polie, même sans verbe exprimé.",
+      "lesson": {
+        "rule": "Пожалуйста transforme le groupe nominal en commande polie, même sans verbe exprimé.",
+        "trap": "Спасибо remercie après avoir reçu quelque chose ; извините attire l’attention ou s’excuse ; конечно signifie « bien sûr ».",
+        "observe": [
+          "Чай, пожалуйста. — Du thé, s’il vous plaît.",
+          "Спасибо! — Merci !"
+        ],
+        "memory": "Dans une commande courte, le produit + пожалуйста suffit souvent."
+      },
+      "fullSentence": "— Бутылку воды, пожалуйста.",
+      "fullTranslation": "— Une bouteille d’eau, s’il vous plaît.",
+      "family": "пожалуйста",
+      "accepted": [
+        "пожа́луйста"
+      ],
+      "suggestions": [
+        "пожа́луйста",
+        "спаси́бо",
+        "извини́те",
+        "коне́чно"
+      ]
+    }
+  ]
+}

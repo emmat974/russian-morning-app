@@ -1,0 +1,235 @@
+{
+  "title": "Chapitre 1 — Récit",
+  "chapter": 1,
+  "section": "recit",
+  "questions": [
+    {
+      "type": "choice",
+      "label": "Choisis le mot exact",
+      "prompt": "Сего́дня ___ То́ни приезжа́ет в Москву́.",
+      "context": "Ce matin, Tony arrive à Moscou.",
+      "answer": "у́тром",
+      "explanation": "Утром indique le moment où l’action se déroule. Le nom утро devient утром lorsqu’il répond à « quand ? ».",
+      "lesson": {
+        "rule": "Утром indique le moment où l’action se déroule. Le nom утро devient утром lorsqu’il répond à « quand ? ».",
+        "trap": "Утро est le nom « le matin » sans fonction de moment dans cette phrase. Утра signifie souvent « du matin ». Утренний est l’adjectif « matinal ».",
+        "observe": [
+          "утро — le matin",
+          "Сегодня утром — ce matin",
+          "вечер → вечером — le soir"
+        ],
+        "memory": "Pour dire quand une action se passe, observe souvent les formes en -ом : утром, вечером."
+      },
+      "fullSentence": "Сегодня утром Тони приезжает в Москву.",
+      "fullTranslation": "Ce matin, Tony arrive à Moscou.",
+      "family": "утро",
+      "options": [
+        "у́тро",
+        "у́тра",
+        "у́тром",
+        "у́тренний"
+      ]
+    },
+    {
+      "type": "text",
+      "label": "Écris la bonne forme",
+      "prompt": "Э́то его́ ___ день в Росси́и.",
+      "context": "C’est son premier jour en Russie.",
+      "answer": "пе́рвый",
+      "explanation": "День est un nom masculin. L’adjectif « premier » doit donc prendre la forme masculine первый.",
+      "lesson": {
+        "rule": "День est un nom masculin. L’adjectif « premier » doit donc prendre la forme masculine первый.",
+        "trap": "Первая accompagne un nom féminin, первое un nom neutre et первые un nom pluriel. Ici день est masculin singulier.",
+        "observe": [
+          "первый день — premier jour",
+          "первая неделя — première semaine",
+          "первое утро — premier matin"
+        ],
+        "memory": "Regarde le genre du nom qui suit : день → первый."
+      },
+      "fullSentence": "Это его первый день в России.",
+      "fullTranslation": "C’est son premier jour en Russie.",
+      "family": "первый",
+      "accepted": [
+        "пе́рвый"
+      ],
+      "suggestions": [
+        "пе́рвый",
+        "пе́рвая",
+        "пе́рвое",
+        "пе́рвые"
+      ]
+    },
+    {
+      "type": "choice",
+      "label": "Choisis le mot exact",
+      "prompt": "Он немно́го ___ по́сле до́лгого полёта.",
+      "context": "Il est un peu fatigué après un long vol.",
+      "answer": "уста́л",
+      "explanation": "Le sujet est он, donc un homme au singulier. Au passé, устать prend ici la forme masculine устал.",
+      "lesson": {
+        "rule": "Le sujet est он, donc un homme au singulier. Au passé, устать prend ici la forme masculine устал.",
+        "trap": "Устала correspond à une femme, устали à plusieurs personnes. Усталый est l’adjectif « fatigué », pas la forme verbale utilisée ici.",
+        "observe": [
+          "Он устал. — Il est fatigué.",
+          "Она устала. — Elle est fatiguée.",
+          "Они устали. — Ils sont fatigués."
+        ],
+        "memory": "Au passé, la fin du verbe suit souvent le genre ou le nombre du sujet."
+      },
+      "fullSentence": "Он немного устал после долгого полёта.",
+      "fullTranslation": "Il est un peu fatigué après un long vol.",
+      "family": "устать",
+      "options": [
+        "уста́л",
+        "уста́ла",
+        "уста́ли",
+        "уста́лый"
+      ]
+    },
+    {
+      "type": "text",
+      "label": "Écris la bonne forme",
+      "prompt": "То́ни надева́ет ___ и идёт в гости́ницу.",
+      "context": "Tony met sa veste et va à l’hôtel.",
+      "answer": "ку́ртку",
+      "explanation": "Надевать agit directement sur ce que Tony met. Куртка devient donc куртку comme objet direct.",
+      "lesson": {
+        "rule": "Надевать agit directement sur ce que Tony met. Куртка devient donc куртку comme objet direct.",
+        "trap": "Куртка est la forme de base, куртке signifie notamment « à/dans la veste » selon le contexte, et куртки peut être pluriel ou « de la veste ».",
+        "observe": [
+          "куртка — une veste",
+          "надевать куртку — mettre une veste",
+          "видеть семью — voir la famille"
+        ],
+        "memory": "Avec une action directe sur un nom féminin en -а, observe souvent -а → -у."
+      },
+      "fullSentence": "Тони надевает куртку и идёт в гостиницу.",
+      "fullTranslation": "Tony met sa veste et va à l’hôtel.",
+      "family": "куртка",
+      "accepted": [
+        "ку́ртку"
+      ],
+      "suggestions": [
+        "ку́ртка",
+        "ку́ртки",
+        "ку́ртке",
+        "ку́ртку"
+      ]
+    },
+    {
+      "type": "choice",
+      "label": "Choisis le mot exact",
+      "prompt": "Его́ ко́мната ещё не ___.",
+      "context": "Sa chambre n’est pas encore prête.",
+      "answer": "гото́ва",
+      "explanation": "Комната est féminin singulier. Le mot « prêt » s’accorde donc sous la forme готова.",
+      "lesson": {
+        "rule": "Комната est féminin singulier. Le mot « prêt » s’accorde donc sous la forme готова.",
+        "trap": "Готов correspond à un nom masculin, готово à un nom neutre et готовы au pluriel.",
+        "observe": [
+          "номер готов — la chambre/numéro est prêt",
+          "комната готова — la chambre est prête",
+          "место готово — la place est prête"
+        ],
+        "memory": "Pour ces formes courtes, regarde le genre du sujet : комната → готова."
+      },
+      "fullSentence": "Его комната ещё не готова.",
+      "fullTranslation": "Sa chambre n’est pas encore prête.",
+      "family": "готов",
+      "options": [
+        "гото́в",
+        "гото́ва",
+        "гото́во",
+        "гото́вы"
+      ]
+    },
+    {
+      "type": "text",
+      "label": "Écris la bonne forme",
+      "prompt": "Он реша́ет подожда́ть в ма́леньком кафе́ ___ с гости́ницей.",
+      "context": "Il décide d’attendre dans un petit café près de l’hôtel.",
+      "answer": "ря́дом",
+      "explanation": "Рядом с signifie « près de / à côté de ». L’expression complète exige ensuite с + une forme adaptée du nom.",
+      "lesson": {
+        "rule": "Рядом с signifie « près de / à côté de ». L’expression complète exige ensuite с + une forme adaptée du nom.",
+        "trap": "Домой signifie « vers la maison », дома « à la maison ». Около peut aussi vouloir dire « près de », mais la phrase du chapitre emploie l’expression рядом с.",
+        "observe": [
+          "рядом с гостиницей — près de l’hôtel",
+          "рядом с кафе — près du café",
+          "кафе рядом — le café est à côté"
+        ],
+        "memory": "Apprends рядом с comme un bloc : « près de »."
+      },
+      "fullSentence": "Он решает подождать в маленьком кафе рядом с гостиницей.",
+      "fullTranslation": "Il décide d’attendre dans un petit café près de l’hôtel.",
+      "family": "рядом",
+      "accepted": [
+        "ря́дом"
+      ],
+      "suggestions": [
+        "ря́дом",
+        "домо́й",
+        "до́ма",
+        "около"
+      ]
+    },
+    {
+      "type": "choice",
+      "label": "Choisis le mot exact",
+      "prompt": "За сто́йкой ___ молода́я же́нщина.",
+      "context": "Une jeune femme se tient derrière le comptoir.",
+      "answer": "стои́т",
+      "explanation": "Le sujet est молодая женщина, une seule personne. Le verbe стоять prend donc la forme стоит : « elle se tient ».",
+      "lesson": {
+        "rule": "Le sujet est молодая женщина, une seule personne. Le verbe стоять prend donc la forme стоит : « elle se tient ».",
+        "trap": "Стою correspond à « je », стоишь à « tu », стоят à « ils/elles ».",
+        "observe": [
+          "я стою — je me tiens",
+          "она стоит — elle se tient",
+          "они стоят — ils se tiennent"
+        ],
+        "memory": "Repère d’abord qui fait l’action : женщина → она → стоит."
+      },
+      "fullSentence": "За стойкой стоит молодая женщина.",
+      "fullTranslation": "Une jeune femme se tient derrière le comptoir.",
+      "family": "стоять",
+      "options": [
+        "стою́",
+        "стои́шь",
+        "стои́т",
+        "стоя́т"
+      ]
+    },
+    {
+      "type": "text",
+      "label": "Écris la bonne forme",
+      "prompt": "То́ни зака́зывает чай, бутербро́д и буты́лку ___.",
+      "context": "Tony commande du thé, un sandwich et une bouteille d’eau.",
+      "answer": "воды́",
+      "explanation": "Воды précise le contenu de la bouteille : бутылка воды signifie littéralement « une bouteille d’eau ».",
+      "lesson": {
+        "rule": "Воды précise le contenu de la bouteille : бутылка воды signifie littéralement « une bouteille d’eau ».",
+        "trap": "Воду serait utilisé si l’eau recevait directement l’action : Тони пьёт воду. Вода est la forme de base et воде signifie notamment « à/dans l’eau » selon le contexte.",
+        "observe": [
+          "бутылка воды — une bouteille d’eau",
+          "стакан воды — un verre d’eau",
+          "пить воду — boire de l’eau"
+        ],
+        "memory": "Après un contenant, le russe emploie souvent une forme signifiant « de… » : бутылка воды."
+      },
+      "fullSentence": "Тони заказывает чай, бутерброд и бутылку воды.",
+      "fullTranslation": "Tony commande du thé, un sandwich et une bouteille d’eau.",
+      "family": "вода",
+      "accepted": [
+        "воды́"
+      ],
+      "suggestions": [
+        "вода́",
+        "воды́",
+        "воде́",
+        "во́ду"
+      ]
+    }
+  ]
+}

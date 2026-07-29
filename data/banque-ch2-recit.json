@@ -1,0 +1,236 @@
+{
+  "title": "Chapitre 2 — Récit",
+  "chapter": 2,
+  "section": "recit",
+  "questions": [
+    {
+      "type": "choice",
+      "label": "Choisis le mot exact",
+      "prompt": "На сле́дующий день То́ни встреча́ется ___ Алексе́ем.",
+      "context": "Le lendemain, Tony retrouve Alexeï.",
+      "answer": "с",
+      "explanation": "Le verbe встречаться s’emploie avec с pour dire « rencontrer / retrouver quelqu’un » : с Алексеем.",
+      "lesson": {
+        "rule": "Le verbe встречаться s’emploie avec с pour dire « rencontrer / retrouver quelqu’un » : с Алексеем.",
+        "trap": "К exprime une direction vers quelqu’un, у une proximité ou possession, о introduit le sujet dont on parle.",
+        "observe": [
+          "встречаться с Алексеем — retrouver Alexeï",
+          "говорить с Ириной — parler avec Irina"
+        ],
+        "memory": "Pour « avec quelqu’un », pense souvent à с."
+      },
+      "fullSentence": "На следующий день Тони встречается с Алексеем.",
+      "fullTranslation": "Le lendemain, Tony retrouve Alexeï.",
+      "family": "с",
+      "options": [
+        "с",
+        "к",
+        "у",
+        "о"
+      ]
+    },
+    {
+      "type": "text",
+      "label": "Écris la bonne forme",
+      "prompt": "Алексе́й приглаша́ет То́ни к себе́ ___.",
+      "context": "Alexeï invite Tony chez lui.",
+      "answer": "домо́й",
+      "explanation": "Домой indique un mouvement vers le domicile. Tony est invité à aller chez Alexeï.",
+      "lesson": {
+        "rule": "Домой indique un mouvement vers le domicile. Tony est invité à aller chez Alexeï.",
+        "trap": "Дома signifie qu’on se trouve déjà chez soi. Дом est le nom « maison » et домашний est un adjectif.",
+        "observe": [
+          "Он идёт домой. — Il rentre chez lui.",
+          "Он дома. — Il est chez lui."
+        ],
+        "memory": "Mouvement vers chez soi : домой. Position chez soi : дома."
+      },
+      "fullSentence": "Алексей приглашает Тони к себе домой.",
+      "fullTranslation": "Alexeï invite Tony chez lui.",
+      "family": "дом",
+      "accepted": [
+        "домо́й"
+      ],
+      "suggestions": [
+        "дом",
+        "до́ма",
+        "домо́й",
+        "дома́шний"
+      ]
+    },
+    {
+      "type": "choice",
+      "label": "Choisis le mot exact",
+      "prompt": "В кварти́ре То́ни ви́дит всю ___ Алексе́я.",
+      "context": "Dans l’appartement, Tony voit toute la famille d’Alexeï.",
+      "answer": "семью́",
+      "explanation": "Видит agit directement sur « toute la famille ». Avec всю, семья prend la forme семью.",
+      "lesson": {
+        "rule": "Видит agit directement sur « toute la famille ». Avec всю, семья prend la forme семью.",
+        "trap": "Семья est la forme de base, семье sert notamment après о ou pour « à la famille », семьёй signifie notamment « avec la famille », семьи peut vouloir dire « de la famille » ou « familles » selon le contexte.",
+        "observe": [
+          "семья — la famille",
+          "видеть семью — voir la famille",
+          "говорить о семье — parler de la famille",
+          "с семьёй — avec la famille"
+        ],
+        "memory": "Action directe sur un féminin en -я : observe souvent -я → -ю."
+      },
+      "fullSentence": "В квартире Тони видит всю семью Алексея.",
+      "fullTranslation": "Dans l’appartement, Tony voit toute la famille d’Alexeï.",
+      "family": "семья",
+      "options": [
+        "семья́",
+        "семьи́",
+        "семье́",
+        "семью́",
+        "семьёй"
+      ]
+    },
+    {
+      "type": "text",
+      "label": "Écris la bonne forme",
+      "prompt": "Его́ па́па гото́вит у́жин на ___.",
+      "context": "Son père prépare le dîner dans la cuisine.",
+      "answer": "ку́хне",
+      "explanation": "На indique ici le lieu où l’action se déroule. Кухня prend donc la forme кухне : « dans la cuisine ».",
+      "lesson": {
+        "rule": "На indique ici le lieu où l’action se déroule. Кухня prend donc la forme кухне : « dans la cuisine ».",
+        "trap": "Кухню indiquerait plutôt une direction ou un objet direct selon la phrase ; кухней signifie notamment « avec/par la cuisine » ; кухня est la forme de base.",
+        "observe": [
+          "на кухне — dans la cuisine",
+          "идти на кухню — aller dans la cuisine",
+          "кухня большая — la cuisine est grande"
+        ],
+        "memory": "Lieu fixe après на : кухне. Mouvement vers ce lieu : кухню."
+      },
+      "fullSentence": "Его папа готовит ужин на кухне.",
+      "fullTranslation": "Son père prépare le dîner dans la cuisine.",
+      "family": "кухня",
+      "accepted": [
+        "ку́хне"
+      ],
+      "suggestions": [
+        "ку́хня",
+        "ку́хни",
+        "ку́хне",
+        "ку́хню",
+        "ку́хней"
+      ]
+    },
+    {
+      "type": "choice",
+      "label": "Choisis le mot exact",
+      "prompt": "Его́ мла́дшая сестра́ сиди́т в ___ и чита́ет кни́гу.",
+      "context": "Sa petite sœur est assise dans le salon et lit un livre.",
+      "answer": "гости́ной",
+      "explanation": "В indique ici un lieu fixe. Гостиная prend la forme гостиной : « dans le salon ».",
+      "lesson": {
+        "rule": "В indique ici un lieu fixe. Гостиная prend la forme гостиной : « dans le salon ».",
+        "trap": "Гостиную s’emploierait avec un mouvement vers le salon, гостиная est la forme de base, гостиные est pluriel.",
+        "observe": [
+          "в гостиной — dans le salon",
+          "идти в гостиную — aller dans le salon"
+        ],
+        "memory": "Avec в : position = гостиной, direction = гостиную."
+      },
+      "fullSentence": "Его младшая сестра сидит в гостиной и читает книгу.",
+      "fullTranslation": "Sa petite sœur est assise dans le salon et lit un livre.",
+      "family": "гостиная",
+      "options": [
+        "гости́ная",
+        "гости́ной",
+        "гости́ную",
+        "гости́ные"
+      ]
+    },
+    {
+      "type": "text",
+      "label": "Écris la bonne forme",
+      "prompt": "На одно́й ___ То́ни ви́дит двух дете́й.",
+      "context": "Sur une photographie, Tony voit deux enfants.",
+      "answer": "фотогра́фии",
+      "explanation": "На exprime ici le support où l’image apparaît. Одной indique qu’il s’agit d’une seule photographie ; фотография prend alors la forme фотографии.",
+      "lesson": {
+        "rule": "На exprime ici le support où l’image apparaît. Одной indique qu’il s’agit d’une seule photographie ; фотография prend alors la forme фотографии.",
+        "trap": "Фотографиях serait pluriel (« sur des photographies »), фотографию serait un objet direct ou une direction, фотографией signifie notamment « avec/par une photographie ».",
+        "observe": [
+          "на одной фотографии — sur une photographie",
+          "на фотографиях — sur des photographies",
+          "видеть фотографию — voir une photographie"
+        ],
+        "memory": "La terminaison -и ne signifie pas toujours pluriel : ici одной montre clairement le singulier."
+      },
+      "fullSentence": "На одной фотографии Тони видит двух детей.",
+      "fullTranslation": "Sur une photographie, Tony voit deux enfants.",
+      "family": "фотография",
+      "accepted": [
+        "фотогра́фии"
+      ],
+      "suggestions": [
+        "фотогра́фия",
+        "фотогра́фии",
+        "фотогра́фию",
+        "фотогра́фией",
+        "фотогра́фиях"
+      ]
+    },
+    {
+      "type": "choice",
+      "label": "Choisis le mot exact",
+      "prompt": "В конце́ ве́чера Ири́на прино́сит чай и ___ пиро́г.",
+      "context": "À la fin de la soirée, Irina apporte du thé et une tarte faite maison.",
+      "answer": "дома́шний",
+      "explanation": "Домашний est l’adjectif « fait maison / domestique ». Il décrit ici пирог.",
+      "lesson": {
+        "rule": "Домашний est l’adjectif « fait maison / domestique ». Il décrit ici пирог.",
+        "trap": "Дом est le nom « maison », дома signifie « à la maison », домой indique un mouvement vers chez soi.",
+        "observe": [
+          "дом — maison",
+          "дома — à la maison",
+          "домой — vers la maison",
+          "домашний пирог — tarte faite maison"
+        ],
+        "memory": "Домашний est un adjectif construit sur дом."
+      },
+      "fullSentence": "В конце вечера Ирина приносит чай и домашний пирог.",
+      "fullTranslation": "À la fin de la soirée, Irina apporte du thé et une tarte faite maison.",
+      "family": "дом",
+      "options": [
+        "дом",
+        "до́ма",
+        "домо́й",
+        "дома́шний"
+      ]
+    },
+    {
+      "type": "text",
+      "label": "Écris la bonne forme",
+      "prompt": "То́ни благодари́т семью́ за тёплый ___.",
+      "context": "Tony remercie la famille pour son accueil chaleureux.",
+      "answer": "приём",
+      "explanation": "Après за, il s’agit ici de ce pour quoi Tony remercie la famille. Тёплый приём reste sous la forme attendue après благодарить за.",
+      "lesson": {
+        "rule": "Après за, il s’agit ici de ce pour quoi Tony remercie la famille. Тёплый приём reste sous la forme attendue après благодарить за.",
+        "trap": "Приёма signifie notamment « de l’accueil », приёме « au sujet/dans l’accueil », приёмом « avec/par l’accueil ».",
+        "observe": [
+          "благодарить за помощь — remercier pour l’aide",
+          "за тёплый приём — pour l’accueil chaleureux"
+        ],
+        "memory": "Mémorise le bloc благодарить за : remercier pour."
+      },
+      "fullSentence": "Тони благодарит семью за тёплый приём.",
+      "fullTranslation": "Tony remercie la famille pour son accueil chaleureux.",
+      "family": "приём",
+      "accepted": [
+        "приём"
+      ],
+      "suggestions": [
+        "приём",
+        "приёма",
+        "приёме",
+        "приёмом"
+      ]
+    }
+  ]
+}
