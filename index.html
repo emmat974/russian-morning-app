@@ -21,7 +21,6 @@
       <p id="setLabel" class="set-label">Chargement…</p>
       <h2>Une courte série pour automatiser les formes.</h2>
       <p class="muted">La phrase est ton principal indice. Les pièges utilisent souvent plusieurs formes du même mot.</p>
-      <p class="muted small-note">Les accents toniques affichés servent uniquement à la prononciation. Tu peux écrire les mots sans accent.</p>
       <button id="startBtn" class="primary-btn" type="button" disabled>Commencer</button>
     </section>
 
@@ -41,7 +40,8 @@
       <div id="choices" class="choices"></div>
 
       <div id="textMode" class="hidden text-mode">
-        <label for="answerInput">Ta réponse</label>
+        <div id="wordBank" class="word-bank hidden" aria-label="Formes proposées"></div>
+        <label for="answerInput">Recopie la forme correcte</label>
         <input id="answerInput" type="text" autocomplete="off" autocapitalize="off" spellcheck="false" />
         <button id="validateBtn" class="primary-btn" type="button">Valider</button>
       </div>

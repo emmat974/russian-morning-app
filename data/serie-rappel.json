@@ -1,96 +1,179 @@
 {
-  "title": "Série — Rappel actif",
+  "title": "Série — Écrire avec des formes pièges",
   "sessionSize": 10,
   "questions": [
     {
       "type": "text",
-      "label": "Écrire un seul mot",
-      "prompt": "le matin",
-      "context": "Forme utilisée pour situer une action dans le temps.",
+      "label": "Écris la bonne forme",
+      "prompt": "Сего́дня ___ То́ни приезжа́ет в Москву́.",
+      "context": "Ce matin, Tony arrive à Moscou.",
       "answer": "у́тром",
-      "accepted": ["утром"],
-      "explanation": "утром est la forme utilisée dans Сегодня утром."
+      "accepted": [
+        "утром"
+      ],
+      "suggestions": [
+        "утро",
+        "утра",
+        "утром",
+        "утренний"
+      ],
+      "explanation": "Dans cette phrase, утром situe l’action le matin."
     },
     {
       "type": "text",
-      "label": "Écrire un seul mot",
-      "prompt": "vers chez soi",
-      "context": "Famille de дом.",
+      "label": "Écris la bonne forme",
+      "prompt": "Алексе́й приглаша́ет То́ни к себе́ ___.",
+      "context": "Alexeï invite Tony chez lui.",
       "answer": "домо́й",
-      "accepted": ["домой"],
-      "explanation": "домой contient l’idée de déplacement vers chez soi."
+      "accepted": [
+        "домой"
+      ],
+      "suggestions": [
+        "дом",
+        "дома",
+        "домой",
+        "домашний"
+      ],
+      "explanation": "Домой exprime ici le déplacement vers chez soi."
     },
     {
       "type": "text",
-      "label": "Écrire un seul mot",
-      "prompt": "fait maison",
-      "context": "Comme dans « tarte faite maison ».",
+      "label": "Écris la bonne forme",
+      "prompt": "Ири́на прино́сит ___ пиро́г.",
+      "context": "Irina apporte une tarte faite maison.",
       "answer": "дома́шний",
-      "accepted": ["домашний"],
-      "explanation": "домашний est l’adjectif issu de дом."
+      "accepted": [
+        "домашний"
+      ],
+      "suggestions": [
+        "дом",
+        "дома",
+        "домой",
+        "домашний"
+      ],
+      "explanation": "Пирог est masculin : la forme correcte est домашний."
     },
     {
       "type": "text",
-      "label": "Retrouver la forme de base",
-      "prompt": "семью́ → ?",
-      "context": "Écris la forme de dictionnaire.",
-      "answer": "семья́",
-      "accepted": ["семья"],
-      "explanation": "семью vient de семья."
+      "label": "Écris la bonne forme",
+      "prompt": "То́ни ви́дит всю ___ Алексе́я.",
+      "context": "Tony voit toute la famille d’Alexeï.",
+      "answer": "семью́",
+      "accepted": [
+        "семью"
+      ],
+      "suggestions": [
+        "семья",
+        "семьи",
+        "семье",
+        "семью",
+        "семьёй",
+        "семейный"
+      ],
+      "explanation": "La phrase exige ici la forme семью."
     },
     {
       "type": "text",
-      "label": "Retrouver la forme de base",
-      "prompt": "фотогра́фии → ?",
-      "context": "Écris la forme de dictionnaire.",
-      "answer": "фотогра́фия",
-      "accepted": ["фотография"],
-      "explanation": "La forme de dictionnaire est фотография."
+      "label": "Écris la bonne forme",
+      "prompt": "На одно́й ___ То́ни ви́дит двух дете́й.",
+      "context": "Sur une photographie, Tony voit deux enfants.",
+      "answer": "фотогра́фии",
+      "accepted": [
+        "фотографии"
+      ],
+      "suggestions": [
+        "фотография",
+        "фотографии",
+        "фотографию",
+        "фотографией",
+        "фотографический"
+      ],
+      "explanation": "Après на одной, la forme correcte est фотографии."
     },
     {
       "type": "text",
-      "label": "Compléter un seul mot",
+      "label": "Écris la bonne forme",
       "prompt": "Его́ ко́мната ещё не ___.",
       "context": "Sa chambre n’est pas encore prête.",
       "answer": "гото́ва",
-      "accepted": ["готова"],
-      "explanation": "комната est féminin, donc готова."
+      "accepted": [
+        "готова"
+      ],
+      "suggestions": [
+        "готов",
+        "готова",
+        "готово",
+        "готовы"
+      ],
+      "explanation": "Комната est féminin : готова."
     },
     {
       "type": "text",
-      "label": "Compléter un seul mot",
+      "label": "Écris la bonne forme",
       "prompt": "Она́ о́чень ___.",
       "context": "Elle est très gentille.",
       "answer": "до́брая",
-      "accepted": ["добрая"],
-      "explanation": "La forme féminine est добрая."
+      "accepted": [
+        "добрая"
+      ],
+      "suggestions": [
+        "добрый",
+        "добрая",
+        "доброе",
+        "добрые"
+      ],
+      "explanation": "Она demande ici la forme féminine добрая."
     },
     {
       "type": "text",
-      "label": "Compléter un seul mot",
+      "label": "Écris la bonne forme",
       "prompt": "То́ни ___ чай.",
       "context": "Tony commande du thé.",
       "answer": "зака́зывает",
-      "accepted": ["заказывает"],
-      "explanation": "заказывает est la forme conjuguée employée dans le chapitre 1."
+      "accepted": [
+        "заказывает"
+      ],
+      "suggestions": [
+        "заказывать",
+        "заказываю",
+        "заказывает",
+        "заказывают"
+      ],
+      "explanation": "Avec Тони, la forme employée dans le chapitre est заказывает."
     },
     {
       "type": "text",
-      "label": "Compléter un seul mot",
-      "prompt": "Алексе́й ___ фотогра́фии.",
-      "context": "Alexeï montre des photographies.",
+      "label": "Écris la bonne forme",
+      "prompt": "Алексе́й ___ То́ни семе́йные фотогра́фии.",
+      "context": "Alexeï montre à Tony des photographies de famille.",
       "answer": "показыва́ет",
-      "accepted": ["показывает"],
-      "explanation": "показывает signifie il montre."
+      "accepted": [
+        "показывает"
+      ],
+      "suggestions": [
+        "показывать",
+        "показываю",
+        "показывает",
+        "показывают"
+      ],
+      "explanation": "Avec Алексей, la forme correcte est показывает."
     },
     {
       "type": "text",
-      "label": "Écrire la formule",
-      "prompt": "Enchanté",
-      "context": "Formule du chapitre 2.",
-      "answer": "О́чень прия́тно",
-      "accepted": ["Очень приятно", "очень приятно"],
-      "explanation": "Очень приятно est la formule naturelle pour dire Enchanté."
+      "label": "Écris la bonne forme",
+      "prompt": "То́ни говори́т: «О́чень ___».",
+      "context": "Tony dit : « Enchanté ».",
+      "answer": "прия́тно",
+      "accepted": [
+        "приятно"
+      ],
+      "suggestions": [
+        "приятный",
+        "приятная",
+        "приятно",
+        "приятные"
+      ],
+      "explanation": "Dans cette formule, la forme correcte est приятно."
     }
   ]
 }

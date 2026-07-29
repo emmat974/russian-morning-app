@@ -97,6 +97,8 @@ function renderQuestion() {
   $('nextBtn').classList.add('hidden');
   $('choices').innerHTML = '';
   $('textMode').classList.add('hidden');
+  $('wordBank').classList.add('hidden');
+  $('wordBank').innerHTML = '';
   $('answerInput').value = '';
 
   if (question.type === 'choice') {
@@ -110,6 +112,22 @@ function renderQuestion() {
     });
   } else {
     $('textMode').classList.remove('hidden');
+    if (Array.isArray(question.suggestions) && question.suggestions.length) {
+      const title = document.createElement('p');
+      title.className = 'word-bank-title';
+      title.textContent = 'Formes proposées — une seule convient à la phrase';
+      $('wordBank').appendChild(title);
+      const list = document.createElement('div');
+      list.className = 'word-bank-list';
+      shuffle(question.suggestions).forEach(word => {
+        const chip = document.createElement('span');
+        chip.className = 'word-chip';
+        chip.textContent = word;
+        list.appendChild(chip);
+      });
+      $('wordBank').appendChild(list);
+      $('wordBank').classList.remove('hidden');
+    }
     setTimeout(() => $('answerInput').focus(), 50);
   }
 }

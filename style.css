@@ -119,6 +119,36 @@ h2 { font-size: clamp(1.45rem, 4vw, 2rem); }
 .choice-btn.correct { border-color: var(--good); color: var(--good); }
 .choice-btn.wrong { border-color: var(--bad); color: var(--bad); }
 .choice-btn:disabled { cursor: default; }
+
+.word-bank {
+  padding: 14px;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  background: color-mix(in srgb, var(--accent) 6%, transparent);
+}
+.word-bank-title {
+  margin: 0 0 10px;
+  color: var(--muted);
+  font-size: .95rem;
+}
+.word-bank-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.word-chip {
+  display: inline-flex;
+  align-items: center;
+  min-height: 42px;
+  padding: 8px 13px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--text);
+  font-size: 1.08rem;
+  font-weight: 700;
+}
+
 .text-mode { display: grid; gap: 12px; }
 .text-mode label { font-weight: 700; }
 .text-mode input {

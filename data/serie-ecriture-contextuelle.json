@@ -4,111 +4,214 @@
   "questions": [
     {
       "type": "text",
-      "label": "Écris le mot manquant",
+      "label": "Écris la bonne forme",
       "prompt": "Сего́дня ___ То́ни приезжа́ет в Москву́.",
       "context": "Ce matin, Tony arrive à Moscou.",
       "answer": "у́тром",
-      "accepted": ["утром"],
-      "explanation": "La phrase utilise утром pour situer l’action le matin."
+      "accepted": [
+        "утром"
+      ],
+      "explanation": "La phrase utilise утром pour situer l’action le matin.",
+      "suggestions": [
+        "утро",
+        "утром",
+        "утра",
+        "утренний"
+      ]
     },
     {
       "type": "text",
-      "label": "Écris le mot manquant",
+      "label": "Écris la bonne forme",
       "prompt": "Алексе́й приглаша́ет То́ни к себе́ ___.",
       "context": "Alexeï invite Tony chez lui.",
       "answer": "домо́й",
-      "accepted": ["домой"],
-      "explanation": "Домой indique le déplacement vers chez soi."
+      "accepted": [
+        "домой"
+      ],
+      "explanation": "Домой indique le déplacement vers chez soi.",
+      "suggestions": [
+        "дом",
+        "дома",
+        "домой",
+        "домашний"
+      ]
     },
     {
       "type": "text",
-      "label": "Écris le mot manquant",
+      "label": "Écris la bonne forme",
       "prompt": "Ири́на прино́сит ___ пиро́г.",
       "context": "Irina apporte une tarte faite maison.",
       "answer": "дома́шний",
-      "accepted": ["домашний"],
-      "explanation": "Пирог est masculin : домашний."
+      "accepted": [
+        "домашний"
+      ],
+      "explanation": "Пирог est masculin : домашний.",
+      "suggestions": [
+        "дом",
+        "дома",
+        "домой",
+        "домашний"
+      ]
     },
     {
       "type": "text",
-      "label": "Écris le mot manquant",
+      "label": "Écris la bonne forme",
       "prompt": "То́ни ви́дит всю ___ Алексе́я.",
       "context": "Tony voit toute la famille d’Alexeï.",
       "answer": "семью́",
-      "accepted": ["семью"],
-      "explanation": "La forme attendue dans cette phrase est семью."
+      "accepted": [
+        "семью"
+      ],
+      "explanation": "La forme attendue dans cette phrase est семью.",
+      "suggestions": [
+        "семья",
+        "семьи",
+        "семье",
+        "семью",
+        "семьёй",
+        "семейный"
+      ]
     },
     {
       "type": "text",
-      "label": "Écris le mot manquant",
+      "label": "Écris la bonne forme",
       "prompt": "Алексе́й показыва́ет То́ни семе́йные ___.",
       "context": "Alexeï montre à Tony des photographies de famille.",
       "answer": "фотогра́фии",
-      "accepted": ["фотографии"],
-      "explanation": "Le chapitre utilise фотографии pour les photographies montrées."
+      "accepted": [
+        "фотографии"
+      ],
+      "explanation": "Le chapitre utilise фотографии pour les photographies montrées.",
+      "suggestions": [
+        "фотография",
+        "фотографии",
+        "фотографию",
+        "фотографией",
+        "фотографический"
+      ]
     },
     {
       "type": "text",
-      "label": "Écris le mot manquant",
+      "label": "Écris la bonne forme",
       "prompt": "На одно́й ___ То́ни ви́дит двух дете́й.",
       "context": "Sur une photographie, Tony voit deux enfants.",
       "answer": "фотогра́фии",
-      "accepted": ["фотографии"],
-      "explanation": "Après на одной, la forme est фотографии."
+      "accepted": [
+        "фотографии"
+      ],
+      "explanation": "Après на одной, la forme est фотографии.",
+      "suggestions": [
+        "фотография",
+        "фотографии",
+        "фотографию",
+        "фотографией",
+        "фотографический"
+      ]
     },
     {
       "type": "text",
-      "label": "Écris le mot manquant",
+      "label": "Écris la bonne forme",
       "prompt": "То́ни зака́зывает чай и буты́лку ___.",
       "context": "Tony commande du thé et une bouteille d’eau.",
       "answer": "воды́",
-      "accepted": ["воды"],
-      "explanation": "Dans бутылку воды, la forme correcte est воды."
+      "accepted": [
+        "воды"
+      ],
+      "explanation": "Dans бутылку воды, la forme correcte est воды.",
+      "suggestions": [
+        "вода",
+        "воды",
+        "воде",
+        "воду",
+        "водой"
+      ]
     },
     {
       "type": "text",
-      "label": "Écris le mot manquant",
+      "label": "Écris la bonne forme",
       "prompt": "Его́ па́па гото́вит у́жин на ___.",
       "context": "Son père prépare le dîner dans la cuisine.",
       "answer": "ку́хне",
-      "accepted": ["кухне"],
-      "explanation": "Le lieu est exprimé par на кухне."
+      "accepted": [
+        "кухне"
+      ],
+      "explanation": "Le lieu est exprimé par на кухне.",
+      "suggestions": [
+        "кухня",
+        "кухни",
+        "кухне",
+        "кухню",
+        "кухней"
+      ]
     },
     {
       "type": "text",
-      "label": "Écris le mot manquant",
+      "label": "Écris la bonne forme",
       "prompt": "Его́ мла́дшая сестра́ сиди́т в ___.",
       "context": "Sa petite sœur est assise dans le salon.",
       "answer": "гости́ной",
-      "accepted": ["гостиной"],
-      "explanation": "Le chapitre emploie в гостиной."
+      "accepted": [
+        "гостиной"
+      ],
+      "explanation": "Le chapitre emploie в гостиной.",
+      "suggestions": [
+        "гостиная",
+        "гостиной",
+        "гостиную"
+      ]
     },
     {
       "type": "text",
-      "label": "Écris le mot manquant",
+      "label": "Écris la bonne forme",
       "prompt": "То́ни благодари́т ___ за тёплый приём.",
       "context": "Tony remercie la famille pour son accueil chaleureux.",
       "answer": "семью́",
-      "accepted": ["семью"],
-      "explanation": "La famille remerciée apparaît sous la forme семью."
+      "accepted": [
+        "семью"
+      ],
+      "explanation": "La famille remerciée apparaît sous la forme семью.",
+      "suggestions": [
+        "семья",
+        "семьи",
+        "семье",
+        "семью",
+        "семьёй",
+        "семейный"
+      ]
     },
     {
       "type": "text",
-      "label": "Écris le mot manquant",
+      "label": "Écris la bonne forme",
       "prompt": "То́ни дово́лен ___.",
       "context": "Tony est satisfait de sa soirée.",
       "answer": "ве́чером",
-      "accepted": ["вечером"],
-      "explanation": "Après доволен, la forme attendue est вечером."
+      "accepted": [
+        "вечером"
+      ],
+      "explanation": "Après доволен, la forme attendue est вечером.",
+      "suggestions": [
+        "вечер",
+        "вечера",
+        "вечером",
+        "вечерний"
+      ]
     },
     {
       "type": "text",
-      "label": "Écris le mot manquant",
+      "label": "Écris la bonne forme",
       "prompt": "Его́ ко́мната ещё не ___.",
       "context": "Sa chambre n’est pas encore prête.",
       "answer": "гото́ва",
-      "accepted": ["готова"],
-      "explanation": "Комната est féminin : готова."
+      "accepted": [
+        "готова"
+      ],
+      "explanation": "Комната est féminin : готова.",
+      "suggestions": [
+        "готов",
+        "готова",
+        "готово",
+        "готовы"
+      ]
     }
   ]
 }
