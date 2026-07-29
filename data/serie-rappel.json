@@ -17,7 +17,17 @@
         "утром",
         "утренний"
       ],
-      "explanation": "Dans cette phrase, утром situe l’action le matin."
+      "explanation": "Pour indiquer le moment où une action se déroule, certains noms de moment prennent une forme spéciale. Утро (« le matin ») devient утром dans le sens « le matin / ce matin ».",
+      "lesson": {
+        "rule": "Pour indiquer le moment où une action se déroule, certains noms de moment prennent une forme spéciale. Утро (« le matin ») devient утром dans le sens « le matin / ce matin ».",
+        "observe": [
+          "утро — le matin (le nom)",
+          "Сегодня утром Тони приезжает. — Ce matin, Tony arrive.",
+          "вечер → вечером — le soir"
+        ],
+        "trap": "Утро nomme simplement le matin. Утра signifie souvent « du matin ». Утренний est l’adjectif « matinal ». Ici, la phrase demande le moment de l’action : утром.",
+        "memory": "Quand tu peux poser la question « quand ? », pense à утром ou вечером."
+      }
     },
     {
       "type": "text",
@@ -34,7 +44,17 @@
         "домой",
         "домашний"
       ],
-      "explanation": "Домой exprime ici le déplacement vers chez soi."
+      "explanation": "Домой exprime un mouvement vers la maison ou vers chez soi. Дома exprime au contraire une position : être à la maison.",
+      "lesson": {
+        "rule": "Домой exprime un mouvement vers la maison ou vers chez soi. Дома exprime au contraire une position : être à la maison.",
+        "observe": [
+          "Он идёт домой. — Il rentre chez lui.",
+          "Он дома. — Il est à la maison.",
+          "дом — la maison"
+        ],
+        "trap": "Дом est le nom « maison ». Дома signifie « à la maison ». Домашний signifie « domestique / fait maison ». Le verbe пригласить et l’idée de venir chez Alexeï imposent ici la direction : домой.",
+        "memory": "Mouvement vers la maison → домой. Position à la maison → дома."
+      }
     },
     {
       "type": "text",
@@ -51,7 +71,17 @@
         "домой",
         "домашний"
       ],
-      "explanation": "Пирог est masculin : la forme correcte est домашний."
+      "explanation": "Домашний est un adjectif formé sur дом. Il signifie « domestique » ou « fait maison ». Il doit s’accorder avec le nom qu’il décrit.",
+      "lesson": {
+        "rule": "Домашний est un adjectif formé sur дом. Il signifie « domestique » ou « fait maison ». Il doit s’accorder avec le nom qu’il décrit.",
+        "observe": [
+          "домашний пирог — une tarte/un gâteau fait maison",
+          "домашняя еда — de la nourriture faite maison",
+          "домашнее задание — les devoirs"
+        ],
+        "trap": "Пирог est masculin, donc on choisit домашний. Дом, дома et домой ne sont pas des adjectifs et ne peuvent pas décrire пирог.",
+        "memory": "Le mot décrit un nom ? Cherche la forme adjectivale en -ий / -ая / -ее."
+      }
     },
     {
       "type": "text",
@@ -70,7 +100,17 @@
         "семьёй",
         "семейный"
       ],
-      "explanation": "La phrase exige ici la forme семью."
+      "explanation": "La famille reçoit directement l’action du verbe видит (« voit »). Pour un nom féminin en -я comme семья, la terminaison devient ici -ю : семья → семью. Le mot всю confirme cette forme dans la phrase avec видит.",
+      "lesson": {
+        "rule": "La famille reçoit directement l’action du verbe видит (« voit »). Pour un nom féminin en -я comme семья, la terminaison devient ici -ю : семья → семью. Le mot всю confirme cette forme dans la phrase avec видит.",
+        "observe": [
+          "Это семья. — C’est une famille.",
+          "Тони видит семью. — Tony voit la famille.",
+          "Тони благодарит семью. — Tony remercie la famille."
+        ],
+        "trap": "Семье signifie généralement « à propos de / à la famille » selon la construction. Семьёй signifie « avec/par la famille ». Семьи peut signifier « de la famille » ou « les familles ». Ici, l’action touche directement la famille : семью.",
+        "memory": "Féminin en -я directement après une action : observe souvent -ю."
+      }
     },
     {
       "type": "text",
@@ -88,7 +128,17 @@
         "фотографией",
         "фотографический"
       ],
-      "explanation": "Après на одной, la forme correcte est фотографии."
+      "explanation": "Семейные indique plusieurs éléments et фотографии désigne ici plusieurs photographies. Dans cette phrase, фотографии est donc la forme plurielle qui reçoit directement l’action « montre ».",
+      "lesson": {
+        "rule": "Семейные indique plusieurs éléments et фотографии désigne ici plusieurs photographies. Dans cette phrase, фотографии est donc la forme plurielle qui reçoit directement l’action « montre ».",
+        "observe": [
+          "фотография — une photographie",
+          "семейные фотографии — des photographies de famille",
+          "Он показывает фотографии. — Il montre des photographies."
+        ],
+        "trap": "Фотография est singulier. Фотографию signifie « une photographie » comme objet direct. Фотографий signifie souvent « de photographies ». Le mot семейные impose ici le pluriel фотографии.",
+        "memory": "Regarde d’abord le mot qui accompagne le nom : семейные annonce un pluriel."
+      }
     },
     {
       "type": "text",
@@ -105,7 +155,17 @@
         "готово",
         "готовы"
       ],
-      "explanation": "Комната est féminin : готова."
+      "explanation": "Готов doit s’accorder avec la personne ou la chose décrite. Комната est féminin, donc готов devient готова.",
+      "lesson": {
+        "rule": "Готов doit s’accorder avec la personne ou la chose décrite. Комната est féminin, donc готов devient готова.",
+        "observe": [
+          "Он готов. — Il est prêt.",
+          "Она готова. — Elle est prête.",
+          "Комната готова. — La chambre est prête."
+        ],
+        "trap": "Готов est masculin, готово neutre et готовы pluriel. Ici, комната est féminin singulier.",
+        "memory": "Nom féminin → la forme courte se termine souvent par -а."
+      }
     },
     {
       "type": "text",
@@ -122,7 +182,17 @@
         "доброе",
         "добрые"
       ],
-      "explanation": "Она demande ici la forme féminine добрая."
+      "explanation": "Добрая est l’adjectif féminin singulier parce qu’il décrit она / бабушка.",
+      "lesson": {
+        "rule": "Добрая est l’adjectif féminin singulier parce qu’il décrit она / бабушка.",
+        "observe": [
+          "добрый мужчина — un homme gentil",
+          "добрая бабушка — une grand-mère gentille",
+          "добрые люди — des gens gentils"
+        ],
+        "trap": "Добрый est masculin, доброе neutre et добрые pluriel. Она impose la forme féminine добрая.",
+        "memory": "Она / nom féminin → adjectif souvent en -ая."
+      }
     },
     {
       "type": "text",
@@ -139,7 +209,17 @@
         "заказывает",
         "заказывают"
       ],
-      "explanation": "Avec Тони, la forme employée dans le chapitre est заказывает."
+      "explanation": "Заказывает est la forme de заказывать avec Тони, équivalent de он : troisième personne du singulier.",
+      "lesson": {
+        "rule": "Заказывает est la forme de заказывать avec Тони, équivalent de он : troisième personne du singulier.",
+        "observe": [
+          "я заказываю — je commande",
+          "Тони заказывает — Tony commande",
+          "они заказывают — ils commandent"
+        ],
+        "trap": "Заказываю signifie « je commande ». Заказывают signifie « ils commandent ». Tony seul demande заказывает.",
+        "memory": "Un nom de personne seul peut être remplacé par он → заказывает."
+      }
     },
     {
       "type": "text",
@@ -156,7 +236,17 @@
         "показывает",
         "показывают"
       ],
-      "explanation": "Avec Алексей, la forme correcte est показывает."
+      "explanation": "Показывает est la forme du verbe показывать avec un sujet à la troisième personne du singulier : Алексей / он.",
+      "lesson": {
+        "rule": "Показывает est la forme du verbe показывать avec un sujet à la troisième personne du singulier : Алексей / он.",
+        "observe": [
+          "я показываю — je montre",
+          "он показывает — il montre",
+          "они показывают — ils montrent"
+        ],
+        "trap": "Показываю correspond à « je montre » et показывают à « ils montrent ». Алексей est une seule personne : показывает.",
+        "memory": "Он / Алексей → terminaison -ет : показывает."
+      }
     },
     {
       "type": "text",
@@ -173,7 +263,16 @@
         "приятно",
         "приятные"
       ],
-      "explanation": "Dans cette formule, la forme correcte est приятно."
+      "explanation": "Очень приятно est une formule figée utilisée pour dire « enchanté ». Приятно reste sous cette forme impersonnelle.",
+      "lesson": {
+        "rule": "Очень приятно est une formule figée utilisée pour dire « enchanté ». Приятно reste sous cette forme impersonnelle.",
+        "observe": [
+          "Очень приятно. — Enchanté.",
+          "Мне приятно. — Cela me fait plaisir."
+        ],
+        "trap": "Приятный est un adjectif masculin (« agréable »). Ici, on emploie la formule neutre et impersonnelle приятно.",
+        "memory": "Mémorise le bloc entier : Очень приятно."
+      }
     }
   ]
 }

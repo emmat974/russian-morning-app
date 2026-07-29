@@ -29,3 +29,9 @@ Le dossier peut être déposé tel quel sur GitHub Pages, Netlify, Cloudflare Pa
 3. Ajouter son chemin dans `DATA_FILES` au début de `app.js`.
 
 Chaque série est choisie aléatoirement au démarrage.
+
+- Après chaque réponse, correcte ou fausse, l’application explique pourquoi la forme convient à la phrase.
+
+
+## Explications pédagogiques V2
+Chaque question contient désormais une micro-leçon structurée : règle, comparaison, explication du piège et mémo. Les mêmes explications apparaissent après une bonne ou une mauvaise réponse.

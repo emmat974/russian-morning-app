@@ -7,90 +7,230 @@
       "label": "Retrouver la forme de base",
       "prompt": "семью́",
       "context": "То́ни ви́дит всю семью́ Алексе́я.",
-      "options": ["семья́", "семе́йный", "семьи́", "семью́"],
+      "options": [
+        "семья́",
+        "семе́йный",
+        "семьи́",
+        "семью́"
+      ],
       "answer": "семья́",
-      "explanation": "семью́ est une forme de семья́. Les autres réponses appartiennent à la même famille ou sont des formes voisines."
+      "explanation": "Семья est ici le mot de base, la forme utilisée pour nommer « la famille » sans autre rôle imposé par la phrase.",
+      "lesson": {
+        "rule": "Семья est ici le mot de base, la forme utilisée pour nommer « la famille » sans autre rôle imposé par la phrase.",
+        "observe": [
+          "Это семья. — C’est une famille.",
+          "Я вижу семью. — Je vois la famille."
+        ],
+        "trap": "Семью est une forme modifiée quand la famille reçoit directement l’action. Семейный est l’adjectif « familial ».",
+        "memory": "Pour identifier la forme du dictionnaire, cherche généralement la forme qui peut suivre Это."
+      }
     },
     {
       "type": "choice",
       "label": "Retrouver la forme de base",
       "prompt": "фотогра́фии",
       "context": "Алексе́й показыва́ет семе́йные фотогра́фии.",
-      "options": ["фотогра́фия", "фотогра́фий", "фотогра́фию", "фотогра́фии"],
+      "options": [
+        "фотогра́фия",
+        "фотогра́фий",
+        "фотогра́фию",
+        "фотогра́фии"
+      ],
       "answer": "фотогра́фия",
-      "explanation": "La forme de dictionnaire est фотография. Les autres choix sont volontairement des formes du même mot."
+      "explanation": "Фотография est la forme de dictionnaire au singulier : « une photographie ».",
+      "lesson": {
+        "rule": "Фотография est la forme de dictionnaire au singulier : « une photographie ».",
+        "observe": [
+          "Это фотография. — C’est une photographie.",
+          "Я вижу фотографию. — Je vois une photographie.",
+          "На фотографии… — Sur la photographie…"
+        ],
+        "trap": "Фотографии peut être pluriel ou une autre forme singulière selon le contexte. Ici, on cherche la forme de base.",
+        "memory": "La forme de base des noms féminins se termine souvent par -а ou -я."
+      }
     },
     {
       "type": "choice",
       "label": "Retrouver la forme de base",
       "prompt": "гости́ницей",
       "context": "Кафе́ ря́дом с гости́ницей.",
-      "options": ["гости́ница", "гости́нице", "гости́ницу", "гости́ницы"],
+      "options": [
+        "гости́ница",
+        "гости́нице",
+        "гости́ницу",
+        "гости́ницы"
+      ],
       "answer": "гости́ница",
-      "explanation": "гостиницей vient de гостиница. Ici tous les pièges gardent presque le même aspect."
+      "explanation": "гостиницей vient de гостиница. Ici tous les pièges gardent presque le même aspect.",
+      "lesson": {
+        "rule": "гостиницей vient de гостиница. Ici tous les pièges gardent presque le même aspect.",
+        "observe": [
+          "Réponse correcte : гости́ница"
+        ],
+        "trap": "Les autres propositions sont des formes possibles dans d’autres constructions, mais elles ne remplissent pas le même rôle ici.",
+        "memory": "Relis la phrase entière et cherche le rôle du mot : sujet, destination, lieu, contenu ou objet de l’action."
+      }
     },
     {
       "type": "choice",
       "label": "Même famille ou non ?",
       "prompt": "Quel mot appartient à la même famille que дом ?",
       "context": "Une seule réponse est liée à l’idée de maison.",
-      "options": ["домо́й", "ду́мает", "други́е", "дово́лен"],
+      "options": [
+        "домо́й",
+        "ду́мает",
+        "други́е",
+        "дово́лен"
+      ],
       "answer": "домо́й",
-      "explanation": "домой signifie vers chez soi. думает ressemble visuellement, mais vient d’un autre mot."
+      "explanation": "домой signifie vers chez soi. думает ressemble visuellement, mais vient d’un autre mot.",
+      "lesson": {
+        "rule": "домой signifie vers chez soi. думает ressemble visuellement, mais vient d’un autre mot.",
+        "observe": [
+          "Réponse correcte : домо́й"
+        ],
+        "trap": "Les autres propositions sont des formes possibles dans d’autres constructions, mais elles ne remplissent pas le même rôle ici.",
+        "memory": "Relis la phrase entière et cherche le rôle du mot : sujet, destination, lieu, contenu ou objet de l’action."
+      }
     },
     {
       "type": "choice",
       "label": "Même famille ou non ?",
       "prompt": "Quel mot appartient à la même famille que семья́ ?",
       "context": "Attention aux mots qui commencent presque pareil.",
-      "options": ["семе́йный", "сего́дня", "семь", "себя́"],
+      "options": [
+        "семе́йный",
+        "сего́дня",
+        "семь",
+        "себя́"
+      ],
       "answer": "семе́йный",
-      "explanation": "семейный signifie familial. семь signifie sept : ressemblance trompeuse, autre mot."
+      "explanation": "семейный signifie familial. семь signifie sept : ressemblance trompeuse, autre mot.",
+      "lesson": {
+        "rule": "семейный signifie familial. семь signifie sept : ressemblance trompeuse, autre mot.",
+        "observe": [
+          "Réponse correcte : семе́йный"
+        ],
+        "trap": "Les autres propositions sont des formes possibles dans d’autres constructions, mais elles ne remplissent pas le même rôle ici.",
+        "memory": "Relis la phrase entière et cherche le rôle du mot : sujet, destination, lieu, contenu ou objet de l’action."
+      }
     },
     {
       "type": "choice",
       "label": "Retrouver l’infinitif",
       "prompt": "показыва́ет",
       "context": "Алексе́й показыва́ет То́ни фотогра́фии.",
-      "options": ["показыва́ть", "показа́ть", "спра́шивать", "показыва́ет"],
+      "options": [
+        "показыва́ть",
+        "показа́ть",
+        "спра́шивать",
+        "показыва́ет"
+      ],
       "answer": "показыва́ть",
-      "explanation": "Dans ce chapitre, la forme de référence travaillée est показывать. показать est un verbe proche mais distinct."
+      "explanation": "Показывает est la forme du verbe показывать avec un sujet à la troisième personne du singulier : Алексей / он.",
+      "lesson": {
+        "rule": "Показывает est la forme du verbe показывать avec un sujet à la troisième personne du singulier : Алексей / он.",
+        "observe": [
+          "я показываю — je montre",
+          "он показывает — il montre",
+          "они показывают — ils montrent"
+        ],
+        "trap": "Показываю correspond à « je montre » et показывают à « ils montrent ». Алексей est une seule personne : показывает.",
+        "memory": "Он / Алексей → terminaison -ет : показывает."
+      }
     },
     {
       "type": "choice",
       "label": "Retrouver l’infinitif",
       "prompt": "понима́ет",
       "context": "То́ни понима́ет э́то сло́во.",
-      "options": ["понима́ть", "понима́ет", "отвеча́ть", "объясня́ть"],
+      "options": [
+        "понима́ть",
+        "понима́ет",
+        "отвеча́ть",
+        "объясня́ть"
+      ],
       "answer": "понима́ть",
-      "explanation": "понимает est la forme conjuguée de понимать."
+      "explanation": "Понимает est une forme conjuguée du verbe понимать, « comprendre ».",
+      "lesson": {
+        "rule": "Понимает est une forme conjuguée du verbe понимать, « comprendre ».",
+        "observe": [
+          "понимать — comprendre",
+          "он понимает — il comprend"
+        ],
+        "trap": "La terminaison -ет montre ici une forme conjuguée, pas l’infinitif.",
+        "memory": "-ть marque souvent l’infinitif : понимать."
+      }
     },
     {
       "type": "choice",
       "label": "Retrouver l’infinitif",
       "prompt": "зака́зывает",
       "context": "То́ни зака́зывает чай.",
-      "options": ["зака́зывать", "заказа́ть", "показыва́ть", "зака́зывает"],
+      "options": [
+        "зака́зывать",
+        "заказа́ть",
+        "показыва́ть",
+        "зака́зывает"
+      ],
       "answer": "зака́зывать",
-      "explanation": "заказывать est l’infinitif présent dans le vocabulaire du chapitre. заказать est proche, mais ce n’est pas la forme attendue ici."
+      "explanation": "Заказывает vient de заказывать, « commander ». L’infinitif se reconnaît à -ть.",
+      "lesson": {
+        "rule": "Заказывает vient de заказывать, « commander ». L’infinitif se reconnaît à -ть.",
+        "observe": [
+          "заказывать — commander",
+          "Тони заказывает чай. — Tony commande du thé."
+        ],
+        "trap": "Заказать est un verbe proche, mais la famille grammaticale travaillée dans le chapitre est заказывать → заказывает.",
+        "memory": "Pour retrouver l’infinitif, cherche la forme en -ть correspondant au sens et à la racine."
+      }
     },
     {
       "type": "choice",
       "label": "Retrouver la forme de base",
       "prompt": "дете́й",
       "context": "То́ни ви́дит двух дете́й.",
-      "options": ["де́ти", "ребёнок", "дете́й", "де́тский"],
+      "options": [
+        "де́ти",
+        "ребёнок",
+        "дете́й",
+        "де́тский"
+      ],
       "answer": "де́ти",
-      "explanation": "детей renvoie ici au pluriel дети. ребёнок est le singulier lexical, donc le piège est plausible."
+      "explanation": "Детей est une forme du pluriel дети, « enfants ». Le singulier lexical est ребёнок, mais le pluriel change de racine.",
+      "lesson": {
+        "rule": "Детей est une forme du pluriel дети, « enfants ». Le singulier lexical est ребёнок, mais le pluriel change de racine.",
+        "observe": [
+          "ребёнок — un enfant",
+          "дети — des enfants",
+          "двух детей — deux enfants"
+        ],
+        "trap": "Ребёнок est le singulier, mais on ne forme pas le pluriel en ajoutant simplement une terminaison : дети est irrégulier.",
+        "memory": "Apprends ensemble : ребёнок → дети → детей."
+      }
     },
     {
       "type": "choice",
       "label": "Retrouver la forme de base",
       "prompt": "бра́том",
       "context": "Forme d’entraînement proche du dialogue sur la famille.",
-      "options": ["брат", "бра́та", "бра́ту", "бра́том"],
+      "options": [
+        "брат",
+        "бра́та",
+        "бра́ту",
+        "бра́том"
+      ],
       "answer": "брат",
-      "explanation": "братом vient de брат. Les autres choix sont d’autres formes possibles du même mot."
+      "explanation": "Братом est une forme du nom брат, « frère ».",
+      "lesson": {
+        "rule": "Братом est une forme du nom брат, « frère ».",
+        "observe": [
+          "брат — frère",
+          "с братом — avec le frère"
+        ],
+        "trap": "Брата, брату et брате sont d’autres formes du même mot. Ici, la question demande la forme de base.",
+        "memory": "Après с au sens « avec », брат devient братом."
+      }
     }
   ]
 }

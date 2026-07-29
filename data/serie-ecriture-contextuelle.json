@@ -11,13 +11,23 @@
       "accepted": [
         "утром"
       ],
-      "explanation": "La phrase utilise утром pour situer l’action le matin.",
+      "explanation": "Pour indiquer le moment où une action se déroule, certains noms de moment prennent une forme spéciale. Утро (« le matin ») devient утром dans le sens « le matin / ce matin ».",
       "suggestions": [
         "утро",
         "утром",
         "утра",
         "утренний"
-      ]
+      ],
+      "lesson": {
+        "rule": "Pour indiquer le moment où une action se déroule, certains noms de moment prennent une forme spéciale. Утро (« le matin ») devient утром dans le sens « le matin / ce matin ».",
+        "observe": [
+          "утро — le matin (le nom)",
+          "Сегодня утром Тони приезжает. — Ce matin, Tony arrive.",
+          "вечер → вечером — le soir"
+        ],
+        "trap": "Утро nomme simplement le matin. Утра signifie souvent « du matin ». Утренний est l’adjectif « matinal ». Ici, la phrase demande le moment de l’action : утром.",
+        "memory": "Quand tu peux poser la question « quand ? », pense à утром ou вечером."
+      }
     },
     {
       "type": "text",
@@ -28,13 +38,23 @@
       "accepted": [
         "домой"
       ],
-      "explanation": "Домой indique le déplacement vers chez soi.",
+      "explanation": "Домой exprime un mouvement vers la maison ou vers chez soi. Дома exprime au contraire une position : être à la maison.",
       "suggestions": [
         "дом",
         "дома",
         "домой",
         "домашний"
-      ]
+      ],
+      "lesson": {
+        "rule": "Домой exprime un mouvement vers la maison ou vers chez soi. Дома exprime au contraire une position : être à la maison.",
+        "observe": [
+          "Он идёт домой. — Il rentre chez lui.",
+          "Он дома. — Il est à la maison.",
+          "дом — la maison"
+        ],
+        "trap": "Дом est le nom « maison ». Дома signifie « à la maison ». Домашний signifie « domestique / fait maison ». Le verbe пригласить et l’idée de venir chez Alexeï imposent ici la direction : домой.",
+        "memory": "Mouvement vers la maison → домой. Position à la maison → дома."
+      }
     },
     {
       "type": "text",
@@ -45,13 +65,23 @@
       "accepted": [
         "домашний"
       ],
-      "explanation": "Пирог est masculin : домашний.",
+      "explanation": "Домашний est un adjectif formé sur дом. Il signifie « domestique » ou « fait maison ». Il doit s’accorder avec le nom qu’il décrit.",
       "suggestions": [
         "дом",
         "дома",
         "домой",
         "домашний"
-      ]
+      ],
+      "lesson": {
+        "rule": "Домашний est un adjectif formé sur дом. Il signifie « domestique » ou « fait maison ». Il doit s’accorder avec le nom qu’il décrit.",
+        "observe": [
+          "домашний пирог — une tarte/un gâteau fait maison",
+          "домашняя еда — de la nourriture faite maison",
+          "домашнее задание — les devoirs"
+        ],
+        "trap": "Пирог est masculin, donc on choisit домашний. Дом, дома et домой ne sont pas des adjectifs et ne peuvent pas décrire пирог.",
+        "memory": "Le mot décrit un nom ? Cherche la forme adjectivale en -ий / -ая / -ее."
+      }
     },
     {
       "type": "text",
@@ -62,7 +92,7 @@
       "accepted": [
         "семью"
       ],
-      "explanation": "La forme attendue dans cette phrase est семью.",
+      "explanation": "La famille reçoit directement l’action du verbe видит (« voit »). Pour un nom féminin en -я comme семья, la terminaison devient ici -ю : семья → семью. Le mot всю confirme cette forme dans la phrase avec видит.",
       "suggestions": [
         "семья",
         "семьи",
@@ -70,7 +100,17 @@
         "семью",
         "семьёй",
         "семейный"
-      ]
+      ],
+      "lesson": {
+        "rule": "La famille reçoit directement l’action du verbe видит (« voit »). Pour un nom féminin en -я comme семья, la terminaison devient ici -ю : семья → семью. Le mot всю confirme cette forme dans la phrase avec видит.",
+        "observe": [
+          "Это семья. — C’est une famille.",
+          "Тони видит семью. — Tony voit la famille.",
+          "Тони благодарит семью. — Tony remercie la famille."
+        ],
+        "trap": "Семье signifie généralement « à propos de / à la famille » selon la construction. Семьёй signifie « avec/par la famille ». Семьи peut signifier « de la famille » ou « les familles ». Ici, l’action touche directement la famille : семью.",
+        "memory": "Féminin en -я directement après une action : observe souvent -ю."
+      }
     },
     {
       "type": "text",
@@ -81,14 +121,24 @@
       "accepted": [
         "фотографии"
       ],
-      "explanation": "Le chapitre utilise фотографии pour les photographies montrées.",
+      "explanation": "Семейные indique plusieurs éléments et фотографии désigne ici plusieurs photographies. Dans cette phrase, фотографии est donc la forme plurielle qui reçoit directement l’action « montre ».",
       "suggestions": [
         "фотография",
         "фотографии",
         "фотографию",
         "фотографией",
         "фотографический"
-      ]
+      ],
+      "lesson": {
+        "rule": "Семейные indique plusieurs éléments et фотографии désigne ici plusieurs photographies. Dans cette phrase, фотографии est donc la forme plurielle qui reçoit directement l’action « montre ».",
+        "observe": [
+          "фотография — une photographie",
+          "семейные фотографии — des photographies de famille",
+          "Он показывает фотографии. — Il montre des photographies."
+        ],
+        "trap": "Фотография est singulier. Фотографию signifie « une photographie » comme objet direct. Фотографий signifie souvent « de photographies ». Le mot семейные impose ici le pluriel фотографии.",
+        "memory": "Regarde d’abord le mot qui accompagne le nom : семейные annonce un pluriel."
+      }
     },
     {
       "type": "text",
@@ -99,14 +149,24 @@
       "accepted": [
         "фотографии"
       ],
-      "explanation": "Après на одной, la forme est фотографии.",
+      "explanation": "Семейные indique plusieurs éléments et фотографии désigne ici plusieurs photographies. Dans cette phrase, фотографии est donc la forme plurielle qui reçoit directement l’action « montre ».",
       "suggestions": [
         "фотография",
         "фотографии",
         "фотографию",
         "фотографией",
         "фотографический"
-      ]
+      ],
+      "lesson": {
+        "rule": "Семейные indique plusieurs éléments et фотографии désigne ici plusieurs photographies. Dans cette phrase, фотографии est donc la forme plurielle qui reçoit directement l’action « montre ».",
+        "observe": [
+          "фотография — une photographie",
+          "семейные фотографии — des photographies de famille",
+          "Он показывает фотографии. — Il montre des photographies."
+        ],
+        "trap": "Фотография est singulier. Фотографию signifie « une photographie » comme objet direct. Фотографий signifie souvent « de photographies ». Le mot семейные impose ici le pluriel фотографии.",
+        "memory": "Regarde d’abord le mot qui accompagne le nom : семейные annonce un pluriel."
+      }
     },
     {
       "type": "text",
@@ -117,14 +177,24 @@
       "accepted": [
         "воды"
       ],
-      "explanation": "Dans бутылку воды, la forme correcte est воды.",
+      "explanation": "Après un récipient ou une quantité, le russe met souvent le contenu sous une forme qui correspond à « de… ». Бутылка воды signifie littéralement « une bouteille d’eau ».",
       "suggestions": [
         "вода",
         "воды",
         "воде",
         "воду",
         "водой"
-      ]
+      ],
+      "lesson": {
+        "rule": "Après un récipient ou une quantité, le russe met souvent le contenu sous une forme qui correspond à « de… ». Бутылка воды signifie littéralement « une bouteille d’eau ».",
+        "observe": [
+          "бутылка воды — une bouteille d’eau",
+          "стакан воды — un verre d’eau",
+          "Тони пьёт воду. — Tony boit de l’eau."
+        ],
+        "trap": "Воду est utilisé quand l’eau reçoit directement l’action : пить воду, заказать воду. Ici, l’objet principal est бутылку et воды précise son contenu.",
+        "memory": "Récipient + contenu : pense « une bouteille DE quoi ? » → воды."
+      }
     },
     {
       "type": "text",
@@ -135,14 +205,23 @@
       "accepted": [
         "кухне"
       ],
-      "explanation": "Le lieu est exprimé par на кухне.",
+      "explanation": "На кухне indique un lieu où l’action se déroule : le père est dans la cuisine. Pour une position fixe après на, кухня devient кухне.",
       "suggestions": [
         "кухня",
         "кухни",
         "кухне",
         "кухню",
         "кухней"
-      ]
+      ],
+      "lesson": {
+        "rule": "На кухне indique un lieu où l’action se déroule : le père est dans la cuisine. Pour une position fixe après на, кухня devient кухне.",
+        "observe": [
+          "Он на кухне. — Il est dans la cuisine.",
+          "Он идёт на кухню. — Il va dans la cuisine."
+        ],
+        "trap": "Кухню exprimerait plutôt la destination d’un mouvement. Кухня est la forme de base. Ici, готовит décrit une action déjà située dans la cuisine : кухне.",
+        "memory": "Position : на кухне. Mouvement vers : на кухню."
+      }
     },
     {
       "type": "text",
@@ -153,12 +232,22 @@
       "accepted": [
         "гостиной"
       ],
-      "explanation": "Le chapitre emploie в гостиной.",
+      "explanation": "В гостиной indique le lieu où la sœur est assise. Avec в exprimant une position fixe, гостиная prend la forme гостиной.",
       "suggestions": [
         "гостиная",
         "гостиной",
         "гостиную"
-      ]
+      ],
+      "lesson": {
+        "rule": "В гостиной indique le lieu où la sœur est assise. Avec в exprimant une position fixe, гостиная prend la forme гостиной.",
+        "observe": [
+          "гостиная — le salon",
+          "Она сидит в гостиной. — Elle est assise dans le salon.",
+          "Она идёт в гостиную. — Elle va dans le salon."
+        ],
+        "trap": "Гостиную exprimerait un déplacement vers le salon. Гостиная est la forme de base. Ici, сидит indique une position : гостиной.",
+        "memory": "Être/être assis quelque part → в гостиной. Aller vers → в гостиную."
+      }
     },
     {
       "type": "text",
@@ -169,7 +258,7 @@
       "accepted": [
         "семью"
       ],
-      "explanation": "La famille remerciée apparaît sous la forme семью.",
+      "explanation": "La famille reçoit directement l’action du verbe благодарит (« remercie »). Pour un nom féminin en -я comme семья, la terminaison devient ici -ю : семья → семью. Le mot всю confirme cette forme dans la phrase avec видит.",
       "suggestions": [
         "семья",
         "семьи",
@@ -177,7 +266,17 @@
         "семью",
         "семьёй",
         "семейный"
-      ]
+      ],
+      "lesson": {
+        "rule": "La famille reçoit directement l’action du verbe благодарит (« remercie »). Pour un nom féminin en -я comme семья, la terminaison devient ici -ю : семья → семью. Le mot всю confirme cette forme dans la phrase avec видит.",
+        "observe": [
+          "Это семья. — C’est une famille.",
+          "Тони видит семью. — Tony voit la famille.",
+          "Тони благодарит семью. — Tony remercie la famille."
+        ],
+        "trap": "Семье signifie généralement « à propos de / à la famille » selon la construction. Семьёй signifie « avec/par la famille ». Семьи peut signifier « de la famille » ou « les familles ». Ici, l’action touche directement la famille : семью.",
+        "memory": "Féminin en -я directement après une action : observe souvent -ю."
+      }
     },
     {
       "type": "text",
@@ -188,13 +287,23 @@
       "accepted": [
         "вечером"
       ],
-      "explanation": "Après доволен, la forme attendue est вечером.",
+      "explanation": "Доволен se construit avec ce dont une personne est satisfaite. Le mot вечер prend alors la forme вечером : доволен вечером, « satisfait de sa soirée ».",
       "suggestions": [
         "вечер",
         "вечера",
         "вечером",
         "вечерний"
-      ]
+      ],
+      "lesson": {
+        "rule": "Доволен se construit avec ce dont une personne est satisfaite. Le mot вечер prend alors la forme вечером : доволен вечером, « satisfait de sa soirée ».",
+        "observe": [
+          "вечер — la soirée",
+          "вечером — le soir / par la soirée selon la construction",
+          "Тони доволен вечером. — Tony est satisfait de sa soirée."
+        ],
+        "trap": "Вечера signifie souvent « de la soirée ». Вечере apparaît notamment après certaines prépositions. Ici, c’est la construction avec доволен qui demande вечером.",
+        "memory": "Après доволен, retiens le modèle : доволен вечером / доволен поездкой."
+      }
     },
     {
       "type": "text",
@@ -205,13 +314,23 @@
       "accepted": [
         "готова"
       ],
-      "explanation": "Комната est féminin : готова.",
+      "explanation": "Готов doit s’accorder avec la personne ou la chose décrite. Комната est féminin, donc готов devient готова.",
       "suggestions": [
         "готов",
         "готова",
         "готово",
         "готовы"
-      ]
+      ],
+      "lesson": {
+        "rule": "Готов doit s’accorder avec la personne ou la chose décrite. Комната est féminin, donc готов devient готова.",
+        "observe": [
+          "Он готов. — Il est prêt.",
+          "Она готова. — Elle est prête.",
+          "Комната готова. — La chambre est prête."
+        ],
+        "trap": "Готов est masculin, готово neutre et готовы pluriel. Ici, комната est féminin singulier.",
+        "memory": "Nom féminin → la forme courte se termine souvent par -а."
+      }
     }
   ]
 }

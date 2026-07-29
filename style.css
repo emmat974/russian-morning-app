@@ -179,3 +179,22 @@ h2 { font-size: clamp(1.45rem, 4vw, 2rem); }
   .choices { grid-template-columns: 1fr; }
   .ghost-btn { min-height: 44px; padding: 8px 12px; }
 }
+
+
+.lesson-block {
+  margin-top: 1rem;
+  display: grid;
+  gap: .9rem;
+}
+.lesson-block p { margin: 0; }
+.lesson-block ul { margin: .45rem 0 0 1.25rem; padding: 0; }
+.lesson-block li { margin: .3rem 0; }
+.lesson-block .memory {
+  padding: .75rem .9rem;
+  border-radius: .75rem;
+  background: rgba(96,165,250,.09);
+}
+.accent-reminder {
+  font-size: .9rem;
+  opacity: .72;
+}

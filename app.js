@@ -160,6 +160,32 @@ function checkText() {
   finishQuestion(correct, value);
 }
 
+function escapeHtml(value) {
+  return String(value ?? '')
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#039;');
+}
+
+function renderLesson(question, selected, correct) {
+  const lesson = question.lesson || { rule: question.explanation };
+  const observations = (lesson.observe || [])
+    .map(line => `<li>${escapeHtml(withoutStress(line))}</li>`)
+    .join('');
+  const selectedText = withoutStress(selected);
+  const answerText = withoutStress(question.answer);
+  return `
+    <div class="lesson-block">
+      <p><strong>Pourquoi cette forme ?</strong><br>${escapeHtml(withoutStress(lesson.rule || question.explanation))}</p>
+      ${!correct ? `<p><strong>Pourquoi « ${escapeHtml(selectedText)} » ne convient pas ?</strong><br>${escapeHtml(withoutStress(lesson.trap || 'Cette forme correspond à un autre rôle dans la phrase.'))}</p>` : ''}
+      ${observations ? `<div><strong>Compare :</strong><ul>${observations}</ul></div>` : ''}
+      ${lesson.memory ? `<p class="memory"><strong>À retenir :</strong> ${escapeHtml(withoutStress(lesson.memory))}</p>` : ''}
+      <p class="accent-reminder">Les accents affichés dans le cours servent uniquement à la prononciation. Ils ne sont jamais exigés dans ta saisie.</p>
+    </div>`;
+}
+
 function finishQuestion(correct, selected) {
   const question = state.questions[state.index];
   const displayedAnswer = withoutStress(question.answer);
@@ -168,18 +194,15 @@ function finishQuestion(correct, selected) {
   if (correct) {
     state.score += 1;
     $('feedback').className = 'feedback good';
-    const accentNote = selected !== question.answer && normalize(selected) === normalize(question.answer)
-      ? '<br><span class="muted">Les accents toniques sont seulement des repères de prononciation : ils ne sont pas obligatoires dans ta réponse.</span>'
-      : '';
-    $('feedback').innerHTML = `<strong>Correct.</strong> ${question.explanation}${accentNote}`;
+    $('feedback').innerHTML = `<strong>Correct.</strong>${renderLesson(question, selected, true)}`;
   } else {
     state.mistakes.push({ question, selected });
     $('feedback').className = 'feedback bad';
     $('feedback').innerHTML = `
       <strong>Piège.</strong><br>
-      Tu as écrit : <strong>${displayedSelected || '—'}</strong><br>
-      Forme attendue : <strong>${displayedAnswer}</strong><br>
-      ${question.explanation}
+      Tu as choisi : <strong>${escapeHtml(displayedSelected || '—')}</strong><br>
+      Forme attendue : <strong>${escapeHtml(displayedAnswer)}</strong>
+      ${renderLesson(question, selected, false)}
     `;
   }
   $('feedback').classList.remove('hidden');

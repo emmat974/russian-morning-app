@@ -7,108 +7,311 @@
       "label": "Choisis le mot exact",
       "prompt": "Сего́дня ___ То́ни приезжа́ет в Москву́.",
       "context": "Ce matin, Tony arrive à Moscou.",
-      "options": ["у́тро", "у́тром", "у́тра", "у́тренний", "ве́чером", "сего́дня"],
+      "options": [
+        "у́тро",
+        "у́тром",
+        "у́тра",
+        "у́тренний",
+        "ве́чером",
+        "сего́дня"
+      ],
       "answer": "у́тром",
-      "explanation": "Dans cette phrase, утром sert à situer l’action dans le temps : ce matin."
+      "explanation": "Pour indiquer le moment où une action se déroule, certains noms de moment prennent une forme spéciale. Утро (« le matin ») devient утром dans le sens « le matin / ce matin ».",
+      "lesson": {
+        "rule": "Pour indiquer le moment où une action se déroule, certains noms de moment prennent une forme spéciale. Утро (« le matin ») devient утром dans le sens « le matin / ce matin ».",
+        "observe": [
+          "утро — le matin (le nom)",
+          "Сегодня утром Тони приезжает. — Ce matin, Tony arrive.",
+          "вечер → вечером — le soir"
+        ],
+        "trap": "Утро nomme simplement le matin. Утра signifie souvent « du matin ». Утренний est l’adjectif « matinal ». Ici, la phrase demande le moment de l’action : утром.",
+        "memory": "Quand tu peux poser la question « quand ? », pense à утром ou вечером."
+      }
     },
     {
       "type": "choice",
       "label": "Choisis le mot exact",
       "prompt": "Алексе́й приглаша́ет То́ни к себе́ ___.",
       "context": "Alexeï invite Tony chez lui.",
-      "options": ["дом", "до́ма", "домо́й", "до́мом", "дома́шний", "дому"],
+      "options": [
+        "дом",
+        "до́ма",
+        "домо́й",
+        "до́мом",
+        "дома́шний",
+        "дому"
+      ],
       "answer": "домо́й",
-      "explanation": "Домой exprime ici le déplacement vers chez soi."
+      "explanation": "Домой exprime un mouvement vers la maison ou vers chez soi. Дома exprime au contraire une position : être à la maison.",
+      "lesson": {
+        "rule": "Домой exprime un mouvement vers la maison ou vers chez soi. Дома exprime au contraire une position : être à la maison.",
+        "observe": [
+          "Он идёт домой. — Il rentre chez lui.",
+          "Он дома. — Il est à la maison.",
+          "дом — la maison"
+        ],
+        "trap": "Дом est le nom « maison ». Дома signifie « à la maison ». Домашний signifie « domestique / fait maison ». Le verbe пригласить et l’idée de venir chez Alexeï imposent ici la direction : домой.",
+        "memory": "Mouvement vers la maison → домой. Position à la maison → дома."
+      }
     },
     {
       "type": "choice",
       "label": "Choisis le mot exact",
       "prompt": "В конце́ ве́чера Ири́на прино́сит ___ пиро́г.",
       "context": "Irina apporte une tarte faite maison.",
-      "options": ["дом", "до́ма", "домо́й", "дома́шний", "дома́шняя", "дома́шнее"],
+      "options": [
+        "дом",
+        "до́ма",
+        "домо́й",
+        "дома́шний",
+        "дома́шняя",
+        "дома́шнее"
+      ],
       "answer": "дома́шний",
-      "explanation": "Пирог est masculin : il faut donc домашний."
+      "explanation": "Домашний est un adjectif formé sur дом. Il signifie « domestique » ou « fait maison ». Il doit s’accorder avec le nom qu’il décrit.",
+      "lesson": {
+        "rule": "Домашний est un adjectif formé sur дом. Il signifie « domestique » ou « fait maison ». Il doit s’accorder avec le nom qu’il décrit.",
+        "observe": [
+          "домашний пирог — une tarte/un gâteau fait maison",
+          "домашняя еда — de la nourriture faite maison",
+          "домашнее задание — les devoirs"
+        ],
+        "trap": "Пирог est masculin, donc on choisit домашний. Дом, дома et домой ne sont pas des adjectifs et ne peuvent pas décrire пирог.",
+        "memory": "Le mot décrit un nom ? Cherche la forme adjectivale en -ий / -ая / -ее."
+      }
     },
     {
       "type": "choice",
       "label": "Choisis le mot exact",
       "prompt": "То́ни ви́дит всю ___ Алексе́я.",
       "context": "Tony voit toute la famille d’Alexeï.",
-      "options": ["семья́", "семьи́", "семье́", "семью́", "семьёй", "семе́йный"],
+      "options": [
+        "семья́",
+        "семьи́",
+        "семье́",
+        "семью́",
+        "семьёй",
+        "семе́йный"
+      ],
       "answer": "семью́",
-      "explanation": "Dans la phrase du chapitre, семья devient семью après видит."
+      "explanation": "La famille reçoit directement l’action du verbe видит (« voit »). Pour un nom féminin en -я comme семья, la terminaison devient ici -ю : семья → семью. Le mot всю confirme cette forme dans la phrase avec видит.",
+      "lesson": {
+        "rule": "La famille reçoit directement l’action du verbe видит (« voit »). Pour un nom féminin en -я comme семья, la terminaison devient ici -ю : семья → семью. Le mot всю confirme cette forme dans la phrase avec видит.",
+        "observe": [
+          "Это семья. — C’est une famille.",
+          "Тони видит семью. — Tony voit la famille.",
+          "Тони благодарит семью. — Tony remercie la famille."
+        ],
+        "trap": "Семье signifie généralement « à propos de / à la famille » selon la construction. Семьёй signifie « avec/par la famille ». Семьи peut signifier « de la famille » ou « les familles ». Ici, l’action touche directement la famille : семью.",
+        "memory": "Féminin en -я directement après une action : observe souvent -ю."
+      }
     },
     {
       "type": "choice",
       "label": "Choisis le mot exact",
       "prompt": "Алексе́й показыва́ет То́ни семе́йные ___.",
       "context": "Alexeï montre à Tony des photographies de famille.",
-      "options": ["фотогра́фия", "фотогра́фии", "фотогра́фию", "фотогра́фий", "фотогра́фией", "фотограф"],
+      "options": [
+        "фотогра́фия",
+        "фотогра́фии",
+        "фотогра́фию",
+        "фотогра́фий",
+        "фотогра́фией",
+        "фотограф"
+      ],
       "answer": "фотогра́фии",
-      "explanation": "Ici, фотографии désigne plusieurs photographies montrées par Alexeï."
+      "explanation": "Семейные indique plusieurs éléments et фотографии désigne ici plusieurs photographies. Dans cette phrase, фотографии est donc la forme plurielle qui reçoit directement l’action « montre ».",
+      "lesson": {
+        "rule": "Семейные indique plusieurs éléments et фотографии désigne ici plusieurs photographies. Dans cette phrase, фотографии est donc la forme plurielle qui reçoit directement l’action « montre ».",
+        "observe": [
+          "фотография — une photographie",
+          "семейные фотографии — des photographies de famille",
+          "Он показывает фотографии. — Il montre des photographies."
+        ],
+        "trap": "Фотография est singulier. Фотографию signifie « une photographie » comme objet direct. Фотографий signifie souvent « de photographies ». Le mot семейные impose ici le pluriel фотографии.",
+        "memory": "Regarde d’abord le mot qui accompagne le nom : семейные annonce un pluriel."
+      }
     },
     {
       "type": "choice",
       "label": "Choisis le mot exact",
       "prompt": "На одно́й ___ То́ни ви́дит двух дете́й.",
       "context": "Sur une photographie, Tony voit deux enfants.",
-      "options": ["фотогра́фия", "фотогра́фии", "фотогра́фию", "фотогра́фий", "фотогра́фией", "фотогра́фиях"],
+      "options": [
+        "фотогра́фия",
+        "фотогра́фии",
+        "фотогра́фию",
+        "фотогра́фий",
+        "фотогра́фией",
+        "фотогра́фиях"
+      ],
       "answer": "фотогра́фии",
-      "explanation": "Après на одной, le texte emploie фотографии. La forme ressemble au pluriel, ce qui constitue le piège."
+      "explanation": "Семейные indique plusieurs éléments et фотографии désigne ici plusieurs photographies. Dans cette phrase, фотографии est donc la forme plurielle qui reçoit directement l’action « montre ».",
+      "lesson": {
+        "rule": "Семейные indique plusieurs éléments et фотографии désigne ici plusieurs photographies. Dans cette phrase, фотографии est donc la forme plurielle qui reçoit directement l’action « montre ».",
+        "observe": [
+          "фотография — une photographie",
+          "семейные фотографии — des photographies de famille",
+          "Он показывает фотографии. — Il montre des photographies."
+        ],
+        "trap": "Фотография est singulier. Фотографию signifie « une photographie » comme objet direct. Фотографий signifie souvent « de photographies ». Le mot семейные impose ici le pluriel фотографии.",
+        "memory": "Regarde d’abord le mot qui accompagne le nom : семейные annonce un pluriel."
+      }
     },
     {
       "type": "choice",
       "label": "Choisis le mot exact",
       "prompt": "Его́ ___ ещё не гото́ва.",
       "context": "Sa chambre n’est pas encore prête.",
-      "options": ["ко́мната", "ко́мнату", "ко́мнате", "ко́мнаты", "ко́мнатой", "гости́ница"],
+      "options": [
+        "ко́мната",
+        "ко́мнату",
+        "ко́мнате",
+        "ко́мнаты",
+        "ко́мнатой",
+        "гости́ница"
+      ],
       "answer": "ко́мната",
-      "explanation": "Комната est ici le sujet de la phrase."
+      "explanation": "Комната est le sujet : c’est la chambre qui « n’est pas encore prête ». La forme de base est donc utilisée.",
+      "lesson": {
+        "rule": "Комната est le sujet : c’est la chambre qui « n’est pas encore prête ». La forme de base est donc utilisée.",
+        "observe": [
+          "Комната готова. — La chambre est prête.",
+          "Я вижу комнату. — Je vois la chambre.",
+          "Я в комнате. — Je suis dans la chambre."
+        ],
+        "trap": "Комнату serait la chambre recevant une action. Комнате s’emploie notamment après в pour une position. Ici, готова décrit directement комната.",
+        "memory": "Demande-toi : qui est prêt ? La chambre. Elle est donc le sujet."
+      }
     },
     {
       "type": "choice",
       "label": "Choisis le mot exact",
       "prompt": "То́ни зака́зывает чай и буты́лку ___.",
       "context": "Tony commande du thé et une bouteille d’eau.",
-      "options": ["вода́", "во́ду", "воды́", "водо́й", "воде́", "буты́лка"],
+      "options": [
+        "вода́",
+        "во́ду",
+        "воды́",
+        "водо́й",
+        "воде́",
+        "буты́лка"
+      ],
       "answer": "воды́",
-      "explanation": "Dans l’expression бутылку воды, la forme attendue est воды."
+      "explanation": "Après un récipient ou une quantité, le russe met souvent le contenu sous une forme qui correspond à « de… ». Бутылка воды signifie littéralement « une bouteille d’eau ».",
+      "lesson": {
+        "rule": "Après un récipient ou une quantité, le russe met souvent le contenu sous une forme qui correspond à « de… ». Бутылка воды signifie littéralement « une bouteille d’eau ».",
+        "observe": [
+          "бутылка воды — une bouteille d’eau",
+          "стакан воды — un verre d’eau",
+          "Тони пьёт воду. — Tony boit de l’eau."
+        ],
+        "trap": "Воду est utilisé quand l’eau reçoit directement l’action : пить воду, заказать воду. Ici, l’objet principal est бутылку et воды précise son contenu.",
+        "memory": "Récipient + contenu : pense « une bouteille DE quoi ? » → воды."
+      }
     },
     {
       "type": "choice",
       "label": "Choisis le mot exact",
       "prompt": "Его́ па́па гото́вит у́жин на ___.",
       "context": "Son père prépare le dîner dans la cuisine.",
-      "options": ["ку́хня", "ку́хню", "ку́хне", "ку́хни", "ку́хней", "гости́ной"],
+      "options": [
+        "ку́хня",
+        "ку́хню",
+        "ку́хне",
+        "ку́хни",
+        "ку́хней",
+        "гости́ной"
+      ],
       "answer": "ку́хне",
-      "explanation": "Après на pour indiquer le lieu, le chapitre utilise на кухне."
+      "explanation": "На кухне indique un lieu où l’action se déroule : le père est dans la cuisine. Pour une position fixe après на, кухня devient кухне.",
+      "lesson": {
+        "rule": "На кухне indique un lieu où l’action se déroule : le père est dans la cuisine. Pour une position fixe après на, кухня devient кухне.",
+        "observe": [
+          "Он на кухне. — Il est dans la cuisine.",
+          "Он идёт на кухню. — Il va dans la cuisine."
+        ],
+        "trap": "Кухню exprimerait plutôt la destination d’un mouvement. Кухня est la forme de base. Ici, готовит décrit une action déjà située dans la cuisine : кухне.",
+        "memory": "Position : на кухне. Mouvement vers : на кухню."
+      }
     },
     {
       "type": "choice",
       "label": "Choisis le mot exact",
       "prompt": "Его́ мла́дшая сестра́ сиди́т в ___ и чита́ет кни́гу.",
       "context": "Sa petite sœur est assise dans le salon et lit un livre.",
-      "options": ["гости́ная", "гости́ную", "гости́ной", "гости́нице", "гости́ницы", "ку́хне"],
+      "options": [
+        "гости́ная",
+        "гости́ную",
+        "гости́ной",
+        "гости́нице",
+        "гости́ницы",
+        "ку́хне"
+      ],
       "answer": "гости́ной",
-      "explanation": "Dans в гостиной, гостиной indique le lieu où elle se trouve."
+      "explanation": "В гостиной indique le lieu où la sœur est assise. Avec в exprimant une position fixe, гостиная prend la forme гостиной.",
+      "lesson": {
+        "rule": "В гостиной indique le lieu où la sœur est assise. Avec в exprimant une position fixe, гостиная prend la forme гостиной.",
+        "observe": [
+          "гостиная — le salon",
+          "Она сидит в гостиной. — Elle est assise dans le salon.",
+          "Она идёт в гостиную. — Elle va dans le salon."
+        ],
+        "trap": "Гостиную exprimerait un déplacement vers le salon. Гостиная est la forme de base. Ici, сидит indique une position : гостиной.",
+        "memory": "Être/être assis quelque part → в гостиной. Aller vers → в гостиную."
+      }
     },
     {
       "type": "choice",
       "label": "Choisis le mot exact",
       "prompt": "То́ни благодари́т ___ за тёплый приём.",
       "context": "Tony remercie la famille pour son accueil chaleureux.",
-      "options": ["семья́", "семьи́", "семье́", "семью́", "семьёй", "семе́йный"],
+      "options": [
+        "семья́",
+        "семьи́",
+        "семье́",
+        "семью́",
+        "семьёй",
+        "семе́йный"
+      ],
       "answer": "семью́",
-      "explanation": "Благодарить porte ici sur la famille : le texte emploie семью."
+      "explanation": "La famille reçoit directement l’action du verbe благодарит (« remercie »). Pour un nom féminin en -я comme семья, la terminaison devient ici -ю : семья → семью. Le mot всю confirme cette forme dans la phrase avec видит.",
+      "lesson": {
+        "rule": "La famille reçoit directement l’action du verbe благодарит (« remercie »). Pour un nom féminin en -я comme семья, la terminaison devient ici -ю : семья → семью. Le mot всю confirme cette forme dans la phrase avec видит.",
+        "observe": [
+          "Это семья. — C’est une famille.",
+          "Тони видит семью. — Tony voit la famille.",
+          "Тони благодарит семью. — Tony remercie la famille."
+        ],
+        "trap": "Семье signifie généralement « à propos de / à la famille » selon la construction. Семьёй signifie « avec/par la famille ». Семьи peut signifier « de la famille » ou « les familles ». Ici, l’action touche directement la famille : семью.",
+        "memory": "Féminin en -я directement après une action : observe souvent -ю."
+      }
     },
     {
       "type": "choice",
       "label": "Choisis le mot exact",
       "prompt": "То́ни дово́лен ___.",
       "context": "Tony est satisfait de sa soirée.",
-      "options": ["ве́чер", "ве́чера", "ве́черу", "ве́чером", "ве́чере", "ве́черний"],
+      "options": [
+        "ве́чер",
+        "ве́чера",
+        "ве́черу",
+        "ве́чером",
+        "ве́чере",
+        "ве́черний"
+      ],
       "answer": "ве́чером",
-      "explanation": "Après доволен, le chapitre emploie вечером."
+      "explanation": "Доволен se construit avec ce dont une personne est satisfaite. Le mot вечер prend alors la forme вечером : доволен вечером, « satisfait de sa soirée ».",
+      "lesson": {
+        "rule": "Доволен se construit avec ce dont une personne est satisfaite. Le mot вечер prend alors la forme вечером : доволен вечером, « satisfait de sa soirée ».",
+        "observe": [
+          "вечер — la soirée",
+          "вечером — le soir / par la soirée selon la construction",
+          "Тони доволен вечером. — Tony est satisfait de sa soirée."
+        ],
+        "trap": "Вечера signifie souvent « de la soirée ». Вечере apparaît notamment après certaines prépositions. Ici, c’est la construction avec доволен qui demande вечером.",
+        "memory": "Après доволен, retiens le modèle : доволен вечером / доволен поездкой."
+      }
     }
   ]
 }

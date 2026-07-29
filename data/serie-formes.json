@@ -7,90 +7,238 @@
       "label": "Compléter la phrase",
       "prompt": "Сего́дня ___ То́ни приезжа́ет в Москву́.",
       "context": "Ce matin, Tony arrive à Moscou.",
-      "options": ["у́тро", "у́тром", "у́тра", "ве́чером"],
+      "options": [
+        "у́тро",
+        "у́тром",
+        "у́тра",
+        "ве́чером"
+      ],
       "answer": "у́тром",
-      "explanation": "утром indique ici le moment où l’action se déroule."
+      "explanation": "Pour indiquer le moment où une action se déroule, certains noms de moment prennent une forme spéciale. Утро (« le matin ») devient утром dans le sens « le matin / ce matin ».",
+      "lesson": {
+        "rule": "Pour indiquer le moment où une action se déroule, certains noms de moment prennent une forme spéciale. Утро (« le matin ») devient утром dans le sens « le matin / ce matin ».",
+        "observe": [
+          "утро — le matin (le nom)",
+          "Сегодня утром Тони приезжает. — Ce matin, Tony arrive.",
+          "вечер → вечером — le soir"
+        ],
+        "trap": "Утро nomme simplement le matin. Утра signifie souvent « du matin ». Утренний est l’adjectif « matinal ». Ici, la phrase demande le moment de l’action : утром.",
+        "memory": "Quand tu peux poser la question « quand ? », pense à утром ou вечером."
+      }
     },
     {
       "type": "choice",
       "label": "Compléter la phrase",
       "prompt": "Алексе́й приглаша́ет То́ни к себе́ ___.",
       "context": "Alexeï invite Tony chez lui.",
-      "options": ["дом", "до́ма", "домо́й", "дома́шний"],
+      "options": [
+        "дом",
+        "до́ма",
+        "домо́й",
+        "дома́шний"
+      ],
       "answer": "домо́й",
-      "explanation": "домой contient une idée de direction vers chez soi. дома signifie plutôt à la maison."
+      "explanation": "Домой exprime un mouvement vers la maison ou vers chez soi. Дома exprime au contraire une position : être à la maison.",
+      "lesson": {
+        "rule": "Домой exprime un mouvement vers la maison ou vers chez soi. Дома exprime au contraire une position : être à la maison.",
+        "observe": [
+          "Он идёт домой. — Il rentre chez lui.",
+          "Он дома. — Il est à la maison.",
+          "дом — la maison"
+        ],
+        "trap": "Дом est le nom « maison ». Дома signifie « à la maison ». Домашний signifie « domestique / fait maison ». Le verbe пригласить et l’idée de venir chez Alexeï imposent ici la direction : домой.",
+        "memory": "Mouvement vers la maison → домой. Position à la maison → дома."
+      }
     },
     {
       "type": "choice",
       "label": "Compléter la phrase",
       "prompt": "В конце́ ве́чера Ири́на прино́сит ___ пиро́г.",
       "context": "Irina apporte une tarte faite maison.",
-      "options": ["дом", "до́ма", "домо́й", "дома́шний"],
+      "options": [
+        "дом",
+        "до́ма",
+        "домо́й",
+        "дома́шний"
+      ],
       "answer": "дома́шний",
-      "explanation": "домашний est ici un adjectif : fait maison."
+      "explanation": "Домашний est un adjectif formé sur дом. Il signifie « domestique » ou « fait maison ». Il doit s’accorder avec le nom qu’il décrit.",
+      "lesson": {
+        "rule": "Домашний est un adjectif formé sur дом. Il signifie « domestique » ou « fait maison ». Il doit s’accorder avec le nom qu’il décrit.",
+        "observe": [
+          "домашний пирог — une tarte/un gâteau fait maison",
+          "домашняя еда — de la nourriture faite maison",
+          "домашнее задание — les devoirs"
+        ],
+        "trap": "Пирог est masculin, donc on choisit домашний. Дом, дома et домой ne sont pas des adjectifs et ne peuvent pas décrire пирог.",
+        "memory": "Le mot décrit un nom ? Cherche la forme adjectivale en -ий / -ая / -ее."
+      }
     },
     {
       "type": "choice",
       "label": "Compléter la phrase",
       "prompt": "То́ни ви́дит всю ___ Алексе́я.",
       "context": "Tony voit toute la famille d’Alexeï.",
-      "options": ["семья́", "семьи́", "семью́", "семе́йную"],
+      "options": [
+        "семья́",
+        "семьи́",
+        "семью́",
+        "семе́йную"
+      ],
       "answer": "семью́",
-      "explanation": "Après видеть, семья apparaît ici sous la forme семью."
+      "explanation": "La famille reçoit directement l’action du verbe видит (« voit »). Pour un nom féminin en -я comme семья, la terminaison devient ici -ю : семья → семью. Le mot всю confirme cette forme dans la phrase avec видит.",
+      "lesson": {
+        "rule": "La famille reçoit directement l’action du verbe видит (« voit »). Pour un nom féminin en -я comme семья, la terminaison devient ici -ю : семья → семью. Le mot всю confirme cette forme dans la phrase avec видит.",
+        "observe": [
+          "Это семья. — C’est une famille.",
+          "Тони видит семью. — Tony voit la famille.",
+          "Тони благодарит семью. — Tony remercie la famille."
+        ],
+        "trap": "Семье signifie généralement « à propos de / à la famille » selon la construction. Семьёй signifie « avec/par la famille ». Семьи peut signifier « de la famille » ou « les familles ». Ici, l’action touche directement la famille : семью.",
+        "memory": "Féminin en -я directement après une action : observe souvent -ю."
+      }
     },
     {
       "type": "choice",
       "label": "Compléter la phrase",
       "prompt": "Алексе́й показыва́ет То́ни семе́йные ___.",
       "context": "Alexeï montre à Tony des photographies de famille.",
-      "options": ["фотогра́фия", "фотогра́фии", "фотогра́фию", "фотогра́фий"],
+      "options": [
+        "фотогра́фия",
+        "фотогра́фии",
+        "фотогра́фию",
+        "фотогра́фий"
+      ],
       "answer": "фотогра́фии",
-      "explanation": "Ici on parle de plusieurs photographies et la forme attendue est фотографии."
+      "explanation": "Семейные indique plusieurs éléments et фотографии désigne ici plusieurs photographies. Dans cette phrase, фотографии est donc la forme plurielle qui reçoit directement l’action « montre ».",
+      "lesson": {
+        "rule": "Семейные indique plusieurs éléments et фотографии désigne ici plusieurs photographies. Dans cette phrase, фотографии est donc la forme plurielle qui reçoit directement l’action « montre ».",
+        "observe": [
+          "фотография — une photographie",
+          "семейные фотографии — des photographies de famille",
+          "Он показывает фотографии. — Il montre des photographies."
+        ],
+        "trap": "Фотография est singulier. Фотографию signifie « une photographie » comme objet direct. Фотографий signifie souvent « de photographies ». Le mot семейные impose ici le pluriel фотографии.",
+        "memory": "Regarde d’abord le mot qui accompagne le nom : семейные annonce un pluriel."
+      }
     },
     {
       "type": "choice",
       "label": "Compléter la phrase",
       "prompt": "На одно́й ___ То́ни ви́дит двух дете́й.",
       "context": "Sur une photographie, Tony voit deux enfants.",
-      "options": ["фотогра́фия", "фотогра́фии", "фотогра́фию", "фотогра́фий"],
+      "options": [
+        "фотогра́фия",
+        "фотогра́фии",
+        "фотогра́фию",
+        "фотогра́фий"
+      ],
       "answer": "фотогра́фии",
-      "explanation": "Après на одной, le texte utilise фотографии. Le piège vient du fait que la forme ressemble au pluriel."
+      "explanation": "Семейные indique plusieurs éléments et фотографии désigne ici plusieurs photographies. Dans cette phrase, фотографии est donc la forme plurielle qui reçoit directement l’action « montre ».",
+      "lesson": {
+        "rule": "Семейные indique plusieurs éléments et фотографии désigne ici plusieurs photographies. Dans cette phrase, фотографии est donc la forme plurielle qui reçoit directement l’action « montre ».",
+        "observe": [
+          "фотография — une photographie",
+          "семейные фотографии — des photographies de famille",
+          "Он показывает фотографии. — Il montre des photographies."
+        ],
+        "trap": "Фотография est singulier. Фотографию signifie « une photographie » comme objet direct. Фотографий signifie souvent « de photographies ». Le mot семейные impose ici le pluriel фотографии.",
+        "memory": "Regarde d’abord le mot qui accompagne le nom : семейные annonce un pluriel."
+      }
     },
     {
       "type": "choice",
       "label": "Compléter la phrase",
       "prompt": "Его́ ко́мната ещё не ___.",
       "context": "Sa chambre n’est pas encore prête.",
-      "options": ["гото́в", "гото́ва", "гото́во", "гото́вы"],
+      "options": [
+        "гото́в",
+        "гото́ва",
+        "гото́во",
+        "гото́вы"
+      ],
       "answer": "гото́ва",
-      "explanation": "комната est féminin, donc готов devient готова."
+      "explanation": "Готов doit s’accorder avec la personne ou la chose décrite. Комната est féminin, donc готов devient готова.",
+      "lesson": {
+        "rule": "Готов doit s’accorder avec la personne ou la chose décrite. Комната est féminin, donc готов devient готова.",
+        "observe": [
+          "Он готов. — Il est prêt.",
+          "Она готова. — Elle est prête.",
+          "Комната готова. — La chambre est prête."
+        ],
+        "trap": "Готов est masculin, готово neutre et готовы pluriel. Ici, комната est féminin singulier.",
+        "memory": "Nom féminin → la forme courte se termine souvent par -а."
+      }
     },
     {
       "type": "choice",
       "label": "Compléter la phrase",
       "prompt": "Он немно́го уста́л, но о́чень ___.",
       "context": "Il est un peu fatigué, mais très heureux.",
-      "options": ["рада", "рад", "рады", "ра́дость"],
+      "options": [
+        "рада",
+        "рад",
+        "рады",
+        "ра́дость"
+      ],
       "answer": "рад",
-      "explanation": "Tony est masculin : рад. рада serait la forme féminine."
+      "explanation": "Рад est la forme masculine courte de « content / heureux ». Le sujet Тони / он est masculin.",
+      "lesson": {
+        "rule": "Рад est la forme masculine courte de « content / heureux ». Le sujet Тони / он est masculin.",
+        "observe": [
+          "Он рад. — Il est content.",
+          "Она рада. — Elle est contente."
+        ],
+        "trap": "Рада est féminin, рады pluriel et радо neutre. Ici, он impose рад.",
+        "memory": "Он → рад ; она → рада."
+      }
     },
     {
       "type": "choice",
       "label": "Compléter la phrase",
       "prompt": "Э́то моя́ ба́бушка. Она́ о́чень ___.",
       "context": "C’est ma grand-mère. Elle est très gentille.",
-      "options": ["до́брый", "до́брая", "до́брое", "до́брые"],
+      "options": [
+        "до́брый",
+        "до́брая",
+        "до́брое",
+        "до́брые"
+      ],
       "answer": "до́брая",
-      "explanation": "бабушка est féminin : добрая."
+      "explanation": "Добрая est l’adjectif féminin singulier parce qu’il décrit она / бабушка.",
+      "lesson": {
+        "rule": "Добрая est l’adjectif féminin singulier parce qu’il décrit она / бабушка.",
+        "observe": [
+          "добрый мужчина — un homme gentil",
+          "добрая бабушка — une grand-mère gentille",
+          "добрые люди — des gens gentils"
+        ],
+        "trap": "Добрый est masculin, доброе neutre et добрые pluriel. Она impose la forme féminine добрая.",
+        "memory": "Она / nom féminin → adjectif souvent en -ая."
+      }
     },
     {
       "type": "choice",
       "label": "Compléter la phrase",
       "prompt": "То́ни благодари́т семью́ за тёплый ___.",
       "context": "Tony remercie la famille pour son accueil chaleureux.",
-      "options": ["приём", "приёма", "приёму", "приёмом"],
+      "options": [
+        "приём",
+        "приёма",
+        "приёму",
+        "приёмом"
+      ],
       "answer": "приём",
-      "explanation": "Dans l’expression за тёплый приём, le texte emploie приём."
+      "explanation": "Тёплый et приём forment l’expression тёплый приём, « accueil chaleureux ». Les deux mots sont au masculin singulier.",
+      "lesson": {
+        "rule": "Тёплый et приём forment l’expression тёплый приём, « accueil chaleureux ». Les deux mots sont au masculin singulier.",
+        "observe": [
+          "тёплый приём — un accueil chaleureux",
+          "приём — accueil / réception"
+        ],
+        "trap": "Приёма ou приёме apparaîtraient dans d’autres constructions. Ici, тёплый décrit directement le nom de base приём.",
+        "memory": "Un adjectif masculin en -ый accompagne ici un nom masculin sans modification : приём."
+      }
     }
   ]
 }
