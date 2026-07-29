@@ -19,8 +19,8 @@
 
     <section id="startScreen" class="panel center-panel">
       <p id="setLabel" class="set-label">Chargement…</p>
-      <h2>Une courte série pour automatiser les formes.</h2>
-      <p class="muted">La phrase est ton principal indice. Les pièges utilisent souvent plusieurs formes du même mot.</p>
+      <h2>Une série qui mélange les chapitres, les dialogues et les façons de répondre.</h2>
+      <p class="muted">La difficulté augmente au fil des questions. Une erreur importante revient plus loin sous une autre forme.</p>
       <button id="startBtn" class="primary-btn" type="button" disabled>Commencer</button>
     </section>
 
@@ -44,6 +44,15 @@
         <label for="answerInput">Recopie la forme correcte</label>
         <input id="answerInput" type="text" autocomplete="off" autocapitalize="off" spellcheck="false" />
         <button id="validateBtn" class="primary-btn" type="button">Valider</button>
+      </div>
+
+      <div id="orderMode" class="hidden order-mode">
+        <div id="builtSentence" class="built-sentence">Ta phrase apparaîtra ici.</div>
+        <div id="orderTokens" class="word-bank-list order-tokens"></div>
+        <div class="order-actions">
+          <button id="undoOrderBtn" class="ghost-btn" type="button">Annuler le dernier mot</button>
+          <button id="validateOrderBtn" class="primary-btn" type="button">Valider la phrase</button>
+        </div>
       </div>
 
       <div id="feedback" class="feedback hidden"></div>
