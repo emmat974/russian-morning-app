@@ -189,7 +189,7 @@ function prepareVariant(base, variant, difficulty, isRevision = false) {
     question.renderType = 'choice';
     question.displayLabel = difficulty === 1 ? 'Choisis la bonne forme' : 'Complète sans te fier à la traduction';
     question.displayPrompt = withoutStress(base.prompt);
-    question.displayContext = difficulty === 1 ? translation : '';
+    question.displayContext = translation ? `Contexte : ${translation}` : 'Observe la phrase complète pour retrouver la forme attendue.';
     question.renderOptions = options;
     question.expected = base.answer;
   }
@@ -198,7 +198,7 @@ function prepareVariant(base, variant, difficulty, isRevision = false) {
     question.renderType = 'text';
     question.displayLabel = 'Écris la forme proposée qui convient';
     question.displayPrompt = withoutStress(base.prompt);
-    question.displayContext = translation;
+    question.displayContext = translation ? `Contexte : ${translation}` : 'Observe le sens général de la phrase.';
     question.showSuggestions = true;
     question.renderOptions = options;
     question.expected = base.answer;
@@ -208,7 +208,7 @@ function prepareVariant(base, variant, difficulty, isRevision = false) {
     question.renderType = 'text';
     question.displayLabel = isRevision ? 'Révision : retrouve la bonne forme' : 'Écris sans banque de mots';
     question.displayPrompt = withoutStress(base.prompt);
-    question.displayContext = difficulty < 3 ? translation : '';
+    question.displayContext = translation ? `Contexte : ${translation}` : 'Retrouve le mot exact utilisé dans le chapitre.';
     question.showSuggestions = false;
     question.expected = base.answer;
   }
@@ -218,7 +218,7 @@ function prepareVariant(base, variant, difficulty, isRevision = false) {
     question.renderType = 'text';
     question.displayLabel = 'Corrige le mot qui ne convient pas';
     question.displayPrompt = fullSentence.replace(withoutStress(base.answer), wrong);
-    question.displayContext = difficulty === 1 ? translation : 'Recopie uniquement le mot corrigé.';
+    question.displayContext = translation ? `Contexte : ${translation} · Recopie uniquement le mot corrigé.` : 'Recopie uniquement le mot corrigé.';
     question.showSuggestions = difficulty === 1;
     question.renderOptions = options;
     question.expected = base.answer;
@@ -242,7 +242,7 @@ function prepareVariant(base, variant, difficulty, isRevision = false) {
     question.renderType = 'order';
     question.displayLabel = 'Remets la phrase dans l’ordre';
     question.displayPrompt = translation;
-    question.displayContext = difficulty === 1 ? 'Appuie sur les blocs dans le bon ordre.' : '';
+    question.displayContext = 'Appuie sur les blocs dans le bon ordre.';
     question.orderTokens = tokenizeSentence(fullSentence);
     question.expected = fullSentence;
   }
@@ -293,6 +293,7 @@ function renderQuestion() {
   $('questionType').textContent = `${question.displayLabel}${question.isRevision ? ' · erreur revue' : ''}`;
   $('questionPrompt').textContent = question.displayPrompt;
   $('questionContext').textContent = question.displayContext || '';
+  $('questionContext').classList.toggle('hidden', !question.displayContext);
 
   if (question.renderType === 'choice') {
     shuffle(question.renderOptions).forEach(option => {
@@ -323,6 +324,8 @@ function renderQuestion() {
       $('wordBank').appendChild(list);
       $('wordBank').classList.remove('hidden');
     }
+    const inputLabel = document.querySelector('label[for="answerInput"]');
+    inputLabel.textContent = question.showSuggestions ? 'Recopie la forme correcte' : 'Écris le mot manquant';
     setTimeout(() => $('answerInput').focus(), 50);
   }
 
