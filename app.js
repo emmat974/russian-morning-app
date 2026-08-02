@@ -89,17 +89,27 @@ async function loadBanks() {
   $('translationModeBtn').disabled = true;
 
   try {
-    const [courseBanks, translationData] = await Promise.all([
-      Promise.all(DATA_FILES.map(async file => {
-        const response = await fetch(file, { cache: 'no-store' });
-        if (!response.ok) throw new Error(`${file}: HTTP ${response.status}`);
-        return response.json();
-      })),
-      fetch(TRANSLATION_DATA_FILE, { cache: 'no-store' }).then(response => {
-        if (!response.ok) throw new Error(`${TRANSLATION_DATA_FILE}: HTTP ${response.status}`);
-        return response.json();
-      })
-    ]);
+    let courseBanks;
+    let translationData;
+
+    // Les données intégrées permettent aussi d’ouvrir index.html directement
+    // depuis le disque, où les navigateurs bloquent souvent fetch(file://...).
+    if (window.RUSSIAN_APP_DATA) {
+      courseBanks = window.RUSSIAN_APP_DATA.courseBanks;
+      translationData = window.RUSSIAN_APP_DATA.translationData;
+    } else {
+      [courseBanks, translationData] = await Promise.all([
+        Promise.all(DATA_FILES.map(async file => {
+          const response = await fetch(file, { cache: 'no-store' });
+          if (!response.ok) throw new Error(`${file}: HTTP ${response.status}`);
+          return response.json();
+        })),
+        fetch(TRANSLATION_DATA_FILE, { cache: 'no-store' }).then(response => {
+          if (!response.ok) throw new Error(`${TRANSLATION_DATA_FILE}: HTTP ${response.status}`);
+          return response.json();
+        })
+      ]);
+    }
 
     state.banks = courseBanks;
     state.translationSeries = translationData.series || [];
@@ -120,7 +130,7 @@ async function loadBanks() {
     $('loadingLabel').textContent = `${state.allQuestions.length} questions de cours · ${state.translationSeries.length} séries de traduction`;
   } catch (error) {
     console.warn('Impossible de charger les banques', error);
-    $('loadingLabel').textContent = 'Erreur de chargement. Ouvre l’application via GitHub Pages ou un petit serveur web.';
+    $('loadingLabel').textContent = 'Erreur de chargement des exercices.';
   }
 }
 

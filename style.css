@@ -266,3 +266,8 @@ h2 { font-size: clamp(1.45rem, 4vw, 2rem); }
   .mode-grid, .series-grid { grid-template-columns: 1fr; }
   .mode-card, .series-card { min-height: 120px; }
 }
+.mode-card:disabled,
+.series-card:disabled {
+  cursor: wait;
+  opacity: .55;
+}
