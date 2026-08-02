@@ -21,3 +21,17 @@ Le menu principal sépare maintenant deux parcours :
 - **Exercices de traduction** : saisie d’une phrase française complète en russe.
 
 Les séries de traduction sont stockées séparément dans `data/series-traduction.json`. Elles couvrent actuellement : dire, demander, travailler, inviter, voir, aimer, avoir et aller/venir. Chaque série varie les pronoms, les rôles dans la phrase, les temps et les compléments afin de créer des automatismes.
+
+## Correcteur de traduction sans IA
+
+Le mode « Exercices de traduction » compare désormais la réponse mot par mot :
+
+- phrase incomplète détectée sans terminer immédiatement la question ;
+- petites fautes d’orthographe reconnues ;
+- mots corrects, proches, incorrects et manquants affichés séparément ;
+- bouton pour révéler uniquement le prochain mot ;
+- bouton « Je ne sais pas » ;
+- demi-point pour une réponse presque correcte ou terminée avec un indice ;
+- bilan de session distinguant orthographe, vocabulaire et structure.
+
+Tout fonctionne localement, sans API et sans intelligence artificielle.

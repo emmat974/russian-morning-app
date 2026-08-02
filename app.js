@@ -22,7 +22,9 @@ const state = {
   mistakes: [],
   answered: false,
   currentBuiltAnswer: [],
-  persistentMistakes: loadMistakeMemory()
+  persistentMistakes: loadMistakeMemory(),
+  currentHintUsed: false,
+  diagnostics: { orthography: 0, vocabulary: 0, grammar: 0 }
 };
 
 const $ = id => document.getElementById(id);
@@ -41,6 +43,98 @@ function normalize(value) {
     .replace(/[.,!?;:«»"'’`—–-]/g, '')
     .replace(/\s+/g, ' ')
     .trim();
+}
+
+function normalizedWords(value) {
+  const cleaned = normalize(value);
+  return cleaned ? cleaned.split(' ') : [];
+}
+
+function levenshtein(a, b) {
+  const left = String(a || '');
+  const right = String(b || '');
+  const rows = right.length + 1;
+  const cols = left.length + 1;
+  const matrix = Array.from({ length: rows }, () => Array(cols).fill(0));
+  for (let i = 0; i < rows; i += 1) matrix[i][0] = i;
+  for (let j = 0; j < cols; j += 1) matrix[0][j] = j;
+  for (let i = 1; i < rows; i += 1) {
+    for (let j = 1; j < cols; j += 1) {
+      const cost = right[i - 1] === left[j - 1] ? 0 : 1;
+      matrix[i][j] = Math.min(
+        matrix[i - 1][j] + 1,
+        matrix[i][j - 1] + 1,
+        matrix[i - 1][j - 1] + cost
+      );
+    }
+  }
+  return matrix[rows - 1][cols - 1];
+}
+
+function analyzeTranslation(userValue, expectedValue) {
+  const userWords = normalizedWords(userValue);
+  const expectedWords = normalizedWords(expectedValue);
+  const tokens = [];
+  let exact = 0;
+  let close = 0;
+  let wrong = 0;
+
+  const max = Math.max(userWords.length, expectedWords.length);
+  for (let i = 0; i < max; i += 1) {
+    const user = userWords[i];
+    const expected = expectedWords[i];
+    if (user === undefined && expected !== undefined) {
+      tokens.push({ status: 'missing', user: '', expected });
+      continue;
+    }
+    if (expected === undefined && user !== undefined) {
+      tokens.push({ status: 'wrong', user, expected: '' });
+      wrong += 1;
+      continue;
+    }
+    if (user === expected) {
+      tokens.push({ status: 'correct', user, expected });
+      exact += 1;
+      continue;
+    }
+    const distance = levenshtein(user, expected);
+    const tolerance = expected.length >= 7 ? 2 : 1;
+    if (distance <= tolerance) {
+      tokens.push({ status: 'close', user, expected });
+      close += 1;
+    } else {
+      tokens.push({ status: 'wrong', user, expected });
+      wrong += 1;
+    }
+  }
+
+  const missing = Math.max(0, expectedWords.length - userWords.length);
+  const isPrefix = userWords.every((word, index) => word === expectedWords[index]);
+  const completion = expectedWords.length ? exact / expectedWords.length : 0;
+  return {
+    userWords,
+    expectedWords,
+    tokens,
+    exact,
+    close,
+    wrong,
+    missing,
+    isPrefix,
+    completion,
+    isExact: normalize(userValue) === normalize(expectedValue),
+    isNear: wrong === 0 && close > 0 && missing === 0 && userWords.length === expectedWords.length
+  };
+}
+
+function renderTokenAnalysis(analysis) {
+  return `<div class="translation-analysis">${analysis.tokens.map(token => {
+    const shown = token.status === 'missing'
+      ? `… → ${token.expected}`
+      : token.status === 'close'
+        ? `${token.user} → ${token.expected}`
+        : token.user || token.expected;
+    return `<span class="analysis-token ${token.status}">${escapeHtml(shown)}</span>`;
+  }).join('')}</div>`;
 }
 
 function withoutStress(value) {
@@ -339,6 +433,8 @@ function startSession() {
   state.index = 0;
   state.score = 0;
   state.mistakes = [];
+  state.currentHintUsed = false;
+  state.diagnostics = { orthography: 0, vocabulary: 0, grammar: 0 };
   renderQuestion();
   showScreen('quizScreen');
 }
@@ -362,6 +458,7 @@ function openModeScreen() {
 function resetQuestionUi() {
   state.answered = false;
   state.currentBuiltAnswer = [];
+  state.currentHintUsed = false;
   $('feedback').className = 'feedback hidden';
   $('nextBtn').classList.add('hidden');
   $('choices').innerHTML = '';
@@ -373,6 +470,7 @@ function resetQuestionUi() {
   $('wordBank').innerHTML = '';
   $('answerInput').value = '';
   $('answerInput').disabled = false;
+  $('translationActions').classList.add('hidden');
   $('validateBtn').disabled = false;
   $('validateOrderBtn').disabled = false;
 }
@@ -421,6 +519,7 @@ function renderQuestion() {
     inputLabel.textContent = question.variant === 'translationText'
       ? 'Ta traduction en russe'
       : question.showSuggestions ? 'Recopie la forme correcte' : 'Écris le mot manquant';
+    $('translationActions').classList.toggle('hidden', question.variant !== 'translationText');
     setTimeout(() => $('answerInput').focus(), 50);
   }
 
@@ -476,11 +575,95 @@ function checkText() {
   if (!value.trim()) return;
   const question = state.questions[state.index];
   const accepted = [question.expected, question.answer, ...(question.accepted || [])];
+
+  if (question.variant === 'translationText') {
+    const exactAnswer = accepted.find(answer => normalize(answer) === normalize(value));
+    if (exactAnswer) {
+      state.answered = true;
+      $('answerInput').disabled = true;
+      $('validateBtn').disabled = true;
+      finishQuestion(true, value, state.currentHintUsed ? 0.5 : 1, null);
+      return;
+    }
+
+    const analyses = accepted.map(answer => ({ answer, analysis: analyzeTranslation(value, answer) }));
+    analyses.sort((a, b) => {
+      const aScore = a.analysis.exact * 3 + a.analysis.close - a.analysis.wrong * 2 - a.analysis.missing;
+      const bScore = b.analysis.exact * 3 + b.analysis.close - b.analysis.wrong * 2 - b.analysis.missing;
+      return bScore - aScore;
+    });
+    const best = analyses[0];
+    const analysis = best.analysis;
+
+    if (analysis.isPrefix && analysis.missing > 0) {
+      state.diagnostics.vocabulary += 1;
+      $('feedback').className = 'feedback partial';
+      $('feedback').innerHTML = `
+        <strong>Le début est correct.</strong>
+        <p>Il manque encore ${analysis.missing} mot${analysis.missing > 1 ? 's' : ''}. Continue la phrase sans tout recommencer.</p>
+        ${renderTokenAnalysis(analysis)}
+      `;
+      $('feedback').classList.remove('hidden');
+      return;
+    }
+
+    if (analysis.isNear) {
+      state.diagnostics.orthography += 1;
+      state.answered = true;
+      $('answerInput').disabled = true;
+      $('validateBtn').disabled = true;
+      finishQuestion(false, value, 0.5, analysis, 'orthography');
+      return;
+    }
+
+    const hasClose = analysis.close > 0;
+    const category = hasClose ? 'orthography' : (analysis.missing > 0 ? 'vocabulary' : 'grammar');
+    state.diagnostics[category] += 1;
+    state.answered = true;
+    $('answerInput').disabled = true;
+    $('validateBtn').disabled = true;
+    finishQuestion(false, value, 0, analysis, category);
+    return;
+  }
+
   const correct = accepted.some(answer => normalize(answer) === normalize(value));
   state.answered = true;
   $('answerInput').disabled = true;
   $('validateBtn').disabled = true;
   finishQuestion(correct, value);
+}
+
+function revealNextWord() {
+  if (state.answered) return;
+  const question = state.questions[state.index];
+  if (question?.variant !== 'translationText') return;
+  const current = normalizedWords($('answerInput').value);
+  const expected = normalizedWords(question.expected);
+  let prefixLength = 0;
+  while (prefixLength < current.length && current[prefixLength] === expected[prefixLength]) prefixLength += 1;
+  const nextWord = expected[prefixLength];
+  if (!nextWord) return;
+  const kept = current.slice(0, prefixLength);
+  $('answerInput').value = [...kept, nextWord].join(' ') + (prefixLength + 1 < expected.length ? ' ' : '');
+  state.currentHintUsed = true;
+  state.diagnostics.vocabulary += 1;
+  $('feedback').className = 'feedback partial';
+  $('feedback').innerHTML = `<strong>Indice :</strong> le prochain mot est <strong>${escapeHtml(nextWord)}</strong>. Termine maintenant la phrase toi-même.`;
+  $('feedback').classList.remove('hidden');
+  $('answerInput').focus();
+}
+
+function giveUpTranslation() {
+  if (state.answered) return;
+  const question = state.questions[state.index];
+  if (question?.variant !== 'translationText') return;
+  const value = $('answerInput').value;
+  const analysis = analyzeTranslation(value, question.expected);
+  state.diagnostics.vocabulary += 1;
+  state.answered = true;
+  $('answerInput').disabled = true;
+  $('validateBtn').disabled = true;
+  finishQuestion(false, value, 0, analysis, 'vocabulary');
 }
 
 function checkOrder() {
@@ -543,29 +726,38 @@ function scheduleRevision(question) {
   state.questions.splice(insertAt, 0, retry);
 }
 
-function finishQuestion(correct, selected) {
+function finishQuestion(correct, selected, points = correct ? 1 : 0, analysis = null, category = null) {
   const question = state.questions[state.index];
   const displayedAnswer = withoutStress(question.expected);
   const displayedSelected = withoutStress(selected);
   const family = familyKey(question);
 
   if (correct) {
-    state.score += 1;
+    state.score += points;
     if (state.persistentMistakes[family]) {
       state.persistentMistakes[family] = Math.max(0, state.persistentMistakes[family] - 1);
     }
     $('feedback').className = 'feedback good';
     $('feedback').innerHTML = `<strong>Correct.</strong>${renderLesson(question, selected, true)}`;
   } else {
-    state.mistakes.push({ question, selected });
+    if (points > 0) state.score += points;
+    state.mistakes.push({ question, selected, analysis, category });
     state.persistentMistakes[family] = (state.persistentMistakes[family] || 0) + 1;
     scheduleRevision(question);
-    $('feedback').className = 'feedback bad';
+    $('feedback').className = points > 0 ? 'feedback partial' : 'feedback bad';
+    const translationDetail = question.variant === 'translationText' && analysis
+      ? `${renderTokenAnalysis(analysis)}<p><strong>Diagnostic :</strong> ${category === 'orthography'
+          ? 'la structure est comprise, mais un ou plusieurs mots sont presque correctement écrits.'
+          : category === 'vocabulary'
+            ? 'le début est connu, mais il manque du vocabulaire pour terminer.'
+            : 'les mots ou leur ordre ne correspondent pas encore à la structure attendue.'}</p>`
+      : '';
     $('feedback').innerHTML = `
-      <strong>Piège.</strong><br>
+      <strong>${points > 0 ? 'Presque correct.' : 'À retravailler.'}</strong><br>
       Ta réponse : <strong>${escapeHtml(displayedSelected || '—')}</strong><br>
       Réponse attendue : <strong>${escapeHtml(displayedAnswer)}</strong>
-      <p class="revision-note">Cette difficulté reviendra un peu plus loin, sous une autre forme.</p>
+      ${translationDetail}
+      ${state.mode === 'course' ? '<p class="revision-note">Cette difficulté reviendra un peu plus loin, sous une autre forme.</p>' : ''}
       ${renderLesson(question, selected, false)}
     `;
   }
@@ -589,9 +781,18 @@ function nextQuestion() {
 
 function renderEnd() {
   showScreen('endScreen');
-  $('finalScore').textContent = `${state.score} / ${state.questions.length}`;
+  document.querySelectorAll('.diagnostic-summary').forEach(node => node.remove());
+  $('finalScore').textContent = `${Number.isInteger(state.score) ? state.score : state.score.toFixed(1)} / ${state.questions.length}`;
   const ratio = state.score / state.questions.length;
   if (state.mode === 'translation') {
+    const summary = document.createElement('div');
+    summary.className = 'diagnostic-summary';
+    summary.innerHTML = `
+      <div class="diagnostic-card"><strong>${state.diagnostics.orthography}</strong><span>problème${state.diagnostics.orthography > 1 ? 's' : ''} d’orthographe</span></div>
+      <div class="diagnostic-card"><strong>${state.diagnostics.vocabulary}</strong><span>blocage${state.diagnostics.vocabulary > 1 ? 's' : ''} de vocabulaire</span></div>
+      <div class="diagnostic-card"><strong>${state.diagnostics.grammar}</strong><span>problème${state.diagnostics.grammar > 1 ? 's' : ''} de structure</span></div>
+    `;
+    $('mistakes').before(summary);
     $('finalMessage').textContent = ratio >= 0.9
       ? 'Très solide. Tu peux passer à une autre série ou refaire celle-ci plus tard sans aide.'
       : ratio >= 0.7
@@ -620,6 +821,8 @@ $('courseModeBtn').addEventListener('click', openCourseMode);
 $('translationModeBtn').addEventListener('click', openTranslationMode);
 $('startBtn').addEventListener('click', startSession);
 $('validateBtn').addEventListener('click', checkText);
+$('revealWordBtn').addEventListener('click', revealNextWord);
+$('giveUpBtn').addEventListener('click', giveUpTranslation);
 $('validateOrderBtn').addEventListener('click', checkOrder);
 $('undoOrderBtn').addEventListener('click', undoOrderToken);
 $('answerInput').addEventListener('keydown', event => {
