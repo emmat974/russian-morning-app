@@ -17,11 +17,34 @@
       <button id="newSessionBtn" class="ghost-btn" type="button">Nouvelle série</button>
     </header>
 
-    <section id="startScreen" class="panel center-panel">
+    <section id="modeScreen" class="panel center-panel">
+      <p class="set-label">Choisis ton entraînement</p>
+      <h2>Que veux-tu travailler aujourd’hui ?</h2>
+      <div class="mode-grid">
+        <button id="courseModeBtn" class="mode-card" type="button" disabled>
+          <strong>Exercices du cours</strong>
+          <span>Questions mélangées des chapitres, formes, contexte et révisions.</span>
+        </button>
+        <button id="translationModeBtn" class="mode-card" type="button" disabled>
+          <strong>Exercices de traduction</strong>
+          <span>Séries ciblées : une idée en français, une phrase complète à écrire en russe.</span>
+        </button>
+      </div>
+      <p id="loadingLabel" class="muted">Chargement…</p>
+    </section>
+
+    <section id="startScreen" class="panel center-panel hidden">
       <p id="setLabel" class="set-label">Chargement…</p>
       <h2>Une série qui mélange les chapitres, les dialogues et les façons de répondre.</h2>
       <p class="muted">La difficulté augmente au fil des questions. Une erreur importante revient plus loin sous une autre forme.</p>
       <button id="startBtn" class="primary-btn" type="button" disabled>Commencer</button>
+    </section>
+
+    <section id="translationScreen" class="panel hidden">
+      <p class="eyebrow">Traduction active</p>
+      <h2>Choisis une série</h2>
+      <p class="muted">Chaque série fait varier les personnes, les temps et les rôles dans la phrase pour créer des automatismes.</p>
+      <div id="translationSeries" class="series-grid"></div>
     </section>
 
     <section id="quizScreen" class="panel hidden" aria-live="polite">
@@ -41,7 +64,7 @@
 
       <div id="textMode" class="hidden text-mode">
         <div id="wordBank" class="word-bank hidden" aria-label="Formes proposées"></div>
-        <label for="answerInput">Recopie la forme correcte</label>
+        <label id="answerLabel" for="answerInput">Recopie la forme correcte</label>
         <input id="answerInput" type="text" autocomplete="off" autocapitalize="off" spellcheck="false" />
         <button id="validateBtn" class="primary-btn" type="button">Valider</button>
       </div>

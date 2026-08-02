@@ -1,0 +1,402 @@
+{
+  "title": "Séries de traduction active",
+  "series": [
+    {
+      "id": "dire",
+      "title": "Dire — говорить / сказать",
+      "description": "Dire quelque chose, parler avec quelqu’un et rapporter une parole.",
+      "questions": [
+        {
+          "fr": "Je parle avec Anastasia.",
+          "ru": "Я говорю с Анастасией.",
+          "accepted": [
+            "Я разговариваю с Анастасией."
+          ],
+          "note": "Avec « parler avec », retiens с + instrumental : с Анастасией."
+        },
+        {
+          "fr": "Tony dit bonjour.",
+          "ru": "Тони говорит: «Привет!»",
+          "accepted": [
+            "Тони говорит привет."
+          ],
+          "note": "Говорит décrit l’action de parler ou ce qu’il dit maintenant."
+        },
+        {
+          "fr": "Elle dit qu’elle travaille.",
+          "ru": "Она говорит, что работает.",
+          "note": "Après говорит, что introduit ce qui est dit."
+        },
+        {
+          "fr": "Qu’est-ce que tu dis ?",
+          "ru": "Что ты говоришь?",
+          "note": "Ты fait l’action : ты говоришь."
+        },
+        {
+          "fr": "Dites-moi, s’il vous plaît.",
+          "ru": "Скажите мне, пожалуйста.",
+          "note": "Скажите est une demande polie : « dites » une fois."
+        },
+        {
+          "fr": "Il a dit la vérité.",
+          "ru": "Он сказал правду.",
+          "note": "Сказал exprime une parole terminée au passé."
+        },
+        {
+          "fr": "Elle m’a dit non.",
+          "ru": "Она сказала мне нет.",
+          "note": "Мне = à moi : elle a dit quelque chose à moi."
+        },
+        {
+          "fr": "Nous parlons russe.",
+          "ru": "Мы говорим по-русски.",
+          "accepted": [
+            "Мы говорим на русском языке."
+          ],
+          "note": "Pour une langue parlée : говорить по-русски."
+        }
+      ]
+    },
+    {
+      "id": "demander",
+      "title": "Demander — спрашивать / просить",
+      "description": "Poser une question ou demander à quelqu’un de faire/donner quelque chose.",
+      "questions": [
+        {
+          "fr": "Je demande à Anastasia.",
+          "ru": "Я спрашиваю Анастасию.",
+          "note": "Спрашивать quelqu’un prend la personne directement : Анастасию."
+        },
+        {
+          "fr": "Il demande où est Tony.",
+          "ru": "Он спрашивает, где Тони.",
+          "note": "Спрашивает, где… = il demande où…"
+        },
+        {
+          "fr": "Que demandez-vous ?",
+          "ru": "Что вы спрашиваете?",
+          "note": "Вы appelle la forme спрашиваете."
+        },
+        {
+          "fr": "Elle m’a demandé mon nom.",
+          "ru": "Она спросила меня, как меня зовут.",
+          "note": "Меня est la personne interrogée."
+        },
+        {
+          "fr": "Je demande du thé.",
+          "ru": "Я прошу чай.",
+          "accepted": [
+            "Я прошу чаю."
+          ],
+          "note": "Просить sert à réclamer ou demander quelque chose, pas à poser une question."
+        },
+        {
+          "fr": "Je te demande de venir.",
+          "ru": "Я прошу тебя прийти.",
+          "note": "Просить кого? тебя + infinitif."
+        },
+        {
+          "fr": "Demandez au serveur.",
+          "ru": "Спросите официанта.",
+          "note": "Спросите = posez une question une fois, à l’impératif poli."
+        },
+        {
+          "fr": "Puis-je vous demander quelque chose ?",
+          "ru": "Можно вас кое о чём спросить?",
+          "accepted": [
+            "Можно вас спросить?"
+          ],
+          "note": "Formule naturelle pour demander la permission de poser une question."
+        }
+      ]
+    },
+    {
+      "id": "travailler",
+      "title": "Travailler — работать",
+      "description": "Présent, passé, lieux de travail et personnes différentes.",
+      "questions": [
+        {
+          "fr": "Je travaille à la maison.",
+          "ru": "Я работаю дома.",
+          "note": "Дома indique la position : à la maison."
+        },
+        {
+          "fr": "Tu travailles aujourd’hui ?",
+          "ru": "Ты сегодня работаешь?",
+          "note": "Avec ты : работаешь."
+        },
+        {
+          "fr": "Elle travaille dans un café.",
+          "ru": "Она работает в кафе.",
+          "note": "Avec она : работает."
+        },
+        {
+          "fr": "Nous travaillons ensemble.",
+          "ru": "Мы работаем вместе.",
+          "note": "Avec мы : работаем."
+        },
+        {
+          "fr": "Mes parents travaillent en France.",
+          "ru": "Мои родители работают во Франции.",
+          "note": "Position dans un pays : во Франции."
+        },
+        {
+          "fr": "Il a travaillé hier.",
+          "ru": "Он работал вчера.",
+          "note": "Passé masculin : работал."
+        },
+        {
+          "fr": "Anastasia a travaillé hier.",
+          "ru": "Анастасия работала вчера.",
+          "note": "Passé féminin : работала."
+        },
+        {
+          "fr": "Où travaillez-vous ?",
+          "ru": "Где вы работаете?",
+          "note": "Question polie : где вы работаете?"
+        }
+      ]
+    },
+    {
+      "id": "inviter",
+      "title": "Inviter — приглашать / пригласить",
+      "description": "Inviter quelqu’un, être invité et aller chez une personne.",
+      "questions": [
+        {
+          "fr": "J’invite Tony au café.",
+          "ru": "Я приглашаю Тони в кафе.",
+          "note": "Я fais l’action : приглашаю."
+        },
+        {
+          "fr": "Elle invite Anastasia chez elle.",
+          "ru": "Она приглашает Анастасию к себе домой.",
+          "note": "К себе домой renvoie au sujet : chez elle-même."
+        },
+        {
+          "fr": "On m’a invité chez Tony.",
+          "ru": "Меня пригласили к Тони.",
+          "note": "Меня reçoit l’action ; к Тони = chez Tony."
+        },
+        {
+          "fr": "Est-ce qu’on t’a invité chez Tony ?",
+          "ru": "Тебя пригласили к Тони?",
+          "note": "Тебя reçoit l’action : on t’a invité."
+        },
+        {
+          "fr": "Ma mère m’a invité.",
+          "ru": "Меня пригласила моя мама.",
+          "note": "Мама est singulier féminin : пригласила."
+        },
+        {
+          "fr": "Mes parents m’ont invité.",
+          "ru": "Меня пригласили мои родители.",
+          "note": "Родители est pluriel : пригласили."
+        },
+        {
+          "fr": "Qui t’a invité ?",
+          "ru": "Кто тебя пригласил?",
+          "note": "Кто est le sujet ; тебя est la personne invitée."
+        },
+        {
+          "fr": "Je veux inviter Benjamin.",
+          "ru": "Я хочу пригласить Бенжамина.",
+          "note": "Après хочу, utilise l’infinitif пригласить."
+        }
+      ]
+    },
+    {
+      "id": "voir",
+      "title": "Voir — видеть / увидеть",
+      "description": "Voir une personne ou une chose, au présent et au passé.",
+      "questions": [
+        {
+          "fr": "Je vois une voiture.",
+          "ru": "Я вижу машину.",
+          "note": "Машина devient машину car elle est vue."
+        },
+        {
+          "fr": "Tu me vois ?",
+          "ru": "Ты меня видишь?",
+          "note": "Ты fait l’action ; меня reçoit l’action."
+        },
+        {
+          "fr": "Je te vois.",
+          "ru": "Я тебя вижу.",
+          "note": "Я fait l’action ; тебя reçoit l’action."
+        },
+        {
+          "fr": "Il voit Anastasia dans le café.",
+          "ru": "Он видит Анастасию в кафе.",
+          "note": "Анастасия devient Анастасию après видеть."
+        },
+        {
+          "fr": "Nous voyons Tony.",
+          "ru": "Мы видим Тони.",
+          "note": "Тони ne change pas."
+        },
+        {
+          "fr": "J’ai vu une belle voiture.",
+          "ru": "Я видел красивую машину.",
+          "note": "Locuteur masculin : видел ; красивую машину à l’accusatif."
+        },
+        {
+          "fr": "Elle a vu Benjamin.",
+          "ru": "Она увидела Бенжамина.",
+          "note": "Увидела insiste sur le fait qu’elle l’a aperçu/vu une fois."
+        },
+        {
+          "fr": "Qu’est-ce que vous voyez ?",
+          "ru": "Что вы видите?",
+          "note": "Avec вы : видите."
+        }
+      ]
+    },
+    {
+      "id": "aimer",
+      "title": "Aimer — нравиться",
+      "description": "Automatiser мне, тебе, ему et l’accord avec ce qui plaît.",
+      "questions": [
+        {
+          "fr": "J’aime le café.",
+          "ru": "Мне нравится кофе.",
+          "note": "Le café plaît à moi : мне нравится."
+        },
+        {
+          "fr": "Je n’aime pas le café.",
+          "ru": "Мне не нравится кофе.",
+          "note": "La négation se place avant нравится."
+        },
+        {
+          "fr": "Tu aimes le thé ?",
+          "ru": "Тебе нравится чай?",
+          "note": "À toi = тебе."
+        },
+        {
+          "fr": "Elle aime cette voiture.",
+          "ru": "Ей нравится эта машина.",
+          "note": "À elle = ей ; машина est singulier."
+        },
+        {
+          "fr": "Tony aime Anastasia.",
+          "ru": "Тони нравится Анастасия.",
+          "note": "Ici Anastasia plaît à Tony. Cette structure peut sonner romantique."
+        },
+        {
+          "fr": "J’aime les photos.",
+          "ru": "Мне нравятся фотографии.",
+          "note": "Le sujet est pluriel : нравятся."
+        },
+        {
+          "fr": "Mes parents aiment le thé.",
+          "ru": "Моим родителям нравится чай.",
+          "note": "À mes parents = моим родителям."
+        },
+        {
+          "fr": "Qu’est-ce que tu aimes ?",
+          "ru": "Что тебе нравится?",
+          "note": "Structure fréquente : что тебе нравится?"
+        }
+      ]
+    },
+    {
+      "id": "avoir",
+      "title": "Avoir — у меня есть / нет",
+      "description": "Possession, absence et formes avec moi, toi, lui, elle.",
+      "questions": [
+        {
+          "fr": "J’ai un téléphone.",
+          "ru": "У меня есть телефон.",
+          "note": "Retiens le bloc у меня есть."
+        },
+        {
+          "fr": "Je n’ai pas de téléphone.",
+          "ru": "У меня нет телефона.",
+          "note": "Après нет : телефона."
+        },
+        {
+          "fr": "Tu as une voiture ?",
+          "ru": "У тебя есть машина?",
+          "note": "Chez toi = у тебя."
+        },
+        {
+          "fr": "Il a un frère.",
+          "ru": "У него есть брат.",
+          "note": "Chez lui = у него."
+        },
+        {
+          "fr": "Elle a une sœur.",
+          "ru": "У неё есть сестра.",
+          "note": "Chez elle = у неё."
+        },
+        {
+          "fr": "Nous avons du thé.",
+          "ru": "У нас есть чай.",
+          "note": "Chez nous = у нас."
+        },
+        {
+          "fr": "Mes parents n’ont pas de voiture.",
+          "ru": "У моих родителей нет машины.",
+          "note": "После у et нет, les noms changent : у родителей, нет машины."
+        },
+        {
+          "fr": "Qu’est-ce que tu as ?",
+          "ru": "Что у тебя есть?",
+          "note": "Question naturelle sur ce que quelqu’un possède."
+        }
+      ]
+    },
+    {
+      "id": "aller-venir",
+      "title": "Aller et venir — идти / ехать / приезжать",
+      "description": "Se déplacer à pied, en transport et arriver dans un lieu.",
+      "questions": [
+        {
+          "fr": "Je vais au café à pied.",
+          "ru": "Я иду в кафе.",
+          "note": "Идти s’utilise pour un déplacement à pied en cours."
+        },
+        {
+          "fr": "Je vais en France.",
+          "ru": "Я еду во Францию.",
+          "note": "Ехать pour un trajet en transport ; direction : во Францию."
+        },
+        {
+          "fr": "Benjamin arrive en France.",
+          "ru": "Бенжамин приезжает во Францию.",
+          "note": "Приезжает exprime l’arrivée en transport."
+        },
+        {
+          "fr": "Elle va à la maison.",
+          "ru": "Она идёт домой.",
+          "note": "Домой = vers chez soi, sans préposition."
+        },
+        {
+          "fr": "Nous allons chez Tony.",
+          "ru": "Мы идём к Тони.",
+          "note": "К + personne signifie vers/chez cette personne."
+        },
+        {
+          "fr": "Tu viens au café ?",
+          "ru": "Ты идёшь в кафе?",
+          "accepted": [
+            "Ты приходишь в кафе?"
+          ],
+          "note": "Selon le contexte, идти suffit souvent pour « aller/venir » vers le lieu."
+        },
+        {
+          "fr": "Ils sont arrivés hier.",
+          "ru": "Они приехали вчера.",
+          "note": "Passé pluriel : приехали."
+        },
+        {
+          "fr": "Où allez-vous ?",
+          "ru": "Куда вы идёте?",
+          "accepted": [
+            "Куда вы едете?"
+          ],
+          "note": "Куда demande une direction ; идти à pied, ехать en transport."
+        }
+      ]
+    }
+  ]
+}

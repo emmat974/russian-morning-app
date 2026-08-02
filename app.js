@@ -7,10 +7,14 @@ const DATA_FILES = [
 
 const CORE_QUESTIONS = 10;
 const MAX_QUESTIONS_WITH_REVISIONS = 14;
-const STORAGE_KEY = 'russe-du-matin-mistakes-v5';
+const STORAGE_KEY = 'russe-du-matin-mistakes-v6';
+const TRANSLATION_DATA_FILE = 'data/series-traduction.json';
 
 const state = {
   banks: [],
+  translationSeries: [],
+  mode: 'course',
+  selectedSeriesId: null,
   allQuestions: [],
   questions: [],
   index: 0,
@@ -22,7 +26,7 @@ const state = {
 };
 
 const $ = id => document.getElementById(id);
-const screens = ['startScreen', 'quizScreen', 'endScreen'];
+const screens = ['modeScreen', 'startScreen', 'translationScreen', 'quizScreen', 'endScreen'];
 
 function showScreen(id) {
   screens.forEach(name => $(name).classList.toggle('hidden', name !== id));
@@ -81,15 +85,24 @@ function questionId(question) {
 
 async function loadBanks() {
   $('startBtn').disabled = true;
-  $('setLabel').textContent = 'Préparation d’une série variée…';
+  $('courseModeBtn').disabled = true;
+  $('translationModeBtn').disabled = true;
 
   try {
-    state.banks = await Promise.all(DATA_FILES.map(async file => {
-      const response = await fetch(file, { cache: 'no-store' });
-      if (!response.ok) throw new Error(`${file}: HTTP ${response.status}`);
-      return response.json();
-    }));
+    const [courseBanks, translationData] = await Promise.all([
+      Promise.all(DATA_FILES.map(async file => {
+        const response = await fetch(file, { cache: 'no-store' });
+        if (!response.ok) throw new Error(`${file}: HTTP ${response.status}`);
+        return response.json();
+      })),
+      fetch(TRANSLATION_DATA_FILE, { cache: 'no-store' }).then(response => {
+        if (!response.ok) throw new Error(`${TRANSLATION_DATA_FILE}: HTTP ${response.status}`);
+        return response.json();
+      })
+    ]);
 
+    state.banks = courseBanks;
+    state.translationSeries = translationData.series || [];
     state.allQuestions = state.banks.flatMap(bank =>
       bank.questions.map(question => ({
         ...question,
@@ -100,12 +113,14 @@ async function loadBanks() {
     );
 
     composeSession();
+    renderTranslationSeries();
     $('startBtn').disabled = false;
+    $('courseModeBtn').disabled = false;
+    $('translationModeBtn').disabled = false;
+    $('loadingLabel').textContent = `${state.allQuestions.length} questions de cours · ${state.translationSeries.length} séries de traduction`;
   } catch (error) {
     console.warn('Impossible de charger les banques', error);
-    $('setLabel').textContent = 'Erreur de chargement';
-    document.querySelector('#startScreen .muted').textContent =
-      'L’application doit être ouverte via GitHub Pages ou un petit serveur web.';
+    $('loadingLabel').textContent = 'Erreur de chargement. Ouvre l’application via GitHub Pages ou un petit serveur web.';
   }
 }
 
@@ -163,6 +178,58 @@ function difficultyFor(index) {
   if (index < 3) return 1;
   if (index < 7) return 2;
   return 3;
+}
+
+function renderTranslationSeries() {
+  $('translationSeries').innerHTML = '';
+  state.translationSeries.forEach(series => {
+    const button = document.createElement('button');
+    button.type = 'button';
+    button.className = 'series-card';
+    button.innerHTML = `
+      <strong>${escapeHtml(series.title)}</strong>
+      <span>${escapeHtml(series.description)}</span>
+      <small>${series.questions.length} phrases</small>
+    `;
+    button.addEventListener('click', () => selectTranslationSeries(series.id));
+    $('translationSeries').appendChild(button);
+  });
+}
+
+function selectTranslationSeries(seriesId) {
+  const series = state.translationSeries.find(item => item.id === seriesId);
+  if (!series) return;
+  state.mode = 'translation';
+  state.selectedSeriesId = seriesId;
+  state.questions = series.questions.map((question, index) => prepareTranslationQuestion(question, series, index));
+  startSession();
+}
+
+function prepareTranslationQuestion(base, series, index) {
+  return {
+    ...base,
+    family: `translation-${series.id}`,
+    seriesTitle: series.title,
+    renderType: 'text',
+    variant: 'translationText',
+    difficulty: index < 2 ? 1 : index < 5 ? 2 : 3,
+    displayLabel: `Série : ${series.title}`,
+    displayPrompt: base.fr,
+    displayContext: index < 2
+      ? 'Écris la phrase complète en russe. Les accents toniques et la ponctuation ne sont pas obligatoires.'
+      : 'Traduis sans regarder tes cours.',
+    showSuggestions: false,
+    expected: base.ru,
+    answer: base.ru,
+    accepted: base.accepted || [],
+    fullSentence: base.ru,
+    fullTranslation: base.fr,
+    lesson: {
+      rule: base.note || 'Compare la structure russe avec la phrase française.',
+      trap: 'Vérifie surtout qui fait l’action, qui la reçoit et la forme du verbe.',
+      memory: base.note || 'Retiens la phrase comme un modèle complet.'
+    }
+  };
 }
 
 function getCleanOptions(question) {
@@ -266,6 +333,22 @@ function startSession() {
   showScreen('quizScreen');
 }
 
+function openCourseMode() {
+  state.mode = 'course';
+  state.selectedSeriesId = null;
+  composeSession();
+  showScreen('startScreen');
+}
+
+function openTranslationMode() {
+  state.mode = 'translation';
+  showScreen('translationScreen');
+}
+
+function openModeScreen() {
+  showScreen('modeScreen');
+}
+
 function resetQuestionUi() {
   state.answered = false;
   state.currentBuiltAnswer = [];
@@ -324,8 +407,10 @@ function renderQuestion() {
       $('wordBank').appendChild(list);
       $('wordBank').classList.remove('hidden');
     }
-    const inputLabel = document.querySelector('label[for="answerInput"]');
-    inputLabel.textContent = question.showSuggestions ? 'Recopie la forme correcte' : 'Écris le mot manquant';
+    const inputLabel = $('answerLabel');
+    inputLabel.textContent = question.variant === 'translationText'
+      ? 'Ta traduction en russe'
+      : question.showSuggestions ? 'Recopie la forme correcte' : 'Écris le mot manquant';
     setTimeout(() => $('answerInput').focus(), 50);
   }
 
@@ -418,7 +503,7 @@ function renderLesson(question, selected, correct) {
   return `
     <div class="lesson-block">
       <div class="source-sentence">
-        <strong>Phrase complète du chapitre</strong>
+        <strong>${question.variant === 'translationText' ? 'Phrase modèle' : 'Phrase complète du chapitre'}</strong>
         <p class="source-russian">${escapeHtml(fullSentence)}</p>
         ${fullTranslation ? `<p class="source-translation">${escapeHtml(fullTranslation)}</p>` : ''}
       </div>
@@ -430,6 +515,7 @@ function renderLesson(question, selected, correct) {
 }
 
 function scheduleRevision(question) {
+  if (state.mode === 'translation') return;
   if (state.questions.length >= MAX_QUESTIONS_WITH_REVISIONS) return;
   const family = familyKey(question);
   const futureHasRevision = state.questions.slice(state.index + 1)
@@ -495,11 +581,21 @@ function renderEnd() {
   showScreen('endScreen');
   $('finalScore').textContent = `${state.score} / ${state.questions.length}`;
   const ratio = state.score / state.questions.length;
-  $('finalMessage').textContent = ratio >= 0.9
-    ? 'Très solide. La prochaine série gardera des formats difficiles et continuera à mélanger les quatre banques.'
-    : ratio >= 0.7
-      ? 'Bon niveau. Les formes ratées seront davantage proposées dans les prochaines séries.'
-      : 'Les erreurs ont été mémorisées : elles reviendront progressivement, sans bloquer toute la série dessus.';
+  if (state.mode === 'translation') {
+    $('finalMessage').textContent = ratio >= 0.9
+      ? 'Très solide. Tu peux passer à une autre série ou refaire celle-ci plus tard sans aide.'
+      : ratio >= 0.7
+        ? 'Bon début. Refais cette série jusqu’à ce que les structures sortent sans recherche.'
+        : 'Cette série contient encore des structures nouvelles. Relis les corrections puis recommence-la.';
+    $('restartBtn').textContent = 'Choisir une autre série';
+  } else {
+    $('finalMessage').textContent = ratio >= 0.9
+      ? 'Très solide. La prochaine série gardera des formats difficiles et continuera à mélanger les quatre banques.'
+      : ratio >= 0.7
+        ? 'Bon niveau. Les formes ratées seront davantage proposées dans les prochaines séries.'
+        : 'Les erreurs ont été mémorisées : elles reviendront progressivement, sans bloquer toute la série dessus.';
+    $('restartBtn').textContent = 'Refaire une autre série';
+  }
 
   $('mistakes').innerHTML = '';
   state.mistakes.forEach(({ question, selected }) => {
@@ -510,6 +606,8 @@ function renderEnd() {
   });
 }
 
+$('courseModeBtn').addEventListener('click', openCourseMode);
+$('translationModeBtn').addEventListener('click', openTranslationMode);
 $('startBtn').addEventListener('click', startSession);
 $('validateBtn').addEventListener('click', checkText);
 $('validateOrderBtn').addEventListener('click', checkOrder);
@@ -519,12 +617,13 @@ $('answerInput').addEventListener('keydown', event => {
 });
 $('nextBtn').addEventListener('click', nextQuestion);
 $('restartBtn').addEventListener('click', () => {
-  showScreen('startScreen');
-  composeSession();
+  if (state.mode === 'translation') {
+    showScreen('translationScreen');
+  } else {
+    composeSession();
+    showScreen('startScreen');
+  }
 });
-$('newSessionBtn').addEventListener('click', () => {
-  showScreen('startScreen');
-  composeSession();
-});
+$('newSessionBtn').addEventListener('click', openModeScreen);
 
 loadBanks();
