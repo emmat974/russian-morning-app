@@ -1,0 +1,89 @@
+{
+  "source_id": "PDF-FIRST-WEEK-TONY",
+  "chapters": [
+    {
+      "id": "pdf-ch1",
+      "title": "L’arrivée et le premier café",
+      "pages": [
+        1,
+        2,
+        3
+      ],
+      "focus": [
+        "survival-russian",
+        "cafe",
+        "politeness"
+      ]
+    },
+    {
+      "id": "pdf-ch2",
+      "title": "Une soirée dans une famille russe",
+      "pages": [
+        4,
+        5,
+        6
+      ],
+      "focus": [
+        "introductions",
+        "family",
+        "possession"
+      ]
+    },
+    {
+      "id": "pdf-ch3",
+      "title": "Tony se perd dans Moscou",
+      "pages": [
+        7,
+        8,
+        9
+      ],
+      "focus": [
+        "directions",
+        "через",
+        "что-clause"
+      ]
+    },
+    {
+      "id": "pdf-ch4",
+      "title": "Le dîner au restaurant",
+      "pages": [
+        10,
+        11,
+        12
+      ],
+      "focus": [
+        "restaurant",
+        "нравиться",
+        "food"
+      ]
+    },
+    {
+      "id": "pdf-ch5",
+      "title": "Un problème dans la chambre",
+      "pages": [
+        13,
+        14,
+        15
+      ],
+      "focus": [
+        "hotel",
+        "problem-reporting",
+        "нет"
+      ]
+    },
+    {
+      "id": "pdf-epi",
+      "title": "Une conversation plus naturelle",
+      "pages": [
+        16,
+        17,
+        18
+      ],
+      "focus": [
+        "conversation",
+        "self-assessment",
+        "learning-strategy"
+      ]
+    }
+  ]
+}

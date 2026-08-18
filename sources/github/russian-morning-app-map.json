@@ -1,0 +1,37 @@
+{
+  "source_id": "GH-RUSSIAN-MORNING-APP",
+  "repository": "https://github.com/emmat974/russian-morning-app",
+  "branch": "main",
+  "observed_data_files": [
+    "data/banque-ch1-dialogue.json",
+    "data/banque-ch1-recit.json",
+    "data/banque-ch2-dialogue.json",
+    "data/banque-ch2-recit.json",
+    "data/serie-contextes.json",
+    "data/serie-ecriture-contextuelle.json",
+    "data/serie-familles.json",
+    "data/serie-formes.json",
+    "data/serie-mot-juste.json",
+    "data/serie-rappel.json",
+    "data/series-traduction.json"
+  ],
+  "pedagogical_patterns_reused": [
+    "contexte français visible pour la saisie active",
+    "formes pièges proches",
+    "familles de mots et retour à la forme de dictionnaire",
+    "position / direction : дома / домой",
+    "traduction active par familles verbales",
+    "accents toniques ignorés lors de la validation",
+    "réutilisation d'une notion dans plusieurs types d'exercices"
+  ],
+  "translation_series": [
+    "dire",
+    "demander",
+    "travailler",
+    "inviter",
+    "voir",
+    "aimer",
+    "avoir",
+    "aller-venir"
+  ]
+}
