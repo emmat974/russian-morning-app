@@ -1,0 +1,103 @@
+{
+  "id": "VOC-RESTAURANT",
+  "level": "A1-A2",
+  "title": "Restaurant",
+  "items": [
+    {
+      "ru": "традиционная кухня",
+      "fr": "cuisine traditionnelle"
+    },
+    {
+      "ru": "посетитель",
+      "fr": "client / visiteur"
+    },
+    {
+      "ru": "забронированный столик",
+      "fr": "table réservée"
+    },
+    {
+      "ru": "официант",
+      "fr": "serveur"
+    },
+    {
+      "ru": "обычная вода",
+      "fr": "eau plate"
+    },
+    {
+      "ru": "вода без газа",
+      "fr": "eau non gazeuse"
+    },
+    {
+      "ru": "вода с газом",
+      "fr": "eau gazeuse"
+    },
+    {
+      "ru": "выбирать",
+      "fr": "choisir"
+    },
+    {
+      "ru": "советовать",
+      "fr": "conseiller"
+    },
+    {
+      "ru": "попробовать",
+      "fr": "goûter / essayer"
+    },
+    {
+      "ru": "острый",
+      "fr": "épicé / piquant"
+    },
+    {
+      "ru": "свёкла",
+      "fr": "betterave"
+    },
+    {
+      "ru": "сметана",
+      "fr": "crème fraîche russe"
+    },
+    {
+      "ru": "отдельно",
+      "fr": "séparément"
+    },
+    {
+      "ru": "осторожно",
+      "fr": "prudemment"
+    },
+    {
+      "ru": "ложка",
+      "fr": "cuillère"
+    },
+    {
+      "ru": "обжигать",
+      "fr": "brûler"
+    },
+    {
+      "ru": "язык",
+      "fr": "langue"
+    },
+    {
+      "ru": "спешить",
+      "fr": "se dépêcher"
+    },
+    {
+      "ru": "сыт",
+      "fr": "rassasié (homme)"
+    },
+    {
+      "ru": "сыта",
+      "fr": "rassasiée (femme)"
+    },
+    {
+      "ru": "говядина",
+      "fr": "viande de bœuf"
+    },
+    {
+      "ru": "тогда",
+      "fr": "alors / dans ce cas"
+    },
+    {
+      "ru": "я возьму",
+      "fr": "je prendrai"
+    }
+  ]
+}

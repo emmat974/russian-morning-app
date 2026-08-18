@@ -1,0 +1,67 @@
+{
+  "id": "VOC-CORE-ACTIONS",
+  "level": "A1",
+  "title": "Personnes et actions fréquentes",
+  "items": [
+    {
+      "ru": "я",
+      "fr": "je"
+    },
+    {
+      "ru": "ты",
+      "fr": "tu"
+    },
+    {
+      "ru": "он",
+      "fr": "il"
+    },
+    {
+      "ru": "она",
+      "fr": "elle"
+    },
+    {
+      "ru": "мы",
+      "fr": "nous"
+    },
+    {
+      "ru": "вы",
+      "fr": "vous"
+    },
+    {
+      "ru": "они",
+      "fr": "ils/elles"
+    },
+    {
+      "ru": "говорить",
+      "fr": "parler / dire"
+    },
+    {
+      "ru": "понимать",
+      "fr": "comprendre"
+    },
+    {
+      "ru": "знать",
+      "fr": "savoir / connaître"
+    },
+    {
+      "ru": "работать",
+      "fr": "travailler"
+    },
+    {
+      "ru": "читать",
+      "fr": "lire"
+    },
+    {
+      "ru": "хотеть",
+      "fr": "vouloir"
+    },
+    {
+      "ru": "идти",
+      "fr": "aller à pied / être en train d'aller"
+    },
+    {
+      "ru": "видеть",
+      "fr": "voir"
+    }
+  ]
+}

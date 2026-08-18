@@ -1,0 +1,47 @@
+{
+  "id": "VOC-CONNECTORS",
+  "level": "A1",
+  "title": "Connecteurs utiles",
+  "items": [
+    {
+      "ru": "что",
+      "fr": "que / quoi"
+    },
+    {
+      "ru": "но",
+      "fr": "mais"
+    },
+    {
+      "ru": "и",
+      "fr": "et"
+    },
+    {
+      "ru": "или",
+      "fr": "ou"
+    },
+    {
+      "ru": "тоже",
+      "fr": "aussi"
+    },
+    {
+      "ru": "уже",
+      "fr": "déjà"
+    },
+    {
+      "ru": "немного",
+      "fr": "un peu"
+    },
+    {
+      "ru": "может быть",
+      "fr": "peut-être"
+    },
+    {
+      "ru": "не",
+      "fr": "ne... pas"
+    },
+    {
+      "ru": "через",
+      "fr": "dans / après"
+    }
+  ]
+}

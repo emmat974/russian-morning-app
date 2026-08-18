@@ -1,0 +1,87 @@
+{
+  "id": "VOC-FAMILY_SOCIAL",
+  "level": "A1",
+  "title": "Family Social",
+  "items": [
+    {
+      "ru": "на следующий день",
+      "fr": "le lendemain"
+    },
+    {
+      "ru": "встречаться",
+      "fr": "rencontrer / retrouver"
+    },
+    {
+      "ru": "несколько месяцев назад",
+      "fr": "il y a quelques mois"
+    },
+    {
+      "ru": "приглашать",
+      "fr": "inviter"
+    },
+    {
+      "ru": "к себе домой",
+      "fr": "chez soi"
+    },
+    {
+      "ru": "наверное",
+      "fr": "probablement"
+    },
+    {
+      "ru": "проходите",
+      "fr": "entrez"
+    },
+    {
+      "ru": "квартира",
+      "fr": "appartement"
+    },
+    {
+      "ru": "кухня",
+      "fr": "cuisine"
+    },
+    {
+      "ru": "гостиная",
+      "fr": "salon"
+    },
+    {
+      "ru": "младшая сестра",
+      "fr": "sœur cadette"
+    },
+    {
+      "ru": "старший брат",
+      "fr": "frère aîné"
+    },
+    {
+      "ru": "семейная фотография",
+      "fr": "photographie de famille"
+    },
+    {
+      "ru": "быть похожим",
+      "fr": "ressembler"
+    },
+    {
+      "ru": "задавать вопрос",
+      "fr": "poser une question"
+    },
+    {
+      "ru": "домашний пирог",
+      "fr": "tarte faite maison"
+    },
+    {
+      "ru": "тёплый приём",
+      "fr": "accueil chaleureux"
+    },
+    {
+      "ru": "добрый",
+      "fr": "gentil"
+    },
+    {
+      "ru": "доволен",
+      "fr": "satisfait (homme)"
+    },
+    {
+      "ru": "довольна",
+      "fr": "satisfaite (femme)"
+    }
+  ]
+}

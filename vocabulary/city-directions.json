@@ -1,0 +1,107 @@
+{
+  "id": "VOC-CITY_DIRECTIONS",
+  "level": "A1",
+  "title": "City Directions",
+  "items": [
+    {
+      "ru": "гулять",
+      "fr": "se promener"
+    },
+    {
+      "ru": "центр города",
+      "fr": "centre-ville"
+    },
+    {
+      "ru": "площадь",
+      "fr": "place"
+    },
+    {
+      "ru": "сделать фотографию",
+      "fr": "prendre une photographie"
+    },
+    {
+      "ru": "садиться в метро",
+      "fr": "prendre / monter dans le métro"
+    },
+    {
+      "ru": "маршрут",
+      "fr": "itinéraire"
+    },
+    {
+      "ru": "выход",
+      "fr": "sortie"
+    },
+    {
+      "ru": "повернуть не туда",
+      "fr": "tourner dans la mauvaise direction"
+    },
+    {
+      "ru": "заблудиться",
+      "fr": "se perdre"
+    },
+    {
+      "ru": "вокруг",
+      "fr": "autour"
+    },
+    {
+      "ru": "здание",
+      "fr": "bâtiment"
+    },
+    {
+      "ru": "почти",
+      "fr": "presque"
+    },
+    {
+      "ru": "разрядиться",
+      "fr": "se décharger"
+    },
+    {
+      "ru": "указания",
+      "fr": "indications"
+    },
+    {
+      "ru": "дорога",
+      "fr": "chemin / route"
+    },
+    {
+      "ru": "перекрёсток",
+      "fr": "carrefour"
+    },
+    {
+      "ru": "перейти дорогу",
+      "fr": "traverser la route"
+    },
+    {
+      "ru": "продолжать путь",
+      "fr": "poursuivre son chemin"
+    },
+    {
+      "ru": "пешком",
+      "fr": "à pied"
+    },
+    {
+      "ru": "вход",
+      "fr": "entrée"
+    },
+    {
+      "ru": "справа",
+      "fr": "à droite"
+    },
+    {
+      "ru": "слева",
+      "fr": "à gauche"
+    },
+    {
+      "ru": "прямо",
+      "fr": "tout droit"
+    },
+    {
+      "ru": "налево",
+      "fr": "à gauche"
+    },
+    {
+      "ru": "направо",
+      "fr": "à droite"
+    }
+  ]
+}

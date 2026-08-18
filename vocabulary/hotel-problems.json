@@ -1,0 +1,95 @@
+{
+  "id": "VOC-HOTEL_PROBLEMS",
+  "level": "A1-A2",
+  "title": "Hotel Problems",
+  "items": [
+    {
+      "ru": "возвращаться",
+      "fr": "revenir / retourner"
+    },
+    {
+      "ru": "принять душ",
+      "fr": "prendre une douche"
+    },
+    {
+      "ru": "лечь спать",
+      "fr": "aller se coucher"
+    },
+    {
+      "ru": "открывать кран",
+      "fr": "ouvrir le robinet"
+    },
+    {
+      "ru": "ничего не происходит",
+      "fr": "rien ne se passe"
+    },
+    {
+      "ru": "ключ-карта",
+      "fr": "carte d'accès"
+    },
+    {
+      "ru": "спускаться",
+      "fr": "descendre"
+    },
+    {
+      "ru": "первый этаж",
+      "fr": "rez-de-chaussée en Russie"
+    },
+    {
+      "ru": "стойка регистрации",
+      "fr": "réception de l'hôtel"
+    },
+    {
+      "ru": "сотрудник",
+      "fr": "employé"
+    },
+    {
+      "ru": "что случилось?",
+      "fr": "que s'est-il passé ?"
+    },
+    {
+      "ru": "проверять",
+      "fr": "vérifier"
+    },
+    {
+      "ru": "мастер",
+      "fr": "réparateur / technicien"
+    },
+    {
+      "ru": "придётся",
+      "fr": "il faudra"
+    },
+    {
+      "ru": "около получаса",
+      "fr": "environ une demi-heure"
+    },
+    {
+      "ru": "свободная комната",
+      "fr": "chambre disponible"
+    },
+    {
+      "ru": "к счастью",
+      "fr": "heureusement"
+    },
+    {
+      "ru": "извиняться",
+      "fr": "s'excuser"
+    },
+    {
+      "ru": "неудобство",
+      "fr": "désagrément"
+    },
+    {
+      "ru": "отправлять сообщение",
+      "fr": "envoyer un message"
+    },
+    {
+      "ru": "засыпать",
+      "fr": "s'endormir"
+    },
+    {
+      "ru": "совсем",
+      "fr": "complètement / absolument"
+    }
+  ]
+}

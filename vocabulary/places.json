@@ -1,0 +1,43 @@
+{
+  "id": "VOC-PLACES",
+  "level": "A1",
+  "title": "Lieux simples",
+  "items": [
+    {
+      "ru": "лес",
+      "fr": "forêt"
+    },
+    {
+      "ru": "город",
+      "fr": "ville"
+    },
+    {
+      "ru": "дом",
+      "fr": "maison / chez soi"
+    },
+    {
+      "ru": "школа",
+      "fr": "école"
+    },
+    {
+      "ru": "магазин",
+      "fr": "magasin"
+    },
+    {
+      "ru": "улица",
+      "fr": "rue"
+    },
+    {
+      "ru": "парк",
+      "fr": "parc"
+    },
+    {
+      "ru": "Москва",
+      "fr": "Moscou"
+    },
+    {
+      "ru": "площадь",
+      "fr": "place"
+    }
+  ]
+}

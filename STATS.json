@@ -1,0 +1,26 @@
+{
+  "content_version": "0.3.1",
+  "courses": 26,
+  "activities": 962,
+  "activity_types_used": {
+    "translation_input": 151,
+    "choice_single": 146,
+    "reading_comprehension": 28,
+    "fill_blank": 21,
+    "reorder_tokens": 74,
+    "self_explain": 26,
+    "match_pairs": 25,
+    "listen_type": 90,
+    "phrase_completion": 120,
+    "pronunciation_repeat_word": 74,
+    "pronunciation_repeat_sentence": 86,
+    "text_input": 100,
+    "cloze_text": 21
+  },
+  "pronunciation_targets": 407,
+  "stress_entries": 430,
+  "error_tags": 75,
+  "vocabulary_packs": 10,
+  "source_pdf_pages": 18,
+  "rich_course_blocks": 254
+}

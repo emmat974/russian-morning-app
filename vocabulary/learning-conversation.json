@@ -1,0 +1,63 @@
+{
+  "id": "VOC-LEARNING_CONVERSATION",
+  "level": "A1-A2",
+  "title": "Learning Conversation",
+  "items": [
+    {
+      "ru": "быть довольным поездкой",
+      "fr": "être satisfait de son voyage"
+    },
+    {
+      "ru": "мне нравится",
+      "fr": "cela me plaît / j'aime"
+    },
+    {
+      "ru": "пока не очень",
+      "fr": "pas encore vraiment"
+    },
+    {
+      "ru": "мне трудно",
+      "fr": "c'est difficile pour moi"
+    },
+    {
+      "ru": "всего несколько дней",
+      "fr": "seulement depuis quelques jours"
+    },
+    {
+      "ru": "каждый день",
+      "fr": "chaque jour"
+    },
+    {
+      "ru": "немного больше",
+      "fr": "un peu plus"
+    },
+    {
+      "ru": "главное",
+      "fr": "le plus important"
+    },
+    {
+      "ru": "не бояться",
+      "fr": "ne pas avoir peur"
+    },
+    {
+      "ru": "ты прав",
+      "fr": "tu as raison (à un homme)"
+    },
+    {
+      "ru": "ты права",
+      "fr": "tu as raison (à une femme)"
+    },
+    {
+      "ru": "делать ошибку",
+      "fr": "faire une erreur"
+    },
+    {
+      "ru": "всё равно",
+      "fr": "quand même"
+    },
+    {
+      "ru": "часть обучения",
+      "fr": "une partie de l'apprentissage"
+    }
+  ]
+}

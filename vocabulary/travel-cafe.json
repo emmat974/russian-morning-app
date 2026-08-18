@@ -1,0 +1,87 @@
+{
+  "id": "VOC-TRAVEL_CAFE",
+  "level": "A1",
+  "title": "Travel Cafe",
+  "items": [
+    {
+      "ru": "сегодня",
+      "fr": "aujourd'hui"
+    },
+    {
+      "ru": "утром",
+      "fr": "le matin / ce matin"
+    },
+    {
+      "ru": "приезжать",
+      "fr": "arriver (en transport)"
+    },
+    {
+      "ru": "полёт",
+      "fr": "vol / trajet en avion"
+    },
+    {
+      "ru": "надевать",
+      "fr": "mettre un vêtement"
+    },
+    {
+      "ru": "куртка",
+      "fr": "veste"
+    },
+    {
+      "ru": "готов",
+      "fr": "prêt"
+    },
+    {
+      "ru": "подождать",
+      "fr": "attendre un peu"
+    },
+    {
+      "ru": "рядом",
+      "fr": "à côté / près de"
+    },
+    {
+      "ru": "стойка",
+      "fr": "comptoir"
+    },
+    {
+      "ru": "улыбаться",
+      "fr": "sourire"
+    },
+    {
+      "ru": "кивать",
+      "fr": "acquiescer de la tête"
+    },
+    {
+      "ru": "заказывать",
+      "fr": "commander"
+    },
+    {
+      "ru": "незнакомое слово",
+      "fr": "mot inconnu"
+    },
+    {
+      "ru": "объяснять",
+      "fr": "expliquer"
+    },
+    {
+      "ru": "чувствовать себя",
+      "fr": "se sentir"
+    },
+    {
+      "ru": "теперь",
+      "fr": "maintenant"
+    },
+    {
+      "ru": "что-нибудь ещё",
+      "fr": "autre chose"
+    },
+    {
+      "ru": "медленнее",
+      "fr": "plus lentement"
+    },
+    {
+      "ru": "пожалуйста",
+      "fr": "s'il vous plaît / je vous en prie"
+    }
+  ]
+}

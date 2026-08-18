@@ -1,0 +1,51 @@
+{
+  "id": "VOC-DAILY",
+  "level": "A1",
+  "title": "Vie quotidienne",
+  "items": [
+    {
+      "ru": "кофе",
+      "fr": "café"
+    },
+    {
+      "ru": "музыка",
+      "fr": "musique"
+    },
+    {
+      "ru": "фотография",
+      "fr": "photographie"
+    },
+    {
+      "ru": "книга",
+      "fr": "livre"
+    },
+    {
+      "ru": "машина",
+      "fr": "voiture"
+    },
+    {
+      "ru": "телефон",
+      "fr": "téléphone"
+    },
+    {
+      "ru": "работа",
+      "fr": "travail"
+    },
+    {
+      "ru": "дождь",
+      "fr": "pluie"
+    },
+    {
+      "ru": "время",
+      "fr": "temps"
+    },
+    {
+      "ru": "минута",
+      "fr": "minute"
+    },
+    {
+      "ru": "час",
+      "fr": "heure"
+    }
+  ]
+}
