@@ -1,0 +1,367 @@
+{
+  "schema_version": "2.0.0",
+  "nodes": [
+    {
+      "id": "FND-01",
+      "order": 1,
+      "track": "foundations",
+      "level": "A0-A1",
+      "title": "Pronoms et phrases simples",
+      "subtitle": "Trouver qui fait quoi sans traduire mot à mot",
+      "status": "active",
+      "prerequisites": [],
+      "unlock_mode": "available",
+      "estimated_minutes": 18
+    },
+    {
+      "id": "FND-02",
+      "order": 2,
+      "track": "foundations",
+      "level": "A1",
+      "title": "Ne pas savoir, parler, comprendre",
+      "subtitle": "Dire ce qu’on sait, comprend ou parle — et le nier",
+      "status": "active",
+      "prerequisites": [
+        "FND-01"
+      ],
+      "unlock_mode": "prerequisite_soft_mastery",
+      "estimated_minutes": 18
+    },
+    {
+      "id": "FND-03",
+      "order": 3,
+      "track": "foundations",
+      "level": "A1",
+      "title": "Что pour relier deux idées",
+      "subtitle": "Découper une phrase autour de что",
+      "status": "active",
+      "prerequisites": [
+        "FND-02"
+      ],
+      "unlock_mode": "prerequisite_soft_mastery",
+      "estimated_minutes": 18
+    },
+    {
+      "id": "FND-04",
+      "order": 4,
+      "track": "foundations",
+      "level": "A1",
+      "title": "Vouloir aller quelque part",
+      "subtitle": "Exprimer une envie de destination sans calquer le français",
+      "status": "active",
+      "prerequisites": [
+        "FND-02"
+      ],
+      "unlock_mode": "prerequisite_soft_mastery",
+      "estimated_minutes": 18
+    },
+    {
+      "id": "GRM-01",
+      "order": 5,
+      "track": "core-grammar",
+      "level": "A1",
+      "title": "Мне ou Я ? — нравится",
+      "subtitle": "Comprendre la logique de Мне нравится au lieu de mémoriser une exception",
+      "status": "active",
+      "prerequisites": [
+        "FND-02"
+      ],
+      "unlock_mode": "prerequisite_soft_mastery",
+      "estimated_minutes": 18
+    },
+    {
+      "id": "GRM-02",
+      "order": 6,
+      "track": "core-grammar",
+      "level": "A1",
+      "title": "Terminaisons verbales au présent",
+      "subtitle": "Utiliser les terminaisons pour reconnaître la personne",
+      "status": "active",
+      "prerequisites": [
+        "FND-02"
+      ],
+      "unlock_mode": "prerequisite_soft_mastery",
+      "estimated_minutes": 18
+    },
+    {
+      "id": "GRM-03",
+      "order": 7,
+      "track": "core-grammar",
+      "level": "A1",
+      "title": "Genre et adjectifs simples",
+      "subtitle": "Reconnaître le genre et l’accord de l’adjectif au nominatif",
+      "status": "active",
+      "prerequisites": [
+        "FND-01"
+      ],
+      "unlock_mode": "prerequisite_soft_mastery",
+      "estimated_minutes": 18
+    },
+    {
+      "id": "GRM-04",
+      "order": 8,
+      "track": "core-grammar",
+      "level": "A1",
+      "title": "Accusatif : objets et direction",
+      "subtitle": "Voir l’objet direct et la destination dans les changements de forme",
+      "status": "active",
+      "prerequisites": [
+        "GRM-03"
+      ],
+      "unlock_mode": "prerequisite_soft_mastery",
+      "estimated_minutes": 18
+    },
+    {
+      "id": "READ-01",
+      "order": 9,
+      "track": "reading",
+      "level": "A1",
+      "title": "Temps et chronologie : через",
+      "subtitle": "Placer les événements dans le temps avec через",
+      "status": "active",
+      "prerequisites": [
+        "FND-03"
+      ],
+      "unlock_mode": "prerequisite_soft_mastery",
+      "estimated_minutes": 25
+    },
+    {
+      "id": "READ-02",
+      "order": 10,
+      "track": "reading",
+      "level": "A1-A2",
+      "title": "Mini-textes façon Telegram",
+      "subtitle": "Lire de courts messages sans exiger 100 % de vocabulaire",
+      "status": "active",
+      "prerequisites": [
+        "FND-03"
+      ],
+      "unlock_mode": "prerequisite_soft_mastery",
+      "estimated_minutes": 25
+    },
+    {
+      "id": "FND-05",
+      "order": 11,
+      "track": "foundations",
+      "level": "A1",
+      "title": "Survivre dans un échange simple",
+      "subtitle": "Gagner du temps et garder le contrôle d’une conversation",
+      "status": "active",
+      "prerequisites": [
+        "FND-02"
+      ],
+      "unlock_mode": "prerequisite_soft_mastery",
+      "estimated_minutes": 18
+    },
+    {
+      "id": "FND-06",
+      "order": 12,
+      "track": "foundations",
+      "level": "A1",
+      "title": "Se présenter et parler de sa famille",
+      "subtitle": "Se présenter, répondre naturellement et décrire une famille simple",
+      "status": "active",
+      "prerequisites": [
+        "FND-05"
+      ],
+      "unlock_mode": "prerequisite_soft_mastery",
+      "estimated_minutes": 18
+    },
+    {
+      "id": "GRM-05",
+      "order": 13,
+      "track": "core-grammar",
+      "level": "A1",
+      "title": "Où ou vers où ? — дома, домой, в/на",
+      "subtitle": "Séparer clairement position et déplacement",
+      "status": "active",
+      "prerequisites": [
+        "FND-04"
+      ],
+      "unlock_mode": "prerequisite_soft_mastery",
+      "estimated_minutes": 18
+    },
+    {
+      "id": "GRM-06",
+      "order": 14,
+      "track": "core-grammar",
+      "level": "A1",
+      "title": "Avoir et ne pas avoir — у ... есть / нет",
+      "subtitle": "Possession et absence avec у ... есть / нет",
+      "status": "active",
+      "prerequisites": [
+        "FND-06"
+      ],
+      "unlock_mode": "prerequisite_soft_mastery",
+      "estimated_minutes": 18
+    },
+    {
+      "id": "GRM-07",
+      "order": 15,
+      "track": "core-grammar",
+      "level": "A1",
+      "title": "Le passé : -л, -ла, -ли",
+      "subtitle": "Lire le passé grâce au genre et au nombre",
+      "status": "active",
+      "prerequisites": [
+        "GRM-02"
+      ],
+      "unlock_mode": "prerequisite_soft_mastery",
+      "estimated_minutes": 18
+    },
+    {
+      "id": "GRM-08",
+      "order": 16,
+      "track": "core-grammar",
+      "level": "A1",
+      "title": "Я n'est pas toujours 'moi' — меня, мне, тебя, тебе",
+      "subtitle": "Choisir Я, меня, мне, ты, тебя, тебе selon le rôle",
+      "status": "active",
+      "prerequisites": [
+        "GRM-01"
+      ],
+      "unlock_mode": "prerequisite_soft_mastery",
+      "estimated_minutes": 18
+    },
+    {
+      "id": "GRM-09",
+      "order": 17,
+      "track": "core-grammar",
+      "level": "A1-A2",
+      "title": "Avec, près de, sans — с / рядом с / без",
+      "subtitle": "Comprendre des groupes prépositionnels fréquents avant le tableau des cas",
+      "status": "preview",
+      "prerequisites": [
+        "GRM-05"
+      ],
+      "unlock_mode": "prerequisite_soft_mastery",
+      "estimated_minutes": 18
+    },
+    {
+      "id": "READ-03",
+      "order": 18,
+      "track": "reading",
+      "level": "A1",
+      "title": "Lecture : arrivée à Moscou et café",
+      "subtitle": "Arrivée à Moscou : comprendre une interaction de café",
+      "status": "active",
+      "prerequisites": [
+        "FND-05"
+      ],
+      "unlock_mode": "prerequisite_soft_mastery",
+      "estimated_minutes": 25
+    },
+    {
+      "id": "READ-04",
+      "order": 19,
+      "track": "reading",
+      "level": "A1",
+      "title": "Lecture : une soirée dans une famille russe",
+      "subtitle": "Famille : suivre plusieurs personnes et plusieurs actions",
+      "status": "active",
+      "prerequisites": [
+        "FND-06"
+      ],
+      "unlock_mode": "prerequisite_soft_mastery",
+      "estimated_minutes": 25
+    },
+    {
+      "id": "READ-05",
+      "order": 20,
+      "track": "reading",
+      "level": "A1",
+      "title": "Lecture : Tony se perd dans Moscou",
+      "subtitle": "Moscou : comprendre une erreur d’orientation et des indications",
+      "status": "active",
+      "prerequisites": [
+        "GRM-05"
+      ],
+      "unlock_mode": "prerequisite_soft_mastery",
+      "estimated_minutes": 25
+    },
+    {
+      "id": "READ-06",
+      "order": 21,
+      "track": "reading",
+      "level": "A1-A2",
+      "title": "Lecture : le dîner au restaurant",
+      "subtitle": "Restaurant : choix, préférences et demandes concrètes",
+      "status": "preview",
+      "prerequisites": [
+        "GRM-01"
+      ],
+      "unlock_mode": "prerequisite_soft_mastery",
+      "estimated_minutes": 25
+    },
+    {
+      "id": "READ-07",
+      "order": 22,
+      "track": "reading",
+      "level": "A1-A2",
+      "title": "Lecture : un problème à l'hôtel",
+      "subtitle": "Hôtel : signaler un problème et négocier une solution",
+      "status": "preview",
+      "prerequisites": [
+        "GRM-06"
+      ],
+      "unlock_mode": "prerequisite_soft_mastery",
+      "estimated_minutes": 25
+    },
+    {
+      "id": "READ-08",
+      "order": 23,
+      "track": "reading",
+      "level": "A1-A2",
+      "title": "Lecture : une conversation plus naturelle",
+      "subtitle": "Conversation finale : parler honnêtement de son niveau",
+      "status": "preview",
+      "prerequisites": [
+        "READ-02"
+      ],
+      "unlock_mode": "prerequisite_soft_mastery",
+      "estimated_minutes": 25
+    },
+    {
+      "id": "PRACT-01",
+      "order": 24,
+      "track": "practice",
+      "level": "A1",
+      "title": "Traduction active par familles verbales",
+      "subtitle": "Passer de la reconnaissance à la production",
+      "status": "active",
+      "prerequisites": [
+        "GRM-01"
+      ],
+      "unlock_mode": "prerequisite_soft_mastery",
+      "estimated_minutes": 20
+    },
+    {
+      "id": "PRACT-02",
+      "order": 25,
+      "track": "practice",
+      "level": "A1",
+      "title": "Familles de mots et formes pièges",
+      "subtitle": "Relier les formes de surface à un même mot",
+      "status": "active",
+      "prerequisites": [
+        "GRM-03"
+      ],
+      "unlock_mode": "prerequisite_soft_mastery",
+      "estimated_minutes": 20
+    },
+    {
+      "id": "PRACT-03",
+      "order": 26,
+      "track": "practice",
+      "level": "A1",
+      "title": "Choisir le bon verbe",
+      "subtitle": "Choisir le verbe en fonction de l’action réelle",
+      "status": "active",
+      "prerequisites": [
+        "FND-02"
+      ],
+      "unlock_mode": "prerequisite_soft_mastery",
+      "estimated_minutes": 20
+    }
+  ]
+}

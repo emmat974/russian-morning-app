@@ -1,0 +1,464 @@
+{
+  "exercise_set": "13-grm-05-location-direction",
+  "items": [
+    {
+      "id": "GRM05-001",
+      "lesson_id": "GRM-05",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "« Он дома » signifie :",
+      "answer": "Il est à la maison.",
+      "concepts": [
+        "дома"
+      ],
+      "error_tags": [
+        "дома-vs-домой"
+      ],
+      "options": [
+        "Il rentre chez lui.",
+        "Il est à la maison.",
+        "Il vient de la maison.",
+        "Il construit une maison."
+      ],
+      "source": "GH:serie-contextes",
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "GRM05-002",
+      "lesson_id": "GRM-05",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "« Он идёт домой » signifie :",
+      "answer": "Il rentre chez lui.",
+      "concepts": [
+        "домой"
+      ],
+      "error_tags": [
+        "дома-vs-домой"
+      ],
+      "options": [
+        "Il est à la maison.",
+        "Il rentre chez lui.",
+        "Il parle de la maison.",
+        "Il travaille à domicile."
+      ],
+      "source": "GH:serie-contextes",
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "GRM05-003",
+      "lesson_id": "GRM-05",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Complète : Алексей приглашает Тони к себе ___.",
+      "answer": "домой",
+      "concepts": [
+        "домой"
+      ],
+      "error_tags": [
+        "дома-vs-домой"
+      ],
+      "options": [
+        "дом",
+        "дома",
+        "домой",
+        "домашний"
+      ],
+      "source": "GH:serie-formes",
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "GRM05-004",
+      "lesson_id": "GRM-05",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Complète : Его папа готовит ужин на ___.",
+      "answer": "кухне",
+      "concepts": [
+        "location",
+        "на"
+      ],
+      "error_tags": [
+        "где-vs-куда"
+      ],
+      "options": [
+        "кухня",
+        "кухне",
+        "кухню",
+        "кухней"
+      ],
+      "source": "GH:banque-ch2-recit",
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "GRM05-005",
+      "lesson_id": "GRM-05",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Complète : Он идёт на ___.",
+      "answer": "кухню",
+      "concepts": [
+        "direction",
+        "на"
+      ],
+      "error_tags": [
+        "где-vs-куда"
+      ],
+      "options": [
+        "кухня",
+        "кухне",
+        "кухню",
+        "кухней"
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "GRM05-006",
+      "lesson_id": "GRM-05",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "« Где? » demande :",
+      "answer": "un lieu où l'on se trouve",
+      "concepts": [
+        "где"
+      ],
+      "error_tags": [
+        "где-vs-куда"
+      ],
+      "options": [
+        "une direction",
+        "un lieu où l'on se trouve",
+        "une cause",
+        "une personne"
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "GRM05-007",
+      "lesson_id": "GRM-05",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "« Куда? » demande :",
+      "answer": "une direction / destination",
+      "concepts": [
+        "куда"
+      ],
+      "error_tags": [
+        "где-vs-куда"
+      ],
+      "options": [
+        "une direction / destination",
+        "une possession",
+        "un âge",
+        "une quantité"
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "GRM05-008",
+      "lesson_id": "GRM-05",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis en russe : « Elle travaille dans un café. »",
+      "answer": "Она работает в кафе.",
+      "concepts": [
+        "location",
+        "работать"
+      ],
+      "error_tags": [
+        "где-vs-куда"
+      ],
+      "source": "GH:series-traduction/travailler",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "GRM05-009",
+      "lesson_id": "GRM-05",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis en russe : « Je vais au café à pied. »",
+      "answer": "Я иду в кафе.",
+      "concepts": [
+        "direction",
+        "идти"
+      ],
+      "error_tags": [
+        "идти-vs-ехать"
+      ],
+      "source": "GH:series-traduction/aller-venir",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "GRM05-010",
+      "lesson_id": "GRM-05",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Dans « в гостиницу », l'idée dominante est :",
+      "answer": "aller vers l'hôtel",
+      "concepts": [
+        "direction"
+      ],
+      "error_tags": [
+        "где-vs-куда"
+      ],
+      "options": [
+        "être dans l'hôtel",
+        "aller vers l'hôtel",
+        "sortir de l'hôtel",
+        "posséder l'hôtel"
+      ],
+      "source": "PDF:p1",
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "GRM05-011",
+      "lesson_id": "GRM-05",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Dans « в гостинице », l'idée dominante est :",
+      "answer": "être dans l'hôtel",
+      "concepts": [
+        "location"
+      ],
+      "error_tags": [
+        "где-vs-куда"
+      ],
+      "options": [
+        "être dans l'hôtel",
+        "aller vers l'hôtel",
+        "être près de l'hôtel",
+        "venir de l'hôtel"
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "GRM05-012",
+      "lesson_id": "GRM-05",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis en russe : « Où allez-vous ? »",
+      "answer": "Куда вы идёте?",
+      "concepts": [
+        "куда",
+        "идти",
+        "ехать"
+      ],
+      "error_tags": [
+        "где-vs-куда",
+        "вы-verb-form"
+      ],
+      "acceptable_answers": [
+        "Куда вы едете?"
+      ],
+      "source": "GH:series-traduction/aller-venir",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    }
+  ]
+}

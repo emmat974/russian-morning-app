@@ -1,0 +1,452 @@
+{
+  "exercise_set": "11-fnd-05-survival",
+  "items": [
+    {
+      "id": "FND05-001",
+      "lesson_id": "FND-05",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis en russe : « Excusez-moi, je ne comprends pas. »",
+      "answer": "Извините, я не понимаю.",
+      "concepts": [
+        "politeness",
+        "понимать"
+      ],
+      "error_tags": [
+        "fixed-expression",
+        "missing-ne"
+      ],
+      "acceptable_answers": [
+        "Извините, я не понимаю"
+      ],
+      "source": "PDF:p2",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "FND05-002",
+      "lesson_id": "FND-05",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis en russe : « Parlez plus lentement, s'il vous plaît. »",
+      "answer": "Говорите медленнее, пожалуйста.",
+      "concepts": [
+        "politeness"
+      ],
+      "error_tags": [
+        "polite-vs-informal",
+        "fixed-expression"
+      ],
+      "source": "PDF:p1",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "FND05-003",
+      "lesson_id": "FND-05",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis en russe : « Pouvez-vous répéter ? »",
+      "answer": "Можно ещё раз?",
+      "concepts": [
+        "можно"
+      ],
+      "error_tags": [
+        "fixed-expression"
+      ],
+      "acceptable_answers": [
+        "Можно ещё раз"
+      ],
+      "source": "PDF:p2",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "FND05-004",
+      "lesson_id": "FND-05",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis en russe : « Qu'est-ce que cela signifie ? »",
+      "answer": "Что это значит?",
+      "concepts": [
+        "question"
+      ],
+      "error_tags": [
+        "question-word"
+      ],
+      "acceptable_answers": [
+        "Что это значит"
+      ],
+      "source": "PDF:p1",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "FND05-005",
+      "lesson_id": "FND-05",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "prompt": "Я хотел бы чай, ___.",
+      "answer": "пожалуйста",
+      "concepts": [
+        "politeness"
+      ],
+      "error_tags": [
+        "fixed-expression"
+      ],
+      "source": "PDF:p2",
+      "schema_version": "3.0.0",
+      "activity_type": "fill_blank",
+      "renderer_id": "fill_blank",
+      "skill_dimensions": {
+        "recognition": 0.15,
+        "recall": 0.45,
+        "production": 0.4
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "FND05-006",
+      "lesson_id": "FND-05",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Complète : Что вы ___?",
+      "answer": "хотите",
+      "concepts": [
+        "хотеть",
+        "вы"
+      ],
+      "error_tags": [
+        "хотеть-conjugation",
+        "вы-verb-form"
+      ],
+      "options": [
+        "хочу",
+        "хочешь",
+        "хотите",
+        "хотят"
+      ],
+      "source": "GH:banque-ch1-dialogue",
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "FND05-007",
+      "lesson_id": "FND-05",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "« Что-нибудь ещё? » signifie :",
+      "answer": "Autre chose ?",
+      "concepts": [
+        "ещё"
+      ],
+      "error_tags": [
+        "fixed-expression"
+      ],
+      "options": [
+        "Encore une fois ?",
+        "Autre chose ?",
+        "Qu'est-ce que c'est ?",
+        "Où est-ce ?"
+      ],
+      "source": "PDF:p3",
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "FND05-008",
+      "lesson_id": "FND-05",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Pour dire « sans sucre » :",
+      "answer": "без сахара",
+      "concepts": [
+        "без"
+      ],
+      "error_tags": [
+        "без-genitive"
+      ],
+      "options": [
+        "с сахаром",
+        "без сахара",
+        "для сахара",
+        "сахар нет"
+      ],
+      "source": "PDF:p2",
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "FND05-009",
+      "lesson_id": "FND-05",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Pour dire « avec du sucre » :",
+      "answer": "с сахаром",
+      "concepts": [
+        "с"
+      ],
+      "error_tags": [
+        "с-instrumental"
+      ],
+      "options": [
+        "с сахаром",
+        "без сахара",
+        "на сахаре",
+        "сахаром нет"
+      ],
+      "source": "PDF:p2",
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "FND05-010",
+      "lesson_id": "FND-05",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis : « А, теперь понимаю! »",
+      "answer": "Ah, maintenant je comprends !",
+      "concepts": [
+        "теперь",
+        "понимать"
+      ],
+      "error_tags": [
+        "говорить-vs-понимать"
+      ],
+      "source": "PDF:p2",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "FND05-011",
+      "lesson_id": "FND-05",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Dans un café, quelle réponse est naturelle pour commander rapidement ?",
+      "answer": "Чай, пожалуйста.",
+      "concepts": [
+        "politeness"
+      ],
+      "error_tags": [
+        "active-translation-structure"
+      ],
+      "options": [
+        "Чай, пожалуйста.",
+        "Я чай знать.",
+        "Мне чай есть.",
+        "Чай понимаю."
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "FND05-012",
+      "lesson_id": "FND-05",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "prompt": "Извините, я не ___.",
+      "answer": "понимаю",
+      "concepts": [
+        "понимать"
+      ],
+      "error_tags": [
+        "говорить-vs-понимать"
+      ],
+      "source": "GH:banque-ch1-dialogue",
+      "schema_version": "3.0.0",
+      "activity_type": "fill_blank",
+      "renderer_id": "fill_blank",
+      "skill_dimensions": {
+        "recognition": 0.15,
+        "recall": 0.45,
+        "production": 0.4
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    }
+  ]
+}

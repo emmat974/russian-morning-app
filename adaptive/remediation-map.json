@@ -1,0 +1,830 @@
+{
+  "schema_version": "1.0.0",
+  "routes": [
+    {
+      "error_tag": "я-вместо-мне",
+      "severity": "high",
+      "actions": [
+        "raise_same_concept_weight",
+        "prefer_different_prompt",
+        "include_non_choice_format"
+      ],
+      "review_delay_hours": 6,
+      "max_exact_repeat_before_variant": 0
+    },
+    {
+      "error_tag": "нравится-vs-нравятся",
+      "severity": "medium",
+      "actions": [
+        "raise_same_concept_weight",
+        "prefer_different_prompt",
+        "include_non_choice_format"
+      ],
+      "review_delay_hours": 18,
+      "max_exact_repeat_before_variant": 0
+    },
+    {
+      "error_tag": "что-question-vs-clause",
+      "severity": "medium",
+      "actions": [
+        "raise_same_concept_weight",
+        "prefer_different_prompt",
+        "include_non_choice_format"
+      ],
+      "review_delay_hours": 18,
+      "max_exact_repeat_before_variant": 0
+    },
+    {
+      "error_tag": "missing-что",
+      "severity": "medium",
+      "actions": [
+        "raise_same_concept_weight",
+        "prefer_different_prompt",
+        "include_non_choice_format"
+      ],
+      "review_delay_hours": 18,
+      "max_exact_repeat_before_variant": 0
+    },
+    {
+      "error_tag": "clause-boundary",
+      "severity": "high",
+      "actions": [
+        "raise_same_concept_weight",
+        "prefer_different_prompt",
+        "include_non_choice_format"
+      ],
+      "review_delay_hours": 6,
+      "max_exact_repeat_before_variant": 0
+    },
+    {
+      "error_tag": "говорить-vs-понимать",
+      "severity": "high",
+      "actions": [
+        "raise_same_concept_weight",
+        "prefer_different_prompt",
+        "include_non_choice_format"
+      ],
+      "review_delay_hours": 6,
+      "max_exact_repeat_before_variant": 0
+    },
+    {
+      "error_tag": "знать-vs-понимать",
+      "severity": "medium",
+      "actions": [
+        "raise_same_concept_weight",
+        "prefer_different_prompt",
+        "include_non_choice_format"
+      ],
+      "review_delay_hours": 18,
+      "max_exact_repeat_before_variant": 0
+    },
+    {
+      "error_tag": "missing-ne",
+      "severity": "high",
+      "actions": [
+        "raise_same_concept_weight",
+        "prefer_different_prompt",
+        "include_non_choice_format"
+      ],
+      "review_delay_hours": 6,
+      "max_exact_repeat_before_variant": 0
+    },
+    {
+      "error_tag": "literal-motion-translation",
+      "severity": "medium",
+      "actions": [
+        "raise_same_concept_weight",
+        "prefer_different_prompt",
+        "include_non_choice_format"
+      ],
+      "review_delay_hours": 18,
+      "max_exact_repeat_before_variant": 0
+    },
+    {
+      "error_tag": "direction-vs-location",
+      "severity": "medium",
+      "actions": [
+        "raise_same_concept_weight",
+        "prefer_different_prompt",
+        "include_non_choice_format"
+      ],
+      "review_delay_hours": 18,
+      "max_exact_repeat_before_variant": 0
+    },
+    {
+      "error_tag": "verb-form-1sg",
+      "severity": "medium",
+      "actions": [
+        "raise_same_concept_weight",
+        "prefer_different_prompt",
+        "include_non_choice_format"
+      ],
+      "review_delay_hours": 18,
+      "max_exact_repeat_before_variant": 0
+    },
+    {
+      "error_tag": "verb-form-2sg",
+      "severity": "medium",
+      "actions": [
+        "raise_same_concept_weight",
+        "prefer_different_prompt",
+        "include_non_choice_format"
+      ],
+      "review_delay_hours": 18,
+      "max_exact_repeat_before_variant": 0
+    },
+    {
+      "error_tag": "verb-form-3sg",
+      "severity": "medium",
+      "actions": [
+        "raise_same_concept_weight",
+        "prefer_different_prompt",
+        "include_non_choice_format"
+      ],
+      "review_delay_hours": 18,
+      "max_exact_repeat_before_variant": 0
+    },
+    {
+      "error_tag": "person-ending-confusion",
+      "severity": "high",
+      "actions": [
+        "raise_same_concept_weight",
+        "prefer_different_prompt",
+        "include_non_choice_format"
+      ],
+      "review_delay_hours": 6,
+      "max_exact_repeat_before_variant": 0
+    },
+    {
+      "error_tag": "-ишь-vs-ешь",
+      "severity": "medium",
+      "actions": [
+        "raise_same_concept_weight",
+        "prefer_different_prompt",
+        "include_non_choice_format"
+      ],
+      "review_delay_hours": 18,
+      "max_exact_repeat_before_variant": 0
+    },
+    {
+      "error_tag": "-ит-vs-ет",
+      "severity": "medium",
+      "actions": [
+        "raise_same_concept_weight",
+        "prefer_different_prompt",
+        "include_non_choice_format"
+      ],
+      "review_delay_hours": 18,
+      "max_exact_repeat_before_variant": 0
+    },
+    {
+      "error_tag": "adjective-gender",
+      "severity": "medium",
+      "actions": [
+        "raise_same_concept_weight",
+        "prefer_different_prompt",
+        "include_non_choice_format"
+      ],
+      "review_delay_hours": 18,
+      "max_exact_repeat_before_variant": 0
+    },
+    {
+      "error_tag": "noun-gender",
+      "severity": "low",
+      "actions": [
+        "raise_same_concept_weight",
+        "prefer_different_prompt",
+        "include_non_choice_format"
+      ],
+      "review_delay_hours": 36,
+      "max_exact_repeat_before_variant": 0
+    },
+    {
+      "error_tag": "accusative-feminine-ending",
+      "severity": "medium",
+      "actions": [
+        "raise_same_concept_weight",
+        "prefer_different_prompt",
+        "include_non_choice_format"
+      ],
+      "review_delay_hours": 18,
+      "max_exact_repeat_before_variant": 0
+    },
+    {
+      "error_tag": "object-identification",
+      "severity": "medium",
+      "actions": [
+        "raise_same_concept_weight",
+        "prefer_different_prompt",
+        "include_non_choice_format"
+      ],
+      "review_delay_hours": 18,
+      "max_exact_repeat_before_variant": 0
+    },
+    {
+      "error_tag": "через-meaning",
+      "severity": "medium",
+      "actions": [
+        "raise_same_concept_weight",
+        "prefer_different_prompt",
+        "include_non_choice_format"
+      ],
+      "review_delay_hours": 18,
+      "max_exact_repeat_before_variant": 0
+    },
+    {
+      "error_tag": "context-miss",
+      "severity": "high",
+      "actions": [
+        "raise_same_concept_weight",
+        "prefer_different_prompt",
+        "include_non_choice_format"
+      ],
+      "review_delay_hours": 6,
+      "max_exact_repeat_before_variant": 0
+    },
+    {
+      "error_tag": "reading-strategy",
+      "severity": "medium",
+      "actions": [
+        "raise_same_concept_weight",
+        "prefer_different_prompt",
+        "include_non_choice_format"
+      ],
+      "review_delay_hours": 18,
+      "max_exact_repeat_before_variant": 0
+    },
+    {
+      "error_tag": "pronoun-confusion",
+      "severity": "low",
+      "actions": [
+        "raise_same_concept_weight",
+        "prefer_different_prompt",
+        "include_non_choice_format"
+      ],
+      "review_delay_hours": 36,
+      "max_exact_repeat_before_variant": 0
+    },
+    {
+      "error_tag": "word-order",
+      "severity": "low",
+      "actions": [
+        "raise_same_concept_weight",
+        "prefer_different_prompt",
+        "include_non_choice_format"
+      ],
+      "review_delay_hours": 36,
+      "max_exact_repeat_before_variant": 0
+    },
+    {
+      "error_tag": "subject-omission",
+      "severity": "low",
+      "actions": [
+        "raise_same_concept_weight",
+        "prefer_different_prompt",
+        "include_non_choice_format"
+      ],
+      "review_delay_hours": 36,
+      "max_exact_repeat_before_variant": 0
+    },
+    {
+      "error_tag": "number-confusion",
+      "severity": "low",
+      "actions": [
+        "raise_same_concept_weight",
+        "prefer_different_prompt",
+        "include_non_choice_format"
+      ],
+      "review_delay_hours": 36,
+      "max_exact_repeat_before_variant": 0
+    },
+    {
+      "error_tag": "verb-form-3pl",
+      "severity": "medium",
+      "actions": [
+        "raise_same_concept_weight",
+        "prefer_different_prompt",
+        "include_non_choice_format"
+      ],
+      "review_delay_hours": 18,
+      "max_exact_repeat_before_variant": 0
+    },
+    {
+      "error_tag": "connector-meaning",
+      "severity": "medium",
+      "actions": [
+        "raise_same_concept_weight",
+        "prefer_different_prompt",
+        "include_non_choice_format"
+      ],
+      "review_delay_hours": 18,
+      "max_exact_repeat_before_variant": 0
+    },
+    {
+      "error_tag": "verb-meaning",
+      "severity": "medium",
+      "actions": [
+        "raise_same_concept_weight",
+        "prefer_different_prompt",
+        "include_non_choice_format"
+      ],
+      "review_delay_hours": 18,
+      "max_exact_repeat_before_variant": 0
+    },
+    {
+      "error_tag": "main-verb-identification",
+      "severity": "high",
+      "actions": [
+        "raise_same_concept_weight",
+        "prefer_different_prompt",
+        "include_non_choice_format"
+      ],
+      "review_delay_hours": 6,
+      "max_exact_repeat_before_variant": 0
+    },
+    {
+      "error_tag": "clause-order",
+      "severity": "medium",
+      "actions": [
+        "raise_same_concept_weight",
+        "prefer_different_prompt",
+        "include_non_choice_format"
+      ],
+      "review_delay_hours": 18,
+      "max_exact_repeat_before_variant": 0
+    },
+    {
+      "error_tag": "vocabulary",
+      "severity": "low",
+      "actions": [
+        "raise_same_concept_weight",
+        "prefer_different_prompt",
+        "include_non_choice_format"
+      ],
+      "review_delay_hours": 36,
+      "max_exact_repeat_before_variant": 0
+    },
+    {
+      "error_tag": "missing-preposition",
+      "severity": "medium",
+      "actions": [
+        "raise_same_concept_weight",
+        "prefer_different_prompt",
+        "include_non_choice_format"
+      ],
+      "review_delay_hours": 18,
+      "max_exact_repeat_before_variant": 0
+    },
+    {
+      "error_tag": "preposition-function",
+      "severity": "medium",
+      "actions": [
+        "raise_same_concept_weight",
+        "prefer_different_prompt",
+        "include_non_choice_format"
+      ],
+      "review_delay_hours": 18,
+      "max_exact_repeat_before_variant": 0
+    },
+    {
+      "error_tag": "literal-translation",
+      "severity": "medium",
+      "actions": [
+        "raise_same_concept_weight",
+        "prefer_different_prompt",
+        "include_non_choice_format"
+      ],
+      "review_delay_hours": 18,
+      "max_exact_repeat_before_variant": 0
+    },
+    {
+      "error_tag": "case-identification",
+      "severity": "medium",
+      "actions": [
+        "raise_same_concept_weight",
+        "prefer_different_prompt",
+        "include_non_choice_format"
+      ],
+      "review_delay_hours": 18,
+      "max_exact_repeat_before_variant": 0
+    },
+    {
+      "error_tag": "verb-form-1pl",
+      "severity": "medium",
+      "actions": [
+        "raise_same_concept_weight",
+        "prefer_different_prompt",
+        "include_non_choice_format"
+      ],
+      "review_delay_hours": 18,
+      "max_exact_repeat_before_variant": 0
+    },
+    {
+      "error_tag": "overgeneralization",
+      "severity": "low",
+      "actions": [
+        "raise_same_concept_weight",
+        "prefer_different_prompt",
+        "include_non_choice_format"
+      ],
+      "review_delay_hours": 36,
+      "max_exact_repeat_before_variant": 0
+    },
+    {
+      "error_tag": "subject-identification",
+      "severity": "high",
+      "actions": [
+        "raise_same_concept_weight",
+        "prefer_different_prompt",
+        "include_non_choice_format"
+      ],
+      "review_delay_hours": 6,
+      "max_exact_repeat_before_variant": 0
+    },
+    {
+      "error_tag": "time-expression",
+      "severity": "medium",
+      "actions": [
+        "raise_same_concept_weight",
+        "prefer_different_prompt",
+        "include_non_choice_format"
+      ],
+      "review_delay_hours": 18,
+      "max_exact_repeat_before_variant": 0
+    },
+    {
+      "error_tag": "verb-identification",
+      "severity": "high",
+      "actions": [
+        "raise_same_concept_weight",
+        "prefer_different_prompt",
+        "include_non_choice_format"
+      ],
+      "review_delay_hours": 6,
+      "max_exact_repeat_before_variant": 0
+    },
+    {
+      "error_tag": "polite-vs-informal",
+      "severity": "medium",
+      "actions": [
+        "raise_same_concept_weight",
+        "prefer_different_prompt",
+        "include_non_choice_format"
+      ],
+      "review_delay_hours": 18,
+      "max_exact_repeat_before_variant": 0
+    },
+    {
+      "error_tag": "вы-verb-form",
+      "severity": "medium",
+      "actions": [
+        "raise_same_concept_weight",
+        "prefer_different_prompt",
+        "include_non_choice_format"
+      ],
+      "review_delay_hours": 18,
+      "max_exact_repeat_before_variant": 0
+    },
+    {
+      "error_tag": "хотеть-conjugation",
+      "severity": "medium",
+      "actions": [
+        "raise_same_concept_weight",
+        "prefer_different_prompt",
+        "include_non_choice_format"
+      ],
+      "review_delay_hours": 18,
+      "max_exact_repeat_before_variant": 0
+    },
+    {
+      "error_tag": "fixed-expression",
+      "severity": "medium",
+      "actions": [
+        "raise_same_concept_weight",
+        "prefer_different_prompt",
+        "include_non_choice_format"
+      ],
+      "review_delay_hours": 18,
+      "max_exact_repeat_before_variant": 0
+    },
+    {
+      "error_tag": "дома-vs-домой",
+      "severity": "high",
+      "actions": [
+        "raise_same_concept_weight",
+        "prefer_different_prompt",
+        "include_non_choice_format"
+      ],
+      "review_delay_hours": 6,
+      "max_exact_repeat_before_variant": 0
+    },
+    {
+      "error_tag": "где-vs-куда",
+      "severity": "high",
+      "actions": [
+        "raise_same_concept_weight",
+        "prefer_different_prompt",
+        "include_non_choice_format"
+      ],
+      "review_delay_hours": 6,
+      "max_exact_repeat_before_variant": 0
+    },
+    {
+      "error_tag": "у-possessor-form",
+      "severity": "medium",
+      "actions": [
+        "raise_same_concept_weight",
+        "prefer_different_prompt",
+        "include_non_choice_format"
+      ],
+      "review_delay_hours": 18,
+      "max_exact_repeat_before_variant": 0
+    },
+    {
+      "error_tag": "есть-vs-нет",
+      "severity": "high",
+      "actions": [
+        "raise_same_concept_weight",
+        "prefer_different_prompt",
+        "include_non_choice_format"
+      ],
+      "review_delay_hours": 6,
+      "max_exact_repeat_before_variant": 0
+    },
+    {
+      "error_tag": "genitive-after-нет",
+      "severity": "medium",
+      "actions": [
+        "raise_same_concept_weight",
+        "prefer_different_prompt",
+        "include_non_choice_format"
+      ],
+      "review_delay_hours": 18,
+      "max_exact_repeat_before_variant": 0
+    },
+    {
+      "error_tag": "container-genitive",
+      "severity": "medium",
+      "actions": [
+        "raise_same_concept_weight",
+        "prefer_different_prompt",
+        "include_non_choice_format"
+      ],
+      "review_delay_hours": 18,
+      "max_exact_repeat_before_variant": 0
+    },
+    {
+      "error_tag": "past-gender",
+      "severity": "high",
+      "actions": [
+        "raise_same_concept_weight",
+        "prefer_different_prompt",
+        "include_non_choice_format"
+      ],
+      "review_delay_hours": 6,
+      "max_exact_repeat_before_variant": 0
+    },
+    {
+      "error_tag": "past-plural",
+      "severity": "medium",
+      "actions": [
+        "raise_same_concept_weight",
+        "prefer_different_prompt",
+        "include_non_choice_format"
+      ],
+      "review_delay_hours": 18,
+      "max_exact_repeat_before_variant": 0
+    },
+    {
+      "error_tag": "меня-vs-мне",
+      "severity": "high",
+      "actions": [
+        "raise_same_concept_weight",
+        "prefer_different_prompt",
+        "include_non_choice_format"
+      ],
+      "review_delay_hours": 6,
+      "max_exact_repeat_before_variant": 0
+    },
+    {
+      "error_tag": "тебя-vs-тебе",
+      "severity": "high",
+      "actions": [
+        "raise_same_concept_weight",
+        "prefer_different_prompt",
+        "include_non_choice_format"
+      ],
+      "review_delay_hours": 6,
+      "max_exact_repeat_before_variant": 0
+    },
+    {
+      "error_tag": "ему-vs-его",
+      "severity": "medium",
+      "actions": [
+        "raise_same_concept_weight",
+        "prefer_different_prompt",
+        "include_non_choice_format"
+      ],
+      "review_delay_hours": 18,
+      "max_exact_repeat_before_variant": 0
+    },
+    {
+      "error_tag": "ей-vs-её",
+      "severity": "medium",
+      "actions": [
+        "raise_same_concept_weight",
+        "prefer_different_prompt",
+        "include_non_choice_format"
+      ],
+      "review_delay_hours": 18,
+      "max_exact_repeat_before_variant": 0
+    },
+    {
+      "error_tag": "с-instrumental",
+      "severity": "medium",
+      "actions": [
+        "raise_same_concept_weight",
+        "prefer_different_prompt",
+        "include_non_choice_format"
+      ],
+      "review_delay_hours": 18,
+      "max_exact_repeat_before_variant": 0
+    },
+    {
+      "error_tag": "без-genitive",
+      "severity": "medium",
+      "actions": [
+        "raise_same_concept_weight",
+        "prefer_different_prompt",
+        "include_non_choice_format"
+      ],
+      "review_delay_hours": 18,
+      "max_exact_repeat_before_variant": 0
+    },
+    {
+      "error_tag": "рядом-с",
+      "severity": "medium",
+      "actions": [
+        "raise_same_concept_weight",
+        "prefer_different_prompt",
+        "include_non_choice_format"
+      ],
+      "review_delay_hours": 18,
+      "max_exact_repeat_before_variant": 0
+    },
+    {
+      "error_tag": "спрашивать-vs-просить",
+      "severity": "high",
+      "actions": [
+        "raise_same_concept_weight",
+        "prefer_different_prompt",
+        "include_non_choice_format"
+      ],
+      "review_delay_hours": 6,
+      "max_exact_repeat_before_variant": 0
+    },
+    {
+      "error_tag": "идти-vs-ехать",
+      "severity": "medium",
+      "actions": [
+        "raise_same_concept_weight",
+        "prefer_different_prompt",
+        "include_non_choice_format"
+      ],
+      "review_delay_hours": 18,
+      "max_exact_repeat_before_variant": 0
+    },
+    {
+      "error_tag": "говорить-vs-сказать",
+      "severity": "medium",
+      "actions": [
+        "raise_same_concept_weight",
+        "prefer_different_prompt",
+        "include_non_choice_format"
+      ],
+      "review_delay_hours": 18,
+      "max_exact_repeat_before_variant": 0
+    },
+    {
+      "error_tag": "word-family-base",
+      "severity": "medium",
+      "actions": [
+        "raise_same_concept_weight",
+        "prefer_different_prompt",
+        "include_non_choice_format"
+      ],
+      "review_delay_hours": 18,
+      "max_exact_repeat_before_variant": 0
+    },
+    {
+      "error_tag": "infinitive-recovery",
+      "severity": "medium",
+      "actions": [
+        "raise_same_concept_weight",
+        "prefer_different_prompt",
+        "include_non_choice_format"
+      ],
+      "review_delay_hours": 18,
+      "max_exact_repeat_before_variant": 0
+    },
+    {
+      "error_tag": "form-lookalike",
+      "severity": "medium",
+      "actions": [
+        "raise_same_concept_weight",
+        "prefer_different_prompt",
+        "include_non_choice_format"
+      ],
+      "review_delay_hours": 18,
+      "max_exact_repeat_before_variant": 0
+    },
+    {
+      "error_tag": "question-word",
+      "severity": "medium",
+      "actions": [
+        "raise_same_concept_weight",
+        "prefer_different_prompt",
+        "include_non_choice_format"
+      ],
+      "review_delay_hours": 18,
+      "max_exact_repeat_before_variant": 0
+    },
+    {
+      "error_tag": "direction-sequence",
+      "severity": "medium",
+      "actions": [
+        "raise_same_concept_weight",
+        "prefer_different_prompt",
+        "include_non_choice_format"
+      ],
+      "review_delay_hours": 18,
+      "max_exact_repeat_before_variant": 0
+    },
+    {
+      "error_tag": "reading-detail-vs-main",
+      "severity": "medium",
+      "actions": [
+        "raise_same_concept_weight",
+        "prefer_different_prompt",
+        "include_non_choice_format"
+      ],
+      "review_delay_hours": 18,
+      "max_exact_repeat_before_variant": 0
+    },
+    {
+      "error_tag": "restaurant-vocab",
+      "severity": "low",
+      "actions": [
+        "raise_same_concept_weight",
+        "prefer_different_prompt",
+        "include_non_choice_format"
+      ],
+      "review_delay_hours": 36,
+      "max_exact_repeat_before_variant": 0
+    },
+    {
+      "error_tag": "hotel-vocab",
+      "severity": "low",
+      "actions": [
+        "raise_same_concept_weight",
+        "prefer_different_prompt",
+        "include_non_choice_format"
+      ],
+      "review_delay_hours": 36,
+      "max_exact_repeat_before_variant": 0
+    },
+    {
+      "error_tag": "family-vocab",
+      "severity": "low",
+      "actions": [
+        "raise_same_concept_weight",
+        "prefer_different_prompt",
+        "include_non_choice_format"
+      ],
+      "review_delay_hours": 36,
+      "max_exact_repeat_before_variant": 0
+    },
+    {
+      "error_tag": "active-translation-structure",
+      "severity": "high",
+      "actions": [
+        "raise_same_concept_weight",
+        "prefer_different_prompt",
+        "include_non_choice_format"
+      ],
+      "review_delay_hours": 6,
+      "max_exact_repeat_before_variant": 0
+    },
+    {
+      "error_tag": "active-translation-incomplete",
+      "severity": "medium",
+      "actions": [
+        "raise_same_concept_weight",
+        "prefer_different_prompt",
+        "include_non_choice_format"
+      ],
+      "review_delay_hours": 18,
+      "max_exact_repeat_before_variant": 0
+    }
+  ]
+}

@@ -1,0 +1,3686 @@
+{
+  "exercise_set": "32-listen-type",
+  "items": [
+    {
+      "id": "V3-LISTEN-0001",
+      "lesson_id": "FND-01",
+      "type": "listen_type",
+      "activity_type": "listen_type",
+      "renderer_id": "listen_type",
+      "difficulty": 2,
+      "prompt": "Écoute puis écris exactement ce que tu entends en russe.",
+      "answer": "Я работаю.",
+      "acceptable_answers": [
+        "Я работаю."
+      ],
+      "audio_target_id": "PRN-0008",
+      "concepts": [
+        "personal-pronouns",
+        "simple-svo",
+        "subject-identification"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "listening": 0.45,
+        "recall": 0.2,
+        "production": 0.35
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.2,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-generated-from-pronunciation-target"
+    },
+    {
+      "id": "V3-LISTEN-0002",
+      "lesson_id": "FND-01",
+      "type": "listen_type",
+      "activity_type": "listen_type",
+      "renderer_id": "listen_type",
+      "difficulty": 2,
+      "prompt": "Écoute puis écris exactement ce que tu entends en russe.",
+      "answer": "Она говорит.",
+      "acceptable_answers": [
+        "Она говорит."
+      ],
+      "audio_target_id": "PRN-0009",
+      "concepts": [
+        "personal-pronouns",
+        "simple-svo",
+        "subject-identification"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "listening": 0.45,
+        "recall": 0.2,
+        "production": 0.35
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.2,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-generated-from-pronunciation-target"
+    },
+    {
+      "id": "V3-LISTEN-0003",
+      "lesson_id": "FND-01",
+      "type": "listen_type",
+      "activity_type": "listen_type",
+      "renderer_id": "listen_type",
+      "difficulty": 2,
+      "prompt": "Écoute puis écris exactement ce que tu entends en russe.",
+      "answer": "Они знают.",
+      "acceptable_answers": [
+        "Они знают."
+      ],
+      "audio_target_id": "PRN-0010",
+      "concepts": [
+        "personal-pronouns",
+        "simple-svo",
+        "subject-identification"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "listening": 0.45,
+        "recall": 0.2,
+        "production": 0.35
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.2,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-generated-from-pronunciation-target"
+    },
+    {
+      "id": "V3-LISTEN-0004",
+      "lesson_id": "FND-01",
+      "type": "listen_type",
+      "activity_type": "listen_type",
+      "renderer_id": "listen_type",
+      "difficulty": 2,
+      "prompt": "Écoute puis écris exactement ce que tu entends en russe.",
+      "answer": "Тони понимает слово.",
+      "acceptable_answers": [
+        "Тони понимает слово."
+      ],
+      "audio_target_id": "PRN-0011",
+      "concepts": [
+        "personal-pronouns",
+        "simple-svo",
+        "subject-identification"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "listening": 0.45,
+        "recall": 0.2,
+        "production": 0.35
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.2,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-generated-from-pronunciation-target"
+    },
+    {
+      "id": "V3-LISTEN-0005",
+      "lesson_id": "FND-01",
+      "type": "listen_type",
+      "activity_type": "listen_type",
+      "renderer_id": "listen_type",
+      "difficulty": 2,
+      "prompt": "Écoute puis écris exactement ce que tu entends en russe.",
+      "answer": "Я читаю.",
+      "acceptable_answers": [
+        "Я читаю."
+      ],
+      "audio_target_id": "PRN-0012",
+      "concepts": [
+        "personal-pronouns",
+        "simple-svo",
+        "subject-identification"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "listening": 0.45,
+        "recall": 0.2,
+        "production": 0.35
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.2,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-generated-from-pronunciation-target"
+    },
+    {
+      "id": "V3-LISTEN-0006",
+      "lesson_id": "FND-01",
+      "type": "listen_type",
+      "activity_type": "listen_type",
+      "renderer_id": "listen_type",
+      "difficulty": 2,
+      "prompt": "Écoute puis écris exactement ce que tu entends en russe.",
+      "answer": "Она читает.",
+      "acceptable_answers": [
+        "Она читает."
+      ],
+      "audio_target_id": "PRN-0013",
+      "concepts": [
+        "personal-pronouns",
+        "simple-svo",
+        "subject-identification"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "listening": 0.45,
+        "recall": 0.2,
+        "production": 0.35
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.2,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-generated-from-pronunciation-target"
+    },
+    {
+      "id": "V3-LISTEN-0007",
+      "lesson_id": "FND-01",
+      "type": "listen_type",
+      "activity_type": "listen_type",
+      "renderer_id": "listen_type",
+      "difficulty": 2,
+      "prompt": "Écoute puis écris exactement ce que tu entends en russe.",
+      "answer": "Она говорит быстро.",
+      "acceptable_answers": [
+        "Она говорит быстро."
+      ],
+      "audio_target_id": "PRN-0014",
+      "concepts": [
+        "personal-pronouns",
+        "simple-svo",
+        "subject-identification"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "listening": 0.45,
+        "recall": 0.2,
+        "production": 0.35
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.2,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-generated-from-pronunciation-target"
+    },
+    {
+      "id": "V3-LISTEN-0008",
+      "lesson_id": "FND-01",
+      "type": "listen_type",
+      "activity_type": "listen_type",
+      "renderer_id": "listen_type",
+      "difficulty": 2,
+      "prompt": "Écoute puis écris exactement ce que tu entends en russe.",
+      "answer": "Они читают книгу.",
+      "acceptable_answers": [
+        "Они читают книгу."
+      ],
+      "audio_target_id": "PRN-0015",
+      "concepts": [
+        "personal-pronouns",
+        "simple-svo",
+        "subject-identification"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "listening": 0.45,
+        "recall": 0.2,
+        "production": 0.35
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.2,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-generated-from-pronunciation-target"
+    },
+    {
+      "id": "V3-LISTEN-0009",
+      "lesson_id": "FND-02",
+      "type": "listen_type",
+      "activity_type": "listen_type",
+      "renderer_id": "listen_type",
+      "difficulty": 1,
+      "prompt": "Écoute puis écris exactement ce que tu entends en russe.",
+      "answer": "не понимаю",
+      "acceptable_answers": [
+        "не понимаю"
+      ],
+      "audio_target_id": "PRN-0019",
+      "concepts": [
+        "negation",
+        "говорить",
+        "понимать",
+        "знать",
+        "может-быть"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "listening": 0.45,
+        "recall": 0.2,
+        "production": 0.35
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.2,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-generated-from-pronunciation-target"
+    },
+    {
+      "id": "V3-LISTEN-0010",
+      "lesson_id": "FND-02",
+      "type": "listen_type",
+      "activity_type": "listen_type",
+      "renderer_id": "listen_type",
+      "difficulty": 1,
+      "prompt": "Écoute puis écris exactement ce que tu entends en russe.",
+      "answer": "не знаю",
+      "acceptable_answers": [
+        "не знаю"
+      ],
+      "audio_target_id": "PRN-0020",
+      "concepts": [
+        "negation",
+        "говорить",
+        "понимать",
+        "знать",
+        "может-быть"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "listening": 0.45,
+        "recall": 0.2,
+        "production": 0.35
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.2,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-generated-from-pronunciation-target"
+    },
+    {
+      "id": "V3-LISTEN-0011",
+      "lesson_id": "FND-02",
+      "type": "listen_type",
+      "activity_type": "listen_type",
+      "renderer_id": "listen_type",
+      "difficulty": 1,
+      "prompt": "Écoute puis écris exactement ce que tu entends en russe.",
+      "answer": "может быть",
+      "acceptable_answers": [
+        "может быть"
+      ],
+      "audio_target_id": "PRN-0021",
+      "concepts": [
+        "negation",
+        "говорить",
+        "понимать",
+        "знать",
+        "может-быть"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "listening": 0.45,
+        "recall": 0.2,
+        "production": 0.35
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.2,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-generated-from-pronunciation-target"
+    },
+    {
+      "id": "V3-LISTEN-0012",
+      "lesson_id": "FND-02",
+      "type": "listen_type",
+      "activity_type": "listen_type",
+      "renderer_id": "listen_type",
+      "difficulty": 2,
+      "prompt": "Écoute puis écris exactement ce que tu entends en russe.",
+      "answer": "Я не знаю.",
+      "acceptable_answers": [
+        "Я не знаю."
+      ],
+      "audio_target_id": "PRN-0022",
+      "concepts": [
+        "negation",
+        "говорить",
+        "понимать",
+        "знать",
+        "может-быть"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "listening": 0.45,
+        "recall": 0.2,
+        "production": 0.35
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.2,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-generated-from-pronunciation-target"
+    },
+    {
+      "id": "V3-LISTEN-0013",
+      "lesson_id": "FND-02",
+      "type": "listen_type",
+      "activity_type": "listen_type",
+      "renderer_id": "listen_type",
+      "difficulty": 2,
+      "prompt": "Écoute puis écris exactement ce que tu entends en russe.",
+      "answer": "Я не понимаю.",
+      "acceptable_answers": [
+        "Я не понимаю."
+      ],
+      "audio_target_id": "PRN-0023",
+      "concepts": [
+        "negation",
+        "говорить",
+        "понимать",
+        "знать",
+        "может-быть"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "listening": 0.45,
+        "recall": 0.2,
+        "production": 0.35
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.2,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-generated-from-pronunciation-target"
+    },
+    {
+      "id": "V3-LISTEN-0014",
+      "lesson_id": "FND-02",
+      "type": "listen_type",
+      "activity_type": "listen_type",
+      "renderer_id": "listen_type",
+      "difficulty": 2,
+      "prompt": "Écoute puis écris exactement ce que tu entends en russe.",
+      "answer": "Я немного говорю по-русски.",
+      "acceptable_answers": [
+        "Я немного говорю по-русски."
+      ],
+      "audio_target_id": "PRN-0024",
+      "concepts": [
+        "negation",
+        "говорить",
+        "понимать",
+        "знать",
+        "может-быть"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "listening": 0.45,
+        "recall": 0.2,
+        "production": 0.35
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.2,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-generated-from-pronunciation-target"
+    },
+    {
+      "id": "V3-LISTEN-0015",
+      "lesson_id": "FND-02",
+      "type": "listen_type",
+      "activity_type": "listen_type",
+      "renderer_id": "listen_type",
+      "difficulty": 2,
+      "prompt": "Écoute puis écris exactement ce que tu entends en russe.",
+      "answer": "Я понимаю.",
+      "acceptable_answers": [
+        "Я понимаю."
+      ],
+      "audio_target_id": "PRN-0025",
+      "concepts": [
+        "negation",
+        "говорить",
+        "понимать",
+        "знать",
+        "может-быть"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "listening": 0.45,
+        "recall": 0.2,
+        "production": 0.35
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.2,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-generated-from-pronunciation-target"
+    },
+    {
+      "id": "V3-LISTEN-0016",
+      "lesson_id": "FND-02",
+      "type": "listen_type",
+      "activity_type": "listen_type",
+      "renderer_id": "listen_type",
+      "difficulty": 2,
+      "prompt": "Écoute puis écris exactement ce que tu entends en russe.",
+      "answer": "Я знаю.",
+      "acceptable_answers": [
+        "Я знаю."
+      ],
+      "audio_target_id": "PRN-0026",
+      "concepts": [
+        "negation",
+        "говорить",
+        "понимать",
+        "знать",
+        "может-быть"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "listening": 0.45,
+        "recall": 0.2,
+        "production": 0.35
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.2,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-generated-from-pronunciation-target"
+    },
+    {
+      "id": "V3-LISTEN-0017",
+      "lesson_id": "FND-02",
+      "type": "listen_type",
+      "activity_type": "listen_type",
+      "renderer_id": "listen_type",
+      "difficulty": 2,
+      "prompt": "Écoute puis écris exactement ce que tu entends en russe.",
+      "answer": "Не знаю.",
+      "acceptable_answers": [
+        "Не знаю."
+      ],
+      "audio_target_id": "PRN-0027",
+      "concepts": [
+        "negation",
+        "говорить",
+        "понимать",
+        "знать",
+        "может-быть"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "listening": 0.45,
+        "recall": 0.2,
+        "production": 0.35
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.2,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-generated-from-pronunciation-target"
+    },
+    {
+      "id": "V3-LISTEN-0018",
+      "lesson_id": "FND-02",
+      "type": "listen_type",
+      "activity_type": "listen_type",
+      "renderer_id": "listen_type",
+      "difficulty": 2,
+      "prompt": "Écoute puis écris exactement ce que tu entends en russe.",
+      "answer": "Может быть, не знаю.",
+      "acceptable_answers": [
+        "Может быть, не знаю."
+      ],
+      "audio_target_id": "PRN-0028",
+      "concepts": [
+        "negation",
+        "говорить",
+        "понимать",
+        "знать",
+        "может-быть"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "listening": 0.45,
+        "recall": 0.2,
+        "production": 0.35
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.2,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-generated-from-pronunciation-target"
+    },
+    {
+      "id": "V3-LISTEN-0019",
+      "lesson_id": "FND-02",
+      "type": "listen_type",
+      "activity_type": "listen_type",
+      "renderer_id": "listen_type",
+      "difficulty": 2,
+      "prompt": "Écoute puis écris exactement ce que tu entends en russe.",
+      "answer": "Не понимаю.",
+      "acceptable_answers": [
+        "Не понимаю."
+      ],
+      "audio_target_id": "PRN-0029",
+      "concepts": [
+        "negation",
+        "говорить",
+        "понимать",
+        "знать",
+        "может-быть"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "listening": 0.45,
+        "recall": 0.2,
+        "production": 0.35
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.2,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-generated-from-pronunciation-target"
+    },
+    {
+      "id": "V3-LISTEN-0020",
+      "lesson_id": "FND-03",
+      "type": "listen_type",
+      "activity_type": "listen_type",
+      "renderer_id": "listen_type",
+      "difficulty": 1,
+      "prompt": "Écoute puis écris exactement ce que tu entends en russe.",
+      "answer": "говорит, что",
+      "acceptable_answers": [
+        "говорит, что"
+      ],
+      "audio_target_id": "PRN-0031",
+      "concepts": [
+        "что-clause",
+        "subordination",
+        "clause-boundary"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "listening": 0.45,
+        "recall": 0.2,
+        "production": 0.35
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.2,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-generated-from-pronunciation-target"
+    },
+    {
+      "id": "V3-LISTEN-0021",
+      "lesson_id": "FND-03",
+      "type": "listen_type",
+      "activity_type": "listen_type",
+      "renderer_id": "listen_type",
+      "difficulty": 1,
+      "prompt": "Écoute puis écris exactement ce que tu entends en russe.",
+      "answer": "знаю, что",
+      "acceptable_answers": [
+        "знаю, что"
+      ],
+      "audio_target_id": "PRN-0032",
+      "concepts": [
+        "что-clause",
+        "subordination",
+        "clause-boundary"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "listening": 0.45,
+        "recall": 0.2,
+        "production": 0.35
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.2,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-generated-from-pronunciation-target"
+    },
+    {
+      "id": "V3-LISTEN-0022",
+      "lesson_id": "FND-03",
+      "type": "listen_type",
+      "activity_type": "listen_type",
+      "renderer_id": "listen_type",
+      "difficulty": 1,
+      "prompt": "Écoute puis écris exactement ce que tu entends en russe.",
+      "answer": "понимает, что",
+      "acceptable_answers": [
+        "понимает, что"
+      ],
+      "audio_target_id": "PRN-0033",
+      "concepts": [
+        "что-clause",
+        "subordination",
+        "clause-boundary"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "listening": 0.45,
+        "recall": 0.2,
+        "production": 0.35
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.2,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-generated-from-pronunciation-target"
+    },
+    {
+      "id": "V3-LISTEN-0023",
+      "lesson_id": "FND-03",
+      "type": "listen_type",
+      "activity_type": "listen_type",
+      "renderer_id": "listen_type",
+      "difficulty": 2,
+      "prompt": "Écoute puis écris exactement ce que tu entends en russe.",
+      "answer": "Что это?",
+      "acceptable_answers": [
+        "Что это?"
+      ],
+      "audio_target_id": "PRN-0034",
+      "concepts": [
+        "что-clause",
+        "subordination",
+        "clause-boundary"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "listening": 0.45,
+        "recall": 0.2,
+        "production": 0.35
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.2,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-generated-from-pronunciation-target"
+    },
+    {
+      "id": "V3-LISTEN-0024",
+      "lesson_id": "FND-03",
+      "type": "listen_type",
+      "activity_type": "listen_type",
+      "renderer_id": "listen_type",
+      "difficulty": 2,
+      "prompt": "Écoute puis écris exactement ce que tu entends en russe.",
+      "answer": "Она говорит, что работает.",
+      "acceptable_answers": [
+        "Она говорит, что работает."
+      ],
+      "audio_target_id": "PRN-0035",
+      "concepts": [
+        "что-clause",
+        "subordination",
+        "clause-boundary"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "listening": 0.45,
+        "recall": 0.2,
+        "production": 0.35
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.2,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-generated-from-pronunciation-target"
+    },
+    {
+      "id": "V3-LISTEN-0025",
+      "lesson_id": "FND-03",
+      "type": "listen_type",
+      "activity_type": "listen_type",
+      "renderer_id": "listen_type",
+      "difficulty": 2,
+      "prompt": "Écoute puis écris exactement ce que tu entends en russe.",
+      "answer": "Я знаю, что он дома.",
+      "acceptable_answers": [
+        "Я знаю, что он дома."
+      ],
+      "audio_target_id": "PRN-0036",
+      "concepts": [
+        "что-clause",
+        "subordination",
+        "clause-boundary"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "listening": 0.45,
+        "recall": 0.2,
+        "production": 0.35
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.2,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-generated-from-pronunciation-target"
+    },
+    {
+      "id": "V3-LISTEN-0026",
+      "lesson_id": "FND-03",
+      "type": "listen_type",
+      "activity_type": "listen_type",
+      "renderer_id": "listen_type",
+      "difficulty": 2,
+      "prompt": "Écoute puis écris exactement ce que tu entends en russe.",
+      "answer": "Он понимает, что заблудился.",
+      "acceptable_answers": [
+        "Он понимает, что заблудился."
+      ],
+      "audio_target_id": "PRN-0037",
+      "concepts": [
+        "что-clause",
+        "subordination",
+        "clause-boundary"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "listening": 0.45,
+        "recall": 0.2,
+        "production": 0.35
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.2,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-generated-from-pronunciation-target"
+    },
+    {
+      "id": "V3-LISTEN-0027",
+      "lesson_id": "FND-03",
+      "type": "listen_type",
+      "activity_type": "listen_type",
+      "renderer_id": "listen_type",
+      "difficulty": 2,
+      "prompt": "Écoute puis écris exactement ce que tu entends en russe.",
+      "answer": "Она говорит, что он работает.",
+      "acceptable_answers": [
+        "Она говорит, что он работает."
+      ],
+      "audio_target_id": "PRN-0038",
+      "concepts": [
+        "что-clause",
+        "subordination",
+        "clause-boundary"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "listening": 0.45,
+        "recall": 0.2,
+        "production": 0.35
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.2,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-generated-from-pronunciation-target"
+    },
+    {
+      "id": "V3-LISTEN-0028",
+      "lesson_id": "FND-03",
+      "type": "listen_type",
+      "activity_type": "listen_type",
+      "renderer_id": "listen_type",
+      "difficulty": 2,
+      "prompt": "Écoute puis écris exactement ce que tu entends en russe.",
+      "answer": "Через десять минут он понимает, что заблудился.",
+      "acceptable_answers": [
+        "Через десять минут он понимает, что заблудился."
+      ],
+      "audio_target_id": "PRN-0039",
+      "concepts": [
+        "что-clause",
+        "subordination",
+        "clause-boundary"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "listening": 0.45,
+        "recall": 0.2,
+        "production": 0.35
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.2,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-generated-from-pronunciation-target"
+    },
+    {
+      "id": "V3-LISTEN-0029",
+      "lesson_id": "FND-04",
+      "type": "listen_type",
+      "activity_type": "listen_type",
+      "renderer_id": "listen_type",
+      "difficulty": 1,
+      "prompt": "Écoute puis écris exactement ce que tu entends en russe.",
+      "answer": "в лес",
+      "acceptable_answers": [
+        "в лес"
+      ],
+      "audio_target_id": "PRN-0041",
+      "concepts": [
+        "хотеть",
+        "direction",
+        "в-plus-destination",
+        "куда"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "listening": 0.45,
+        "recall": 0.2,
+        "production": 0.35
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.2,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-generated-from-pronunciation-target"
+    },
+    {
+      "id": "V3-LISTEN-0030",
+      "lesson_id": "FND-04",
+      "type": "listen_type",
+      "activity_type": "listen_type",
+      "renderer_id": "listen_type",
+      "difficulty": 1,
+      "prompt": "Écoute puis écris exactement ce que tu entends en russe.",
+      "answer": "в город",
+      "acceptable_answers": [
+        "в город"
+      ],
+      "audio_target_id": "PRN-0042",
+      "concepts": [
+        "хотеть",
+        "direction",
+        "в-plus-destination",
+        "куда"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "listening": 0.45,
+        "recall": 0.2,
+        "production": 0.35
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.2,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-generated-from-pronunciation-target"
+    },
+    {
+      "id": "V3-LISTEN-0031",
+      "lesson_id": "FND-04",
+      "type": "listen_type",
+      "activity_type": "listen_type",
+      "renderer_id": "listen_type",
+      "difficulty": 2,
+      "prompt": "Écoute puis écris exactement ce que tu entends en russe.",
+      "answer": "Я хочу в лес",
+      "acceptable_answers": [
+        "Я хочу в лес"
+      ],
+      "audio_target_id": "PRN-0044",
+      "concepts": [
+        "хотеть",
+        "direction",
+        "в-plus-destination",
+        "куда"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "listening": 0.45,
+        "recall": 0.2,
+        "production": 0.35
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.2,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-generated-from-pronunciation-target"
+    },
+    {
+      "id": "V3-LISTEN-0032",
+      "lesson_id": "FND-04",
+      "type": "listen_type",
+      "activity_type": "listen_type",
+      "renderer_id": "listen_type",
+      "difficulty": 2,
+      "prompt": "Écoute puis écris exactement ce que tu entends en russe.",
+      "answer": "Я хочу чай.",
+      "acceptable_answers": [
+        "Я хочу чай."
+      ],
+      "audio_target_id": "PRN-0045",
+      "concepts": [
+        "хотеть",
+        "direction",
+        "в-plus-destination",
+        "куда"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "listening": 0.45,
+        "recall": 0.2,
+        "production": 0.35
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.2,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-generated-from-pronunciation-target"
+    },
+    {
+      "id": "V3-LISTEN-0033",
+      "lesson_id": "FND-04",
+      "type": "listen_type",
+      "activity_type": "listen_type",
+      "renderer_id": "listen_type",
+      "difficulty": 2,
+      "prompt": "Écoute puis écris exactement ce que tu entends en russe.",
+      "answer": "Я хочу в лес.",
+      "acceptable_answers": [
+        "Я хочу в лес."
+      ],
+      "audio_target_id": "PRN-0046",
+      "concepts": [
+        "хотеть",
+        "direction",
+        "в-plus-destination",
+        "куда"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "listening": 0.45,
+        "recall": 0.2,
+        "production": 0.35
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.2,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-generated-from-pronunciation-target"
+    },
+    {
+      "id": "V3-LISTEN-0034",
+      "lesson_id": "FND-04",
+      "type": "listen_type",
+      "activity_type": "listen_type",
+      "renderer_id": "listen_type",
+      "difficulty": 2,
+      "prompt": "Écoute puis écris exactement ce que tu entends en russe.",
+      "answer": "Я хочу в город.",
+      "acceptable_answers": [
+        "Я хочу в город."
+      ],
+      "audio_target_id": "PRN-0047",
+      "concepts": [
+        "хотеть",
+        "direction",
+        "в-plus-destination",
+        "куда"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "listening": 0.45,
+        "recall": 0.2,
+        "production": 0.35
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.2,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-generated-from-pronunciation-target"
+    },
+    {
+      "id": "V3-LISTEN-0035",
+      "lesson_id": "FND-04",
+      "type": "listen_type",
+      "activity_type": "listen_type",
+      "renderer_id": "listen_type",
+      "difficulty": 2,
+      "prompt": "Écoute puis écris exactement ce que tu entends en russe.",
+      "answer": "Мы хотим в парк.",
+      "acceptable_answers": [
+        "Мы хотим в парк."
+      ],
+      "audio_target_id": "PRN-0048",
+      "concepts": [
+        "хотеть",
+        "direction",
+        "в-plus-destination",
+        "куда"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "listening": 0.45,
+        "recall": 0.2,
+        "production": 0.35
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.2,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-generated-from-pronunciation-target"
+    },
+    {
+      "id": "V3-LISTEN-0036",
+      "lesson_id": "FND-04",
+      "type": "listen_type",
+      "activity_type": "listen_type",
+      "renderer_id": "listen_type",
+      "difficulty": 2,
+      "prompt": "Écoute puis écris exactement ce que tu entends en russe.",
+      "answer": "Она хочет домой.",
+      "acceptable_answers": [
+        "Она хочет домой."
+      ],
+      "audio_target_id": "PRN-0049",
+      "concepts": [
+        "хотеть",
+        "direction",
+        "в-plus-destination",
+        "куда"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "listening": 0.45,
+        "recall": 0.2,
+        "production": 0.35
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.2,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-generated-from-pronunciation-target"
+    },
+    {
+      "id": "V3-LISTEN-0037",
+      "lesson_id": "FND-04",
+      "type": "listen_type",
+      "activity_type": "listen_type",
+      "renderer_id": "listen_type",
+      "difficulty": 2,
+      "prompt": "Écoute puis écris exactement ce que tu entends en russe.",
+      "answer": "Она дома.",
+      "acceptable_answers": [
+        "Она дома."
+      ],
+      "audio_target_id": "PRN-0050",
+      "concepts": [
+        "хотеть",
+        "direction",
+        "в-plus-destination",
+        "куда"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "listening": 0.45,
+        "recall": 0.2,
+        "production": 0.35
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.2,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-generated-from-pronunciation-target"
+    },
+    {
+      "id": "V3-LISTEN-0038",
+      "lesson_id": "FND-04",
+      "type": "listen_type",
+      "activity_type": "listen_type",
+      "renderer_id": "listen_type",
+      "difficulty": 2,
+      "prompt": "Écoute puis écris exactement ce que tu entends en russe.",
+      "answer": "Я иду в кафе.",
+      "acceptable_answers": [
+        "Я иду в кафе."
+      ],
+      "audio_target_id": "PRN-0051",
+      "concepts": [
+        "хотеть",
+        "direction",
+        "в-plus-destination",
+        "куда"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "listening": 0.45,
+        "recall": 0.2,
+        "production": 0.35
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.2,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-generated-from-pronunciation-target"
+    },
+    {
+      "id": "V3-LISTEN-0039",
+      "lesson_id": "FND-04",
+      "type": "listen_type",
+      "activity_type": "listen_type",
+      "renderer_id": "listen_type",
+      "difficulty": 2,
+      "prompt": "Écoute puis écris exactement ce que tu entends en russe.",
+      "answer": "Я еду во Францию.",
+      "acceptable_answers": [
+        "Я еду во Францию."
+      ],
+      "audio_target_id": "PRN-0052",
+      "concepts": [
+        "хотеть",
+        "direction",
+        "в-plus-destination",
+        "куда"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "listening": 0.45,
+        "recall": 0.2,
+        "production": 0.35
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.2,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-generated-from-pronunciation-target"
+    },
+    {
+      "id": "V3-LISTEN-0040",
+      "lesson_id": "FND-05",
+      "type": "listen_type",
+      "activity_type": "listen_type",
+      "renderer_id": "listen_type",
+      "difficulty": 2,
+      "prompt": "Écoute puis écris exactement ce que tu entends en russe.",
+      "answer": "Говорите медленнее, пожалуйста",
+      "acceptable_answers": [
+        "Говорите медленнее, пожалуйста"
+      ],
+      "audio_target_id": "PRN-0056",
+      "concepts": [
+        "politeness",
+        "survival-russian",
+        "можно",
+        "пожалуйста",
+        "извините"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "listening": 0.45,
+        "recall": 0.2,
+        "production": 0.35
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.2,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-generated-from-pronunciation-target"
+    },
+    {
+      "id": "V3-LISTEN-0041",
+      "lesson_id": "FND-05",
+      "type": "listen_type",
+      "activity_type": "listen_type",
+      "renderer_id": "listen_type",
+      "difficulty": 2,
+      "prompt": "Écoute puis écris exactement ce que tu entends en russe.",
+      "answer": "Можно ещё раз?",
+      "acceptable_answers": [
+        "Можно ещё раз?"
+      ],
+      "audio_target_id": "PRN-0057",
+      "concepts": [
+        "politeness",
+        "survival-russian",
+        "можно",
+        "пожалуйста",
+        "извините"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "listening": 0.45,
+        "recall": 0.2,
+        "production": 0.35
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.2,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-generated-from-pronunciation-target"
+    },
+    {
+      "id": "V3-LISTEN-0042",
+      "lesson_id": "FND-05",
+      "type": "listen_type",
+      "activity_type": "listen_type",
+      "renderer_id": "listen_type",
+      "difficulty": 2,
+      "prompt": "Écoute puis écris exactement ce que tu entends en russe.",
+      "answer": "Что это значит?",
+      "acceptable_answers": [
+        "Что это значит?"
+      ],
+      "audio_target_id": "PRN-0058",
+      "concepts": [
+        "politeness",
+        "survival-russian",
+        "можно",
+        "пожалуйста",
+        "извините"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "listening": 0.45,
+        "recall": 0.2,
+        "production": 0.35
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.2,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-generated-from-pronunciation-target"
+    },
+    {
+      "id": "V3-LISTEN-0043",
+      "lesson_id": "FND-05",
+      "type": "listen_type",
+      "activity_type": "listen_type",
+      "renderer_id": "listen_type",
+      "difficulty": 2,
+      "prompt": "Écoute puis écris exactement ce que tu entends en russe.",
+      "answer": "Извините, я не понимаю.",
+      "acceptable_answers": [
+        "Извините, я не понимаю."
+      ],
+      "audio_target_id": "PRN-0059",
+      "concepts": [
+        "politeness",
+        "survival-russian",
+        "можно",
+        "пожалуйста",
+        "извините"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "listening": 0.45,
+        "recall": 0.2,
+        "production": 0.35
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.2,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-generated-from-pronunciation-target"
+    },
+    {
+      "id": "V3-LISTEN-0044",
+      "lesson_id": "FND-05",
+      "type": "listen_type",
+      "activity_type": "listen_type",
+      "renderer_id": "listen_type",
+      "difficulty": 2,
+      "prompt": "Écoute puis écris exactement ce que tu entends en russe.",
+      "answer": "Говорите медленнее, пожалуйста.",
+      "acceptable_answers": [
+        "Говорите медленнее, пожалуйста."
+      ],
+      "audio_target_id": "PRN-0060",
+      "concepts": [
+        "politeness",
+        "survival-russian",
+        "можно",
+        "пожалуйста",
+        "извините"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "listening": 0.45,
+        "recall": 0.2,
+        "production": 0.35
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.2,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-generated-from-pronunciation-target"
+    },
+    {
+      "id": "V3-LISTEN-0045",
+      "lesson_id": "FND-05",
+      "type": "listen_type",
+      "activity_type": "listen_type",
+      "renderer_id": "listen_type",
+      "difficulty": 2,
+      "prompt": "Écoute puis écris exactement ce que tu entends en russe.",
+      "answer": "Чай, пожалуйста.",
+      "acceptable_answers": [
+        "Чай, пожалуйста."
+      ],
+      "audio_target_id": "PRN-0061",
+      "concepts": [
+        "politeness",
+        "survival-russian",
+        "можно",
+        "пожалуйста",
+        "извините"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "listening": 0.45,
+        "recall": 0.2,
+        "production": 0.35
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.2,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-generated-from-pronunciation-target"
+    },
+    {
+      "id": "V3-LISTEN-0046",
+      "lesson_id": "FND-05",
+      "type": "listen_type",
+      "activity_type": "listen_type",
+      "renderer_id": "listen_type",
+      "difficulty": 2,
+      "prompt": "Écoute puis écris exactement ce que tu entends en russe.",
+      "answer": "Я хотел бы чай.",
+      "acceptable_answers": [
+        "Я хотел бы чай."
+      ],
+      "audio_target_id": "PRN-0062",
+      "concepts": [
+        "politeness",
+        "survival-russian",
+        "можно",
+        "пожалуйста",
+        "извините"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "listening": 0.45,
+        "recall": 0.2,
+        "production": 0.35
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.2,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-generated-from-pronunciation-target"
+    },
+    {
+      "id": "V3-LISTEN-0047",
+      "lesson_id": "FND-06",
+      "type": "listen_type",
+      "activity_type": "listen_type",
+      "renderer_id": "listen_type",
+      "difficulty": 1,
+      "prompt": "Écoute puis écris exactement ce que tu entends en russe.",
+      "answer": "Меня зовут",
+      "acceptable_answers": [
+        "Меня зовут"
+      ],
+      "audio_target_id": "PRN-0063",
+      "concepts": [
+        "меня-зовут",
+        "мне-тоже",
+        "possession",
+        "family"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "listening": 0.45,
+        "recall": 0.2,
+        "production": 0.35
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.2,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-generated-from-pronunciation-target"
+    },
+    {
+      "id": "V3-LISTEN-0048",
+      "lesson_id": "FND-06",
+      "type": "listen_type",
+      "activity_type": "listen_type",
+      "renderer_id": "listen_type",
+      "difficulty": 1,
+      "prompt": "Écoute puis écris exactement ce que tu entends en russe.",
+      "answer": "Очень приятно",
+      "acceptable_answers": [
+        "Очень приятно"
+      ],
+      "audio_target_id": "PRN-0064",
+      "concepts": [
+        "меня-зовут",
+        "мне-тоже",
+        "possession",
+        "family"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "listening": 0.45,
+        "recall": 0.2,
+        "production": 0.35
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.2,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-generated-from-pronunciation-target"
+    },
+    {
+      "id": "V3-LISTEN-0049",
+      "lesson_id": "FND-06",
+      "type": "listen_type",
+      "activity_type": "listen_type",
+      "renderer_id": "listen_type",
+      "difficulty": 1,
+      "prompt": "Écoute puis écris exactement ce que tu entends en russe.",
+      "answer": "Мне тоже",
+      "acceptable_answers": [
+        "Мне тоже"
+      ],
+      "audio_target_id": "PRN-0065",
+      "concepts": [
+        "меня-зовут",
+        "мне-тоже",
+        "possession",
+        "family"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "listening": 0.45,
+        "recall": 0.2,
+        "production": 0.35
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.2,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-generated-from-pronunciation-target"
+    },
+    {
+      "id": "V3-LISTEN-0050",
+      "lesson_id": "FND-06",
+      "type": "listen_type",
+      "activity_type": "listen_type",
+      "renderer_id": "listen_type",
+      "difficulty": 2,
+      "prompt": "Écoute puis écris exactement ce que tu entends en russe.",
+      "answer": "У меня есть",
+      "acceptable_answers": [
+        "У меня есть"
+      ],
+      "audio_target_id": "PRN-0066",
+      "concepts": [
+        "меня-зовут",
+        "мне-тоже",
+        "possession",
+        "family"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "listening": 0.45,
+        "recall": 0.2,
+        "production": 0.35
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.2,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-generated-from-pronunciation-target"
+    },
+    {
+      "id": "V3-LISTEN-0051",
+      "lesson_id": "FND-06",
+      "type": "listen_type",
+      "activity_type": "listen_type",
+      "renderer_id": "listen_type",
+      "difficulty": 1,
+      "prompt": "Écoute puis écris exactement ce que tu entends en russe.",
+      "answer": "младшая сестра",
+      "acceptable_answers": [
+        "младшая сестра"
+      ],
+      "audio_target_id": "PRN-0068",
+      "concepts": [
+        "меня-зовут",
+        "мне-тоже",
+        "possession",
+        "family"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "listening": 0.45,
+        "recall": 0.2,
+        "production": 0.35
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.2,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-generated-from-pronunciation-target"
+    },
+    {
+      "id": "V3-LISTEN-0052",
+      "lesson_id": "FND-06",
+      "type": "listen_type",
+      "activity_type": "listen_type",
+      "renderer_id": "listen_type",
+      "difficulty": 1,
+      "prompt": "Écoute puis écris exactement ce que tu entends en russe.",
+      "answer": "старший брат",
+      "acceptable_answers": [
+        "старший брат"
+      ],
+      "audio_target_id": "PRN-0069",
+      "concepts": [
+        "меня-зовут",
+        "мне-тоже",
+        "possession",
+        "family"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "listening": 0.45,
+        "recall": 0.2,
+        "production": 0.35
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.2,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-generated-from-pronunciation-target"
+    },
+    {
+      "id": "V3-LISTEN-0053",
+      "lesson_id": "FND-06",
+      "type": "listen_type",
+      "activity_type": "listen_type",
+      "renderer_id": "listen_type",
+      "difficulty": 2,
+      "prompt": "Écoute puis écris exactement ce que tu entends en russe.",
+      "answer": "Меня зовут Тони.",
+      "acceptable_answers": [
+        "Меня зовут Тони."
+      ],
+      "audio_target_id": "PRN-0070",
+      "concepts": [
+        "меня-зовут",
+        "мне-тоже",
+        "possession",
+        "family"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "listening": 0.45,
+        "recall": 0.2,
+        "production": 0.35
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.2,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-generated-from-pronunciation-target"
+    },
+    {
+      "id": "V3-LISTEN-0054",
+      "lesson_id": "FND-06",
+      "type": "listen_type",
+      "activity_type": "listen_type",
+      "renderer_id": "listen_type",
+      "difficulty": 2,
+      "prompt": "Écoute puis écris exactement ce que tu entends en russe.",
+      "answer": "Очень приятно.",
+      "acceptable_answers": [
+        "Очень приятно."
+      ],
+      "audio_target_id": "PRN-0071",
+      "concepts": [
+        "меня-зовут",
+        "мне-тоже",
+        "possession",
+        "family"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "listening": 0.45,
+        "recall": 0.2,
+        "production": 0.35
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.2,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-generated-from-pronunciation-target"
+    },
+    {
+      "id": "V3-LISTEN-0055",
+      "lesson_id": "FND-06",
+      "type": "listen_type",
+      "activity_type": "listen_type",
+      "renderer_id": "listen_type",
+      "difficulty": 2,
+      "prompt": "Écoute puis écris exactement ce que tu entends en russe.",
+      "answer": "Мне тоже.",
+      "acceptable_answers": [
+        "Мне тоже."
+      ],
+      "audio_target_id": "PRN-0072",
+      "concepts": [
+        "меня-зовут",
+        "мне-тоже",
+        "possession",
+        "family"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "listening": 0.45,
+        "recall": 0.2,
+        "production": 0.35
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.2,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-generated-from-pronunciation-target"
+    },
+    {
+      "id": "V3-LISTEN-0056",
+      "lesson_id": "FND-06",
+      "type": "listen_type",
+      "activity_type": "listen_type",
+      "renderer_id": "listen_type",
+      "difficulty": 2,
+      "prompt": "Écoute puis écris exactement ce que tu entends en russe.",
+      "answer": "У меня есть брат.",
+      "acceptable_answers": [
+        "У меня есть брат."
+      ],
+      "audio_target_id": "PRN-0073",
+      "concepts": [
+        "меня-зовут",
+        "мне-тоже",
+        "possession",
+        "family"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "listening": 0.45,
+        "recall": 0.2,
+        "production": 0.35
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.2,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-generated-from-pronunciation-target"
+    },
+    {
+      "id": "V3-LISTEN-0057",
+      "lesson_id": "FND-06",
+      "type": "listen_type",
+      "activity_type": "listen_type",
+      "renderer_id": "listen_type",
+      "difficulty": 2,
+      "prompt": "Écoute puis écris exactement ce que tu entends en russe.",
+      "answer": "У него есть дети?",
+      "acceptable_answers": [
+        "У него есть дети?"
+      ],
+      "audio_target_id": "PRN-0074",
+      "concepts": [
+        "меня-зовут",
+        "мне-тоже",
+        "possession",
+        "family"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "listening": 0.45,
+        "recall": 0.2,
+        "production": 0.35
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.2,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-generated-from-pronunciation-target"
+    },
+    {
+      "id": "V3-LISTEN-0058",
+      "lesson_id": "FND-06",
+      "type": "listen_type",
+      "activity_type": "listen_type",
+      "renderer_id": "listen_type",
+      "difficulty": 2,
+      "prompt": "Écoute puis écris exactement ce que tu entends en russe.",
+      "answer": "Ему тридцать пять лет.",
+      "acceptable_answers": [
+        "Ему тридцать пять лет."
+      ],
+      "audio_target_id": "PRN-0075",
+      "concepts": [
+        "меня-зовут",
+        "мне-тоже",
+        "possession",
+        "family"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "listening": 0.45,
+        "recall": 0.2,
+        "production": 0.35
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.2,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-generated-from-pronunciation-target"
+    },
+    {
+      "id": "V3-LISTEN-0059",
+      "lesson_id": "GRM-01",
+      "type": "listen_type",
+      "activity_type": "listen_type",
+      "renderer_id": "listen_type",
+      "difficulty": 2,
+      "prompt": "Écoute puis écris exactement ce que tu entends en russe.",
+      "answer": "Мне нравится кофе",
+      "acceptable_answers": [
+        "Мне нравится кофе"
+      ],
+      "audio_target_id": "PRN-0079",
+      "concepts": [
+        "dative",
+        "нравиться",
+        "мне-vs-я",
+        "experiencer-construction"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "listening": 0.45,
+        "recall": 0.2,
+        "production": 0.35
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.2,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-generated-from-pronunciation-target"
+    },
+    {
+      "id": "V3-LISTEN-0060",
+      "lesson_id": "GRM-01",
+      "type": "listen_type",
+      "activity_type": "listen_type",
+      "renderer_id": "listen_type",
+      "difficulty": 2,
+      "prompt": "Écoute puis écris exactement ce que tu entends en russe.",
+      "answer": "Мне нравятся фотографии",
+      "acceptable_answers": [
+        "Мне нравятся фотографии"
+      ],
+      "audio_target_id": "PRN-0080",
+      "concepts": [
+        "dative",
+        "нравиться",
+        "мне-vs-я",
+        "experiencer-construction"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "listening": 0.45,
+        "recall": 0.2,
+        "production": 0.35
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.2,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-generated-from-pronunciation-target"
+    },
+    {
+      "id": "V3-LISTEN-0061",
+      "lesson_id": "GRM-01",
+      "type": "listen_type",
+      "activity_type": "listen_type",
+      "renderer_id": "listen_type",
+      "difficulty": 2,
+      "prompt": "Écoute puis écris exactement ce que tu entends en russe.",
+      "answer": "Мне нравится кофе.",
+      "acceptable_answers": [
+        "Мне нравится кофе."
+      ],
+      "audio_target_id": "PRN-0081",
+      "concepts": [
+        "dative",
+        "нравиться",
+        "мне-vs-я",
+        "experiencer-construction"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "listening": 0.45,
+        "recall": 0.2,
+        "production": 0.35
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.2,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-generated-from-pronunciation-target"
+    },
+    {
+      "id": "V3-LISTEN-0062",
+      "lesson_id": "GRM-01",
+      "type": "listen_type",
+      "activity_type": "listen_type",
+      "renderer_id": "listen_type",
+      "difficulty": 2,
+      "prompt": "Écoute puis écris exactement ce que tu entends en russe.",
+      "answer": "Мне нравится эта музыка.",
+      "acceptable_answers": [
+        "Мне нравится эта музыка."
+      ],
+      "audio_target_id": "PRN-0082",
+      "concepts": [
+        "dative",
+        "нравиться",
+        "мне-vs-я",
+        "experiencer-construction"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "listening": 0.45,
+        "recall": 0.2,
+        "production": 0.35
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.2,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-generated-from-pronunciation-target"
+    },
+    {
+      "id": "V3-LISTEN-0063",
+      "lesson_id": "GRM-01",
+      "type": "listen_type",
+      "activity_type": "listen_type",
+      "renderer_id": "listen_type",
+      "difficulty": 2,
+      "prompt": "Écoute puis écris exactement ce que tu entends en russe.",
+      "answer": "Мне нравится фотография.",
+      "acceptable_answers": [
+        "Мне нравится фотография."
+      ],
+      "audio_target_id": "PRN-0083",
+      "concepts": [
+        "dative",
+        "нравиться",
+        "мне-vs-я",
+        "experiencer-construction"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "listening": 0.45,
+        "recall": 0.2,
+        "production": 0.35
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.2,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-generated-from-pronunciation-target"
+    },
+    {
+      "id": "V3-LISTEN-0064",
+      "lesson_id": "GRM-01",
+      "type": "listen_type",
+      "activity_type": "listen_type",
+      "renderer_id": "listen_type",
+      "difficulty": 2,
+      "prompt": "Écoute puis écris exactement ce que tu entends en russe.",
+      "answer": "Мне нравятся фотографии.",
+      "acceptable_answers": [
+        "Мне нравятся фотографии."
+      ],
+      "audio_target_id": "PRN-0084",
+      "concepts": [
+        "dative",
+        "нравиться",
+        "мне-vs-я",
+        "experiencer-construction"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "listening": 0.45,
+        "recall": 0.2,
+        "production": 0.35
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.2,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-generated-from-pronunciation-target"
+    },
+    {
+      "id": "V3-LISTEN-0065",
+      "lesson_id": "GRM-01",
+      "type": "listen_type",
+      "activity_type": "listen_type",
+      "renderer_id": "listen_type",
+      "difficulty": 2,
+      "prompt": "Écoute puis écris exactement ce que tu entends en russe.",
+      "answer": "Тебе нравится чай?",
+      "acceptable_answers": [
+        "Тебе нравится чай?"
+      ],
+      "audio_target_id": "PRN-0085",
+      "concepts": [
+        "dative",
+        "нравиться",
+        "мне-vs-я",
+        "experiencer-construction"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "listening": 0.45,
+        "recall": 0.2,
+        "production": 0.35
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.2,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-generated-from-pronunciation-target"
+    },
+    {
+      "id": "V3-LISTEN-0066",
+      "lesson_id": "GRM-01",
+      "type": "listen_type",
+      "activity_type": "listen_type",
+      "renderer_id": "listen_type",
+      "difficulty": 2,
+      "prompt": "Écoute puis écris exactement ce que tu entends en russe.",
+      "answer": "Ей нравится машина.",
+      "acceptable_answers": [
+        "Ей нравится машина."
+      ],
+      "audio_target_id": "PRN-0086",
+      "concepts": [
+        "dative",
+        "нравиться",
+        "мне-vs-я",
+        "experiencer-construction"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "listening": 0.45,
+        "recall": 0.2,
+        "production": 0.35
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.2,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-generated-from-pronunciation-target"
+    },
+    {
+      "id": "V3-LISTEN-0067",
+      "lesson_id": "GRM-01",
+      "type": "listen_type",
+      "activity_type": "listen_type",
+      "renderer_id": "listen_type",
+      "difficulty": 2,
+      "prompt": "Écoute puis écris exactement ce que tu entends en russe.",
+      "answer": "Мне не нравится кофе.",
+      "acceptable_answers": [
+        "Мне не нравится кофе."
+      ],
+      "audio_target_id": "PRN-0087",
+      "concepts": [
+        "dative",
+        "нравиться",
+        "мне-vs-я",
+        "experiencer-construction"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "listening": 0.45,
+        "recall": 0.2,
+        "production": 0.35
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.2,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-generated-from-pronunciation-target"
+    },
+    {
+      "id": "V3-LISTEN-0068",
+      "lesson_id": "GRM-01",
+      "type": "listen_type",
+      "activity_type": "listen_type",
+      "renderer_id": "listen_type",
+      "difficulty": 2,
+      "prompt": "Écoute puis écris exactement ce que tu entends en russe.",
+      "answer": "Борщ ему нравится.",
+      "acceptable_answers": [
+        "Борщ ему нравится."
+      ],
+      "audio_target_id": "PRN-0088",
+      "concepts": [
+        "dative",
+        "нравиться",
+        "мне-vs-я",
+        "experiencer-construction"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "listening": 0.45,
+        "recall": 0.2,
+        "production": 0.35
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.2,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-generated-from-pronunciation-target"
+    },
+    {
+      "id": "V3-LISTEN-0069",
+      "lesson_id": "GRM-02",
+      "type": "listen_type",
+      "activity_type": "listen_type",
+      "renderer_id": "listen_type",
+      "difficulty": 2,
+      "prompt": "Écoute puis écris exactement ce que tu entends en russe.",
+      "answer": "Она работает.",
+      "acceptable_answers": [
+        "Она работает."
+      ],
+      "audio_target_id": "PRN-0096",
+      "concepts": [
+        "present-tense",
+        "verb-endings",
+        "first-conjugation",
+        "second-conjugation"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "listening": 0.45,
+        "recall": 0.2,
+        "production": 0.35
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.2,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-generated-from-pronunciation-target"
+    },
+    {
+      "id": "V3-LISTEN-0070",
+      "lesson_id": "GRM-02",
+      "type": "listen_type",
+      "activity_type": "listen_type",
+      "renderer_id": "listen_type",
+      "difficulty": 2,
+      "prompt": "Écoute puis écris exactement ce que tu entends en russe.",
+      "answer": "Он говорит.",
+      "acceptable_answers": [
+        "Он говорит."
+      ],
+      "audio_target_id": "PRN-0097",
+      "concepts": [
+        "present-tense",
+        "verb-endings",
+        "first-conjugation",
+        "second-conjugation"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "listening": 0.45,
+        "recall": 0.2,
+        "production": 0.35
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.2,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-generated-from-pronunciation-target"
+    },
+    {
+      "id": "V3-LISTEN-0071",
+      "lesson_id": "GRM-02",
+      "type": "listen_type",
+      "activity_type": "listen_type",
+      "renderer_id": "listen_type",
+      "difficulty": 2,
+      "prompt": "Écoute puis écris exactement ce que tu entends en russe.",
+      "answer": "Ты читаешь.",
+      "acceptable_answers": [
+        "Ты читаешь."
+      ],
+      "audio_target_id": "PRN-0098",
+      "concepts": [
+        "present-tense",
+        "verb-endings",
+        "first-conjugation",
+        "second-conjugation"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "listening": 0.45,
+        "recall": 0.2,
+        "production": 0.35
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.2,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-generated-from-pronunciation-target"
+    },
+    {
+      "id": "V3-LISTEN-0072",
+      "lesson_id": "GRM-02",
+      "type": "listen_type",
+      "activity_type": "listen_type",
+      "renderer_id": "listen_type",
+      "difficulty": 2,
+      "prompt": "Écoute puis écris exactement ce que tu entends en russe.",
+      "answer": "Ты говоришь.",
+      "acceptable_answers": [
+        "Ты говоришь."
+      ],
+      "audio_target_id": "PRN-0099",
+      "concepts": [
+        "present-tense",
+        "verb-endings",
+        "first-conjugation",
+        "second-conjugation"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "listening": 0.45,
+        "recall": 0.2,
+        "production": 0.35
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.2,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-generated-from-pronunciation-target"
+    },
+    {
+      "id": "V3-LISTEN-0073",
+      "lesson_id": "GRM-02",
+      "type": "listen_type",
+      "activity_type": "listen_type",
+      "renderer_id": "listen_type",
+      "difficulty": 2,
+      "prompt": "Écoute puis écris exactement ce que tu entends en russe.",
+      "answer": "Мы читаем.",
+      "acceptable_answers": [
+        "Мы читаем."
+      ],
+      "audio_target_id": "PRN-0100",
+      "concepts": [
+        "present-tense",
+        "verb-endings",
+        "first-conjugation",
+        "second-conjugation"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "listening": 0.45,
+        "recall": 0.2,
+        "production": 0.35
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.2,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-generated-from-pronunciation-target"
+    },
+    {
+      "id": "V3-LISTEN-0074",
+      "lesson_id": "GRM-02",
+      "type": "listen_type",
+      "activity_type": "listen_type",
+      "renderer_id": "listen_type",
+      "difficulty": 2,
+      "prompt": "Écoute puis écris exactement ce que tu entends en russe.",
+      "answer": "Они читают.",
+      "acceptable_answers": [
+        "Они читают."
+      ],
+      "audio_target_id": "PRN-0101",
+      "concepts": [
+        "present-tense",
+        "verb-endings",
+        "first-conjugation",
+        "second-conjugation"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "listening": 0.45,
+        "recall": 0.2,
+        "production": 0.35
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.2,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-generated-from-pronunciation-target"
+    },
+    {
+      "id": "V3-LISTEN-0075",
+      "lesson_id": "GRM-03",
+      "type": "listen_type",
+      "activity_type": "listen_type",
+      "renderer_id": "listen_type",
+      "difficulty": 1,
+      "prompt": "Écoute puis écris exactement ce que tu entends en russe.",
+      "answer": "новый телефон",
+      "acceptable_answers": [
+        "новый телефон"
+      ],
+      "audio_target_id": "PRN-0108",
+      "concepts": [
+        "gender",
+        "adjective-agreement",
+        "nominative"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "listening": 0.45,
+        "recall": 0.2,
+        "production": 0.35
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.2,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-generated-from-pronunciation-target"
+    },
+    {
+      "id": "V3-LISTEN-0076",
+      "lesson_id": "GRM-03",
+      "type": "listen_type",
+      "activity_type": "listen_type",
+      "renderer_id": "listen_type",
+      "difficulty": 1,
+      "prompt": "Écoute puis écris exactement ce que tu entends en russe.",
+      "answer": "новая машина",
+      "acceptable_answers": [
+        "новая машина"
+      ],
+      "audio_target_id": "PRN-0109",
+      "concepts": [
+        "gender",
+        "adjective-agreement",
+        "nominative"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "listening": 0.45,
+        "recall": 0.2,
+        "production": 0.35
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.2,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-generated-from-pronunciation-target"
+    },
+    {
+      "id": "V3-LISTEN-0077",
+      "lesson_id": "GRM-03",
+      "type": "listen_type",
+      "activity_type": "listen_type",
+      "renderer_id": "listen_type",
+      "difficulty": 2,
+      "prompt": "Écoute puis écris exactement ce que tu entends en russe.",
+      "answer": "машина → машину",
+      "acceptable_answers": [
+        "машина → машину"
+      ],
+      "audio_target_id": "PRN-0110",
+      "concepts": [
+        "gender",
+        "adjective-agreement",
+        "nominative"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "listening": 0.45,
+        "recall": 0.2,
+        "production": 0.35
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.2,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-generated-from-pronunciation-target"
+    },
+    {
+      "id": "V3-LISTEN-0078",
+      "lesson_id": "GRM-03",
+      "type": "listen_type",
+      "activity_type": "listen_type",
+      "renderer_id": "listen_type",
+      "difficulty": 1,
+      "prompt": "Écoute puis écris exactement ce que tu entends en russe.",
+      "answer": "молодая женщина",
+      "acceptable_answers": [
+        "молодая женщина"
+      ],
+      "audio_target_id": "PRN-0111",
+      "concepts": [
+        "gender",
+        "adjective-agreement",
+        "nominative"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "listening": 0.45,
+        "recall": 0.2,
+        "production": 0.35
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.2,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-generated-from-pronunciation-target"
+    },
+    {
+      "id": "V3-LISTEN-0079",
+      "lesson_id": "GRM-03",
+      "type": "listen_type",
+      "activity_type": "listen_type",
+      "renderer_id": "listen_type",
+      "difficulty": 1,
+      "prompt": "Écoute puis écris exactement ce que tu entends en russe.",
+      "answer": "маленькое кафе",
+      "acceptable_answers": [
+        "маленькое кафе"
+      ],
+      "audio_target_id": "PRN-0112",
+      "concepts": [
+        "gender",
+        "adjective-agreement",
+        "nominative"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "listening": 0.45,
+        "recall": 0.2,
+        "production": 0.35
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.2,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-generated-from-pronunciation-target"
+    },
+    {
+      "id": "V3-LISTEN-0080",
+      "lesson_id": "GRM-04",
+      "type": "listen_type",
+      "activity_type": "listen_type",
+      "renderer_id": "listen_type",
+      "difficulty": 1,
+      "prompt": "Écoute puis écris exactement ce que tu entends en russe.",
+      "answer": "в школу",
+      "acceptable_answers": [
+        "в школу"
+      ],
+      "audio_target_id": "PRN-0116",
+      "concepts": [
+        "accusative",
+        "direct-object",
+        "motion-direction"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "listening": 0.45,
+        "recall": 0.2,
+        "production": 0.35
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.2,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-generated-from-pronunciation-target"
+    },
+    {
+      "id": "V3-LISTEN-0081",
+      "lesson_id": "GRM-04",
+      "type": "listen_type",
+      "activity_type": "listen_type",
+      "renderer_id": "listen_type",
+      "difficulty": 1,
+      "prompt": "Écoute puis écris exactement ce que tu entends en russe.",
+      "answer": "на кухню",
+      "acceptable_answers": [
+        "на кухню"
+      ],
+      "audio_target_id": "PRN-0117",
+      "concepts": [
+        "accusative",
+        "direct-object",
+        "motion-direction"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "listening": 0.45,
+        "recall": 0.2,
+        "production": 0.35
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.2,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-generated-from-pronunciation-target"
+    },
+    {
+      "id": "V3-LISTEN-0082",
+      "lesson_id": "GRM-04",
+      "type": "listen_type",
+      "activity_type": "listen_type",
+      "renderer_id": "listen_type",
+      "difficulty": 2,
+      "prompt": "Écoute puis écris exactement ce que tu entends en russe.",
+      "answer": "Я вижу машину.",
+      "acceptable_answers": [
+        "Я вижу машину."
+      ],
+      "audio_target_id": "PRN-0118",
+      "concepts": [
+        "accusative",
+        "direct-object",
+        "motion-direction"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "listening": 0.45,
+        "recall": 0.2,
+        "production": 0.35
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.2,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-generated-from-pronunciation-target"
+    },
+    {
+      "id": "V3-LISTEN-0083",
+      "lesson_id": "GRM-04",
+      "type": "listen_type",
+      "activity_type": "listen_type",
+      "renderer_id": "listen_type",
+      "difficulty": 2,
+      "prompt": "Écoute puis écris exactement ce que tu entends en russe.",
+      "answer": "Она читает книгу.",
+      "acceptable_answers": [
+        "Она читает книгу."
+      ],
+      "audio_target_id": "PRN-0119",
+      "concepts": [
+        "accusative",
+        "direct-object",
+        "motion-direction"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "listening": 0.45,
+        "recall": 0.2,
+        "production": 0.35
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.2,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-generated-from-pronunciation-target"
+    },
+    {
+      "id": "V3-LISTEN-0084",
+      "lesson_id": "GRM-04",
+      "type": "listen_type",
+      "activity_type": "listen_type",
+      "renderer_id": "listen_type",
+      "difficulty": 2,
+      "prompt": "Écoute puis écris exactement ce que tu entends en russe.",
+      "answer": "книга → книгу",
+      "acceptable_answers": [
+        "книга → книгу"
+      ],
+      "audio_target_id": "PRN-0120",
+      "concepts": [
+        "accusative",
+        "direct-object",
+        "motion-direction"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "listening": 0.45,
+        "recall": 0.2,
+        "production": 0.35
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.2,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-generated-from-pronunciation-target"
+    },
+    {
+      "id": "V3-LISTEN-0085",
+      "lesson_id": "GRM-04",
+      "type": "listen_type",
+      "activity_type": "listen_type",
+      "renderer_id": "listen_type",
+      "difficulty": 2,
+      "prompt": "Écoute puis écris exactement ce que tu entends en russe.",
+      "answer": "Мы идём в школу.",
+      "acceptable_answers": [
+        "Мы идём в школу."
+      ],
+      "audio_target_id": "PRN-0121",
+      "concepts": [
+        "accusative",
+        "direct-object",
+        "motion-direction"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "listening": 0.45,
+        "recall": 0.2,
+        "production": 0.35
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.2,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-generated-from-pronunciation-target"
+    },
+    {
+      "id": "V3-LISTEN-0086",
+      "lesson_id": "GRM-04",
+      "type": "listen_type",
+      "activity_type": "listen_type",
+      "renderer_id": "listen_type",
+      "difficulty": 2,
+      "prompt": "Écoute puis écris exactement ce que tu entends en russe.",
+      "answer": "Он идёт на кухню.",
+      "acceptable_answers": [
+        "Он идёт на кухню."
+      ],
+      "audio_target_id": "PRN-0122",
+      "concepts": [
+        "accusative",
+        "direct-object",
+        "motion-direction"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "listening": 0.45,
+        "recall": 0.2,
+        "production": 0.35
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.2,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-generated-from-pronunciation-target"
+    },
+    {
+      "id": "V3-LISTEN-0087",
+      "lesson_id": "GRM-04",
+      "type": "listen_type",
+      "activity_type": "listen_type",
+      "renderer_id": "listen_type",
+      "difficulty": 2,
+      "prompt": "Écoute puis écris exactement ce que tu entends en russe.",
+      "answer": "Я вижу телефон.",
+      "acceptable_answers": [
+        "Я вижу телефон."
+      ],
+      "audio_target_id": "PRN-0123",
+      "concepts": [
+        "accusative",
+        "direct-object",
+        "motion-direction"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "listening": 0.45,
+        "recall": 0.2,
+        "production": 0.35
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.2,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-generated-from-pronunciation-target"
+    },
+    {
+      "id": "V3-LISTEN-0088",
+      "lesson_id": "GRM-05",
+      "type": "listen_type",
+      "activity_type": "listen_type",
+      "renderer_id": "listen_type",
+      "difficulty": 1,
+      "prompt": "Écoute puis écris exactement ce que tu entends en russe.",
+      "answer": "на кухне",
+      "acceptable_answers": [
+        "на кухне"
+      ],
+      "audio_target_id": "PRN-0128",
+      "concepts": [
+        "location-vs-direction",
+        "дома",
+        "домой",
+        "где",
+        "куда"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "listening": 0.45,
+        "recall": 0.2,
+        "production": 0.35
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.2,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-generated-from-pronunciation-target"
+    },
+    {
+      "id": "V3-LISTEN-0089",
+      "lesson_id": "GRM-05",
+      "type": "listen_type",
+      "activity_type": "listen_type",
+      "renderer_id": "listen_type",
+      "difficulty": 2,
+      "prompt": "Écoute puis écris exactement ce que tu entends en russe.",
+      "answer": "Где он? Он дома.",
+      "acceptable_answers": [
+        "Где он? Он дома."
+      ],
+      "audio_target_id": "PRN-0129",
+      "concepts": [
+        "location-vs-direction",
+        "дома",
+        "домой",
+        "где",
+        "куда"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "listening": 0.45,
+        "recall": 0.2,
+        "production": 0.35
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.2,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-generated-from-pronunciation-target"
+    },
+    {
+      "id": "V3-LISTEN-0090",
+      "lesson_id": "GRM-05",
+      "type": "listen_type",
+      "activity_type": "listen_type",
+      "renderer_id": "listen_type",
+      "difficulty": 2,
+      "prompt": "Écoute puis écris exactement ce que tu entends en russe.",
+      "answer": "Он на кухне.",
+      "acceptable_answers": [
+        "Он на кухне."
+      ],
+      "audio_target_id": "PRN-0130",
+      "concepts": [
+        "location-vs-direction",
+        "дома",
+        "домой",
+        "где",
+        "куда"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "listening": 0.45,
+        "recall": 0.2,
+        "production": 0.35
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.2,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-generated-from-pronunciation-target"
+    }
+  ]
+}

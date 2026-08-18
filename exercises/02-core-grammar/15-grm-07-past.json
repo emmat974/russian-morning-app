@@ -1,0 +1,455 @@
+{
+  "exercise_set": "15-grm-07-past",
+  "items": [
+    {
+      "id": "GRM07-001",
+      "lesson_id": "GRM-07",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Complète pour un homme : Он ___.",
+      "answer": "устал",
+      "concepts": [
+        "past-gender"
+      ],
+      "error_tags": [
+        "past-gender"
+      ],
+      "options": [
+        "устал",
+        "устала",
+        "устали",
+        "усталый"
+      ],
+      "source": "GH:banque-ch1-recit",
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "GRM07-002",
+      "lesson_id": "GRM-07",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Complète pour une femme : Она ___.",
+      "answer": "устала",
+      "concepts": [
+        "past-gender"
+      ],
+      "error_tags": [
+        "past-gender"
+      ],
+      "options": [
+        "устал",
+        "устала",
+        "устали",
+        "усталый"
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "GRM07-003",
+      "lesson_id": "GRM-07",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Complète au pluriel : Они ___.",
+      "answer": "устали",
+      "concepts": [
+        "past-number"
+      ],
+      "error_tags": [
+        "past-plural"
+      ],
+      "options": [
+        "устал",
+        "устала",
+        "устали",
+        "устало"
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "GRM07-004",
+      "lesson_id": "GRM-07",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis en russe : « Il a travaillé hier. »",
+      "answer": "Он работал вчера.",
+      "concepts": [
+        "past-tense",
+        "работать"
+      ],
+      "error_tags": [
+        "past-gender"
+      ],
+      "source": "GH:series-traduction/travailler",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "GRM07-005",
+      "lesson_id": "GRM-07",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis en russe : « Anastasia a travaillé hier. »",
+      "answer": "Анастасия работала вчера.",
+      "concepts": [
+        "past-tense",
+        "работать"
+      ],
+      "error_tags": [
+        "past-gender"
+      ],
+      "source": "GH:series-traduction/travailler",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "GRM07-006",
+      "lesson_id": "GRM-07",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis en russe : « Ils sont arrivés hier. »",
+      "answer": "Они приехали вчера.",
+      "concepts": [
+        "past-tense"
+      ],
+      "error_tags": [
+        "past-plural"
+      ],
+      "source": "GH:series-traduction/aller-venir",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "GRM07-007",
+      "lesson_id": "GRM-07",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "« Он сказал правду » est :",
+      "answer": "un passé masculin singulier",
+      "concepts": [
+        "past-tense"
+      ],
+      "error_tags": [
+        "past-gender"
+      ],
+      "options": [
+        "un présent",
+        "un passé masculin singulier",
+        "un passé féminin",
+        "un infinitif"
+      ],
+      "source": "GH:series-traduction/dire",
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "GRM07-008",
+      "lesson_id": "GRM-07",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Complète : Она ___ мне нет.",
+      "answer": "сказала",
+      "concepts": [
+        "past-gender",
+        "сказать"
+      ],
+      "error_tags": [
+        "past-gender",
+        "говорить-vs-сказать"
+      ],
+      "options": [
+        "сказал",
+        "сказала",
+        "сказали",
+        "говорит"
+      ],
+      "source": "GH:series-traduction/dire",
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "GRM07-009",
+      "lesson_id": "GRM-07",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Complète : Меня ___ моя мама.",
+      "answer": "пригласила",
+      "concepts": [
+        "past-gender"
+      ],
+      "error_tags": [
+        "past-gender"
+      ],
+      "options": [
+        "пригласил",
+        "пригласила",
+        "пригласили",
+        "приглашает"
+      ],
+      "source": "GH:series-traduction/inviter",
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "GRM07-010",
+      "lesson_id": "GRM-07",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Complète : Меня ___ мои родители.",
+      "answer": "пригласили",
+      "concepts": [
+        "past-number"
+      ],
+      "error_tags": [
+        "past-plural"
+      ],
+      "options": [
+        "пригласил",
+        "пригласила",
+        "пригласили",
+        "приглашал"
+      ],
+      "source": "GH:series-traduction/inviter",
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "GRM07-011",
+      "lesson_id": "GRM-07",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Dans « познакомились », la terminaison -ли indique ici :",
+      "answer": "un passé pluriel",
+      "concepts": [
+        "past-number"
+      ],
+      "error_tags": [
+        "past-plural"
+      ],
+      "options": [
+        "un infinitif",
+        "un présent singulier",
+        "un passé pluriel",
+        "un impératif"
+      ],
+      "source": "PDF:p4",
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "GRM07-012",
+      "lesson_id": "GRM-07",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis : « Он немного устал. »",
+      "answer": "Il est un peu fatigué.",
+      "concepts": [
+        "past-tense"
+      ],
+      "error_tags": [
+        "past-gender"
+      ],
+      "source": "PDF:p1",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    }
+  ]
+}

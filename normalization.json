@@ -1,0 +1,32 @@
+{
+  "version": "1.0.0",
+  "rules": [
+    {
+      "id": "ignore-stress-marks",
+      "description": "Ignorer les accents aigus combinés utilisés pour noter l'accent tonique russe."
+    },
+    {
+      "id": "trim-whitespace",
+      "description": "Supprimer les espaces de début/fin et réduire les espaces répétés."
+    },
+    {
+      "id": "ignore-terminal-punctuation",
+      "description": "Pour les réponses courtes, accepter l'absence de ponctuation finale si le contenu est correct."
+    },
+    {
+      "id": "casefold-cyrillic",
+      "description": "Comparer sans tenir compte des majuscules quand la capitalisation n'est pas l'objet de l'exercice."
+    },
+    {
+      "id": "accepted-answers-first",
+      "description": "Tester acceptable_answers avant toute comparaison tolérante."
+    }
+  ],
+  "recommended_translation_scoring": {
+    "exact": 1.0,
+    "accepted_variant": 1.0,
+    "minor_orthography": 0.75,
+    "correct_with_hint": 0.5,
+    "incomplete": 0.0
+  }
+}

@@ -1,0 +1,363 @@
+{
+  "exercise_set": "08-grm-04",
+  "items": [
+    {
+      "id": "GRM04-001",
+      "lesson_id": "GRM-04",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis : « Я вижу машину. »",
+      "answer": "Je vois la voiture.",
+      "concepts": [
+        "accusative",
+        "direct-object"
+      ],
+      "error_tags": [
+        "object-identification"
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "GRM04-002",
+      "lesson_id": "GRM-04",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis : « Она читает книгу. »",
+      "answer": "Elle lit un livre.",
+      "concepts": [
+        "accusative",
+        "direct-object"
+      ],
+      "error_tags": [
+        "object-identification"
+      ],
+      "acceptable_answers": [
+        "Elle lit un livre.",
+        "Elle lit le livre."
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "GRM04-003",
+      "lesson_id": "GRM-04",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Dans « Я вижу машину », quel est l'objet direct ?",
+      "answer": "машину",
+      "concepts": [
+        "direct-object"
+      ],
+      "error_tags": [
+        "object-identification"
+      ],
+      "options": [
+        "Я",
+        "вижу",
+        "машину",
+        "aucun"
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "GRM04-004",
+      "lesson_id": "GRM-04",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Dans « Мы идём в школу », « в школу » exprime surtout :",
+      "answer": "une destination",
+      "concepts": [
+        "motion-direction",
+        "accusative"
+      ],
+      "error_tags": [
+        "direction-vs-location"
+      ],
+      "options": [
+        "une possession",
+        "une destination",
+        "un instrument",
+        "une comparaison"
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "GRM04-005",
+      "lesson_id": "GRM-04",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "prompt": "Я вижу машин___.",
+      "answer": "у",
+      "concepts": [
+        "accusative"
+      ],
+      "error_tags": [
+        "accusative-feminine-ending"
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "fill_blank",
+      "renderer_id": "fill_blank",
+      "skill_dimensions": {
+        "recognition": 0.15,
+        "recall": 0.45,
+        "production": 0.4
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "GRM04-006",
+      "lesson_id": "GRM-04",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "prompt": "Она читает книг___.",
+      "answer": "у",
+      "concepts": [
+        "accusative"
+      ],
+      "error_tags": [
+        "accusative-feminine-ending"
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "fill_blank",
+      "renderer_id": "fill_blank",
+      "skill_dimensions": {
+        "recognition": 0.15,
+        "recall": 0.45,
+        "production": 0.4
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "GRM04-007",
+      "lesson_id": "GRM-04",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis en russe : « Je vois une voiture. »",
+      "answer": "Я вижу машину.",
+      "concepts": [
+        "accusative",
+        "direct-object"
+      ],
+      "error_tags": [
+        "accusative-feminine-ending"
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "GRM04-008",
+      "lesson_id": "GRM-04",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Choisis la phrase correcte.",
+      "answer": "Она читает книгу.",
+      "concepts": [
+        "accusative"
+      ],
+      "error_tags": [
+        "accusative-feminine-ending"
+      ],
+      "options": [
+        "Она читает книга.",
+        "Она читает книгу.",
+        "Она книгу читает она.",
+        "Она читать книгу."
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "GRM04-009",
+      "lesson_id": "GRM-04",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis : « Мы идём в парк. »",
+      "answer": "Nous allons au parc.",
+      "concepts": [
+        "motion-direction"
+      ],
+      "error_tags": [
+        "direction-vs-location"
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "GRM04-010",
+      "lesson_id": "GRM-04",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Faut-il déjà mémoriser tout l'accusatif ?",
+      "answer": "Non, d'abord reconnaître les formes fréquentes.",
+      "concepts": [
+        "learning-strategy"
+      ],
+      "error_tags": [
+        "overgeneralization"
+      ],
+      "options": [
+        "Oui, toutes les exceptions immédiatement.",
+        "Non, d'abord reconnaître les formes fréquentes.",
+        "Non, le cas n'existe pas.",
+        "Seulement au niveau C1."
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    }
+  ]
+}

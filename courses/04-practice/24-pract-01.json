@@ -1,0 +1,198 @@
+{
+  "id": "PRACT-01",
+  "order": 24,
+  "track": "practice",
+  "level": "A1",
+  "status": "active",
+  "title": "Traduction active par familles verbales",
+  "summary": "Produire des phrases complètes autour des huit familles de l'ancienne application.",
+  "objectives": [
+    "Produire plutôt que reconnaître",
+    "Varier pronoms et compléments",
+    "Distinguer des verbes proches"
+  ],
+  "concepts": [
+    "active-translation",
+    "retrieval-practice",
+    "verb-families"
+  ],
+  "notes": [
+    "Le contexte français reste visible.",
+    "Les accents toniques ne sont jamais obligatoires."
+  ],
+  "examples": [
+    {
+      "ru": "Она говорит, что работает.",
+      "fr": "Elle dit qu'elle travaille."
+    }
+  ],
+  "source_refs": [
+    "GH-RUSSIAN-MORNING-APP:series-traduction"
+  ],
+  "schema_version": "3.0.0",
+  "content_api_version": "3.0",
+  "subtitle": "Passer de la reconnaissance à la production",
+  "estimated_minutes": 20,
+  "prerequisites": [
+    "FND-03",
+    "GRM-01",
+    "GRM-02"
+  ],
+  "lesson_mode": "guided_course_session",
+  "content_blocks": [
+    {
+      "id": "PRACT-01-intro",
+      "type": "markdown",
+      "title": "Pourquoi ce chapitre ?",
+      "body": [
+        "L’ancien repo sépare déjà les exercices du cours et les séries de traduction active. Ce module transforme ce principe en compétence transversale : produire une phrase russe complète à partir d’un contexte français, puis analyser le type d’erreur au lieu de seulement afficher faux."
+      ],
+      "provenance": "editorial-expansion"
+    },
+    {
+      "id": "PRACT-01-sec-01",
+      "type": "markdown",
+      "title": "Pourquoi la traduction active",
+      "body": [
+        "Reconnaître Мне нравится dans un QCM ne garantit pas que tu puisses produire la structure. La traduction active crée cette différence volontairement : aucun choix ne te rappelle la réponse."
+      ],
+      "examples": [],
+      "provenance": "editorial-expansion"
+    },
+    {
+      "id": "PRACT-01-sec-02",
+      "type": "markdown",
+      "title": "Séries verbales",
+      "body": [
+        "Les séries dire, demander, travailler, inviter, voir, aimer, avoir et aller/venir varient les pronoms, temps et compléments. Le but est d’éviter la mémorisation d’une seule phrase modèle."
+      ],
+      "examples": [
+        {
+          "ru": "Elle dit qu’elle travaille.",
+          "fr": "Она говорит, что работает."
+        },
+        {
+          "ru": "Je n’ai pas de téléphone.",
+          "fr": "У меня нет телефона."
+        }
+      ],
+      "provenance": "editorial-expansion"
+    },
+    {
+      "id": "PRACT-01-sec-03",
+      "type": "markdown",
+      "title": "Correction graduée",
+      "body": [
+        "Une réponse peut être exacte, acceptable, presque correcte, incomplète ou structurellement fausse. Le moteur de progression doit distinguer ces situations et enregistrer orthographe, vocabulaire et structure séparément."
+      ],
+      "examples": [],
+      "provenance": "editorial-expansion"
+    },
+    {
+      "id": "PRACT-01-sec-04",
+      "type": "markdown",
+      "title": "Indices limités",
+      "body": [
+        "Révéler le prochain mot doit diminuer le score mais permettre de terminer la phrase. Le but est de maintenir un effort de rappel plutôt que transformer immédiatement l’exercice en correction passive."
+      ],
+      "examples": [],
+      "provenance": "editorial-expansion"
+    },
+    {
+      "id": "PRACT-01-sec-05",
+      "type": "markdown",
+      "title": "Diversité obligatoire",
+      "body": [
+        "La maîtrise d’un concept ne doit pas augmenter fortement si tu répètes la même phrase. Le moteur doit compter le nombre de prompts distincts et de contextes distincts."
+      ],
+      "examples": [],
+      "provenance": "editorial-expansion"
+    },
+    {
+      "id": "PRACT-01-mistakes",
+      "type": "contrast",
+      "title": "Erreurs à surveiller",
+      "items": [
+        {
+          "wrong_or_risk": "Compter une phrase terminée avec plusieurs indices comme maîtrise totale",
+          "correction_or_strategy": "Réduire le score de rappel."
+        },
+        {
+          "wrong_or_risk": "Sanctionner une petite faute comme une structure entièrement fausse",
+          "correction_or_strategy": "Classer l’erreur finement."
+        },
+        {
+          "wrong_or_risk": "Répéter le même item jusqu’à mémorisation",
+          "correction_or_strategy": "Utiliser même concept, phrase différente."
+        }
+      ],
+      "provenance": "editorial-expansion"
+    },
+    {
+      "id": "PRACT-01-memory",
+      "type": "memory",
+      "title": "À retenir",
+      "items": [
+        "Reconnaître ≠ produire.",
+        "Une erreur doit être catégorisée.",
+        "La diversité des phrases valide le transfert."
+      ],
+      "provenance": "editorial-expansion"
+    },
+    {
+      "id": "PRACT-01-pron",
+      "type": "pronunciation",
+      "title": "Prononciation à travailler",
+      "targets": [
+        "Она говорит, что работает",
+        "У меня нет телефона",
+        "Я иду в кафе",
+        "Мне нравится кофе"
+      ],
+      "provenance": "mixed-source-and-editorial"
+    },
+    {
+      "id": "PRACT-01-checkpoint",
+      "type": "checkpoint",
+      "title": "Avant de considérer le chapitre compris",
+      "checks": [
+        "Expliquer l’idée principale avec tes propres mots en français.",
+        "Réussir plusieurs exercices de formats différents sans indice.",
+        "Produire au moins une réponse russe complète liée au concept.",
+        "Revoir au moins une partie du concept après un délai, pas uniquement dans la même session."
+      ],
+      "provenance": "editorial-expansion"
+    }
+  ],
+  "source_policy": {
+    "source_derived_content": "Examples and story contexts trace back to the supplied PDF and/or russian-morning-app when source_refs are present.",
+    "editorial_expansion": "Grammar explanations, learning strategy, mastery rules and newly generated examples are model-authored pedagogical expansion."
+  },
+  "skill_weights": {
+    "recognition": 0.1,
+    "comprehension": 0.1,
+    "recall": 0.2,
+    "production": 0.45,
+    "pronunciation": 0.15
+  },
+  "mastery_contract": {
+    "minimum_distinct_activities": 8,
+    "minimum_distinct_prompts": 6,
+    "minimum_overall_score": 0.7,
+    "minimum_production_score": 0.62,
+    "minimum_comprehension_score": 0.6,
+    "critical_error_rate_max": 0.4,
+    "delayed_review_required_for_mastered": true,
+    "delayed_review_min_hours": 48,
+    "next_chapter_soft_unlock_score": 0.7,
+    "soft_unlock_before_mastered": true
+  },
+  "session_recommendation": {
+    "course_session_blocks_min": 4,
+    "course_session_micro_checks_min": 3,
+    "exercise_session_items": 15,
+    "max_choice_ratio": 0.3,
+    "min_production_ratio": 0.3,
+    "pronunciation_ratio_target": 0.1
+  }
+}

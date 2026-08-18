@@ -1,0 +1,84 @@
+{
+  "schema_version": "2.0.0",
+  "profiles": [
+    {
+      "id": "course_session",
+      "purpose": "Apprendre une notion avec explications, exemples, micro-vérifications et prononciation.",
+      "duration_minutes": [
+        10,
+        20
+      ],
+      "flow": [
+        "lesson_blocks",
+        "micro_checks",
+        "guided_production",
+        "pronunciation",
+        "recap"
+      ],
+      "scored": false,
+      "progress_effect": "Introduces concepts and creates low-weight evidence only."
+    },
+    {
+      "id": "exercise_session",
+      "purpose": "Mélange adaptatif de formats et de notions apprises.",
+      "default_items": 12,
+      "min_items": 8,
+      "max_items": 20,
+      "target_mix": {
+        "choice_single": 0.16,
+        "text_input": 0.1,
+        "fill_blank": 0.1,
+        "cloze_text": 0.05,
+        "phrase_completion": 0.12,
+        "translation_input": 0.14,
+        "reorder_tokens": 0.06,
+        "reading_comprehension": 0.07,
+        "listen_type": 0.06,
+        "pronunciation_repeat_word": 0.04,
+        "pronunciation_repeat_sentence": 0.05,
+        "match_pairs": 0.03,
+        "self_explain": 0.02
+      },
+      "constraints": {
+        "choice_max": 0.28,
+        "production_min": 0.3,
+        "same_activity_max_streak": 2,
+        "same_concept_max_streak": 2,
+        "new_content_max": 0.45,
+        "must_include_free_input": true,
+        "must_include_audio_when_available": true
+      }
+    },
+    {
+      "id": "quick_review",
+      "purpose": "Courte révision des éléments dus.",
+      "default_items": 5,
+      "priority": [
+        "overdue",
+        "fragile",
+        "recent_errors",
+        "due_mastered"
+      ]
+    },
+    {
+      "id": "pronunciation_session",
+      "purpose": "Écouter puis répéter mots et phrases.",
+      "default_items": 8,
+      "target_mix": {
+        "word": 0.55,
+        "sentence_or_phrase": 0.45
+      }
+    },
+    {
+      "id": "chapter_validation",
+      "purpose": "Vérifier si la progression est réelle avant le chapitre suivant.",
+      "default_items": 10,
+      "constraints": {
+        "must_include_production": true,
+        "must_include_non_choice": true,
+        "must_use_distinct_prompts": true,
+        "must_sample_critical_concepts": true
+      }
+    }
+  ]
+}

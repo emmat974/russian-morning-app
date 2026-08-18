@@ -1,0 +1,394 @@
+{
+  "exercise_set": "21-read-06-restaurant",
+  "items": [
+    {
+      "id": "READ06-001",
+      "lesson_id": "READ-06",
+      "type": "comprehension",
+      "difficulty": 1,
+      "prompt": "Pourquoi Alexeï emmène-t-il Tony au restaurant ?",
+      "answer": "Pour lui faire découvrir la cuisine russe traditionnelle.",
+      "concepts": [
+        "restaurant"
+      ],
+      "error_tags": [
+        "restaurant-vocab"
+      ],
+      "options": [
+        "Pour travailler.",
+        "Pour lui faire découvrir la cuisine russe traditionnelle.",
+        "Pour rencontrer sa famille.",
+        "Pour chercher une chambre."
+      ],
+      "source": "PDF:p10",
+      "schema_version": "3.0.0",
+      "activity_type": "reading_comprehension",
+      "renderer_id": "reading_comprehension",
+      "skill_dimensions": {
+        "comprehension": 0.8,
+        "recognition": 0.2
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "READ06-002",
+      "lesson_id": "READ-06",
+      "type": "comprehension",
+      "difficulty": 1,
+      "prompt": "Que boit Tony ?",
+      "answer": "De l'eau plate.",
+      "concepts": [
+        "restaurant"
+      ],
+      "error_tags": [
+        "restaurant-vocab"
+      ],
+      "options": [
+        "Du café.",
+        "De l'eau plate.",
+        "Du vin.",
+        "Du thé vert uniquement."
+      ],
+      "source": "PDF:p10",
+      "schema_version": "3.0.0",
+      "activity_type": "reading_comprehension",
+      "renderer_id": "reading_comprehension",
+      "skill_dimensions": {
+        "comprehension": 0.8,
+        "recognition": 0.2
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "READ06-003",
+      "lesson_id": "READ-06",
+      "type": "comprehension",
+      "difficulty": 1,
+      "prompt": "Quels plats Alexeï conseille-t-il ?",
+      "answer": "Le bortsch et les pelmeni.",
+      "concepts": [
+        "restaurant"
+      ],
+      "error_tags": [
+        "restaurant-vocab"
+      ],
+      "options": [
+        "Le bortsch et les pelmeni.",
+        "Une pizza et une salade.",
+        "Du poisson.",
+        "Un sandwich."
+      ],
+      "source": "PDF:p10",
+      "schema_version": "3.0.0",
+      "activity_type": "reading_comprehension",
+      "renderer_id": "reading_comprehension",
+      "skill_dimensions": {
+        "comprehension": 0.8,
+        "recognition": 0.2
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "READ06-004",
+      "lesson_id": "READ-06",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis : « Борщ ему нравится. »",
+      "answer": "Le bortsch lui plaît.",
+      "concepts": [
+        "нравиться",
+        "dative"
+      ],
+      "error_tags": [
+        "literal-translation"
+      ],
+      "acceptable_answers": [
+        "Il aime le bortsch."
+      ],
+      "source": "PDF:p10",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "READ06-005",
+      "lesson_id": "READ-06",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "« вода без газа » signifie :",
+      "answer": "eau plate / non gazeuse",
+      "concepts": [
+        "restaurant"
+      ],
+      "error_tags": [
+        "restaurant-vocab",
+        "без-genitive"
+      ],
+      "options": [
+        "eau gazeuse",
+        "eau plate / non gazeuse",
+        "eau chaude",
+        "eau sucrée"
+      ],
+      "source": "PDF:p11",
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "READ06-006",
+      "lesson_id": "READ-06",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "« Что вы советуете? » signifie :",
+      "answer": "Que conseillez-vous ?",
+      "concepts": [
+        "советовать"
+      ],
+      "error_tags": [
+        "restaurant-vocab"
+      ],
+      "options": [
+        "Que commandez-vous ?",
+        "Que conseillez-vous ?",
+        "Que buvez-vous ?",
+        "Que voyez-vous ?"
+      ],
+      "source": "PDF:p11",
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "READ06-007",
+      "lesson_id": "READ-06",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis en russe : « C'était très bon. Merci ! »",
+      "answer": "Было очень вкусно. Спасибо!",
+      "concepts": [
+        "restaurant",
+        "past-tense"
+      ],
+      "error_tags": [
+        "restaurant-vocab"
+      ],
+      "acceptable_answers": [
+        "Было очень вкусно, спасибо!"
+      ],
+      "source": "PDF:p10",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "READ06-008",
+      "lesson_id": "READ-06",
+      "type": "comprehension",
+      "difficulty": 1,
+      "prompt": "Pourquoi Tony ne peut-il plus manger à la fin ?",
+      "answer": "Il est rassasié.",
+      "concepts": [
+        "restaurant"
+      ],
+      "error_tags": [
+        "restaurant-vocab"
+      ],
+      "options": [
+        "Il est malade.",
+        "Il est rassasié.",
+        "Il n'aime pas le repas.",
+        "Le restaurant ferme."
+      ],
+      "source": "PDF:p10",
+      "schema_version": "3.0.0",
+      "activity_type": "reading_comprehension",
+      "renderer_id": "reading_comprehension",
+      "skill_dimensions": {
+        "comprehension": 0.8,
+        "recognition": 0.2
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "READ06-009",
+      "lesson_id": "READ-06",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "« отдельно » signifie :",
+      "answer": "séparément",
+      "concepts": [
+        "restaurant"
+      ],
+      "error_tags": [
+        "restaurant-vocab"
+      ],
+      "options": [
+        "rapidement",
+        "séparément",
+        "gratuitement",
+        "ensemble"
+      ],
+      "source": "PDF:p12",
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "READ06-010",
+      "lesson_id": "READ-06",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Idée principale :",
+      "answer": "Tony découvre des plats russes et gère une interaction de restaurant.",
+      "concepts": [
+        "reading-strategy"
+      ],
+      "error_tags": [
+        "reading-detail-vs-main"
+      ],
+      "options": [
+        "Tony demande son chemin.",
+        "Tony découvre des plats russes et gère une interaction de restaurant.",
+        "Tony répare son téléphone.",
+        "Tony visite une famille."
+      ],
+      "source": "PDF:p10-12",
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    }
+  ]
+}

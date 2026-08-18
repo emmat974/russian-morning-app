@@ -1,0 +1,217 @@
+{
+  "id": "GRM-04",
+  "order": 8,
+  "track": "core-grammar",
+  "level": "A1",
+  "title": "Accusatif : objets et direction",
+  "summary": "Première exposition contrôlée à l'accusatif dans des phrases usuelles.",
+  "objectives": [
+    "Reconnaître un objet direct simple",
+    "Voir que certains mots changent de forme",
+    "Relier в + destination à une idée de mouvement"
+  ],
+  "concepts": [
+    "accusative",
+    "direct-object",
+    "motion-direction"
+  ],
+  "notes": [
+    "Tu n'as pas besoin de mémoriser tout le tableau maintenant. Observe surtout les formes récurrentes.",
+    "Exemple utile : Я вижу машину. = Je vois la voiture."
+  ],
+  "examples": [
+    {
+      "ru": "Я вижу машину.",
+      "fr": "Je vois la voiture."
+    },
+    {
+      "ru": "Она читает книгу.",
+      "fr": "Elle lit un livre."
+    },
+    {
+      "ru": "Мы идём в школу.",
+      "fr": "Nous allons à l'école."
+    }
+  ],
+  "schema_version": "3.0.0",
+  "content_api_version": "3.0",
+  "status": "active",
+  "subtitle": "Voir l’objet direct et la destination dans les changements de forme",
+  "estimated_minutes": 18,
+  "prerequisites": [
+    "FND-01",
+    "GRM-03"
+  ],
+  "lesson_mode": "guided_course_session",
+  "content_blocks": [
+    {
+      "id": "GRM-04-intro",
+      "type": "markdown",
+      "title": "Pourquoi ce chapitre ?",
+      "body": [
+        "L’accusatif apparaît très tôt : voir une voiture, lire un livre, aller à l’école. Il n’est pas nécessaire d’apprendre tout le tableau d’un coup ; ce chapitre montre les transformations les plus visibles et leur fonction."
+      ],
+      "provenance": "editorial-expansion"
+    },
+    {
+      "id": "GRM-04-sec-01",
+      "type": "markdown",
+      "title": "Objet direct : qui reçoit l’action ?",
+      "body": [
+        "Dans Я вижу машину, Я est celui qui voit, вижу est l’action et машину est ce qui est vu. Identifier les rôles avant les terminaisons rend le cas beaucoup moins abstrait."
+      ],
+      "examples": [
+        {
+          "ru": "Я вижу машину.",
+          "fr": "Je vois la voiture."
+        },
+        {
+          "ru": "Она читает книгу.",
+          "fr": "Elle lit un livre."
+        }
+      ],
+      "provenance": "editorial-expansion"
+    },
+    {
+      "id": "GRM-04-sec-02",
+      "type": "markdown",
+      "title": "Féminin en -а → -у",
+      "body": [
+        "Pour de nombreux noms féminins en -а, l’objet direct singulier prend -у : машина → машину, книга → книгу. Cette transformation est très rentable à reconnaître."
+      ],
+      "examples": [
+        {
+          "ru": "машина → машину",
+          "fr": "voiture"
+        },
+        {
+          "ru": "книга → книгу",
+          "fr": "livre"
+        }
+      ],
+      "provenance": "editorial-expansion"
+    },
+    {
+      "id": "GRM-04-sec-03",
+      "type": "markdown",
+      "title": "Destination avec в / на",
+      "body": [
+        "Après un verbe de mouvement, в/на + accusatif peut exprimer la destination : в школу, на кухню. Compare avec les formes de lieu statique que GRM-05 développera."
+      ],
+      "examples": [
+        {
+          "ru": "Мы идём в школу.",
+          "fr": "Nous allons à l’école."
+        },
+        {
+          "ru": "Он идёт на кухню.",
+          "fr": "Il va dans la cuisine."
+        }
+      ],
+      "provenance": "editorial-expansion"
+    },
+    {
+      "id": "GRM-04-sec-04",
+      "type": "markdown",
+      "title": "Ne pas réduire l’accusatif à une terminaison",
+      "body": [
+        "Certains noms ne changent pas visiblement et d’autres suivent des règles liées à l’animé/inanimé. À ce stade, la fonction « objet direct / destination » est plus importante qu’un tableau complet."
+      ],
+      "examples": [
+        {
+          "ru": "Я вижу телефон.",
+          "fr": "Je vois le téléphone."
+        }
+      ],
+      "provenance": "editorial-expansion"
+    },
+    {
+      "id": "GRM-04-mistakes",
+      "type": "contrast",
+      "title": "Erreurs à surveiller",
+      "items": [
+        {
+          "wrong_or_risk": "Я вижу машина",
+          "correction_or_strategy": "Avec ce féminin : машину."
+        },
+        {
+          "wrong_or_risk": "Confondre lieu et destination",
+          "correction_or_strategy": "Le verbe et la question где/куда aideront."
+        },
+        {
+          "wrong_or_risk": "Croire que tous les accusatifs finissent en -у",
+          "correction_or_strategy": "C’est une transformation fréquente de certains féminins, pas le cas entier."
+        }
+      ],
+      "provenance": "editorial-expansion"
+    },
+    {
+      "id": "GRM-04-memory",
+      "type": "memory",
+      "title": "À retenir",
+      "items": [
+        "Action → cherche son objet.",
+        "-а devient souvent -у pour l’objet direct féminin.",
+        "Destination et position doivent être distinguées."
+      ],
+      "provenance": "editorial-expansion"
+    },
+    {
+      "id": "GRM-04-pron",
+      "type": "pronunciation",
+      "title": "Prononciation à travailler",
+      "targets": [
+        "машина",
+        "машину",
+        "книга",
+        "книгу",
+        "в школу",
+        "на кухню"
+      ],
+      "provenance": "mixed-source-and-editorial"
+    },
+    {
+      "id": "GRM-04-checkpoint",
+      "type": "checkpoint",
+      "title": "Avant de considérer le chapitre compris",
+      "checks": [
+        "Expliquer l’idée principale avec tes propres mots en français.",
+        "Réussir plusieurs exercices de formats différents sans indice.",
+        "Produire au moins une réponse russe complète liée au concept.",
+        "Revoir au moins une partie du concept après un délai, pas uniquement dans la même session."
+      ],
+      "provenance": "editorial-expansion"
+    }
+  ],
+  "source_policy": {
+    "source_derived_content": "Examples and story contexts trace back to the supplied PDF and/or russian-morning-app when source_refs are present.",
+    "editorial_expansion": "Grammar explanations, learning strategy, mastery rules and newly generated examples are model-authored pedagogical expansion."
+  },
+  "skill_weights": {
+    "recognition": 0.2,
+    "comprehension": 0.2,
+    "recall": 0.2,
+    "production": 0.3,
+    "pronunciation": 0.1
+  },
+  "mastery_contract": {
+    "minimum_distinct_activities": 8,
+    "minimum_distinct_prompts": 6,
+    "minimum_overall_score": 0.7,
+    "minimum_production_score": 0.6,
+    "minimum_comprehension_score": 0.65,
+    "critical_error_rate_max": 0.4,
+    "delayed_review_required_for_mastered": true,
+    "delayed_review_min_hours": 48,
+    "next_chapter_soft_unlock_score": 0.7,
+    "soft_unlock_before_mastered": true
+  },
+  "session_recommendation": {
+    "course_session_blocks_min": 4,
+    "course_session_micro_checks_min": 3,
+    "exercise_session_items": 15,
+    "max_choice_ratio": 0.3,
+    "min_production_ratio": 0.3,
+    "pronunciation_ratio_target": 0.1
+  }
+}

@@ -1,0 +1,250 @@
+{
+  "id": "GRM-05",
+  "order": 13,
+  "track": "core-grammar",
+  "level": "A1",
+  "status": "active",
+  "title": "Où ou vers où ? — дома, домой, в/на",
+  "summary": "Distinguer une position d'une destination sans apprendre tout le système des cas d'un coup.",
+  "objectives": [
+    "Distinguer дома et домой",
+    "Reconnaître на кухне / на кухню",
+    "Reconnaître в гостинице / в гостиницу",
+    "Utiliser где et куда comme indices"
+  ],
+  "concepts": [
+    "location-vs-direction",
+    "дома",
+    "домой",
+    "где",
+    "куда"
+  ],
+  "notes": [
+    "Pose mentalement la question : où ? ou vers où ?"
+  ],
+  "examples": [
+    {
+      "ru": "Он дома.",
+      "fr": "Il est à la maison."
+    },
+    {
+      "ru": "Он идёт домой.",
+      "fr": "Il rentre chez lui."
+    },
+    {
+      "ru": "Он на кухне.",
+      "fr": "Il est dans la cuisine."
+    },
+    {
+      "ru": "Он идёт на кухню.",
+      "fr": "Il va dans la cuisine."
+    }
+  ],
+  "source_refs": [
+    "PDF-FIRST-WEEK-TONY:p4-6",
+    "GH-RUSSIAN-MORNING-APP:serie-contextes"
+  ],
+  "schema_version": "3.0.0",
+  "content_api_version": "3.0",
+  "subtitle": "Séparer clairement position et déplacement",
+  "estimated_minutes": 18,
+  "prerequisites": [
+    "FND-04",
+    "GRM-04"
+  ],
+  "lesson_mode": "guided_course_session",
+  "content_blocks": [
+    {
+      "id": "GRM-05-intro",
+      "type": "markdown",
+      "title": "Pourquoi ce chapitre ?",
+      "body": [
+        "Дом, дома, домой et домашний se ressemblent mais n’ont pas le même rôle. Ton ancien repo travaillait justement ces contrastes. Ce chapitre généralise le réflexe : demander mentalement « где ? » ou « куда ? »."
+      ],
+      "provenance": "editorial-expansion"
+    },
+    {
+      "id": "GRM-05-sec-01",
+      "type": "markdown",
+      "title": "Где? : position",
+      "body": [
+        "Где? demande où se trouve quelque chose. Он дома, Он на кухне, Он в гостинице décrivent des positions."
+      ],
+      "examples": [
+        {
+          "ru": "Где он? Он дома.",
+          "fr": "Où est-il ? Il est à la maison."
+        },
+        {
+          "ru": "Он на кухне.",
+          "fr": "Il est dans la cuisine."
+        }
+      ],
+      "provenance": "editorial-expansion"
+    },
+    {
+      "id": "GRM-05-sec-02",
+      "type": "markdown",
+      "title": "Куда? : destination",
+      "body": [
+        "Куда? demande vers où quelqu’un se dirige. Домой, на кухню, в гостиницу répondent à cette logique."
+      ],
+      "examples": [
+        {
+          "ru": "Куда он идёт? Домой.",
+          "fr": "Où va-t-il ? Chez lui."
+        },
+        {
+          "ru": "Он идёт на кухню.",
+          "fr": "Il va dans la cuisine."
+        }
+      ],
+      "provenance": "editorial-expansion"
+    },
+    {
+      "id": "GRM-05-sec-03",
+      "type": "markdown",
+      "title": "Дом / дома / домой / домашний",
+      "body": [
+        "Дом est le nom « maison ». Дома indique la position chez soi. Домой indique la direction vers chez soi. Домашний est un adjectif, par exemple домашний пирог = tarte faite maison."
+      ],
+      "examples": [
+        {
+          "ru": "дом",
+          "fr": "maison"
+        },
+        {
+          "ru": "дома",
+          "fr": "à la maison"
+        },
+        {
+          "ru": "домой",
+          "fr": "vers chez soi"
+        },
+        {
+          "ru": "домашний пирог",
+          "fr": "tarte faite maison"
+        }
+      ],
+      "provenance": "editorial-expansion"
+    },
+    {
+      "id": "GRM-05-sec-04",
+      "type": "markdown",
+      "title": "В et на ne suffisent pas seuls",
+      "body": [
+        "La même préposition peut accompagner un lieu ou une destination ; c’est la forme du nom et le contexte verbal qui changent : в гостинице / в гостиницу, на кухне / на кухню."
+      ],
+      "examples": [
+        {
+          "ru": "в гостинице",
+          "fr": "dans l’hôtel"
+        },
+        {
+          "ru": "в гостиницу",
+          "fr": "vers / à l’hôtel"
+        }
+      ],
+      "provenance": "editorial-expansion"
+    },
+    {
+      "id": "GRM-05-sec-05",
+      "type": "markdown",
+      "title": "Indice pratique : mouvement ou état",
+      "body": [
+        "Les verbes идти, ехать, идти/хотеть vers une destination poussent vers куда. Работать, быть, находиться et les descriptions d’état poussent vers где. Ce n’est pas une mécanique universelle mais un excellent premier filtre."
+      ],
+      "examples": [],
+      "provenance": "editorial-expansion"
+    },
+    {
+      "id": "GRM-05-mistakes",
+      "type": "contrast",
+      "title": "Erreurs à surveiller",
+      "items": [
+        {
+          "wrong_or_risk": "Он идёт дома",
+          "correction_or_strategy": "Pour la direction vers chez soi : домой."
+        },
+        {
+          "wrong_or_risk": "Он работает домой",
+          "correction_or_strategy": "Pour être/travailler chez soi : дома."
+        },
+        {
+          "wrong_or_risk": "Traduire домашний par « vers la maison »",
+          "correction_or_strategy": "C’est un adjectif : fait maison / domestique selon contexte."
+        }
+      ],
+      "provenance": "editorial-expansion"
+    },
+    {
+      "id": "GRM-05-memory",
+      "type": "memory",
+      "title": "À retenir",
+      "items": [
+        "Где? = position ; куда? = destination.",
+        "дома ↔ домой est une paire fondamentale.",
+        "Le verbe donne souvent l’indice avant la terminaison."
+      ],
+      "provenance": "editorial-expansion"
+    },
+    {
+      "id": "GRM-05-pron",
+      "type": "pronunciation",
+      "title": "Prononciation à travailler",
+      "targets": [
+        "где",
+        "куда",
+        "дома",
+        "домой",
+        "домашний",
+        "на кухне",
+        "на кухню"
+      ],
+      "provenance": "mixed-source-and-editorial"
+    },
+    {
+      "id": "GRM-05-checkpoint",
+      "type": "checkpoint",
+      "title": "Avant de considérer le chapitre compris",
+      "checks": [
+        "Expliquer l’idée principale avec tes propres mots en français.",
+        "Réussir plusieurs exercices de formats différents sans indice.",
+        "Produire au moins une réponse russe complète liée au concept.",
+        "Revoir au moins une partie du concept après un délai, pas uniquement dans la même session."
+      ],
+      "provenance": "editorial-expansion"
+    }
+  ],
+  "source_policy": {
+    "source_derived_content": "Examples and story contexts trace back to the supplied PDF and/or russian-morning-app when source_refs are present.",
+    "editorial_expansion": "Grammar explanations, learning strategy, mastery rules and newly generated examples are model-authored pedagogical expansion."
+  },
+  "skill_weights": {
+    "recognition": 0.2,
+    "comprehension": 0.2,
+    "recall": 0.2,
+    "production": 0.3,
+    "pronunciation": 0.1
+  },
+  "mastery_contract": {
+    "minimum_distinct_activities": 8,
+    "minimum_distinct_prompts": 6,
+    "minimum_overall_score": 0.7,
+    "minimum_production_score": 0.6,
+    "minimum_comprehension_score": 0.65,
+    "critical_error_rate_max": 0.4,
+    "delayed_review_required_for_mastered": true,
+    "delayed_review_min_hours": 48,
+    "next_chapter_soft_unlock_score": 0.7,
+    "soft_unlock_before_mastered": true
+  },
+  "session_recommendation": {
+    "course_session_blocks_min": 4,
+    "course_session_micro_checks_min": 3,
+    "exercise_session_items": 15,
+    "max_choice_ratio": 0.3,
+    "min_production_ratio": 0.3,
+    "pronunciation_ratio_target": 0.1
+  }
+}

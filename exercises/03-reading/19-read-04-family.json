@@ -1,0 +1,392 @@
+{
+  "exercise_set": "19-read-04-family",
+  "items": [
+    {
+      "id": "READ04-001",
+      "lesson_id": "READ-04",
+      "type": "comprehension",
+      "difficulty": 1,
+      "prompt": "Qui invite Tony chez lui ?",
+      "answer": "Alexeï.",
+      "concepts": [
+        "family"
+      ],
+      "error_tags": [
+        "context-miss"
+      ],
+      "options": [
+        "Irina.",
+        "Alexeï.",
+        "La grand-mère.",
+        "Le serveur."
+      ],
+      "source": "PDF:p4",
+      "schema_version": "3.0.0",
+      "activity_type": "reading_comprehension",
+      "renderer_id": "reading_comprehension",
+      "skill_dimensions": {
+        "comprehension": 0.8,
+        "recognition": 0.2
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "READ04-002",
+      "lesson_id": "READ-04",
+      "type": "comprehension",
+      "difficulty": 1,
+      "prompt": "Que fait le père d'Alexeï ?",
+      "answer": "Il prépare le dîner dans la cuisine.",
+      "concepts": [
+        "reading-strategy"
+      ],
+      "error_tags": [
+        "context-miss"
+      ],
+      "options": [
+        "Il lit.",
+        "Il prépare le dîner dans la cuisine.",
+        "Il regarde la télévision.",
+        "Il dort."
+      ],
+      "source": "PDF:p4",
+      "schema_version": "3.0.0",
+      "activity_type": "reading_comprehension",
+      "renderer_id": "reading_comprehension",
+      "skill_dimensions": {
+        "comprehension": 0.8,
+        "recognition": 0.2
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "READ04-003",
+      "lesson_id": "READ-04",
+      "type": "comprehension",
+      "difficulty": 1,
+      "prompt": "Que montre Alexeï à Tony ?",
+      "answer": "Des photographies de famille.",
+      "concepts": [
+        "family"
+      ],
+      "error_tags": [
+        "family-vocab"
+      ],
+      "options": [
+        "Une carte.",
+        "Des photographies de famille.",
+        "Un menu.",
+        "Son téléphone."
+      ],
+      "source": "PDF:p4",
+      "schema_version": "3.0.0",
+      "activity_type": "reading_comprehension",
+      "renderer_id": "reading_comprehension",
+      "skill_dimensions": {
+        "comprehension": 0.8,
+        "recognition": 0.2
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "READ04-004",
+      "lesson_id": "READ-04",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "« Кто это? » signifie :",
+      "answer": "Qui est-ce ?",
+      "concepts": [
+        "question-word"
+      ],
+      "error_tags": [
+        "question-word"
+      ],
+      "options": [
+        "Où est-ce ?",
+        "Qui est-ce ?",
+        "Qu'est-ce que cela signifie ?",
+        "Pourquoi ?"
+      ],
+      "source": "PDF:p4",
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "READ04-005",
+      "lesson_id": "READ-04",
+      "type": "comprehension",
+      "difficulty": 1,
+      "prompt": "Quelles informations la famille demande-t-elle à Tony ?",
+      "answer": "D'où il vient, où il habite et pourquoi il apprend le russe.",
+      "concepts": [
+        "questions"
+      ],
+      "error_tags": [
+        "reading-detail-vs-main"
+      ],
+      "options": [
+        "Son salaire et son âge.",
+        "D'où il vient, où il habite et pourquoi il apprend le russe.",
+        "La marque de son téléphone.",
+        "Son plat préféré."
+      ],
+      "source": "PDF:p4",
+      "schema_version": "3.0.0",
+      "activity_type": "reading_comprehension",
+      "renderer_id": "reading_comprehension",
+      "skill_dimensions": {
+        "comprehension": 0.8,
+        "recognition": 0.2
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "READ04-006",
+      "lesson_id": "READ-04",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "« Вы похожи! » signifie :",
+      "answer": "Vous vous ressemblez !",
+      "concepts": [
+        "context"
+      ],
+      "error_tags": [
+        "literal-translation"
+      ],
+      "options": [
+        "Vous êtes proches !",
+        "Vous vous ressemblez !",
+        "Vous êtes prêts !",
+        "Vous êtes russes !"
+      ],
+      "source": "PDF:p4",
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "READ04-007",
+      "lesson_id": "READ-04",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis : « Мне тоже. Меня зовут Ирина. »",
+      "answer": "Moi aussi. Je m'appelle Irina.",
+      "concepts": [
+        "мне-тоже",
+        "меня-зовут"
+      ],
+      "error_tags": [
+        "меня-vs-мне"
+      ],
+      "source": "PDF:p4",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "READ04-008",
+      "lesson_id": "READ-04",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "« несколько месяцев назад » signifie :",
+      "answer": "il y a quelques mois",
+      "concepts": [
+        "назад",
+        "time-expression"
+      ],
+      "error_tags": [
+        "time-expression"
+      ],
+      "options": [
+        "dans quelques mois",
+        "il y a quelques mois",
+        "pendant quelques mois",
+        "chaque mois"
+      ],
+      "source": "PDF:p4",
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "READ04-009",
+      "lesson_id": "READ-04",
+      "type": "comprehension",
+      "difficulty": 1,
+      "prompt": "Comment Tony se sent-il à la fin ?",
+      "answer": "Un peu fatigué mais très satisfait.",
+      "concepts": [
+        "reading-strategy"
+      ],
+      "error_tags": [
+        "context-miss"
+      ],
+      "options": [
+        "En colère.",
+        "Un peu fatigué mais très satisfait.",
+        "Perdu.",
+        "Malade."
+      ],
+      "source": "PDF:p4",
+      "schema_version": "3.0.0",
+      "activity_type": "reading_comprehension",
+      "renderer_id": "reading_comprehension",
+      "skill_dimensions": {
+        "comprehension": 0.8,
+        "recognition": 0.2
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "READ04-010",
+      "lesson_id": "READ-04",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Idée principale :",
+      "answer": "Tony passe une soirée chez une famille et réussit à participer malgré un russe limité.",
+      "concepts": [
+        "reading-strategy"
+      ],
+      "error_tags": [
+        "reading-detail-vs-main"
+      ],
+      "options": [
+        "Tony cherche son hôtel.",
+        "Tony passe une soirée chez une famille et réussit à participer malgré un russe limité.",
+        "Tony commande au restaurant.",
+        "Tony prend l'avion."
+      ],
+      "source": "PDF:p4-6",
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    }
+  ]
+}

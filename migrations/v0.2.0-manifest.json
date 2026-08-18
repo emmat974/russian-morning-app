@@ -1,0 +1,139 @@
+{
+  "content_version": "0.2.0",
+  "schema_version": "1.1.0",
+  "language": "ru",
+  "interface_language": "fr",
+  "generated_for_level": "A1 with controlled A1-A2 preview",
+  "updated_at": "2026-08-09",
+  "description": "Corpus adaptatif personnel de russe : cours structurés, lecture, formes, traduction active et classification fine des erreurs.",
+  "courses": [
+    "courses/01-foundations/01-fnd-01.json",
+    "courses/01-foundations/02-fnd-02.json",
+    "courses/01-foundations/03-fnd-03.json",
+    "courses/01-foundations/04-fnd-04.json",
+    "courses/01-foundations/11-fnd-05.json",
+    "courses/01-foundations/12-fnd-06.json",
+    "courses/02-core-grammar/05-grm-01.json",
+    "courses/02-core-grammar/06-grm-02.json",
+    "courses/02-core-grammar/07-grm-03.json",
+    "courses/02-core-grammar/08-grm-04.json",
+    "courses/02-core-grammar/13-grm-05.json",
+    "courses/02-core-grammar/14-grm-06.json",
+    "courses/02-core-grammar/15-grm-07.json",
+    "courses/02-core-grammar/16-grm-08.json",
+    "courses/02-core-grammar/17-grm-09.json",
+    "courses/03-reading/09-read-01.json",
+    "courses/03-reading/10-read-02.json",
+    "courses/03-reading/18-read-03.json",
+    "courses/03-reading/19-read-04.json",
+    "courses/03-reading/20-read-05.json",
+    "courses/03-reading/21-read-06.json",
+    "courses/03-reading/22-read-07.json",
+    "courses/03-reading/23-read-08.json",
+    "courses/04-practice/24-pract-01.json",
+    "courses/04-practice/25-pract-02.json",
+    "courses/04-practice/26-pract-03.json"
+  ],
+  "exercise_sets": [
+    "exercises/01-foundations/01-fnd-01.json",
+    "exercises/01-foundations/02-fnd-02.json",
+    "exercises/01-foundations/03-fnd-03.json",
+    "exercises/01-foundations/04-fnd-04.json",
+    "exercises/01-foundations/11-fnd-05-survival.json",
+    "exercises/01-foundations/12-fnd-06-intro-family.json",
+    "exercises/02-core-grammar/05-grm-01.json",
+    "exercises/02-core-grammar/06-grm-02.json",
+    "exercises/02-core-grammar/07-grm-03.json",
+    "exercises/02-core-grammar/08-grm-04.json",
+    "exercises/02-core-grammar/13-grm-05-location-direction.json",
+    "exercises/02-core-grammar/14-grm-06-possession.json",
+    "exercises/02-core-grammar/15-grm-07-past.json",
+    "exercises/02-core-grammar/16-grm-08-pronouns.json",
+    "exercises/02-core-grammar/17-grm-09-prepositions.json",
+    "exercises/03-reading/09-read-01.json",
+    "exercises/03-reading/10-read-02.json",
+    "exercises/03-reading/18-read-03-cafe.json",
+    "exercises/03-reading/19-read-04-family.json",
+    "exercises/03-reading/20-read-05-moscow.json",
+    "exercises/03-reading/21-read-06-restaurant.json",
+    "exercises/03-reading/22-read-07-hotel.json",
+    "exercises/03-reading/23-read-08-epilogue.json",
+    "exercises/04-practice/24-pract-01-active-translation.json",
+    "exercises/04-practice/25-pract-02-word-families.json",
+    "exercises/04-practice/26-pract-03-verb-choice.json"
+  ],
+  "vocabulary_sets": [
+    "vocabulary/city-directions.json",
+    "vocabulary/connectors.json",
+    "vocabulary/core-people-actions.json",
+    "vocabulary/daily.json",
+    "vocabulary/family-social.json",
+    "vocabulary/hotel-problems.json",
+    "vocabulary/learning-conversation.json",
+    "vocabulary/places.json",
+    "vocabulary/restaurant.json",
+    "vocabulary/travel-cafe.json"
+  ],
+  "adaptive_engine": {
+    "recommended_mix": {
+      "new_content": 0.4,
+      "recent_mistakes": 0.35,
+      "spaced_review": 0.2,
+      "active_translation": 0.05
+    },
+    "mistake_decay_days": 14,
+    "min_attempts_before_flagging_frequent_error": 3,
+    "frequent_error_priority_boost": 1.75,
+    "same_exercise_cooldown_sessions": 3,
+    "prefer_same_concept_different_sentence": true
+  },
+  "sources": {
+    "github": {
+      "repository": "https://github.com/emmat974/russian-morning-app",
+      "branch": "main"
+    },
+    "pdf": {
+      "id": "PDF-FIRST-WEEK-TONY",
+      "title": "Première semaine de Tony en Russie",
+      "local_index": "sources/pdf/index.json"
+    }
+  },
+  "curriculum": {
+    "active_course_ids": [
+      "FND-01",
+      "FND-02",
+      "FND-03",
+      "FND-04",
+      "FND-05",
+      "FND-06",
+      "GRM-01",
+      "GRM-02",
+      "GRM-03",
+      "GRM-04",
+      "GRM-05",
+      "GRM-06",
+      "GRM-07",
+      "GRM-08",
+      "READ-01",
+      "READ-02",
+      "READ-03",
+      "READ-04",
+      "READ-05",
+      "PRACT-01",
+      "PRACT-02",
+      "PRACT-03"
+    ],
+    "preview_course_ids": [
+      "GRM-09",
+      "READ-06",
+      "READ-07",
+      "READ-08"
+    ],
+    "principle": "Le dépôt peut contenir plus que le niveau servi. Les contenus preview restent synchronisables mais ne doivent pas entrer dans le flux normal avant déblocage."
+  },
+  "source_artifacts": {
+    "pdf_original": "sources/pdf/original/Première semaine de Tony en Russie.pdf",
+    "pdf_parsed": "sources/pdf/first-week-tony-pages.json",
+    "github_source_map": "sources/github/russian-morning-app-map.json"
+  }
+}

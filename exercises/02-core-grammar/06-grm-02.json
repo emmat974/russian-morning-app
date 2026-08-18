@@ -1,0 +1,443 @@
+{
+  "exercise_set": "06-grm-02",
+  "items": [
+    {
+      "id": "GRM02-001",
+      "lesson_id": "GRM-02",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Quelle forme correspond à « je lis » ?",
+      "answer": "читаю",
+      "concepts": [
+        "verb-endings",
+        "читать"
+      ],
+      "error_tags": [
+        "verb-form-1sg"
+      ],
+      "options": [
+        "читает",
+        "читаю",
+        "читаешь",
+        "читают"
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "GRM02-002",
+      "lesson_id": "GRM-02",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Quelle forme correspond à « il/elle lit » ?",
+      "answer": "читает",
+      "concepts": [
+        "verb-endings",
+        "читать"
+      ],
+      "error_tags": [
+        "verb-form-3sg"
+      ],
+      "options": [
+        "читаю",
+        "читает",
+        "читаешь",
+        "читаем"
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "GRM02-003",
+      "lesson_id": "GRM-02",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "prompt": "Ты говор___.",
+      "answer": "ишь",
+      "concepts": [
+        "verb-endings",
+        "говорить"
+      ],
+      "error_tags": [
+        "-ишь-vs-ешь"
+      ],
+      "acceptable_answers": [
+        "ишь"
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "fill_blank",
+      "renderer_id": "fill_blank",
+      "skill_dimensions": {
+        "recognition": 0.15,
+        "recall": 0.45,
+        "production": 0.4
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "GRM02-004",
+      "lesson_id": "GRM-02",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Dans « Она работает », la terminaison -ет indique souvent :",
+      "answer": "3e personne du singulier",
+      "concepts": [
+        "verb-endings"
+      ],
+      "error_tags": [
+        "person-ending-confusion"
+      ],
+      "options": [
+        "1re personne singulier",
+        "2e personne pluriel",
+        "3e personne du singulier",
+        "infinitif"
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "GRM02-005",
+      "lesson_id": "GRM-02",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis en russe : « Tu parles. »",
+      "answer": "Ты говоришь.",
+      "concepts": [
+        "говорить",
+        "verb-form-2sg"
+      ],
+      "error_tags": [
+        "-ишь-vs-ешь"
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "GRM02-006",
+      "lesson_id": "GRM-02",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis en russe : « Elle travaille. »",
+      "answer": "Она работает.",
+      "concepts": [
+        "работать",
+        "verb-form-3sg"
+      ],
+      "error_tags": [
+        "verb-form-3sg"
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "GRM02-007",
+      "lesson_id": "GRM-02",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Quel sujet va naturellement avec « читаю » ?",
+      "answer": "Я",
+      "concepts": [
+        "verb-endings",
+        "subject-identification"
+      ],
+      "error_tags": [
+        "person-ending-confusion"
+      ],
+      "options": [
+        "Я",
+        "Ты",
+        "Она",
+        "Они"
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "GRM02-008",
+      "lesson_id": "GRM-02",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Quel sujet va naturellement avec « говоришь » ?",
+      "answer": "Ты",
+      "concepts": [
+        "verb-endings",
+        "subject-identification"
+      ],
+      "error_tags": [
+        "person-ending-confusion"
+      ],
+      "options": [
+        "Я",
+        "Ты",
+        "Он",
+        "Мы"
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "GRM02-009",
+      "lesson_id": "GRM-02",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "prompt": "Она говор___.",
+      "answer": "ит",
+      "concepts": [
+        "verb-endings",
+        "говорить"
+      ],
+      "error_tags": [
+        "-ит-vs-ет"
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "fill_blank",
+      "renderer_id": "fill_blank",
+      "skill_dimensions": {
+        "recognition": 0.15,
+        "recall": 0.45,
+        "production": 0.4
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "GRM02-010",
+      "lesson_id": "GRM-02",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "prompt": "Я работа___.",
+      "answer": "ю",
+      "concepts": [
+        "verb-endings",
+        "работать"
+      ],
+      "error_tags": [
+        "verb-form-1sg"
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "fill_blank",
+      "renderer_id": "fill_blank",
+      "skill_dimensions": {
+        "recognition": 0.15,
+        "recall": 0.45,
+        "production": 0.4
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "GRM02-011",
+      "lesson_id": "GRM-02",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Quel couple est correct ?",
+      "answer": "он говорит",
+      "concepts": [
+        "verb-endings"
+      ],
+      "error_tags": [
+        "person-ending-confusion"
+      ],
+      "options": [
+        "он говорю",
+        "он говорит",
+        "он говоришь",
+        "он говорим"
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "GRM02-012",
+      "lesson_id": "GRM-02",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis : « Мы читаем. »",
+      "answer": "Nous lisons.",
+      "concepts": [
+        "verb-endings"
+      ],
+      "error_tags": [
+        "verb-form-1pl"
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    }
+  ]
+}

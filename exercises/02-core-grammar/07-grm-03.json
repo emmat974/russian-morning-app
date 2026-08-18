@@ -1,0 +1,370 @@
+{
+  "exercise_set": "07-grm-03",
+  "items": [
+    {
+      "id": "GRM03-001",
+      "lesson_id": "GRM-03",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Complète : ___ машина",
+      "answer": "новая",
+      "concepts": [
+        "gender",
+        "adjective-agreement"
+      ],
+      "error_tags": [
+        "adjective-gender"
+      ],
+      "options": [
+        "новый",
+        "новая",
+        "новое",
+        "новые"
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "GRM03-002",
+      "lesson_id": "GRM-03",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Complète : ___ телефон",
+      "answer": "новый",
+      "concepts": [
+        "gender",
+        "adjective-agreement"
+      ],
+      "error_tags": [
+        "adjective-gender"
+      ],
+      "options": [
+        "новый",
+        "новая",
+        "новое",
+        "новые"
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "GRM03-003",
+      "lesson_id": "GRM-03",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Complète : ___ место",
+      "answer": "новое",
+      "concepts": [
+        "gender",
+        "adjective-agreement"
+      ],
+      "error_tags": [
+        "adjective-gender"
+      ],
+      "options": [
+        "новый",
+        "новая",
+        "новое",
+        "новые"
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "GRM03-004",
+      "lesson_id": "GRM-03",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis : « новая машина »",
+      "answer": "une nouvelle voiture",
+      "concepts": [
+        "gender",
+        "adjective-agreement"
+      ],
+      "error_tags": [
+        "adjective-gender"
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "GRM03-005",
+      "lesson_id": "GRM-03",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis : « новый телефон »",
+      "answer": "un nouveau téléphone",
+      "concepts": [
+        "gender",
+        "adjective-agreement"
+      ],
+      "error_tags": [
+        "adjective-gender"
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "GRM03-006",
+      "lesson_id": "GRM-03",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Quel nom est féminin ici ?",
+      "answer": "машина",
+      "concepts": [
+        "gender"
+      ],
+      "error_tags": [
+        "noun-gender"
+      ],
+      "options": [
+        "телефон",
+        "место",
+        "машина",
+        "город"
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "GRM03-007",
+      "lesson_id": "GRM-03",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Quel nom est neutre ici ?",
+      "answer": "место",
+      "concepts": [
+        "gender"
+      ],
+      "error_tags": [
+        "noun-gender"
+      ],
+      "options": [
+        "книга",
+        "машина",
+        "место",
+        "лес"
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "GRM03-008",
+      "lesson_id": "GRM-03",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "prompt": "нов___ книга",
+      "answer": "ая",
+      "concepts": [
+        "adjective-agreement"
+      ],
+      "error_tags": [
+        "adjective-gender"
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "fill_blank",
+      "renderer_id": "fill_blank",
+      "skill_dimensions": {
+        "recognition": 0.15,
+        "recall": 0.45,
+        "production": 0.4
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "GRM03-009",
+      "lesson_id": "GRM-03",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "prompt": "нов___ место",
+      "answer": "ое",
+      "concepts": [
+        "adjective-agreement"
+      ],
+      "error_tags": [
+        "adjective-gender"
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "fill_blank",
+      "renderer_id": "fill_blank",
+      "skill_dimensions": {
+        "recognition": 0.15,
+        "recall": 0.45,
+        "production": 0.4
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "GRM03-010",
+      "lesson_id": "GRM-03",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "À ce stade, le meilleur objectif avec les adjectifs est :",
+      "answer": "reconnaître les formes fréquentes",
+      "concepts": [
+        "learning-strategy"
+      ],
+      "error_tags": [
+        "overgeneralization"
+      ],
+      "options": [
+        "mémoriser toutes les déclinaisons immédiatement",
+        "reconnaître les formes fréquentes",
+        "éviter tous les adjectifs",
+        "traduire uniquement mot à mot"
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    }
+  ]
+}

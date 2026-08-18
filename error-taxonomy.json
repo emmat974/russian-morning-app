@@ -1,0 +1,455 @@
+{
+  "version": "1.1.0",
+  "error_tags": [
+    {
+      "id": "я-вместо-мне",
+      "label": "Я utilisé à la place de Мне",
+      "concept": "мне-vs-я",
+      "severity": "high"
+    },
+    {
+      "id": "нравится-vs-нравятся",
+      "label": "Confusion нравится / нравятся",
+      "concept": "нравиться",
+      "severity": "medium"
+    },
+    {
+      "id": "что-question-vs-clause",
+      "label": "что interprété comme 'quoi ?' au lieu de 'que'",
+      "concept": "что-clause",
+      "severity": "medium"
+    },
+    {
+      "id": "missing-что",
+      "label": "что oublié dans une subordonnée",
+      "concept": "что-clause",
+      "severity": "medium"
+    },
+    {
+      "id": "clause-boundary",
+      "label": "Mauvais découpage de la proposition principale et subordonnée",
+      "concept": "что-clause",
+      "severity": "high"
+    },
+    {
+      "id": "говорить-vs-понимать",
+      "label": "Confusion parler / comprendre",
+      "concept": "core-verbs",
+      "severity": "high"
+    },
+    {
+      "id": "знать-vs-понимать",
+      "label": "Confusion savoir / comprendre",
+      "concept": "core-verbs",
+      "severity": "medium"
+    },
+    {
+      "id": "missing-ne",
+      "label": "Négation не oubliée ou mal placée",
+      "concept": "negation",
+      "severity": "high"
+    },
+    {
+      "id": "literal-motion-translation",
+      "label": "Calque du français sur les phrases de direction",
+      "concept": "direction",
+      "severity": "medium"
+    },
+    {
+      "id": "direction-vs-location",
+      "label": "Confusion destination / lieu statique",
+      "concept": "direction",
+      "severity": "medium"
+    },
+    {
+      "id": "verb-form-1sg",
+      "label": "Mauvaise terminaison verbale à la 1re personne singulier",
+      "concept": "verb-endings",
+      "severity": "medium"
+    },
+    {
+      "id": "verb-form-2sg",
+      "label": "Mauvaise terminaison verbale à la 2e personne singulier",
+      "concept": "verb-endings",
+      "severity": "medium"
+    },
+    {
+      "id": "verb-form-3sg",
+      "label": "Mauvaise terminaison verbale à la 3e personne singulier",
+      "concept": "verb-endings",
+      "severity": "medium"
+    },
+    {
+      "id": "person-ending-confusion",
+      "label": "Sujet et terminaison verbale incompatibles",
+      "concept": "verb-endings",
+      "severity": "high"
+    },
+    {
+      "id": "-ишь-vs-ешь",
+      "label": "Confusion -ишь / -ешь",
+      "concept": "verb-endings",
+      "severity": "medium"
+    },
+    {
+      "id": "-ит-vs-ет",
+      "label": "Confusion -ит / -ет",
+      "concept": "verb-endings",
+      "severity": "medium"
+    },
+    {
+      "id": "adjective-gender",
+      "label": "Accord de genre de l'adjectif",
+      "concept": "adjective-agreement",
+      "severity": "medium"
+    },
+    {
+      "id": "noun-gender",
+      "label": "Genre du nom mal identifié",
+      "concept": "gender",
+      "severity": "low"
+    },
+    {
+      "id": "accusative-feminine-ending",
+      "label": "Accusatif féminin en -у/-ю non reconnu",
+      "concept": "accusative",
+      "severity": "medium"
+    },
+    {
+      "id": "object-identification",
+      "label": "Objet direct mal identifié",
+      "concept": "direct-object",
+      "severity": "medium"
+    },
+    {
+      "id": "через-meaning",
+      "label": "Sens temporel de через mal interprété",
+      "concept": "через",
+      "severity": "medium"
+    },
+    {
+      "id": "context-miss",
+      "label": "Sens global manqué malgré des indices connus",
+      "concept": "reading-strategy",
+      "severity": "high"
+    },
+    {
+      "id": "reading-strategy",
+      "label": "Stratégie de lecture trop mot-à-mot",
+      "concept": "reading-strategy",
+      "severity": "medium"
+    },
+    {
+      "id": "pronoun-confusion",
+      "label": "Confusion entre pronoms personnels",
+      "concept": "personal-pronouns",
+      "severity": "low"
+    },
+    {
+      "id": "word-order",
+      "label": "Ordre des mots maladroit ou incorrect",
+      "concept": "syntax",
+      "severity": "low"
+    },
+    {
+      "id": "subject-omission",
+      "label": "Pronom sujet omis ou ajouté de façon inadaptée",
+      "concept": "subject-identification",
+      "severity": "low"
+    },
+    {
+      "id": "number-confusion",
+      "label": "Confusion singulier / pluriel",
+      "concept": "number",
+      "severity": "low"
+    },
+    {
+      "id": "verb-form-3pl",
+      "label": "Mauvaise terminaison verbale à la 3e personne pluriel",
+      "concept": "verb-endings",
+      "severity": "medium"
+    },
+    {
+      "id": "connector-meaning",
+      "label": "Sens d’un connecteur mal interprété",
+      "concept": "connectors",
+      "severity": "medium"
+    },
+    {
+      "id": "verb-meaning",
+      "label": "Sens d’un verbe fréquent mal identifié",
+      "concept": "core-verbs",
+      "severity": "medium"
+    },
+    {
+      "id": "main-verb-identification",
+      "label": "Verbe principal mal identifié",
+      "concept": "clause-boundary",
+      "severity": "high"
+    },
+    {
+      "id": "clause-order",
+      "label": "Ordre ou assemblage des propositions incorrect",
+      "concept": "что-clause",
+      "severity": "medium"
+    },
+    {
+      "id": "vocabulary",
+      "label": "Mot de vocabulaire non reconnu",
+      "concept": "vocabulary",
+      "severity": "low"
+    },
+    {
+      "id": "missing-preposition",
+      "label": "Préposition attendue oubliée",
+      "concept": "prepositions",
+      "severity": "medium"
+    },
+    {
+      "id": "preposition-function",
+      "label": "Fonction de la préposition mal comprise",
+      "concept": "prepositions",
+      "severity": "medium"
+    },
+    {
+      "id": "literal-translation",
+      "label": "Traduction trop littérale qui masque la construction russe",
+      "concept": "translation",
+      "severity": "medium"
+    },
+    {
+      "id": "case-identification",
+      "label": "Cas grammatical mal identifié",
+      "concept": "cases",
+      "severity": "medium"
+    },
+    {
+      "id": "verb-form-1pl",
+      "label": "Mauvaise terminaison verbale à la 1re personne pluriel",
+      "concept": "verb-endings",
+      "severity": "medium"
+    },
+    {
+      "id": "overgeneralization",
+      "label": "Règle appliquée trop largement ou trop tôt",
+      "concept": "learning-strategy",
+      "severity": "low"
+    },
+    {
+      "id": "subject-identification",
+      "label": "Sujet grammatical mal identifié",
+      "concept": "subject-identification",
+      "severity": "high"
+    },
+    {
+      "id": "time-expression",
+      "label": "Expression temporelle mal comprise",
+      "concept": "time-expression",
+      "severity": "medium"
+    },
+    {
+      "id": "verb-identification",
+      "label": "Action ou verbe principal mal repéré",
+      "concept": "reading-strategy",
+      "severity": "high"
+    },
+    {
+      "id": "polite-vs-informal",
+      "label": "Confusion entre registre poli et informel",
+      "concept": "politeness",
+      "severity": "medium"
+    },
+    {
+      "id": "вы-verb-form",
+      "label": "Mauvaise forme verbale avec вы",
+      "concept": "verb-endings",
+      "severity": "medium"
+    },
+    {
+      "id": "хотеть-conjugation",
+      "label": "Mauvaise forme de хотеть",
+      "concept": "хотеть",
+      "severity": "medium"
+    },
+    {
+      "id": "fixed-expression",
+      "label": "Expression figée reconstruite mot à mot",
+      "concept": "chunks",
+      "severity": "medium"
+    },
+    {
+      "id": "дома-vs-домой",
+      "label": "Confusion position дома / direction домой",
+      "concept": "location-vs-direction",
+      "severity": "high"
+    },
+    {
+      "id": "где-vs-куда",
+      "label": "Confusion où ? / vers où ?",
+      "concept": "location-vs-direction",
+      "severity": "high"
+    },
+    {
+      "id": "у-possessor-form",
+      "label": "Mauvaise forme après у pour le possesseur",
+      "concept": "possession",
+      "severity": "medium"
+    },
+    {
+      "id": "есть-vs-нет",
+      "label": "Confusion possession / absence",
+      "concept": "possession",
+      "severity": "high"
+    },
+    {
+      "id": "genitive-after-нет",
+      "label": "Nom incorrect après нет",
+      "concept": "genitive-basic",
+      "severity": "medium"
+    },
+    {
+      "id": "container-genitive",
+      "label": "Contenu d'un récipient mal formé",
+      "concept": "genitive-basic",
+      "severity": "medium"
+    },
+    {
+      "id": "past-gender",
+      "label": "Genre incorrect au passé singulier",
+      "concept": "past-tense",
+      "severity": "high"
+    },
+    {
+      "id": "past-plural",
+      "label": "Nombre incorrect au passé",
+      "concept": "past-tense",
+      "severity": "medium"
+    },
+    {
+      "id": "меня-vs-мне",
+      "label": "Confusion меня / мне",
+      "concept": "pronoun-cases",
+      "severity": "high"
+    },
+    {
+      "id": "тебя-vs-тебе",
+      "label": "Confusion тебя / тебе",
+      "concept": "pronoun-cases",
+      "severity": "high"
+    },
+    {
+      "id": "ему-vs-его",
+      "label": "Confusion ему / его",
+      "concept": "pronoun-cases",
+      "severity": "medium"
+    },
+    {
+      "id": "ей-vs-её",
+      "label": "Confusion ей / её",
+      "concept": "pronoun-cases",
+      "severity": "medium"
+    },
+    {
+      "id": "с-instrumental",
+      "label": "Forme incorrecte après с au sens de 'avec'",
+      "concept": "instrumental-basic",
+      "severity": "medium"
+    },
+    {
+      "id": "без-genitive",
+      "label": "Forme incorrecte après без",
+      "concept": "genitive-basic",
+      "severity": "medium"
+    },
+    {
+      "id": "рядом-с",
+      "label": "Expression рядом с mal construite",
+      "concept": "instrumental-basic",
+      "severity": "medium"
+    },
+    {
+      "id": "спрашивать-vs-просить",
+      "label": "Confusion poser une question / demander quelque chose",
+      "concept": "verb-choice",
+      "severity": "high"
+    },
+    {
+      "id": "идти-vs-ехать",
+      "label": "Confusion déplacement à pied / en transport",
+      "concept": "verb-choice",
+      "severity": "medium"
+    },
+    {
+      "id": "говорить-vs-сказать",
+      "label": "Confusion parler en cours / dire ponctuellement",
+      "concept": "verb-choice",
+      "severity": "medium"
+    },
+    {
+      "id": "word-family-base",
+      "label": "Mauvaise forme de dictionnaire retrouvée",
+      "concept": "lemma-recovery",
+      "severity": "medium"
+    },
+    {
+      "id": "infinitive-recovery",
+      "label": "Mauvais infinitif déduit",
+      "concept": "lemma-recovery",
+      "severity": "medium"
+    },
+    {
+      "id": "form-lookalike",
+      "label": "Choix basé sur ressemblance visuelle plutôt que rôle",
+      "concept": "form-discrimination",
+      "severity": "medium"
+    },
+    {
+      "id": "question-word",
+      "label": "Mot interrogatif incorrect",
+      "concept": "questions",
+      "severity": "medium"
+    },
+    {
+      "id": "direction-sequence",
+      "label": "Ordre ou sens d'une direction incorrect",
+      "concept": "directions",
+      "severity": "medium"
+    },
+    {
+      "id": "reading-detail-vs-main",
+      "label": "Détail confondu avec idée principale",
+      "concept": "reading-strategy",
+      "severity": "medium"
+    },
+    {
+      "id": "restaurant-vocab",
+      "label": "Vocabulaire de restaurant mal identifié",
+      "concept": "restaurant",
+      "severity": "low"
+    },
+    {
+      "id": "hotel-vocab",
+      "label": "Vocabulaire d'hôtel/problème mal identifié",
+      "concept": "hotel",
+      "severity": "low"
+    },
+    {
+      "id": "family-vocab",
+      "label": "Vocabulaire familial mal identifié",
+      "concept": "family",
+      "severity": "low"
+    },
+    {
+      "id": "active-translation-structure",
+      "label": "Calque français dans une traduction active",
+      "concept": "active-translation",
+      "severity": "high"
+    },
+    {
+      "id": "active-translation-incomplete",
+      "label": "Phrase active laissée incomplète",
+      "concept": "active-translation",
+      "severity": "medium"
+    }
+  ]
+}

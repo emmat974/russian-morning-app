@@ -1,0 +1,231 @@
+{
+  "id": "GRM-07",
+  "order": 15,
+  "track": "core-grammar",
+  "level": "A1",
+  "status": "active",
+  "title": "Le passé : -л, -ла, -ли",
+  "summary": "Reconnaître rapidement le genre et le nombre dans les formes passées fréquentes.",
+  "objectives": [
+    "Reconnaître устал / устала / устали",
+    "Former работал / работала",
+    "Reconnaître les passés pluriels en -ли"
+  ],
+  "concepts": [
+    "past-tense",
+    "past-gender",
+    "past-number"
+  ],
+  "notes": [
+    "Au passé, le russe marque fortement le genre au singulier."
+  ],
+  "examples": [
+    {
+      "ru": "Он устал.",
+      "fr": "Il est fatigué."
+    },
+    {
+      "ru": "Она устала.",
+      "fr": "Elle est fatiguée."
+    },
+    {
+      "ru": "Они устали.",
+      "fr": "Ils sont fatigués."
+    }
+  ],
+  "source_refs": [
+    "PDF-FIRST-WEEK-TONY:p1",
+    "GH-RUSSIAN-MORNING-APP:series-traduction"
+  ],
+  "schema_version": "3.0.0",
+  "content_api_version": "3.0",
+  "subtitle": "Lire le passé grâce au genre et au nombre",
+  "estimated_minutes": 18,
+  "prerequisites": [
+    "GRM-02"
+  ],
+  "lesson_mode": "guided_course_session",
+  "content_blocks": [
+    {
+      "id": "GRM-07-intro",
+      "type": "markdown",
+      "title": "Pourquoi ce chapitre ?",
+      "body": [
+        "Au présent, le verbe change surtout selon la personne. Au passé, le singulier montre clairement le genre : -л, -ла, tandis que le pluriel utilise souvent -ли. C’est un système très visible dans les récits."
+      ],
+      "provenance": "editorial-expansion"
+    },
+    {
+      "id": "GRM-07-sec-01",
+      "type": "markdown",
+      "title": "Masculin singulier en -л",
+      "body": [
+        "Он работал, он устал, он сказал. La forme masculine passée est souvent compacte et se termine par -л."
+      ],
+      "examples": [
+        {
+          "ru": "Он работал вчера.",
+          "fr": "Il a travaillé hier."
+        },
+        {
+          "ru": "Он устал.",
+          "fr": "Il est fatigué / il s’est fatigué."
+        }
+      ],
+      "provenance": "editorial-expansion"
+    },
+    {
+      "id": "GRM-07-sec-02",
+      "type": "markdown",
+      "title": "Féminin singulier en -ла",
+      "body": [
+        "Она работала, она устала, она сказала. Le -а final rend la forme féminine très identifiable."
+      ],
+      "examples": [
+        {
+          "ru": "Она работала вчера.",
+          "fr": "Elle a travaillé hier."
+        },
+        {
+          "ru": "Она сказала мне нет.",
+          "fr": "Elle m’a dit non."
+        }
+      ],
+      "provenance": "editorial-expansion"
+    },
+    {
+      "id": "GRM-07-sec-03",
+      "type": "markdown",
+      "title": "Pluriel en -ли",
+      "body": [
+        "Они работали, приехали, познакомились. Le pluriel ne distingue plus le genre des personnes."
+      ],
+      "examples": [
+        {
+          "ru": "Они приехали вчера.",
+          "fr": "Ils sont arrivés hier."
+        },
+        {
+          "ru": "Они познакомились в интернете.",
+          "fr": "Ils ont fait connaissance sur Internet."
+        }
+      ],
+      "provenance": "editorial-expansion"
+    },
+    {
+      "id": "GRM-07-sec-04",
+      "type": "markdown",
+      "title": "Le passé dans un récit",
+      "body": [
+        "Les marqueurs de temps вчера, несколько месяцев назад ou сначала aident à confirmer que tu lis un événement passé. Ne te fie pas uniquement à une terminaison isolée."
+      ],
+      "examples": [
+        {
+          "ru": "несколько месяцев назад",
+          "fr": "il y a quelques mois"
+        }
+      ],
+      "provenance": "editorial-expansion"
+    },
+    {
+      "id": "GRM-07-sec-05",
+      "type": "markdown",
+      "title": "Production progressive",
+      "body": [
+        "L’app doit d’abord te faire choisir entre работал / работала / работали, puis compléter une terminaison, puis produire la phrase complète. Cette gradation évite un faux sentiment de maîtrise par simple reconnaissance."
+      ],
+      "examples": [],
+      "provenance": "editorial-expansion"
+    },
+    {
+      "id": "GRM-07-mistakes",
+      "type": "contrast",
+      "title": "Erreurs à surveiller",
+      "items": [
+        {
+          "wrong_or_risk": "Она работал",
+          "correction_or_strategy": "Sujet féminin → работала."
+        },
+        {
+          "wrong_or_risk": "Они устал",
+          "correction_or_strategy": "Pluriel → устали."
+        },
+        {
+          "wrong_or_risk": "Confondre adjectif et passé sans contexte",
+          "correction_or_strategy": "Lire la phrase entière et le rôle du mot."
+        }
+      ],
+      "provenance": "editorial-expansion"
+    },
+    {
+      "id": "GRM-07-memory",
+      "type": "memory",
+      "title": "À retenir",
+      "items": [
+        "Masculin passé : souvent -л.",
+        "Féminin : -ла.",
+        "Pluriel : -ли."
+      ],
+      "provenance": "editorial-expansion"
+    },
+    {
+      "id": "GRM-07-pron",
+      "type": "pronunciation",
+      "title": "Prononciation à travailler",
+      "targets": [
+        "работал",
+        "работала",
+        "работали",
+        "устал",
+        "устала",
+        "сказал",
+        "сказала",
+        "приехали"
+      ],
+      "provenance": "mixed-source-and-editorial"
+    },
+    {
+      "id": "GRM-07-checkpoint",
+      "type": "checkpoint",
+      "title": "Avant de considérer le chapitre compris",
+      "checks": [
+        "Expliquer l’idée principale avec tes propres mots en français.",
+        "Réussir plusieurs exercices de formats différents sans indice.",
+        "Produire au moins une réponse russe complète liée au concept.",
+        "Revoir au moins une partie du concept après un délai, pas uniquement dans la même session."
+      ],
+      "provenance": "editorial-expansion"
+    }
+  ],
+  "source_policy": {
+    "source_derived_content": "Examples and story contexts trace back to the supplied PDF and/or russian-morning-app when source_refs are present.",
+    "editorial_expansion": "Grammar explanations, learning strategy, mastery rules and newly generated examples are model-authored pedagogical expansion."
+  },
+  "skill_weights": {
+    "recognition": 0.2,
+    "comprehension": 0.2,
+    "recall": 0.2,
+    "production": 0.3,
+    "pronunciation": 0.1
+  },
+  "mastery_contract": {
+    "minimum_distinct_activities": 8,
+    "minimum_distinct_prompts": 6,
+    "minimum_overall_score": 0.7,
+    "minimum_production_score": 0.6,
+    "minimum_comprehension_score": 0.65,
+    "critical_error_rate_max": 0.4,
+    "delayed_review_required_for_mastered": true,
+    "delayed_review_min_hours": 48,
+    "next_chapter_soft_unlock_score": 0.7,
+    "soft_unlock_before_mastered": true
+  },
+  "session_recommendation": {
+    "course_session_blocks_min": 4,
+    "course_session_micro_checks_min": 3,
+    "exercise_session_items": 15,
+    "max_choice_ratio": 0.3,
+    "min_production_ratio": 0.3,
+    "pronunciation_ratio_target": 0.1
+  }
+}

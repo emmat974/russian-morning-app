@@ -1,0 +1,27 @@
+{
+  "schema_version": "2.0.0",
+  "soft_unlock": {
+    "description": "Le chapitre suivant doit pouvoir s’ouvrir dès qu’une compréhension immédiate correcte est démontrée. L’objectif est de préserver l’élan: la consolidation et les révisions du chapitre précédent continuent ensuite.",
+    "requirements": {
+      "overall_score": 0.7,
+      "production_score": 0.6,
+      "comprehension_score": 0.65,
+      "minimum_distinct_activities": 8,
+      "critical_error_rate_max": 0.4
+    },
+    "result_state": "consolidating"
+  },
+  "mastered": {
+    "requirements": {
+      "overall_score": 0.8,
+      "delayed_review_min_hours": 48,
+      "delayed_review_score": 0.72,
+      "critical_error_rate_max": 0.3
+    },
+    "result_state": "mastered"
+  },
+  "fallback": {
+    "if_not_ready": "Keep chapter open; propose a short targeted mixed session. Do not require long-term mastery before allowing normal forward progress.",
+    "if_pronunciation_unavailable": "Pronunciation dimension becomes non-blocking and weights are renormalized."
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Activity v3",
+  "type": "object",
+  "required": [
+    "id",
+    "lesson_id",
+    "activity_type",
+    "renderer_id",
+    "prompt",
+    "answer",
+    "skill_dimensions",
+    "scoring"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "lesson_id": {
+      "type": "string"
+    },
+    "activity_type": {
+      "type": "string"
+    },
+    "renderer_id": {
+      "type": "string"
+    },
+    "prompt": {
+      "type": "string"
+    },
+    "answer": {},
+    "skill_dimensions": {
+      "type": "object"
+    },
+    "scoring": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": true
+}

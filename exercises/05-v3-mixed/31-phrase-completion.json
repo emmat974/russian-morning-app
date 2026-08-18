@@ -1,0 +1,4915 @@
+{
+  "exercise_set": "31-phrase-completion",
+  "items": [
+    {
+      "id": "V3-COMP-0001",
+      "lesson_id": "FND-01",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Я ___.",
+      "context": "Je travaille.",
+      "answer": "работаю",
+      "acceptable_answers": [
+        "работаю"
+      ],
+      "concepts": [
+        "personal-pronouns",
+        "simple-svo",
+        "subject-identification"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0002",
+      "lesson_id": "FND-01",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Она ___.",
+      "context": "Elle parle / elle dit.",
+      "answer": "говорит",
+      "acceptable_answers": [
+        "говорит"
+      ],
+      "concepts": [
+        "personal-pronouns",
+        "simple-svo",
+        "subject-identification"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0003",
+      "lesson_id": "FND-01",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Мы ___.",
+      "context": "Nous lisons.",
+      "answer": "читаем",
+      "acceptable_answers": [
+        "читаем"
+      ],
+      "concepts": [
+        "personal-pronouns",
+        "simple-svo",
+        "subject-identification"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0004",
+      "lesson_id": "FND-01",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Они ___.",
+      "context": "Ils / elles savent.",
+      "answer": "знают",
+      "acceptable_answers": [
+        "знают"
+      ],
+      "concepts": [
+        "personal-pronouns",
+        "simple-svo",
+        "subject-identification"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0005",
+      "lesson_id": "FND-01",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Тони понимает ___.",
+      "context": "Tony comprend le mot.",
+      "answer": "слово",
+      "acceptable_answers": [
+        "слово"
+      ],
+      "concepts": [
+        "personal-pronouns",
+        "simple-svo",
+        "subject-identification"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0006",
+      "lesson_id": "FND-02",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Я не ___.",
+      "context": "Je ne sais pas.",
+      "answer": "знаю",
+      "acceptable_answers": [
+        "знаю"
+      ],
+      "concepts": [
+        "negation",
+        "говорить",
+        "понимать",
+        "знать",
+        "может-быть"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0007",
+      "lesson_id": "FND-02",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Я не ___.",
+      "context": "Je ne comprends pas.",
+      "answer": "понимаю",
+      "acceptable_answers": [
+        "понимаю"
+      ],
+      "concepts": [
+        "negation",
+        "говорить",
+        "понимать",
+        "знать",
+        "может-быть"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0008",
+      "lesson_id": "FND-02",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Я немного говорю ___.",
+      "context": "Je parle un peu russe.",
+      "answer": "по-русски",
+      "acceptable_answers": [
+        "по-русски"
+      ],
+      "concepts": [
+        "negation",
+        "говорить",
+        "понимать",
+        "знать",
+        "может-быть"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0009",
+      "lesson_id": "FND-02",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Она говорит ___.",
+      "context": "Elle parle vite.",
+      "answer": "быстро",
+      "acceptable_answers": [
+        "быстро"
+      ],
+      "concepts": [
+        "negation",
+        "говорить",
+        "понимать",
+        "знать",
+        "может-быть"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0010",
+      "lesson_id": "FND-02",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Я ___.",
+      "context": "Je comprends.",
+      "answer": "понимаю",
+      "acceptable_answers": [
+        "понимаю"
+      ],
+      "concepts": [
+        "negation",
+        "говорить",
+        "понимать",
+        "знать",
+        "может-быть"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0011",
+      "lesson_id": "FND-03",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Что ___?",
+      "context": "Qu’est-ce que c’est ?",
+      "answer": "это",
+      "acceptable_answers": [
+        "это"
+      ],
+      "concepts": [
+        "что-clause",
+        "subordination",
+        "clause-boundary"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0012",
+      "lesson_id": "FND-03",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Она говорит, что ___.",
+      "context": "Elle dit qu’elle travaille.",
+      "answer": "работает",
+      "acceptable_answers": [
+        "работает"
+      ],
+      "concepts": [
+        "что-clause",
+        "subordination",
+        "clause-boundary"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0013",
+      "lesson_id": "FND-03",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Я знаю, что он ___.",
+      "context": "Je sais qu’il est à la maison.",
+      "answer": "дома",
+      "acceptable_answers": [
+        "дома"
+      ],
+      "concepts": [
+        "что-clause",
+        "subordination",
+        "clause-boundary"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0014",
+      "lesson_id": "FND-03",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Он понимает, что ___.",
+      "context": "Il comprend qu’il s’est perdu.",
+      "answer": "заблудился",
+      "acceptable_answers": [
+        "заблудился"
+      ],
+      "concepts": [
+        "что-clause",
+        "subordination",
+        "clause-boundary"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0015",
+      "lesson_id": "FND-03",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Она говорит, что ___.",
+      "context": "Elle dit qu’elle travaille.",
+      "answer": "работает",
+      "acceptable_answers": [
+        "работает"
+      ],
+      "concepts": [
+        "что-clause",
+        "subordination",
+        "clause-boundary"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0016",
+      "lesson_id": "FND-04",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Я хочу ___.",
+      "context": "Je veux du thé.",
+      "answer": "чай",
+      "acceptable_answers": [
+        "чай"
+      ],
+      "concepts": [
+        "хотеть",
+        "direction",
+        "в-plus-destination",
+        "куда"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0017",
+      "lesson_id": "FND-04",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Я хочу в ___.",
+      "context": "Je veux aller en forêt.",
+      "answer": "лес",
+      "acceptable_answers": [
+        "лес"
+      ],
+      "concepts": [
+        "хотеть",
+        "direction",
+        "в-plus-destination",
+        "куда"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0018",
+      "lesson_id": "FND-04",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Я хочу в ___.",
+      "context": "Je veux aller en ville.",
+      "answer": "город",
+      "acceptable_answers": [
+        "город"
+      ],
+      "concepts": [
+        "хотеть",
+        "direction",
+        "в-plus-destination",
+        "куда"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0019",
+      "lesson_id": "FND-04",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Мы хотим в ___.",
+      "context": "Nous voulons aller au parc.",
+      "answer": "парк",
+      "acceptable_answers": [
+        "парк"
+      ],
+      "concepts": [
+        "хотеть",
+        "direction",
+        "в-plus-destination",
+        "куда"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0020",
+      "lesson_id": "FND-04",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Она хочет ___.",
+      "context": "Elle veut rentrer chez elle.",
+      "answer": "домой",
+      "acceptable_answers": [
+        "домой"
+      ],
+      "concepts": [
+        "хотеть",
+        "direction",
+        "в-plus-destination",
+        "куда"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0021",
+      "lesson_id": "FND-05",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Извините, я не ___.",
+      "context": "Excusez-moi, je ne comprends pas.",
+      "answer": "понимаю",
+      "acceptable_answers": [
+        "понимаю"
+      ],
+      "concepts": [
+        "politeness",
+        "survival-russian",
+        "можно",
+        "пожалуйста",
+        "извините"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0022",
+      "lesson_id": "FND-05",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Говорите медленнее, ___.",
+      "context": "Parlez plus lentement, s’il vous plaît.",
+      "answer": "пожалуйста",
+      "acceptable_answers": [
+        "пожалуйста"
+      ],
+      "concepts": [
+        "politeness",
+        "survival-russian",
+        "можно",
+        "пожалуйста",
+        "извините"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0023",
+      "lesson_id": "FND-05",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Можно ещё ___?",
+      "context": "Pouvez-vous répéter ? / Encore une fois ?",
+      "answer": "раз",
+      "acceptable_answers": [
+        "раз"
+      ],
+      "concepts": [
+        "politeness",
+        "survival-russian",
+        "можно",
+        "пожалуйста",
+        "извините"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0024",
+      "lesson_id": "FND-05",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Что это ___?",
+      "context": "Qu’est-ce que cela signifie ?",
+      "answer": "значит",
+      "acceptable_answers": [
+        "значит"
+      ],
+      "concepts": [
+        "politeness",
+        "survival-russian",
+        "можно",
+        "пожалуйста",
+        "извините"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0025",
+      "lesson_id": "FND-05",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Чай, ___.",
+      "context": "Un thé, s’il vous plaît.",
+      "answer": "пожалуйста",
+      "acceptable_answers": [
+        "пожалуйста"
+      ],
+      "concepts": [
+        "politeness",
+        "survival-russian",
+        "можно",
+        "пожалуйста",
+        "извините"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0026",
+      "lesson_id": "FND-06",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Меня зовут ___.",
+      "context": "Je m’appelle Tony.",
+      "answer": "Тони",
+      "acceptable_answers": [
+        "Тони"
+      ],
+      "concepts": [
+        "меня-зовут",
+        "мне-тоже",
+        "possession",
+        "family"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0027",
+      "lesson_id": "FND-06",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Очень ___.",
+      "context": "Enchanté.",
+      "answer": "приятно",
+      "acceptable_answers": [
+        "приятно"
+      ],
+      "concepts": [
+        "меня-зовут",
+        "мне-тоже",
+        "possession",
+        "family"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0028",
+      "lesson_id": "FND-06",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Мне ___.",
+      "context": "Moi aussi.",
+      "answer": "тоже",
+      "acceptable_answers": [
+        "тоже"
+      ],
+      "concepts": [
+        "меня-зовут",
+        "мне-тоже",
+        "possession",
+        "family"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0029",
+      "lesson_id": "FND-06",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "У меня есть ___.",
+      "context": "J’ai un frère.",
+      "answer": "брат",
+      "acceptable_answers": [
+        "брат"
+      ],
+      "concepts": [
+        "меня-зовут",
+        "мне-тоже",
+        "possession",
+        "family"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0030",
+      "lesson_id": "FND-06",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "У него есть ___?",
+      "context": "Est-ce qu’il a des enfants ?",
+      "answer": "дети",
+      "acceptable_answers": [
+        "дети"
+      ],
+      "concepts": [
+        "меня-зовут",
+        "мне-тоже",
+        "possession",
+        "family"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0031",
+      "lesson_id": "GRM-01",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Мне нравится ___.",
+      "context": "J’aime le café.",
+      "answer": "кофе",
+      "acceptable_answers": [
+        "кофе"
+      ],
+      "concepts": [
+        "dative",
+        "нравиться",
+        "мне-vs-я",
+        "experiencer-construction"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0032",
+      "lesson_id": "GRM-01",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Мне нравится эта ___.",
+      "context": "J’aime cette musique.",
+      "answer": "музыка",
+      "acceptable_answers": [
+        "музыка"
+      ],
+      "concepts": [
+        "dative",
+        "нравиться",
+        "мне-vs-я",
+        "experiencer-construction"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0033",
+      "lesson_id": "GRM-01",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Мне нравится ___.",
+      "context": "J’aime la photographie.",
+      "answer": "фотография",
+      "acceptable_answers": [
+        "фотография"
+      ],
+      "concepts": [
+        "dative",
+        "нравиться",
+        "мне-vs-я",
+        "experiencer-construction"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0034",
+      "lesson_id": "GRM-01",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Мне нравятся ___.",
+      "context": "J’aime les photographies.",
+      "answer": "фотографии",
+      "acceptable_answers": [
+        "фотографии"
+      ],
+      "concepts": [
+        "dative",
+        "нравиться",
+        "мне-vs-я",
+        "experiencer-construction"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0035",
+      "lesson_id": "GRM-01",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Тебе нравится ___?",
+      "context": "Tu aimes le thé ?",
+      "answer": "чай",
+      "acceptable_answers": [
+        "чай"
+      ],
+      "concepts": [
+        "dative",
+        "нравиться",
+        "мне-vs-я",
+        "experiencer-construction"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0036",
+      "lesson_id": "GRM-02",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Я ___.",
+      "context": "Je lis.",
+      "answer": "читаю",
+      "acceptable_answers": [
+        "читаю"
+      ],
+      "concepts": [
+        "present-tense",
+        "verb-endings",
+        "first-conjugation",
+        "second-conjugation"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0037",
+      "lesson_id": "GRM-02",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Я ___.",
+      "context": "Je travaille.",
+      "answer": "работаю",
+      "acceptable_answers": [
+        "работаю"
+      ],
+      "concepts": [
+        "present-tense",
+        "verb-endings",
+        "first-conjugation",
+        "second-conjugation"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0038",
+      "lesson_id": "GRM-02",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Я ___.",
+      "context": "Je comprends.",
+      "answer": "понимаю",
+      "acceptable_answers": [
+        "понимаю"
+      ],
+      "concepts": [
+        "present-tense",
+        "verb-endings",
+        "first-conjugation",
+        "second-conjugation"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0039",
+      "lesson_id": "GRM-02",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Она ___.",
+      "context": "Elle travaille.",
+      "answer": "работает",
+      "acceptable_answers": [
+        "работает"
+      ],
+      "concepts": [
+        "present-tense",
+        "verb-endings",
+        "first-conjugation",
+        "second-conjugation"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0040",
+      "lesson_id": "GRM-02",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Он ___.",
+      "context": "Il parle.",
+      "answer": "говорит",
+      "acceptable_answers": [
+        "говорит"
+      ],
+      "concepts": [
+        "present-tense",
+        "verb-endings",
+        "first-conjugation",
+        "second-conjugation"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0041",
+      "lesson_id": "GRM-03",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "новый ___",
+      "context": "un nouveau téléphone",
+      "answer": "телефон",
+      "acceptable_answers": [
+        "телефон"
+      ],
+      "concepts": [
+        "gender",
+        "adjective-agreement",
+        "nominative"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0042",
+      "lesson_id": "GRM-03",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "новая ___",
+      "context": "une nouvelle voiture",
+      "answer": "машина",
+      "acceptable_answers": [
+        "машина"
+      ],
+      "concepts": [
+        "gender",
+        "adjective-agreement",
+        "nominative"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0043",
+      "lesson_id": "GRM-04",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Я вижу ___.",
+      "context": "Je vois la voiture.",
+      "answer": "машину",
+      "acceptable_answers": [
+        "машину"
+      ],
+      "concepts": [
+        "accusative",
+        "direct-object",
+        "motion-direction"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0044",
+      "lesson_id": "GRM-04",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Она читает ___.",
+      "context": "Elle lit un livre.",
+      "answer": "книгу",
+      "acceptable_answers": [
+        "книгу"
+      ],
+      "concepts": [
+        "accusative",
+        "direct-object",
+        "motion-direction"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0045",
+      "lesson_id": "GRM-04",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "машина → ___",
+      "context": "voiture",
+      "answer": "машину",
+      "acceptable_answers": [
+        "машину"
+      ],
+      "concepts": [
+        "accusative",
+        "direct-object",
+        "motion-direction"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0046",
+      "lesson_id": "GRM-04",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "книга → ___",
+      "context": "livre",
+      "answer": "книгу",
+      "acceptable_answers": [
+        "книгу"
+      ],
+      "concepts": [
+        "accusative",
+        "direct-object",
+        "motion-direction"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0047",
+      "lesson_id": "GRM-04",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Мы идём в ___.",
+      "context": "Nous allons à l’école.",
+      "answer": "школу",
+      "acceptable_answers": [
+        "школу"
+      ],
+      "concepts": [
+        "accusative",
+        "direct-object",
+        "motion-direction"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0048",
+      "lesson_id": "GRM-05",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Где он? Он ___.",
+      "context": "Où est-il ? Il est à la maison.",
+      "answer": "дома",
+      "acceptable_answers": [
+        "дома"
+      ],
+      "concepts": [
+        "location-vs-direction",
+        "дома",
+        "домой",
+        "где",
+        "куда"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0049",
+      "lesson_id": "GRM-05",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Он на ___.",
+      "context": "Il est dans la cuisine.",
+      "answer": "кухне",
+      "acceptable_answers": [
+        "кухне"
+      ],
+      "concepts": [
+        "location-vs-direction",
+        "дома",
+        "домой",
+        "где",
+        "куда"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0050",
+      "lesson_id": "GRM-05",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Куда он идёт? ___.",
+      "context": "Où va-t-il ? Chez lui.",
+      "answer": "Домой",
+      "acceptable_answers": [
+        "Домой"
+      ],
+      "concepts": [
+        "location-vs-direction",
+        "дома",
+        "домой",
+        "где",
+        "куда"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0051",
+      "lesson_id": "GRM-05",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Он идёт на ___.",
+      "context": "Il va dans la cuisine.",
+      "answer": "кухню",
+      "acceptable_answers": [
+        "кухню"
+      ],
+      "concepts": [
+        "location-vs-direction",
+        "дома",
+        "домой",
+        "где",
+        "куда"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0052",
+      "lesson_id": "GRM-06",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "У меня есть ___.",
+      "context": "J’ai un téléphone.",
+      "answer": "телефон",
+      "acceptable_answers": [
+        "телефон"
+      ],
+      "concepts": [
+        "possession",
+        "у-possessor",
+        "есть",
+        "нет",
+        "genitive-basic"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0053",
+      "lesson_id": "GRM-06",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "У тебя есть ___?",
+      "context": "Tu as une voiture ?",
+      "answer": "машина",
+      "acceptable_answers": [
+        "машина"
+      ],
+      "concepts": [
+        "possession",
+        "у-possessor",
+        "есть",
+        "нет",
+        "genitive-basic"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0054",
+      "lesson_id": "GRM-06",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "У него есть ___.",
+      "context": "Il a un frère.",
+      "answer": "брат",
+      "acceptable_answers": [
+        "брат"
+      ],
+      "concepts": [
+        "possession",
+        "у-possessor",
+        "есть",
+        "нет",
+        "genitive-basic"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0055",
+      "lesson_id": "GRM-06",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "У неё есть ___.",
+      "context": "Elle a une sœur.",
+      "answer": "сестра",
+      "acceptable_answers": [
+        "сестра"
+      ],
+      "concepts": [
+        "possession",
+        "у-possessor",
+        "есть",
+        "нет",
+        "genitive-basic"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0056",
+      "lesson_id": "GRM-06",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "У меня нет ___.",
+      "context": "Je n’ai pas de téléphone.",
+      "answer": "телефона",
+      "acceptable_answers": [
+        "телефона"
+      ],
+      "concepts": [
+        "possession",
+        "у-possessor",
+        "есть",
+        "нет",
+        "genitive-basic"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0057",
+      "lesson_id": "GRM-07",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Он работал ___.",
+      "context": "Il a travaillé hier.",
+      "answer": "вчера",
+      "acceptable_answers": [
+        "вчера"
+      ],
+      "concepts": [
+        "past-tense",
+        "past-gender",
+        "past-number"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0058",
+      "lesson_id": "GRM-07",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Он ___.",
+      "context": "Il est fatigué / il s’est fatigué.",
+      "answer": "устал",
+      "acceptable_answers": [
+        "устал"
+      ],
+      "concepts": [
+        "past-tense",
+        "past-gender",
+        "past-number"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0059",
+      "lesson_id": "GRM-07",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Она работала ___.",
+      "context": "Elle a travaillé hier.",
+      "answer": "вчера",
+      "acceptable_answers": [
+        "вчера"
+      ],
+      "concepts": [
+        "past-tense",
+        "past-gender",
+        "past-number"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0060",
+      "lesson_id": "GRM-07",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Она сказала мне ___.",
+      "context": "Elle m’a dit non.",
+      "answer": "нет",
+      "acceptable_answers": [
+        "нет"
+      ],
+      "concepts": [
+        "past-tense",
+        "past-gender",
+        "past-number"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0061",
+      "lesson_id": "GRM-07",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Они приехали ___.",
+      "context": "Ils sont arrivés hier.",
+      "answer": "вчера",
+      "acceptable_answers": [
+        "вчера"
+      ],
+      "concepts": [
+        "past-tense",
+        "past-gender",
+        "past-number"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0062",
+      "lesson_id": "GRM-08",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Я вижу ___.",
+      "context": "Je vois une voiture.",
+      "answer": "машину",
+      "acceptable_answers": [
+        "машину"
+      ],
+      "concepts": [
+        "pronoun-cases",
+        "accusative-pronouns",
+        "dative-pronouns"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0063",
+      "lesson_id": "GRM-08",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Меня зовут ___.",
+      "context": "Je m’appelle Tony.",
+      "answer": "Тони",
+      "acceptable_answers": [
+        "Тони"
+      ],
+      "concepts": [
+        "pronoun-cases",
+        "accusative-pronouns",
+        "dative-pronouns"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0064",
+      "lesson_id": "GRM-08",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Ты меня ___?",
+      "context": "Tu me vois ?",
+      "answer": "видишь",
+      "acceptable_answers": [
+        "видишь"
+      ],
+      "concepts": [
+        "pronoun-cases",
+        "accusative-pronouns",
+        "dative-pronouns"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0065",
+      "lesson_id": "GRM-08",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Мне нравится ___.",
+      "context": "J’aime le café.",
+      "answer": "кофе",
+      "acceptable_answers": [
+        "кофе"
+      ],
+      "concepts": [
+        "pronoun-cases",
+        "accusative-pronouns",
+        "dative-pronouns"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0066",
+      "lesson_id": "GRM-08",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Мне трудно ___.",
+      "context": "J’ai du mal à répondre.",
+      "answer": "отвечать",
+      "acceptable_answers": [
+        "отвечать"
+      ],
+      "concepts": [
+        "pronoun-cases",
+        "accusative-pronouns",
+        "dative-pronouns"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0067",
+      "lesson_id": "GRM-09",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "с ___",
+      "context": "avec Alexeï",
+      "answer": "Алексеем",
+      "acceptable_answers": [
+        "Алексеем"
+      ],
+      "concepts": [
+        "instrumental-basic",
+        "genitive-basic",
+        "с",
+        "без",
+        "рядом-с"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0068",
+      "lesson_id": "GRM-09",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "с ___",
+      "context": "avec du sucre",
+      "answer": "сахаром",
+      "acceptable_answers": [
+        "сахаром"
+      ],
+      "concepts": [
+        "instrumental-basic",
+        "genitive-basic",
+        "с",
+        "без",
+        "рядом-с"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0069",
+      "lesson_id": "GRM-09",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "без ___",
+      "context": "sans sucre",
+      "answer": "сахара",
+      "acceptable_answers": [
+        "сахара"
+      ],
+      "concepts": [
+        "instrumental-basic",
+        "genitive-basic",
+        "с",
+        "без",
+        "рядом-с"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0070",
+      "lesson_id": "GRM-09",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "вода без ___",
+      "context": "eau plate / sans gaz",
+      "answer": "газа",
+      "acceptable_answers": [
+        "газа"
+      ],
+      "concepts": [
+        "instrumental-basic",
+        "genitive-basic",
+        "с",
+        "без",
+        "рядом-с"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0071",
+      "lesson_id": "GRM-09",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "рядом с ___",
+      "context": "près de l’hôtel",
+      "answer": "гостиницей",
+      "acceptable_answers": [
+        "гостиницей"
+      ],
+      "concepts": [
+        "instrumental-basic",
+        "genitive-basic",
+        "с",
+        "без",
+        "рядом-с"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0072",
+      "lesson_id": "READ-01",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Через десять ___.",
+      "context": "Dix minutes plus tard...",
+      "answer": "минут..",
+      "acceptable_answers": [
+        "минут.."
+      ],
+      "concepts": [
+        "через",
+        "time-expression",
+        "chronology"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0073",
+      "lesson_id": "READ-01",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Через ___.",
+      "context": "Dans une heure...",
+      "answer": "час..",
+      "acceptable_answers": [
+        "час.."
+      ],
+      "concepts": [
+        "через",
+        "time-expression",
+        "chronology"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0074",
+      "lesson_id": "READ-01",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Через пятнадцать минут он видит ___.",
+      "context": "Quinze minutes plus tard, il voit la place.",
+      "answer": "площадь",
+      "acceptable_answers": [
+        "площадь"
+      ],
+      "concepts": [
+        "через",
+        "time-expression",
+        "chronology"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0075",
+      "lesson_id": "READ-01",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Через десять минут он понимает, что ___.",
+      "context": "Dix minutes plus tard, il comprend qu’il s’est perdu.",
+      "answer": "заблудился",
+      "acceptable_answers": [
+        "заблудился"
+      ],
+      "concepts": [
+        "через",
+        "time-expression",
+        "chronology"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0076",
+      "lesson_id": "READ-01",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "два дня ___",
+      "context": "il y a deux jours",
+      "answer": "назад",
+      "acceptable_answers": [
+        "назад"
+      ],
+      "concepts": [
+        "через",
+        "time-expression",
+        "chronology"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0077",
+      "lesson_id": "READ-02",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Я хочу в лес, но не ___.",
+      "context": "Je veux aller en forêt, mais je ne sais pas...",
+      "answer": "знаю..",
+      "acceptable_answers": [
+        "знаю.."
+      ],
+      "concepts": [
+        "reading-strategy",
+        "context",
+        "telegram-style",
+        "known-structure-recognition"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0078",
+      "lesson_id": "READ-02",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Она говорит, что уже дома и немного ___.",
+      "context": "Elle dit qu’elle est déjà chez elle et un peu fatiguée.",
+      "answer": "устала",
+      "acceptable_answers": [
+        "устала"
+      ],
+      "concepts": [
+        "reading-strategy",
+        "context",
+        "telegram-style",
+        "known-structure-recognition"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0079",
+      "lesson_id": "READ-02",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Я хочу в лес, но не знаю, будет ли сегодня ___.",
+      "context": "Je veux aller en forêt, mais je ne sais pas s’il va pleuvoir aujourd’hui.",
+      "answer": "дождь",
+      "acceptable_answers": [
+        "дождь"
+      ],
+      "concepts": [
+        "reading-strategy",
+        "context",
+        "telegram-style",
+        "known-structure-recognition"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0080",
+      "lesson_id": "READ-02",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Сегодня Тони в ___.",
+      "context": "Aujourd’hui Tony est à Moscou.",
+      "answer": "Москве",
+      "acceptable_answers": [
+        "Москве"
+      ],
+      "concepts": [
+        "reading-strategy",
+        "context",
+        "telegram-style",
+        "known-structure-recognition"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0081",
+      "lesson_id": "READ-02",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Он идёт в ___.",
+      "context": "Il va au café.",
+      "answer": "кафе",
+      "acceptable_answers": [
+        "кафе"
+      ],
+      "concepts": [
+        "reading-strategy",
+        "context",
+        "telegram-style",
+        "known-structure-recognition"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0082",
+      "lesson_id": "READ-03",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Сегодня утром Тони приезжает в ___.",
+      "context": "Ce matin Tony arrive à Moscou.",
+      "answer": "Москву",
+      "acceptable_answers": [
+        "Москву"
+      ],
+      "concepts": [
+        "reading-strategy",
+        "cafe",
+        "travel",
+        "politeness"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0083",
+      "lesson_id": "READ-03",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Его комната ещё не ___.",
+      "context": "Sa chambre n’est pas encore prête.",
+      "answer": "готова",
+      "acceptable_answers": [
+        "готова"
+      ],
+      "concepts": [
+        "reading-strategy",
+        "cafe",
+        "travel",
+        "politeness"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0084",
+      "lesson_id": "READ-03",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Я немного говорю ___.",
+      "context": "Je parle un peu russe.",
+      "answer": "по-русски",
+      "acceptable_answers": [
+        "по-русски"
+      ],
+      "concepts": [
+        "reading-strategy",
+        "cafe",
+        "travel",
+        "politeness"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0085",
+      "lesson_id": "READ-03",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Говорите медленнее, ___.",
+      "context": "Parlez plus lentement, s’il vous plaît.",
+      "answer": "пожалуйста",
+      "acceptable_answers": [
+        "пожалуйста"
+      ],
+      "concepts": [
+        "reading-strategy",
+        "cafe",
+        "travel",
+        "politeness"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0086",
+      "lesson_id": "READ-03",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Что это ___?",
+      "context": "Qu’est-ce que cela signifie ?",
+      "answer": "значит",
+      "acceptable_answers": [
+        "значит"
+      ],
+      "concepts": [
+        "reading-strategy",
+        "cafe",
+        "travel",
+        "politeness"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0087",
+      "lesson_id": "READ-04",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Вы, наверное, ___?",
+      "context": "Vous êtes probablement Tony ?",
+      "answer": "Тони",
+      "acceptable_answers": [
+        "Тони"
+      ],
+      "concepts": [
+        "reading-strategy",
+        "family",
+        "introductions",
+        "questions"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0088",
+      "lesson_id": "READ-04",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Меня зовут ___.",
+      "context": "Je m’appelle Irina.",
+      "answer": "Ирина",
+      "acceptable_answers": [
+        "Ирина"
+      ],
+      "concepts": [
+        "reading-strategy",
+        "family",
+        "introductions",
+        "questions"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0089",
+      "lesson_id": "READ-04",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Его папа готовит ___.",
+      "context": "Son père prépare le dîner.",
+      "answer": "ужин",
+      "acceptable_answers": [
+        "ужин"
+      ],
+      "concepts": [
+        "reading-strategy",
+        "family",
+        "introductions",
+        "questions"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0090",
+      "lesson_id": "READ-04",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Его младшая сестра читает ___.",
+      "context": "Sa petite sœur lit un livre.",
+      "answer": "книгу",
+      "acceptable_answers": [
+        "книгу"
+      ],
+      "concepts": [
+        "reading-strategy",
+        "family",
+        "introductions",
+        "questions"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0091",
+      "lesson_id": "READ-04",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Кто ___?",
+      "context": "Qui est-ce ?",
+      "answer": "это",
+      "acceptable_answers": [
+        "это"
+      ],
+      "concepts": [
+        "reading-strategy",
+        "family",
+        "introductions",
+        "questions"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0092",
+      "lesson_id": "READ-05",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Он хочет увидеть Красную ___.",
+      "context": "Il veut voir la place Rouge.",
+      "answer": "площадь",
+      "acceptable_answers": [
+        "площадь"
+      ],
+      "concepts": [
+        "reading-strategy",
+        "directions",
+        "через",
+        "что-clause"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0093",
+      "lesson_id": "READ-05",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Он смотрит маршрут на ___.",
+      "context": "Il regarde l’itinéraire sur son téléphone.",
+      "answer": "телефоне",
+      "acceptable_answers": [
+        "телефоне"
+      ],
+      "concepts": [
+        "reading-strategy",
+        "directions",
+        "через",
+        "что-clause"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0094",
+      "lesson_id": "READ-05",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Он поворачивает не ___.",
+      "context": "Il tourne dans la mauvaise direction.",
+      "answer": "туда",
+      "acceptable_answers": [
+        "туда"
+      ],
+      "concepts": [
+        "reading-strategy",
+        "directions",
+        "через",
+        "что-clause"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0095",
+      "lesson_id": "READ-05",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Через десять минут он понимает, что ___.",
+      "context": "Dix minutes plus tard, il comprend qu’il s’est perdu.",
+      "answer": "заблудился",
+      "acceptable_answers": [
+        "заблудился"
+      ],
+      "concepts": [
+        "reading-strategy",
+        "directions",
+        "через",
+        "что-clause"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0096",
+      "lesson_id": "READ-05",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Где Красная ___?",
+      "context": "Où est la place Rouge ?",
+      "answer": "площадь",
+      "acceptable_answers": [
+        "площадь"
+      ],
+      "concepts": [
+        "reading-strategy",
+        "directions",
+        "через",
+        "что-clause"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0097",
+      "lesson_id": "READ-06",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "традиционная русская ___",
+      "context": "cuisine russe traditionnelle",
+      "answer": "кухня",
+      "acceptable_answers": [
+        "кухня"
+      ],
+      "concepts": [
+        "restaurant",
+        "нравиться",
+        "food",
+        "reading-strategy"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0098",
+      "lesson_id": "READ-06",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Что они будут ___?",
+      "context": "Qu’est-ce qu’ils vont boire ?",
+      "answer": "пить",
+      "acceptable_answers": [
+        "пить"
+      ],
+      "concepts": [
+        "restaurant",
+        "нравиться",
+        "food",
+        "reading-strategy"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0099",
+      "lesson_id": "READ-06",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Я советую борщ и ___.",
+      "context": "Je conseille le bortsch et les pelmeni.",
+      "answer": "пельмени",
+      "acceptable_answers": [
+        "пельмени"
+      ],
+      "concepts": [
+        "restaurant",
+        "нравиться",
+        "food",
+        "reading-strategy"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0100",
+      "lesson_id": "READ-06",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Борщ ему ___.",
+      "context": "Il aime le bortsch / le bortsch lui plaît.",
+      "answer": "нравится",
+      "acceptable_answers": [
+        "нравится"
+      ],
+      "concepts": [
+        "restaurant",
+        "нравиться",
+        "food",
+        "reading-strategy"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0101",
+      "lesson_id": "READ-06",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Воду без ___.",
+      "context": "De l’eau plate.",
+      "answer": "газа",
+      "acceptable_answers": [
+        "газа"
+      ],
+      "concepts": [
+        "restaurant",
+        "нравиться",
+        "food",
+        "reading-strategy"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0102",
+      "lesson_id": "READ-07",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Не работает ___.",
+      "context": "La douche ne fonctionne pas.",
+      "answer": "душ",
+      "acceptable_answers": [
+        "душ"
+      ],
+      "concepts": [
+        "hotel",
+        "problem-reporting",
+        "нет",
+        "requests"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0103",
+      "lesson_id": "READ-07",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Воды ___.",
+      "context": "Il n’y a pas d’eau.",
+      "answer": "нет",
+      "acceptable_answers": [
+        "нет"
+      ],
+      "concepts": [
+        "hotel",
+        "problem-reporting",
+        "нет",
+        "requests"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0104",
+      "lesson_id": "READ-07",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Что ___?",
+      "context": "Que s’est-il passé ?",
+      "answer": "случилось",
+      "acceptable_answers": [
+        "случилось"
+      ],
+      "concepts": [
+        "hotel",
+        "problem-reporting",
+        "нет",
+        "requests"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0105",
+      "lesson_id": "READ-07",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Примерно тридцать ___.",
+      "context": "Environ trente minutes.",
+      "answer": "минут",
+      "acceptable_answers": [
+        "минут"
+      ],
+      "concepts": [
+        "hotel",
+        "problem-reporting",
+        "нет",
+        "requests"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0106",
+      "lesson_id": "READ-07",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Есть ли другая свободная ___?",
+      "context": "Y a-t-il une autre chambre disponible ?",
+      "answer": "комната",
+      "acceptable_answers": [
+        "комната"
+      ],
+      "concepts": [
+        "hotel",
+        "problem-reporting",
+        "нет",
+        "requests"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0107",
+      "lesson_id": "READ-08",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Я немного устал, но очень доволен ___.",
+      "context": "Je suis un peu fatigué mais très satisfait du voyage.",
+      "answer": "поездкой",
+      "acceptable_answers": [
+        "поездкой"
+      ],
+      "concepts": [
+        "conversation",
+        "self-assessment",
+        "learning-language",
+        "мне-трудно"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0108",
+      "lesson_id": "READ-08",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Пока не ___.",
+      "context": "Pas encore vraiment.",
+      "answer": "очень",
+      "acceptable_answers": [
+        "очень"
+      ],
+      "concepts": [
+        "conversation",
+        "self-assessment",
+        "learning-language",
+        "мне-трудно"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0109",
+      "lesson_id": "READ-08",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Мне трудно ___.",
+      "context": "J’ai du mal à répondre.",
+      "answer": "отвечать",
+      "acceptable_answers": [
+        "отвечать"
+      ],
+      "concepts": [
+        "conversation",
+        "self-assessment",
+        "learning-language",
+        "мне-трудно"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0110",
+      "lesson_id": "READ-08",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Каждый день я понимаю немного ___.",
+      "context": "Chaque jour je comprends un peu plus.",
+      "answer": "больше",
+      "acceptable_answers": [
+        "больше"
+      ],
+      "concepts": [
+        "conversation",
+        "self-assessment",
+        "learning-language",
+        "мне-трудно"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0111",
+      "lesson_id": "READ-08",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Когда я делаю ошибку, люди всё равно меня ___.",
+      "context": "Quand je fais une erreur, les gens me comprennent quand même.",
+      "answer": "понимают",
+      "acceptable_answers": [
+        "понимают"
+      ],
+      "concepts": [
+        "conversation",
+        "self-assessment",
+        "learning-language",
+        "мне-трудно"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0112",
+      "lesson_id": "PRACT-01",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Elle dit qu’elle ___.",
+      "context": "Она говорит, что работает.",
+      "answer": "travaille",
+      "acceptable_answers": [
+        "travaille"
+      ],
+      "concepts": [
+        "active-translation",
+        "retrieval-practice",
+        "verb-families"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0113",
+      "lesson_id": "PRACT-01",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Je n’ai pas de ___.",
+      "context": "У меня нет телефона.",
+      "answer": "telephone",
+      "acceptable_answers": [
+        "telephone"
+      ],
+      "concepts": [
+        "active-translation",
+        "retrieval-practice",
+        "verb-families"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0114",
+      "lesson_id": "PRACT-02",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "семью → ___",
+      "context": "famille",
+      "answer": "семья",
+      "acceptable_answers": [
+        "семья"
+      ],
+      "concepts": [
+        "word-family",
+        "lemma-recovery",
+        "infinitive-recovery",
+        "form-discrimination"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0115",
+      "lesson_id": "PRACT-02",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "гостиницей → ___",
+      "context": "hôtel",
+      "answer": "гостиница",
+      "acceptable_answers": [
+        "гостиница"
+      ],
+      "concepts": [
+        "word-family",
+        "lemma-recovery",
+        "infinitive-recovery",
+        "form-discrimination"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0116",
+      "lesson_id": "PRACT-03",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Я говорю ___.",
+      "context": "Je parle russe.",
+      "answer": "по-русски",
+      "acceptable_answers": [
+        "по-русски"
+      ],
+      "concepts": [
+        "verb-choice",
+        "спрашивать-vs-просить",
+        "идти-vs-ехать",
+        "говорить-vs-сказать"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0117",
+      "lesson_id": "PRACT-03",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Я ___.",
+      "context": "Je comprends.",
+      "answer": "понимаю",
+      "acceptable_answers": [
+        "понимаю"
+      ],
+      "concepts": [
+        "verb-choice",
+        "спрашивать-vs-просить",
+        "идти-vs-ехать",
+        "говорить-vs-сказать"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0118",
+      "lesson_id": "PRACT-03",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Я ___.",
+      "context": "Je sais.",
+      "answer": "знаю",
+      "acceptable_answers": [
+        "знаю"
+      ],
+      "concepts": [
+        "verb-choice",
+        "спрашивать-vs-просить",
+        "идти-vs-ехать",
+        "говорить-vs-сказать"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0119",
+      "lesson_id": "PRACT-03",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Я спрашиваю ___.",
+      "context": "Je pose une question au serveur.",
+      "answer": "официанта",
+      "acceptable_answers": [
+        "официанта"
+      ],
+      "concepts": [
+        "verb-choice",
+        "спрашивать-vs-просить",
+        "идти-vs-ехать",
+        "говорить-vs-сказать"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    },
+    {
+      "id": "V3-COMP-0120",
+      "lesson_id": "PRACT-03",
+      "type": "phrase_completion",
+      "activity_type": "phrase_completion",
+      "renderer_id": "phrase_completion",
+      "difficulty": 2,
+      "prompt": "Я прошу ___.",
+      "context": "Je demande du thé.",
+      "answer": "чай",
+      "acceptable_answers": [
+        "чай"
+      ],
+      "concepts": [
+        "verb-choice",
+        "спрашивать-vs-просить",
+        "идти-vs-ехать",
+        "говорить-vs-сказать"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "recall": 0.35,
+        "production": 0.55,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "source": "v0.3-editorial-from-course-example",
+      "schema_version": "3.0.0"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "content_api_version": "3.0",
+  "schema_version": "3.0.0",
+  "minimum_app_content_api": "3.0",
+  "maximum_tested_app_content_api": "3.x",
+  "required_renderers": [
+    "choice_single",
+    "text_input",
+    "translation_input",
+    "fill_blank",
+    "phrase_completion",
+    "reorder_tokens",
+    "reading_comprehension",
+    "listen_choose",
+    "listen_type",
+    "pronunciation_repeat_word",
+    "pronunciation_repeat_sentence",
+    "self_explain",
+    "cloze_text",
+    "match_pairs"
+  ],
+  "required_lesson_blocks": [
+    "markdown",
+    "contrast",
+    "memory",
+    "pronunciation",
+    "checkpoint"
+  ],
+  "forward_compatibility": {
+    "unknown_json_fields": "ignore",
+    "unknown_activity_type": "skip_activity_and_log",
+    "unknown_lesson_block_type": "skip_block_and_continue",
+    "pack_download_failure": "keep_previous_cached_pack",
+    "manifest_failure": "keep_last_known_good_release"
+  },
+  "when_app_update_is_required": [
+    "A brand-new renderer/activity interaction not listed in activity-types.json.",
+    "A new native capability (camera, microphone provider, offline model, etc.) not already implemented.",
+    "A content API major version change."
+  ],
+  "when_app_update_is_not_required": [
+    "New courses using existing lesson block types.",
+    "New exercises using existing activity types.",
+    "New vocabulary, examples, error tags, pronunciation targets or TTS phrases.",
+    "Changed mastery thresholds, spaced-review intervals or session mix.",
+    "New content packs using the same content API."
+  ]
+}

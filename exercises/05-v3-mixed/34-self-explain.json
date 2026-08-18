@@ -1,0 +1,938 @@
+{
+  "exercise_set": "34-self-explain",
+  "items": [
+    {
+      "id": "V3-EXPLAIN-001",
+      "lesson_id": "FND-01",
+      "type": "self_explain",
+      "activity_type": "self_explain",
+      "renderer_id": "self_explain",
+      "difficulty": 2,
+      "prompt": "Explique avec tes mots l’idée essentielle du chapitre « Pronoms et phrases simples ». Tu peux répondre en français.",
+      "answer": "self_assessed",
+      "concepts": [
+        "personal-pronouns",
+        "simple-svo",
+        "subject-identification"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "comprehension": 0.45,
+        "recall": 0.3,
+        "production": 0.25
+      },
+      "scoring": {
+        "mode": "self_assessment",
+        "max_score": 1.0,
+        "rubric": [
+          "Je peux expliquer sans relire",
+          "Je donne au moins un exemple russe correct",
+          "Je sais citer un piège fréquent"
+        ]
+      },
+      "review": {
+        "eligible": false
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-editorial"
+    },
+    {
+      "id": "V3-EXPLAIN-002",
+      "lesson_id": "FND-02",
+      "type": "self_explain",
+      "activity_type": "self_explain",
+      "renderer_id": "self_explain",
+      "difficulty": 2,
+      "prompt": "Explique avec tes mots l’idée essentielle du chapitre « Ne pas savoir, parler, comprendre ». Tu peux répondre en français.",
+      "answer": "self_assessed",
+      "concepts": [
+        "negation",
+        "говорить",
+        "понимать",
+        "знать",
+        "может-быть"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "comprehension": 0.45,
+        "recall": 0.3,
+        "production": 0.25
+      },
+      "scoring": {
+        "mode": "self_assessment",
+        "max_score": 1.0,
+        "rubric": [
+          "Je peux expliquer sans relire",
+          "Je donne au moins un exemple russe correct",
+          "Je sais citer un piège fréquent"
+        ]
+      },
+      "review": {
+        "eligible": false
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-editorial"
+    },
+    {
+      "id": "V3-EXPLAIN-003",
+      "lesson_id": "FND-03",
+      "type": "self_explain",
+      "activity_type": "self_explain",
+      "renderer_id": "self_explain",
+      "difficulty": 2,
+      "prompt": "Explique avec tes mots l’idée essentielle du chapitre « Что pour relier deux idées ». Tu peux répondre en français.",
+      "answer": "self_assessed",
+      "concepts": [
+        "что-clause",
+        "subordination",
+        "clause-boundary"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "comprehension": 0.45,
+        "recall": 0.3,
+        "production": 0.25
+      },
+      "scoring": {
+        "mode": "self_assessment",
+        "max_score": 1.0,
+        "rubric": [
+          "Je peux expliquer sans relire",
+          "Je donne au moins un exemple russe correct",
+          "Je sais citer un piège fréquent"
+        ]
+      },
+      "review": {
+        "eligible": false
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-editorial"
+    },
+    {
+      "id": "V3-EXPLAIN-004",
+      "lesson_id": "FND-04",
+      "type": "self_explain",
+      "activity_type": "self_explain",
+      "renderer_id": "self_explain",
+      "difficulty": 2,
+      "prompt": "Explique avec tes mots l’idée essentielle du chapitre « Vouloir aller quelque part ». Tu peux répondre en français.",
+      "answer": "self_assessed",
+      "concepts": [
+        "хотеть",
+        "direction",
+        "в-plus-destination",
+        "куда"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "comprehension": 0.45,
+        "recall": 0.3,
+        "production": 0.25
+      },
+      "scoring": {
+        "mode": "self_assessment",
+        "max_score": 1.0,
+        "rubric": [
+          "Je peux expliquer sans relire",
+          "Je donne au moins un exemple russe correct",
+          "Je sais citer un piège fréquent"
+        ]
+      },
+      "review": {
+        "eligible": false
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-editorial"
+    },
+    {
+      "id": "V3-EXPLAIN-005",
+      "lesson_id": "FND-05",
+      "type": "self_explain",
+      "activity_type": "self_explain",
+      "renderer_id": "self_explain",
+      "difficulty": 2,
+      "prompt": "Explique avec tes mots l’idée essentielle du chapitre « Survivre dans un échange simple ». Tu peux répondre en français.",
+      "answer": "self_assessed",
+      "concepts": [
+        "politeness",
+        "survival-russian",
+        "можно",
+        "пожалуйста",
+        "извините"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "comprehension": 0.45,
+        "recall": 0.3,
+        "production": 0.25
+      },
+      "scoring": {
+        "mode": "self_assessment",
+        "max_score": 1.0,
+        "rubric": [
+          "Je peux expliquer sans relire",
+          "Je donne au moins un exemple russe correct",
+          "Je sais citer un piège fréquent"
+        ]
+      },
+      "review": {
+        "eligible": false
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-editorial"
+    },
+    {
+      "id": "V3-EXPLAIN-006",
+      "lesson_id": "FND-06",
+      "type": "self_explain",
+      "activity_type": "self_explain",
+      "renderer_id": "self_explain",
+      "difficulty": 2,
+      "prompt": "Explique avec tes mots l’idée essentielle du chapitre « Se présenter et parler de sa famille ». Tu peux répondre en français.",
+      "answer": "self_assessed",
+      "concepts": [
+        "меня-зовут",
+        "мне-тоже",
+        "possession",
+        "family"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "comprehension": 0.45,
+        "recall": 0.3,
+        "production": 0.25
+      },
+      "scoring": {
+        "mode": "self_assessment",
+        "max_score": 1.0,
+        "rubric": [
+          "Je peux expliquer sans relire",
+          "Je donne au moins un exemple russe correct",
+          "Je sais citer un piège fréquent"
+        ]
+      },
+      "review": {
+        "eligible": false
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-editorial"
+    },
+    {
+      "id": "V3-EXPLAIN-007",
+      "lesson_id": "GRM-01",
+      "type": "self_explain",
+      "activity_type": "self_explain",
+      "renderer_id": "self_explain",
+      "difficulty": 2,
+      "prompt": "Explique avec tes mots l’idée essentielle du chapitre « Мне ou Я ? — нравится ». Tu peux répondre en français.",
+      "answer": "self_assessed",
+      "concepts": [
+        "dative",
+        "нравиться",
+        "мне-vs-я",
+        "experiencer-construction"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "comprehension": 0.45,
+        "recall": 0.3,
+        "production": 0.25
+      },
+      "scoring": {
+        "mode": "self_assessment",
+        "max_score": 1.0,
+        "rubric": [
+          "Je peux expliquer sans relire",
+          "Je donne au moins un exemple russe correct",
+          "Je sais citer un piège fréquent"
+        ]
+      },
+      "review": {
+        "eligible": false
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-editorial"
+    },
+    {
+      "id": "V3-EXPLAIN-008",
+      "lesson_id": "GRM-02",
+      "type": "self_explain",
+      "activity_type": "self_explain",
+      "renderer_id": "self_explain",
+      "difficulty": 2,
+      "prompt": "Explique avec tes mots l’idée essentielle du chapitre « Terminaisons verbales au présent ». Tu peux répondre en français.",
+      "answer": "self_assessed",
+      "concepts": [
+        "present-tense",
+        "verb-endings",
+        "first-conjugation",
+        "second-conjugation"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "comprehension": 0.45,
+        "recall": 0.3,
+        "production": 0.25
+      },
+      "scoring": {
+        "mode": "self_assessment",
+        "max_score": 1.0,
+        "rubric": [
+          "Je peux expliquer sans relire",
+          "Je donne au moins un exemple russe correct",
+          "Je sais citer un piège fréquent"
+        ]
+      },
+      "review": {
+        "eligible": false
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-editorial"
+    },
+    {
+      "id": "V3-EXPLAIN-009",
+      "lesson_id": "GRM-03",
+      "type": "self_explain",
+      "activity_type": "self_explain",
+      "renderer_id": "self_explain",
+      "difficulty": 2,
+      "prompt": "Explique avec tes mots l’idée essentielle du chapitre « Genre et adjectifs simples ». Tu peux répondre en français.",
+      "answer": "self_assessed",
+      "concepts": [
+        "gender",
+        "adjective-agreement",
+        "nominative"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "comprehension": 0.45,
+        "recall": 0.3,
+        "production": 0.25
+      },
+      "scoring": {
+        "mode": "self_assessment",
+        "max_score": 1.0,
+        "rubric": [
+          "Je peux expliquer sans relire",
+          "Je donne au moins un exemple russe correct",
+          "Je sais citer un piège fréquent"
+        ]
+      },
+      "review": {
+        "eligible": false
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-editorial"
+    },
+    {
+      "id": "V3-EXPLAIN-010",
+      "lesson_id": "GRM-04",
+      "type": "self_explain",
+      "activity_type": "self_explain",
+      "renderer_id": "self_explain",
+      "difficulty": 2,
+      "prompt": "Explique avec tes mots l’idée essentielle du chapitre « Accusatif : objets et direction ». Tu peux répondre en français.",
+      "answer": "self_assessed",
+      "concepts": [
+        "accusative",
+        "direct-object",
+        "motion-direction"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "comprehension": 0.45,
+        "recall": 0.3,
+        "production": 0.25
+      },
+      "scoring": {
+        "mode": "self_assessment",
+        "max_score": 1.0,
+        "rubric": [
+          "Je peux expliquer sans relire",
+          "Je donne au moins un exemple russe correct",
+          "Je sais citer un piège fréquent"
+        ]
+      },
+      "review": {
+        "eligible": false
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-editorial"
+    },
+    {
+      "id": "V3-EXPLAIN-011",
+      "lesson_id": "GRM-05",
+      "type": "self_explain",
+      "activity_type": "self_explain",
+      "renderer_id": "self_explain",
+      "difficulty": 2,
+      "prompt": "Explique avec tes mots l’idée essentielle du chapitre « Où ou vers où ? — дома, домой, в/на ». Tu peux répondre en français.",
+      "answer": "self_assessed",
+      "concepts": [
+        "location-vs-direction",
+        "дома",
+        "домой",
+        "где",
+        "куда"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "comprehension": 0.45,
+        "recall": 0.3,
+        "production": 0.25
+      },
+      "scoring": {
+        "mode": "self_assessment",
+        "max_score": 1.0,
+        "rubric": [
+          "Je peux expliquer sans relire",
+          "Je donne au moins un exemple russe correct",
+          "Je sais citer un piège fréquent"
+        ]
+      },
+      "review": {
+        "eligible": false
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-editorial"
+    },
+    {
+      "id": "V3-EXPLAIN-012",
+      "lesson_id": "GRM-06",
+      "type": "self_explain",
+      "activity_type": "self_explain",
+      "renderer_id": "self_explain",
+      "difficulty": 2,
+      "prompt": "Explique avec tes mots l’idée essentielle du chapitre « Avoir et ne pas avoir — у ... есть / нет ». Tu peux répondre en français.",
+      "answer": "self_assessed",
+      "concepts": [
+        "possession",
+        "у-possessor",
+        "есть",
+        "нет",
+        "genitive-basic"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "comprehension": 0.45,
+        "recall": 0.3,
+        "production": 0.25
+      },
+      "scoring": {
+        "mode": "self_assessment",
+        "max_score": 1.0,
+        "rubric": [
+          "Je peux expliquer sans relire",
+          "Je donne au moins un exemple russe correct",
+          "Je sais citer un piège fréquent"
+        ]
+      },
+      "review": {
+        "eligible": false
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-editorial"
+    },
+    {
+      "id": "V3-EXPLAIN-013",
+      "lesson_id": "GRM-07",
+      "type": "self_explain",
+      "activity_type": "self_explain",
+      "renderer_id": "self_explain",
+      "difficulty": 2,
+      "prompt": "Explique avec tes mots l’idée essentielle du chapitre « Le passé : -л, -ла, -ли ». Tu peux répondre en français.",
+      "answer": "self_assessed",
+      "concepts": [
+        "past-tense",
+        "past-gender",
+        "past-number"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "comprehension": 0.45,
+        "recall": 0.3,
+        "production": 0.25
+      },
+      "scoring": {
+        "mode": "self_assessment",
+        "max_score": 1.0,
+        "rubric": [
+          "Je peux expliquer sans relire",
+          "Je donne au moins un exemple russe correct",
+          "Je sais citer un piège fréquent"
+        ]
+      },
+      "review": {
+        "eligible": false
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-editorial"
+    },
+    {
+      "id": "V3-EXPLAIN-014",
+      "lesson_id": "GRM-08",
+      "type": "self_explain",
+      "activity_type": "self_explain",
+      "renderer_id": "self_explain",
+      "difficulty": 2,
+      "prompt": "Explique avec tes mots l’idée essentielle du chapitre « Я n'est pas toujours 'moi' — меня, мне, тебя, тебе ». Tu peux répondre en français.",
+      "answer": "self_assessed",
+      "concepts": [
+        "pronoun-cases",
+        "accusative-pronouns",
+        "dative-pronouns"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "comprehension": 0.45,
+        "recall": 0.3,
+        "production": 0.25
+      },
+      "scoring": {
+        "mode": "self_assessment",
+        "max_score": 1.0,
+        "rubric": [
+          "Je peux expliquer sans relire",
+          "Je donne au moins un exemple russe correct",
+          "Je sais citer un piège fréquent"
+        ]
+      },
+      "review": {
+        "eligible": false
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-editorial"
+    },
+    {
+      "id": "V3-EXPLAIN-015",
+      "lesson_id": "GRM-09",
+      "type": "self_explain",
+      "activity_type": "self_explain",
+      "renderer_id": "self_explain",
+      "difficulty": 2,
+      "prompt": "Explique avec tes mots l’idée essentielle du chapitre « Avec, près de, sans — с / рядом с / без ». Tu peux répondre en français.",
+      "answer": "self_assessed",
+      "concepts": [
+        "instrumental-basic",
+        "genitive-basic",
+        "с",
+        "без",
+        "рядом-с"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "comprehension": 0.45,
+        "recall": 0.3,
+        "production": 0.25
+      },
+      "scoring": {
+        "mode": "self_assessment",
+        "max_score": 1.0,
+        "rubric": [
+          "Je peux expliquer sans relire",
+          "Je donne au moins un exemple russe correct",
+          "Je sais citer un piège fréquent"
+        ]
+      },
+      "review": {
+        "eligible": false
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-editorial"
+    },
+    {
+      "id": "V3-EXPLAIN-016",
+      "lesson_id": "READ-01",
+      "type": "self_explain",
+      "activity_type": "self_explain",
+      "renderer_id": "self_explain",
+      "difficulty": 2,
+      "prompt": "Explique avec tes mots l’idée essentielle du chapitre « Temps et chronologie : через ». Tu peux répondre en français.",
+      "answer": "self_assessed",
+      "concepts": [
+        "через",
+        "time-expression",
+        "chronology"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "comprehension": 0.45,
+        "recall": 0.3,
+        "production": 0.25
+      },
+      "scoring": {
+        "mode": "self_assessment",
+        "max_score": 1.0,
+        "rubric": [
+          "Je peux expliquer sans relire",
+          "Je donne au moins un exemple russe correct",
+          "Je sais citer un piège fréquent"
+        ]
+      },
+      "review": {
+        "eligible": false
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-editorial"
+    },
+    {
+      "id": "V3-EXPLAIN-017",
+      "lesson_id": "READ-02",
+      "type": "self_explain",
+      "activity_type": "self_explain",
+      "renderer_id": "self_explain",
+      "difficulty": 2,
+      "prompt": "Explique avec tes mots l’idée essentielle du chapitre « Mini-textes façon Telegram ». Tu peux répondre en français.",
+      "answer": "self_assessed",
+      "concepts": [
+        "reading-strategy",
+        "context",
+        "telegram-style",
+        "known-structure-recognition"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "comprehension": 0.45,
+        "recall": 0.3,
+        "production": 0.25
+      },
+      "scoring": {
+        "mode": "self_assessment",
+        "max_score": 1.0,
+        "rubric": [
+          "Je peux expliquer sans relire",
+          "Je donne au moins un exemple russe correct",
+          "Je sais citer un piège fréquent"
+        ]
+      },
+      "review": {
+        "eligible": false
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-editorial"
+    },
+    {
+      "id": "V3-EXPLAIN-018",
+      "lesson_id": "READ-03",
+      "type": "self_explain",
+      "activity_type": "self_explain",
+      "renderer_id": "self_explain",
+      "difficulty": 2,
+      "prompt": "Explique avec tes mots l’idée essentielle du chapitre « Lecture : arrivée à Moscou et café ». Tu peux répondre en français.",
+      "answer": "self_assessed",
+      "concepts": [
+        "reading-strategy",
+        "cafe",
+        "travel",
+        "politeness"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "comprehension": 0.45,
+        "recall": 0.3,
+        "production": 0.25
+      },
+      "scoring": {
+        "mode": "self_assessment",
+        "max_score": 1.0,
+        "rubric": [
+          "Je peux expliquer sans relire",
+          "Je donne au moins un exemple russe correct",
+          "Je sais citer un piège fréquent"
+        ]
+      },
+      "review": {
+        "eligible": false
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-editorial"
+    },
+    {
+      "id": "V3-EXPLAIN-019",
+      "lesson_id": "READ-04",
+      "type": "self_explain",
+      "activity_type": "self_explain",
+      "renderer_id": "self_explain",
+      "difficulty": 2,
+      "prompt": "Explique avec tes mots l’idée essentielle du chapitre « Lecture : une soirée dans une famille russe ». Tu peux répondre en français.",
+      "answer": "self_assessed",
+      "concepts": [
+        "reading-strategy",
+        "family",
+        "introductions",
+        "questions"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "comprehension": 0.45,
+        "recall": 0.3,
+        "production": 0.25
+      },
+      "scoring": {
+        "mode": "self_assessment",
+        "max_score": 1.0,
+        "rubric": [
+          "Je peux expliquer sans relire",
+          "Je donne au moins un exemple russe correct",
+          "Je sais citer un piège fréquent"
+        ]
+      },
+      "review": {
+        "eligible": false
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-editorial"
+    },
+    {
+      "id": "V3-EXPLAIN-020",
+      "lesson_id": "READ-05",
+      "type": "self_explain",
+      "activity_type": "self_explain",
+      "renderer_id": "self_explain",
+      "difficulty": 2,
+      "prompt": "Explique avec tes mots l’idée essentielle du chapitre « Lecture : Tony se perd dans Moscou ». Tu peux répondre en français.",
+      "answer": "self_assessed",
+      "concepts": [
+        "reading-strategy",
+        "directions",
+        "через",
+        "что-clause"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "comprehension": 0.45,
+        "recall": 0.3,
+        "production": 0.25
+      },
+      "scoring": {
+        "mode": "self_assessment",
+        "max_score": 1.0,
+        "rubric": [
+          "Je peux expliquer sans relire",
+          "Je donne au moins un exemple russe correct",
+          "Je sais citer un piège fréquent"
+        ]
+      },
+      "review": {
+        "eligible": false
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-editorial"
+    },
+    {
+      "id": "V3-EXPLAIN-021",
+      "lesson_id": "READ-06",
+      "type": "self_explain",
+      "activity_type": "self_explain",
+      "renderer_id": "self_explain",
+      "difficulty": 2,
+      "prompt": "Explique avec tes mots l’idée essentielle du chapitre « Lecture : le dîner au restaurant ». Tu peux répondre en français.",
+      "answer": "self_assessed",
+      "concepts": [
+        "restaurant",
+        "нравиться",
+        "food",
+        "reading-strategy"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "comprehension": 0.45,
+        "recall": 0.3,
+        "production": 0.25
+      },
+      "scoring": {
+        "mode": "self_assessment",
+        "max_score": 1.0,
+        "rubric": [
+          "Je peux expliquer sans relire",
+          "Je donne au moins un exemple russe correct",
+          "Je sais citer un piège fréquent"
+        ]
+      },
+      "review": {
+        "eligible": false
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-editorial"
+    },
+    {
+      "id": "V3-EXPLAIN-022",
+      "lesson_id": "READ-07",
+      "type": "self_explain",
+      "activity_type": "self_explain",
+      "renderer_id": "self_explain",
+      "difficulty": 2,
+      "prompt": "Explique avec tes mots l’idée essentielle du chapitre « Lecture : un problème à l'hôtel ». Tu peux répondre en français.",
+      "answer": "self_assessed",
+      "concepts": [
+        "hotel",
+        "problem-reporting",
+        "нет",
+        "requests"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "comprehension": 0.45,
+        "recall": 0.3,
+        "production": 0.25
+      },
+      "scoring": {
+        "mode": "self_assessment",
+        "max_score": 1.0,
+        "rubric": [
+          "Je peux expliquer sans relire",
+          "Je donne au moins un exemple russe correct",
+          "Je sais citer un piège fréquent"
+        ]
+      },
+      "review": {
+        "eligible": false
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-editorial"
+    },
+    {
+      "id": "V3-EXPLAIN-023",
+      "lesson_id": "READ-08",
+      "type": "self_explain",
+      "activity_type": "self_explain",
+      "renderer_id": "self_explain",
+      "difficulty": 2,
+      "prompt": "Explique avec tes mots l’idée essentielle du chapitre « Lecture : une conversation plus naturelle ». Tu peux répondre en français.",
+      "answer": "self_assessed",
+      "concepts": [
+        "conversation",
+        "self-assessment",
+        "learning-language",
+        "мне-трудно"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "comprehension": 0.45,
+        "recall": 0.3,
+        "production": 0.25
+      },
+      "scoring": {
+        "mode": "self_assessment",
+        "max_score": 1.0,
+        "rubric": [
+          "Je peux expliquer sans relire",
+          "Je donne au moins un exemple russe correct",
+          "Je sais citer un piège fréquent"
+        ]
+      },
+      "review": {
+        "eligible": false
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-editorial"
+    },
+    {
+      "id": "V3-EXPLAIN-024",
+      "lesson_id": "PRACT-01",
+      "type": "self_explain",
+      "activity_type": "self_explain",
+      "renderer_id": "self_explain",
+      "difficulty": 2,
+      "prompt": "Explique avec tes mots l’idée essentielle du chapitre « Traduction active par familles verbales ». Tu peux répondre en français.",
+      "answer": "self_assessed",
+      "concepts": [
+        "active-translation",
+        "retrieval-practice",
+        "verb-families"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "comprehension": 0.45,
+        "recall": 0.3,
+        "production": 0.25
+      },
+      "scoring": {
+        "mode": "self_assessment",
+        "max_score": 1.0,
+        "rubric": [
+          "Je peux expliquer sans relire",
+          "Je donne au moins un exemple russe correct",
+          "Je sais citer un piège fréquent"
+        ]
+      },
+      "review": {
+        "eligible": false
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-editorial"
+    },
+    {
+      "id": "V3-EXPLAIN-025",
+      "lesson_id": "PRACT-02",
+      "type": "self_explain",
+      "activity_type": "self_explain",
+      "renderer_id": "self_explain",
+      "difficulty": 2,
+      "prompt": "Explique avec tes mots l’idée essentielle du chapitre « Familles de mots et formes pièges ». Tu peux répondre en français.",
+      "answer": "self_assessed",
+      "concepts": [
+        "word-family",
+        "lemma-recovery",
+        "infinitive-recovery",
+        "form-discrimination"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "comprehension": 0.45,
+        "recall": 0.3,
+        "production": 0.25
+      },
+      "scoring": {
+        "mode": "self_assessment",
+        "max_score": 1.0,
+        "rubric": [
+          "Je peux expliquer sans relire",
+          "Je donne au moins un exemple russe correct",
+          "Je sais citer un piège fréquent"
+        ]
+      },
+      "review": {
+        "eligible": false
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-editorial"
+    },
+    {
+      "id": "V3-EXPLAIN-026",
+      "lesson_id": "PRACT-03",
+      "type": "self_explain",
+      "activity_type": "self_explain",
+      "renderer_id": "self_explain",
+      "difficulty": 2,
+      "prompt": "Explique avec tes mots l’idée essentielle du chapitre « Choisir le bon verbe ». Tu peux répondre en français.",
+      "answer": "self_assessed",
+      "concepts": [
+        "verb-choice",
+        "спрашивать-vs-просить",
+        "идти-vs-ехать",
+        "говорить-vs-сказать"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "comprehension": 0.45,
+        "recall": 0.3,
+        "production": 0.25
+      },
+      "scoring": {
+        "mode": "self_assessment",
+        "max_score": 1.0,
+        "rubric": [
+          "Je peux expliquer sans relire",
+          "Je donne au moins un exemple russe correct",
+          "Je sais citer un piège fréquent"
+        ]
+      },
+      "review": {
+        "eligible": false
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-editorial"
+    }
+  ]
+}

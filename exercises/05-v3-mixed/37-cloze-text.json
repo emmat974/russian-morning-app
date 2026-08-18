@@ -1,0 +1,1011 @@
+{
+  "exercise_set": "37-cloze-text",
+  "items": [
+    {
+      "id": "V3-CLOZE-001",
+      "lesson_id": "FND-02",
+      "type": "cloze_text",
+      "activity_type": "cloze_text",
+      "renderer_id": "cloze_text",
+      "difficulty": 2,
+      "prompt": "Complète les deux blancs.",
+      "text": "Я {{b1}} говорю {{b2}}.",
+      "context": "Je parle un peu russe.",
+      "answer": [
+        {
+          "blank_id": "b1",
+          "answer": "немного"
+        },
+        {
+          "blank_id": "b2",
+          "answer": "по-русски"
+        }
+      ],
+      "concepts": [
+        "negation",
+        "говорить",
+        "понимать",
+        "знать",
+        "может-быть"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "comprehension": 0.15,
+        "recall": 0.35,
+        "production": 0.5
+      },
+      "scoring": {
+        "mode": "per_blank_normalized_text",
+        "max_score": 1.0,
+        "partial_credit": true,
+        "hint_penalty": 0.15
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-course-example"
+    },
+    {
+      "id": "V3-CLOZE-002",
+      "lesson_id": "FND-03",
+      "type": "cloze_text",
+      "activity_type": "cloze_text",
+      "renderer_id": "cloze_text",
+      "difficulty": 2,
+      "prompt": "Complète les deux blancs.",
+      "text": "Она {{b1}}, что {{b2}}.",
+      "context": "Elle dit qu’elle travaille.",
+      "answer": [
+        {
+          "blank_id": "b1",
+          "answer": "говорит"
+        },
+        {
+          "blank_id": "b2",
+          "answer": "работает"
+        }
+      ],
+      "concepts": [
+        "что-clause",
+        "subordination",
+        "clause-boundary"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "comprehension": 0.15,
+        "recall": 0.35,
+        "production": 0.5
+      },
+      "scoring": {
+        "mode": "per_blank_normalized_text",
+        "max_score": 1.0,
+        "partial_credit": true,
+        "hint_penalty": 0.15
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-course-example"
+    },
+    {
+      "id": "V3-CLOZE-003",
+      "lesson_id": "FND-04",
+      "type": "cloze_text",
+      "activity_type": "cloze_text",
+      "renderer_id": "cloze_text",
+      "difficulty": 2,
+      "prompt": "Complète les deux blancs.",
+      "text": "Я {{b1}} в {{b2}}.",
+      "context": "Je veux aller en forêt.",
+      "answer": [
+        {
+          "blank_id": "b1",
+          "answer": "хочу"
+        },
+        {
+          "blank_id": "b2",
+          "answer": "лес"
+        }
+      ],
+      "concepts": [
+        "хотеть",
+        "direction",
+        "в-plus-destination",
+        "куда"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "comprehension": 0.15,
+        "recall": 0.35,
+        "production": 0.5
+      },
+      "scoring": {
+        "mode": "per_blank_normalized_text",
+        "max_score": 1.0,
+        "partial_credit": true,
+        "hint_penalty": 0.15
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-course-example"
+    },
+    {
+      "id": "V3-CLOZE-004",
+      "lesson_id": "FND-05",
+      "type": "cloze_text",
+      "activity_type": "cloze_text",
+      "renderer_id": "cloze_text",
+      "difficulty": 2,
+      "prompt": "Complète les deux blancs.",
+      "text": "Извините, {{b1}} не {{b2}}.",
+      "context": "Excusez-moi, je ne comprends pas.",
+      "answer": [
+        {
+          "blank_id": "b1",
+          "answer": "я"
+        },
+        {
+          "blank_id": "b2",
+          "answer": "понимаю"
+        }
+      ],
+      "concepts": [
+        "politeness",
+        "survival-russian",
+        "можно",
+        "пожалуйста",
+        "извините"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "comprehension": 0.15,
+        "recall": 0.35,
+        "production": 0.5
+      },
+      "scoring": {
+        "mode": "per_blank_normalized_text",
+        "max_score": 1.0,
+        "partial_credit": true,
+        "hint_penalty": 0.15
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-course-example"
+    },
+    {
+      "id": "V3-CLOZE-005",
+      "lesson_id": "FND-06",
+      "type": "cloze_text",
+      "activity_type": "cloze_text",
+      "renderer_id": "cloze_text",
+      "difficulty": 2,
+      "prompt": "Complète les deux blancs.",
+      "text": "У {{b1}} есть {{b2}}.",
+      "context": "J’ai un frère.",
+      "answer": [
+        {
+          "blank_id": "b1",
+          "answer": "меня"
+        },
+        {
+          "blank_id": "b2",
+          "answer": "брат"
+        }
+      ],
+      "concepts": [
+        "меня-зовут",
+        "мне-тоже",
+        "possession",
+        "family"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "comprehension": 0.15,
+        "recall": 0.35,
+        "production": 0.5
+      },
+      "scoring": {
+        "mode": "per_blank_normalized_text",
+        "max_score": 1.0,
+        "partial_credit": true,
+        "hint_penalty": 0.15
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-course-example"
+    },
+    {
+      "id": "V3-CLOZE-006",
+      "lesson_id": "GRM-01",
+      "type": "cloze_text",
+      "activity_type": "cloze_text",
+      "renderer_id": "cloze_text",
+      "difficulty": 2,
+      "prompt": "Complète les deux blancs.",
+      "text": "Мне {{b1}} эта {{b2}}.",
+      "context": "J’aime cette musique.",
+      "answer": [
+        {
+          "blank_id": "b1",
+          "answer": "нравится"
+        },
+        {
+          "blank_id": "b2",
+          "answer": "музыка"
+        }
+      ],
+      "concepts": [
+        "dative",
+        "нравиться",
+        "мне-vs-я",
+        "experiencer-construction"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "comprehension": 0.15,
+        "recall": 0.35,
+        "production": 0.5
+      },
+      "scoring": {
+        "mode": "per_blank_normalized_text",
+        "max_score": 1.0,
+        "partial_credit": true,
+        "hint_penalty": 0.15
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-course-example"
+    },
+    {
+      "id": "V3-CLOZE-007",
+      "lesson_id": "GRM-04",
+      "type": "cloze_text",
+      "activity_type": "cloze_text",
+      "renderer_id": "cloze_text",
+      "difficulty": 2,
+      "prompt": "Complète les deux blancs.",
+      "text": "Мы {{b1}} в {{b2}}.",
+      "context": "Nous allons à l’école.",
+      "answer": [
+        {
+          "blank_id": "b1",
+          "answer": "идём"
+        },
+        {
+          "blank_id": "b2",
+          "answer": "школу"
+        }
+      ],
+      "concepts": [
+        "accusative",
+        "direct-object",
+        "motion-direction"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "comprehension": 0.15,
+        "recall": 0.35,
+        "production": 0.5
+      },
+      "scoring": {
+        "mode": "per_blank_normalized_text",
+        "max_score": 1.0,
+        "partial_credit": true,
+        "hint_penalty": 0.15
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-course-example"
+    },
+    {
+      "id": "V3-CLOZE-008",
+      "lesson_id": "GRM-05",
+      "type": "cloze_text",
+      "activity_type": "cloze_text",
+      "renderer_id": "cloze_text",
+      "difficulty": 2,
+      "prompt": "Complète les deux blancs.",
+      "text": "Где {{b1}}? Он {{b2}}.",
+      "context": "Où est-il ? Il est à la maison.",
+      "answer": [
+        {
+          "blank_id": "b1",
+          "answer": "он"
+        },
+        {
+          "blank_id": "b2",
+          "answer": "дома"
+        }
+      ],
+      "concepts": [
+        "location-vs-direction",
+        "дома",
+        "домой",
+        "где",
+        "куда"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "comprehension": 0.15,
+        "recall": 0.35,
+        "production": 0.5
+      },
+      "scoring": {
+        "mode": "per_blank_normalized_text",
+        "max_score": 1.0,
+        "partial_credit": true,
+        "hint_penalty": 0.15
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-course-example"
+    },
+    {
+      "id": "V3-CLOZE-009",
+      "lesson_id": "GRM-06",
+      "type": "cloze_text",
+      "activity_type": "cloze_text",
+      "renderer_id": "cloze_text",
+      "difficulty": 2,
+      "prompt": "Complète les deux blancs.",
+      "text": "У {{b1}} есть {{b2}}.",
+      "context": "J’ai un téléphone.",
+      "answer": [
+        {
+          "blank_id": "b1",
+          "answer": "меня"
+        },
+        {
+          "blank_id": "b2",
+          "answer": "телефон"
+        }
+      ],
+      "concepts": [
+        "possession",
+        "у-possessor",
+        "есть",
+        "нет",
+        "genitive-basic"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "comprehension": 0.15,
+        "recall": 0.35,
+        "production": 0.5
+      },
+      "scoring": {
+        "mode": "per_blank_normalized_text",
+        "max_score": 1.0,
+        "partial_credit": true,
+        "hint_penalty": 0.15
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-course-example"
+    },
+    {
+      "id": "V3-CLOZE-010",
+      "lesson_id": "GRM-07",
+      "type": "cloze_text",
+      "activity_type": "cloze_text",
+      "renderer_id": "cloze_text",
+      "difficulty": 2,
+      "prompt": "Complète les deux blancs.",
+      "text": "Она {{b1}} мне {{b2}}.",
+      "context": "Elle m’a dit non.",
+      "answer": [
+        {
+          "blank_id": "b1",
+          "answer": "сказала"
+        },
+        {
+          "blank_id": "b2",
+          "answer": "нет"
+        }
+      ],
+      "concepts": [
+        "past-tense",
+        "past-gender",
+        "past-number"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "comprehension": 0.15,
+        "recall": 0.35,
+        "production": 0.5
+      },
+      "scoring": {
+        "mode": "per_blank_normalized_text",
+        "max_score": 1.0,
+        "partial_credit": true,
+        "hint_penalty": 0.15
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-course-example"
+    },
+    {
+      "id": "V3-CLOZE-011",
+      "lesson_id": "GRM-08",
+      "type": "cloze_text",
+      "activity_type": "cloze_text",
+      "renderer_id": "cloze_text",
+      "difficulty": 2,
+      "prompt": "Complète les deux blancs.",
+      "text": "Она {{b1}} мне {{b2}}.",
+      "context": "Elle m’a dit non.",
+      "answer": [
+        {
+          "blank_id": "b1",
+          "answer": "сказала"
+        },
+        {
+          "blank_id": "b2",
+          "answer": "нет"
+        }
+      ],
+      "concepts": [
+        "pronoun-cases",
+        "accusative-pronouns",
+        "dative-pronouns"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "comprehension": 0.15,
+        "recall": 0.35,
+        "production": 0.5
+      },
+      "scoring": {
+        "mode": "per_blank_normalized_text",
+        "max_score": 1.0,
+        "partial_credit": true,
+        "hint_penalty": 0.15
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-course-example"
+    },
+    {
+      "id": "V3-CLOZE-012",
+      "lesson_id": "READ-01",
+      "type": "cloze_text",
+      "activity_type": "cloze_text",
+      "renderer_id": "cloze_text",
+      "difficulty": 2,
+      "prompt": "Complète les deux blancs.",
+      "text": "Через {{b1}} минут он видит {{b2}}.",
+      "context": "Quinze minutes plus tard, il voit la place.",
+      "answer": [
+        {
+          "blank_id": "b1",
+          "answer": "пятнадцать"
+        },
+        {
+          "blank_id": "b2",
+          "answer": "площадь"
+        }
+      ],
+      "concepts": [
+        "через",
+        "time-expression",
+        "chronology"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "comprehension": 0.15,
+        "recall": 0.35,
+        "production": 0.5
+      },
+      "scoring": {
+        "mode": "per_blank_normalized_text",
+        "max_score": 1.0,
+        "partial_credit": true,
+        "hint_penalty": 0.15
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-course-example"
+    },
+    {
+      "id": "V3-CLOZE-013",
+      "lesson_id": "READ-02",
+      "type": "cloze_text",
+      "activity_type": "cloze_text",
+      "renderer_id": "cloze_text",
+      "difficulty": 2,
+      "prompt": "Complète les deux blancs.",
+      "text": "Я {{b1}} в лес, но не {{b2}}.",
+      "context": "Je veux aller en forêt, mais je ne sais pas...",
+      "answer": [
+        {
+          "blank_id": "b1",
+          "answer": "хочу"
+        },
+        {
+          "blank_id": "b2",
+          "answer": "знаю.."
+        }
+      ],
+      "concepts": [
+        "reading-strategy",
+        "context",
+        "telegram-style",
+        "known-structure-recognition"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "comprehension": 0.15,
+        "recall": 0.35,
+        "production": 0.5
+      },
+      "scoring": {
+        "mode": "per_blank_normalized_text",
+        "max_score": 1.0,
+        "partial_credit": true,
+        "hint_penalty": 0.15
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-course-example"
+    },
+    {
+      "id": "V3-CLOZE-014",
+      "lesson_id": "READ-03",
+      "type": "cloze_text",
+      "activity_type": "cloze_text",
+      "renderer_id": "cloze_text",
+      "difficulty": 2,
+      "prompt": "Complète les deux blancs.",
+      "text": "Сегодня {{b1}} Тони приезжает в {{b2}}.",
+      "context": "Ce matin Tony arrive à Moscou.",
+      "answer": [
+        {
+          "blank_id": "b1",
+          "answer": "утром"
+        },
+        {
+          "blank_id": "b2",
+          "answer": "Москву"
+        }
+      ],
+      "concepts": [
+        "reading-strategy",
+        "cafe",
+        "travel",
+        "politeness"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "comprehension": 0.15,
+        "recall": 0.35,
+        "production": 0.5
+      },
+      "scoring": {
+        "mode": "per_blank_normalized_text",
+        "max_score": 1.0,
+        "partial_credit": true,
+        "hint_penalty": 0.15
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-course-example"
+    },
+    {
+      "id": "V3-CLOZE-015",
+      "lesson_id": "READ-04",
+      "type": "cloze_text",
+      "activity_type": "cloze_text",
+      "renderer_id": "cloze_text",
+      "difficulty": 2,
+      "prompt": "Complète les deux blancs.",
+      "text": "Его {{b1}} готовит {{b2}}.",
+      "context": "Son père prépare le dîner.",
+      "answer": [
+        {
+          "blank_id": "b1",
+          "answer": "папа"
+        },
+        {
+          "blank_id": "b2",
+          "answer": "ужин"
+        }
+      ],
+      "concepts": [
+        "reading-strategy",
+        "family",
+        "introductions",
+        "questions"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "comprehension": 0.15,
+        "recall": 0.35,
+        "production": 0.5
+      },
+      "scoring": {
+        "mode": "per_blank_normalized_text",
+        "max_score": 1.0,
+        "partial_credit": true,
+        "hint_penalty": 0.15
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-course-example"
+    },
+    {
+      "id": "V3-CLOZE-016",
+      "lesson_id": "READ-05",
+      "type": "cloze_text",
+      "activity_type": "cloze_text",
+      "renderer_id": "cloze_text",
+      "difficulty": 2,
+      "prompt": "Complète les deux blancs.",
+      "text": "Он {{b1}} увидеть Красную {{b2}}.",
+      "context": "Il veut voir la place Rouge.",
+      "answer": [
+        {
+          "blank_id": "b1",
+          "answer": "хочет"
+        },
+        {
+          "blank_id": "b2",
+          "answer": "площадь"
+        }
+      ],
+      "concepts": [
+        "reading-strategy",
+        "directions",
+        "через",
+        "что-clause"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "comprehension": 0.15,
+        "recall": 0.35,
+        "production": 0.5
+      },
+      "scoring": {
+        "mode": "per_blank_normalized_text",
+        "max_score": 1.0,
+        "partial_credit": true,
+        "hint_penalty": 0.15
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-course-example"
+    },
+    {
+      "id": "V3-CLOZE-017",
+      "lesson_id": "READ-06",
+      "type": "cloze_text",
+      "activity_type": "cloze_text",
+      "renderer_id": "cloze_text",
+      "difficulty": 2,
+      "prompt": "Complète les deux blancs.",
+      "text": "Что {{b1}} будут {{b2}}?",
+      "context": "Qu’est-ce qu’ils vont boire ?",
+      "answer": [
+        {
+          "blank_id": "b1",
+          "answer": "они"
+        },
+        {
+          "blank_id": "b2",
+          "answer": "пить"
+        }
+      ],
+      "concepts": [
+        "restaurant",
+        "нравиться",
+        "food",
+        "reading-strategy"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "comprehension": 0.15,
+        "recall": 0.35,
+        "production": 0.5
+      },
+      "scoring": {
+        "mode": "per_blank_normalized_text",
+        "max_score": 1.0,
+        "partial_credit": true,
+        "hint_penalty": 0.15
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-course-example"
+    },
+    {
+      "id": "V3-CLOZE-018",
+      "lesson_id": "READ-07",
+      "type": "cloze_text",
+      "activity_type": "cloze_text",
+      "renderer_id": "cloze_text",
+      "difficulty": 2,
+      "prompt": "Complète les deux blancs.",
+      "text": "Есть {{b1}} другая свободная {{b2}}?",
+      "context": "Y a-t-il une autre chambre disponible ?",
+      "answer": [
+        {
+          "blank_id": "b1",
+          "answer": "ли"
+        },
+        {
+          "blank_id": "b2",
+          "answer": "комната"
+        }
+      ],
+      "concepts": [
+        "hotel",
+        "problem-reporting",
+        "нет",
+        "requests"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "comprehension": 0.15,
+        "recall": 0.35,
+        "production": 0.5
+      },
+      "scoring": {
+        "mode": "per_blank_normalized_text",
+        "max_score": 1.0,
+        "partial_credit": true,
+        "hint_penalty": 0.15
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-course-example"
+    },
+    {
+      "id": "V3-CLOZE-019",
+      "lesson_id": "READ-08",
+      "type": "cloze_text",
+      "activity_type": "cloze_text",
+      "renderer_id": "cloze_text",
+      "difficulty": 2,
+      "prompt": "Complète les deux blancs.",
+      "text": "Я {{b1}} устал, но очень доволен {{b2}}.",
+      "context": "Je suis un peu fatigué mais très satisfait du voyage.",
+      "answer": [
+        {
+          "blank_id": "b1",
+          "answer": "немного"
+        },
+        {
+          "blank_id": "b2",
+          "answer": "поездкой"
+        }
+      ],
+      "concepts": [
+        "conversation",
+        "self-assessment",
+        "learning-language",
+        "мне-трудно"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "comprehension": 0.15,
+        "recall": 0.35,
+        "production": 0.5
+      },
+      "scoring": {
+        "mode": "per_blank_normalized_text",
+        "max_score": 1.0,
+        "partial_credit": true,
+        "hint_penalty": 0.15
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-course-example"
+    },
+    {
+      "id": "V3-CLOZE-020",
+      "lesson_id": "PRACT-01",
+      "type": "cloze_text",
+      "activity_type": "cloze_text",
+      "renderer_id": "cloze_text",
+      "difficulty": 2,
+      "prompt": "Complète les deux blancs.",
+      "text": "Elle {{b1}} qu’elle {{b2}}.",
+      "context": "Она говорит, что работает.",
+      "answer": [
+        {
+          "blank_id": "b1",
+          "answer": "dit"
+        },
+        {
+          "blank_id": "b2",
+          "answer": "travaille"
+        }
+      ],
+      "concepts": [
+        "active-translation",
+        "retrieval-practice",
+        "verb-families"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "comprehension": 0.15,
+        "recall": 0.35,
+        "production": 0.5
+      },
+      "scoring": {
+        "mode": "per_blank_normalized_text",
+        "max_score": 1.0,
+        "partial_credit": true,
+        "hint_penalty": 0.15
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-course-example"
+    },
+    {
+      "id": "V3-CLOZE-021",
+      "lesson_id": "PRACT-03",
+      "type": "cloze_text",
+      "activity_type": "cloze_text",
+      "renderer_id": "cloze_text",
+      "difficulty": 2,
+      "prompt": "Complète les deux blancs.",
+      "text": "Я {{b1}} в {{b2}}.",
+      "context": "Je vais au café à pied.",
+      "answer": [
+        {
+          "blank_id": "b1",
+          "answer": "иду"
+        },
+        {
+          "blank_id": "b2",
+          "answer": "кафе"
+        }
+      ],
+      "concepts": [
+        "verb-choice",
+        "спрашивать-vs-просить",
+        "идти-vs-ехать",
+        "говорить-vs-сказать"
+      ],
+      "error_tags": [
+        "active-translation-incomplete"
+      ],
+      "skill_dimensions": {
+        "comprehension": 0.15,
+        "recall": 0.35,
+        "production": 0.5
+      },
+      "scoring": {
+        "mode": "per_blank_normalized_text",
+        "max_score": 1.0,
+        "partial_credit": true,
+        "hint_penalty": 0.15
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-course-example"
+    }
+  ]
+}

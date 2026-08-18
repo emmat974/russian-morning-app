@@ -1,0 +1,10 @@
+{
+  "content_version": "0.3.1",
+  "content_api_version": "3.0",
+  "schema_version": "3.0.0",
+  "released_at": "2026-08-17T07:31:00+04:00",
+  "channel": "stable",
+  "min_app_version": "0.1.0",
+  "requires_app_update": false,
+  "summary": "Policy rebalance: déblocage plus souple, progression plus réactive, sessions/validation plus courtes, erreurs moins punitives et reorder corrigé."
+}

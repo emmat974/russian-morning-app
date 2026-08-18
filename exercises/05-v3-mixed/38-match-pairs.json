@@ -1,0 +1,1839 @@
+{
+  "exercise_set": "38-match-pairs",
+  "items": [
+    {
+      "id": "V3-MATCH-001",
+      "lesson_id": "READ-05",
+      "type": "match_pairs",
+      "activity_type": "match_pairs",
+      "renderer_id": "match_pairs",
+      "difficulty": 1,
+      "prompt": "Associe chaque élément russe à son sens français.",
+      "answer": [
+        {
+          "left": "гулять",
+          "right": "se promener"
+        },
+        {
+          "left": "центр города",
+          "right": "centre-ville"
+        },
+        {
+          "left": "площадь",
+          "right": "place"
+        },
+        {
+          "left": "сделать фотографию",
+          "right": "prendre une photographie"
+        },
+        {
+          "left": "садиться в метро",
+          "right": "prendre / monter dans le métro"
+        }
+      ],
+      "pairs": [
+        {
+          "left": "гулять",
+          "right": "se promener"
+        },
+        {
+          "left": "центр города",
+          "right": "centre-ville"
+        },
+        {
+          "left": "площадь",
+          "right": "place"
+        },
+        {
+          "left": "сделать фотографию",
+          "right": "prendre une photographie"
+        },
+        {
+          "left": "садиться в метро",
+          "right": "prendre / monter dans le métro"
+        }
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.7,
+        "comprehension": 0.3
+      },
+      "scoring": {
+        "mode": "per_pair",
+        "max_score": 1.0,
+        "partial_credit": true
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/city-directions.json"
+    },
+    {
+      "id": "V3-MATCH-002",
+      "lesson_id": "READ-05",
+      "type": "match_pairs",
+      "activity_type": "match_pairs",
+      "renderer_id": "match_pairs",
+      "difficulty": 1,
+      "prompt": "Associe chaque élément russe à son sens français.",
+      "answer": [
+        {
+          "left": "маршрут",
+          "right": "itinéraire"
+        },
+        {
+          "left": "выход",
+          "right": "sortie"
+        },
+        {
+          "left": "повернуть не туда",
+          "right": "tourner dans la mauvaise direction"
+        },
+        {
+          "left": "заблудиться",
+          "right": "se perdre"
+        },
+        {
+          "left": "вокруг",
+          "right": "autour"
+        }
+      ],
+      "pairs": [
+        {
+          "left": "маршрут",
+          "right": "itinéraire"
+        },
+        {
+          "left": "выход",
+          "right": "sortie"
+        },
+        {
+          "left": "повернуть не туда",
+          "right": "tourner dans la mauvaise direction"
+        },
+        {
+          "left": "заблудиться",
+          "right": "se perdre"
+        },
+        {
+          "left": "вокруг",
+          "right": "autour"
+        }
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.7,
+        "comprehension": 0.3
+      },
+      "scoring": {
+        "mode": "per_pair",
+        "max_score": 1.0,
+        "partial_credit": true
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/city-directions.json"
+    },
+    {
+      "id": "V3-MATCH-003",
+      "lesson_id": "READ-05",
+      "type": "match_pairs",
+      "activity_type": "match_pairs",
+      "renderer_id": "match_pairs",
+      "difficulty": 1,
+      "prompt": "Associe chaque élément russe à son sens français.",
+      "answer": [
+        {
+          "left": "здание",
+          "right": "bâtiment"
+        },
+        {
+          "left": "почти",
+          "right": "presque"
+        },
+        {
+          "left": "разрядиться",
+          "right": "se décharger"
+        },
+        {
+          "left": "указания",
+          "right": "indications"
+        },
+        {
+          "left": "дорога",
+          "right": "chemin / route"
+        }
+      ],
+      "pairs": [
+        {
+          "left": "здание",
+          "right": "bâtiment"
+        },
+        {
+          "left": "почти",
+          "right": "presque"
+        },
+        {
+          "left": "разрядиться",
+          "right": "se décharger"
+        },
+        {
+          "left": "указания",
+          "right": "indications"
+        },
+        {
+          "left": "дорога",
+          "right": "chemin / route"
+        }
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.7,
+        "comprehension": 0.3
+      },
+      "scoring": {
+        "mode": "per_pair",
+        "max_score": 1.0,
+        "partial_credit": true
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/city-directions.json"
+    },
+    {
+      "id": "V3-MATCH-004",
+      "lesson_id": "READ-05",
+      "type": "match_pairs",
+      "activity_type": "match_pairs",
+      "renderer_id": "match_pairs",
+      "difficulty": 1,
+      "prompt": "Associe chaque élément russe à son sens français.",
+      "answer": [
+        {
+          "left": "перекрёсток",
+          "right": "carrefour"
+        },
+        {
+          "left": "перейти дорогу",
+          "right": "traverser la route"
+        },
+        {
+          "left": "продолжать путь",
+          "right": "poursuivre son chemin"
+        },
+        {
+          "left": "пешком",
+          "right": "à pied"
+        },
+        {
+          "left": "вход",
+          "right": "entrée"
+        }
+      ],
+      "pairs": [
+        {
+          "left": "перекрёсток",
+          "right": "carrefour"
+        },
+        {
+          "left": "перейти дорогу",
+          "right": "traverser la route"
+        },
+        {
+          "left": "продолжать путь",
+          "right": "poursuivre son chemin"
+        },
+        {
+          "left": "пешком",
+          "right": "à pied"
+        },
+        {
+          "left": "вход",
+          "right": "entrée"
+        }
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.7,
+        "comprehension": 0.3
+      },
+      "scoring": {
+        "mode": "per_pair",
+        "max_score": 1.0,
+        "partial_credit": true
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/city-directions.json"
+    },
+    {
+      "id": "V3-MATCH-005",
+      "lesson_id": "READ-05",
+      "type": "match_pairs",
+      "activity_type": "match_pairs",
+      "renderer_id": "match_pairs",
+      "difficulty": 1,
+      "prompt": "Associe chaque élément russe à son sens français.",
+      "answer": [
+        {
+          "left": "справа",
+          "right": "à droite"
+        },
+        {
+          "left": "слева",
+          "right": "à gauche"
+        },
+        {
+          "left": "прямо",
+          "right": "tout droit"
+        },
+        {
+          "left": "налево",
+          "right": "à gauche"
+        },
+        {
+          "left": "направо",
+          "right": "à droite"
+        }
+      ],
+      "pairs": [
+        {
+          "left": "справа",
+          "right": "à droite"
+        },
+        {
+          "left": "слева",
+          "right": "à gauche"
+        },
+        {
+          "left": "прямо",
+          "right": "tout droit"
+        },
+        {
+          "left": "налево",
+          "right": "à gauche"
+        },
+        {
+          "left": "направо",
+          "right": "à droite"
+        }
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.7,
+        "comprehension": 0.3
+      },
+      "scoring": {
+        "mode": "per_pair",
+        "max_score": 1.0,
+        "partial_credit": true
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/city-directions.json"
+    },
+    {
+      "id": "V3-MATCH-006",
+      "lesson_id": "READ-02",
+      "type": "match_pairs",
+      "activity_type": "match_pairs",
+      "renderer_id": "match_pairs",
+      "difficulty": 1,
+      "prompt": "Associe chaque élément russe à son sens français.",
+      "answer": [
+        {
+          "left": "что",
+          "right": "que / quoi"
+        },
+        {
+          "left": "но",
+          "right": "mais"
+        },
+        {
+          "left": "и",
+          "right": "et"
+        },
+        {
+          "left": "или",
+          "right": "ou"
+        },
+        {
+          "left": "тоже",
+          "right": "aussi"
+        }
+      ],
+      "pairs": [
+        {
+          "left": "что",
+          "right": "que / quoi"
+        },
+        {
+          "left": "но",
+          "right": "mais"
+        },
+        {
+          "left": "и",
+          "right": "et"
+        },
+        {
+          "left": "или",
+          "right": "ou"
+        },
+        {
+          "left": "тоже",
+          "right": "aussi"
+        }
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.7,
+        "comprehension": 0.3
+      },
+      "scoring": {
+        "mode": "per_pair",
+        "max_score": 1.0,
+        "partial_credit": true
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/connectors.json"
+    },
+    {
+      "id": "V3-MATCH-007",
+      "lesson_id": "READ-02",
+      "type": "match_pairs",
+      "activity_type": "match_pairs",
+      "renderer_id": "match_pairs",
+      "difficulty": 1,
+      "prompt": "Associe chaque élément russe à son sens français.",
+      "answer": [
+        {
+          "left": "уже",
+          "right": "déjà"
+        },
+        {
+          "left": "немного",
+          "right": "un peu"
+        },
+        {
+          "left": "может быть",
+          "right": "peut-être"
+        },
+        {
+          "left": "не",
+          "right": "ne... pas"
+        },
+        {
+          "left": "через",
+          "right": "dans / après"
+        }
+      ],
+      "pairs": [
+        {
+          "left": "уже",
+          "right": "déjà"
+        },
+        {
+          "left": "немного",
+          "right": "un peu"
+        },
+        {
+          "left": "может быть",
+          "right": "peut-être"
+        },
+        {
+          "left": "не",
+          "right": "ne... pas"
+        },
+        {
+          "left": "через",
+          "right": "dans / après"
+        }
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.7,
+        "comprehension": 0.3
+      },
+      "scoring": {
+        "mode": "per_pair",
+        "max_score": 1.0,
+        "partial_credit": true
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/connectors.json"
+    },
+    {
+      "id": "V3-MATCH-008",
+      "lesson_id": "FND-02",
+      "type": "match_pairs",
+      "activity_type": "match_pairs",
+      "renderer_id": "match_pairs",
+      "difficulty": 1,
+      "prompt": "Associe chaque élément russe à son sens français.",
+      "answer": [
+        {
+          "left": "я",
+          "right": "je"
+        },
+        {
+          "left": "ты",
+          "right": "tu"
+        },
+        {
+          "left": "он",
+          "right": "il"
+        },
+        {
+          "left": "она",
+          "right": "elle"
+        },
+        {
+          "left": "мы",
+          "right": "nous"
+        }
+      ],
+      "pairs": [
+        {
+          "left": "я",
+          "right": "je"
+        },
+        {
+          "left": "ты",
+          "right": "tu"
+        },
+        {
+          "left": "он",
+          "right": "il"
+        },
+        {
+          "left": "она",
+          "right": "elle"
+        },
+        {
+          "left": "мы",
+          "right": "nous"
+        }
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.7,
+        "comprehension": 0.3
+      },
+      "scoring": {
+        "mode": "per_pair",
+        "max_score": 1.0,
+        "partial_credit": true
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/core-people-actions.json"
+    },
+    {
+      "id": "V3-MATCH-009",
+      "lesson_id": "FND-02",
+      "type": "match_pairs",
+      "activity_type": "match_pairs",
+      "renderer_id": "match_pairs",
+      "difficulty": 1,
+      "prompt": "Associe chaque élément russe à son sens français.",
+      "answer": [
+        {
+          "left": "вы",
+          "right": "vous"
+        },
+        {
+          "left": "они",
+          "right": "ils/elles"
+        },
+        {
+          "left": "говорить",
+          "right": "parler / dire"
+        },
+        {
+          "left": "понимать",
+          "right": "comprendre"
+        },
+        {
+          "left": "знать",
+          "right": "savoir / connaître"
+        }
+      ],
+      "pairs": [
+        {
+          "left": "вы",
+          "right": "vous"
+        },
+        {
+          "left": "они",
+          "right": "ils/elles"
+        },
+        {
+          "left": "говорить",
+          "right": "parler / dire"
+        },
+        {
+          "left": "понимать",
+          "right": "comprendre"
+        },
+        {
+          "left": "знать",
+          "right": "savoir / connaître"
+        }
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.7,
+        "comprehension": 0.3
+      },
+      "scoring": {
+        "mode": "per_pair",
+        "max_score": 1.0,
+        "partial_credit": true
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/core-people-actions.json"
+    },
+    {
+      "id": "V3-MATCH-010",
+      "lesson_id": "FND-02",
+      "type": "match_pairs",
+      "activity_type": "match_pairs",
+      "renderer_id": "match_pairs",
+      "difficulty": 1,
+      "prompt": "Associe chaque élément russe à son sens français.",
+      "answer": [
+        {
+          "left": "работать",
+          "right": "travailler"
+        },
+        {
+          "left": "читать",
+          "right": "lire"
+        },
+        {
+          "left": "хотеть",
+          "right": "vouloir"
+        },
+        {
+          "left": "идти",
+          "right": "aller à pied / être en train d'aller"
+        },
+        {
+          "left": "видеть",
+          "right": "voir"
+        }
+      ],
+      "pairs": [
+        {
+          "left": "работать",
+          "right": "travailler"
+        },
+        {
+          "left": "читать",
+          "right": "lire"
+        },
+        {
+          "left": "хотеть",
+          "right": "vouloir"
+        },
+        {
+          "left": "идти",
+          "right": "aller à pied / être en train d'aller"
+        },
+        {
+          "left": "видеть",
+          "right": "voir"
+        }
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.7,
+        "comprehension": 0.3
+      },
+      "scoring": {
+        "mode": "per_pair",
+        "max_score": 1.0,
+        "partial_credit": true
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/core-people-actions.json"
+    },
+    {
+      "id": "V3-MATCH-011",
+      "lesson_id": "FND-02",
+      "type": "match_pairs",
+      "activity_type": "match_pairs",
+      "renderer_id": "match_pairs",
+      "difficulty": 1,
+      "prompt": "Associe chaque élément russe à son sens français.",
+      "answer": [
+        {
+          "left": "кофе",
+          "right": "café"
+        },
+        {
+          "left": "музыка",
+          "right": "musique"
+        },
+        {
+          "left": "фотография",
+          "right": "photographie"
+        },
+        {
+          "left": "книга",
+          "right": "livre"
+        },
+        {
+          "left": "машина",
+          "right": "voiture"
+        }
+      ],
+      "pairs": [
+        {
+          "left": "кофе",
+          "right": "café"
+        },
+        {
+          "left": "музыка",
+          "right": "musique"
+        },
+        {
+          "left": "фотография",
+          "right": "photographie"
+        },
+        {
+          "left": "книга",
+          "right": "livre"
+        },
+        {
+          "left": "машина",
+          "right": "voiture"
+        }
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.7,
+        "comprehension": 0.3
+      },
+      "scoring": {
+        "mode": "per_pair",
+        "max_score": 1.0,
+        "partial_credit": true
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/daily.json"
+    },
+    {
+      "id": "V3-MATCH-012",
+      "lesson_id": "FND-02",
+      "type": "match_pairs",
+      "activity_type": "match_pairs",
+      "renderer_id": "match_pairs",
+      "difficulty": 1,
+      "prompt": "Associe chaque élément russe à son sens français.",
+      "answer": [
+        {
+          "left": "телефон",
+          "right": "téléphone"
+        },
+        {
+          "left": "работа",
+          "right": "travail"
+        },
+        {
+          "left": "дождь",
+          "right": "pluie"
+        },
+        {
+          "left": "время",
+          "right": "temps"
+        },
+        {
+          "left": "минута",
+          "right": "minute"
+        }
+      ],
+      "pairs": [
+        {
+          "left": "телефон",
+          "right": "téléphone"
+        },
+        {
+          "left": "работа",
+          "right": "travail"
+        },
+        {
+          "left": "дождь",
+          "right": "pluie"
+        },
+        {
+          "left": "время",
+          "right": "temps"
+        },
+        {
+          "left": "минута",
+          "right": "minute"
+        }
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.7,
+        "comprehension": 0.3
+      },
+      "scoring": {
+        "mode": "per_pair",
+        "max_score": 1.0,
+        "partial_credit": true
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/daily.json"
+    },
+    {
+      "id": "V3-MATCH-013",
+      "lesson_id": "FND-06",
+      "type": "match_pairs",
+      "activity_type": "match_pairs",
+      "renderer_id": "match_pairs",
+      "difficulty": 1,
+      "prompt": "Associe chaque élément russe à son sens français.",
+      "answer": [
+        {
+          "left": "на следующий день",
+          "right": "le lendemain"
+        },
+        {
+          "left": "встречаться",
+          "right": "rencontrer / retrouver"
+        },
+        {
+          "left": "несколько месяцев назад",
+          "right": "il y a quelques mois"
+        },
+        {
+          "left": "приглашать",
+          "right": "inviter"
+        },
+        {
+          "left": "к себе домой",
+          "right": "chez soi"
+        }
+      ],
+      "pairs": [
+        {
+          "left": "на следующий день",
+          "right": "le lendemain"
+        },
+        {
+          "left": "встречаться",
+          "right": "rencontrer / retrouver"
+        },
+        {
+          "left": "несколько месяцев назад",
+          "right": "il y a quelques mois"
+        },
+        {
+          "left": "приглашать",
+          "right": "inviter"
+        },
+        {
+          "left": "к себе домой",
+          "right": "chez soi"
+        }
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.7,
+        "comprehension": 0.3
+      },
+      "scoring": {
+        "mode": "per_pair",
+        "max_score": 1.0,
+        "partial_credit": true
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/family-social.json"
+    },
+    {
+      "id": "V3-MATCH-014",
+      "lesson_id": "FND-06",
+      "type": "match_pairs",
+      "activity_type": "match_pairs",
+      "renderer_id": "match_pairs",
+      "difficulty": 1,
+      "prompt": "Associe chaque élément russe à son sens français.",
+      "answer": [
+        {
+          "left": "наверное",
+          "right": "probablement"
+        },
+        {
+          "left": "проходите",
+          "right": "entrez"
+        },
+        {
+          "left": "квартира",
+          "right": "appartement"
+        },
+        {
+          "left": "кухня",
+          "right": "cuisine"
+        },
+        {
+          "left": "гостиная",
+          "right": "salon"
+        }
+      ],
+      "pairs": [
+        {
+          "left": "наверное",
+          "right": "probablement"
+        },
+        {
+          "left": "проходите",
+          "right": "entrez"
+        },
+        {
+          "left": "квартира",
+          "right": "appartement"
+        },
+        {
+          "left": "кухня",
+          "right": "cuisine"
+        },
+        {
+          "left": "гостиная",
+          "right": "salon"
+        }
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.7,
+        "comprehension": 0.3
+      },
+      "scoring": {
+        "mode": "per_pair",
+        "max_score": 1.0,
+        "partial_credit": true
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/family-social.json"
+    },
+    {
+      "id": "V3-MATCH-015",
+      "lesson_id": "FND-06",
+      "type": "match_pairs",
+      "activity_type": "match_pairs",
+      "renderer_id": "match_pairs",
+      "difficulty": 1,
+      "prompt": "Associe chaque élément russe à son sens français.",
+      "answer": [
+        {
+          "left": "младшая сестра",
+          "right": "sœur cadette"
+        },
+        {
+          "left": "старший брат",
+          "right": "frère aîné"
+        },
+        {
+          "left": "семейная фотография",
+          "right": "photographie de famille"
+        },
+        {
+          "left": "быть похожим",
+          "right": "ressembler"
+        },
+        {
+          "left": "задавать вопрос",
+          "right": "poser une question"
+        }
+      ],
+      "pairs": [
+        {
+          "left": "младшая сестра",
+          "right": "sœur cadette"
+        },
+        {
+          "left": "старший брат",
+          "right": "frère aîné"
+        },
+        {
+          "left": "семейная фотография",
+          "right": "photographie de famille"
+        },
+        {
+          "left": "быть похожим",
+          "right": "ressembler"
+        },
+        {
+          "left": "задавать вопрос",
+          "right": "poser une question"
+        }
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.7,
+        "comprehension": 0.3
+      },
+      "scoring": {
+        "mode": "per_pair",
+        "max_score": 1.0,
+        "partial_credit": true
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/family-social.json"
+    },
+    {
+      "id": "V3-MATCH-016",
+      "lesson_id": "FND-06",
+      "type": "match_pairs",
+      "activity_type": "match_pairs",
+      "renderer_id": "match_pairs",
+      "difficulty": 1,
+      "prompt": "Associe chaque élément russe à son sens français.",
+      "answer": [
+        {
+          "left": "домашний пирог",
+          "right": "tarte faite maison"
+        },
+        {
+          "left": "тёплый приём",
+          "right": "accueil chaleureux"
+        },
+        {
+          "left": "добрый",
+          "right": "gentil"
+        },
+        {
+          "left": "доволен",
+          "right": "satisfait (homme)"
+        },
+        {
+          "left": "довольна",
+          "right": "satisfaite (femme)"
+        }
+      ],
+      "pairs": [
+        {
+          "left": "домашний пирог",
+          "right": "tarte faite maison"
+        },
+        {
+          "left": "тёплый приём",
+          "right": "accueil chaleureux"
+        },
+        {
+          "left": "добрый",
+          "right": "gentil"
+        },
+        {
+          "left": "доволен",
+          "right": "satisfait (homme)"
+        },
+        {
+          "left": "довольна",
+          "right": "satisfaite (femme)"
+        }
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.7,
+        "comprehension": 0.3
+      },
+      "scoring": {
+        "mode": "per_pair",
+        "max_score": 1.0,
+        "partial_credit": true
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/family-social.json"
+    },
+    {
+      "id": "V3-MATCH-017",
+      "lesson_id": "READ-07",
+      "type": "match_pairs",
+      "activity_type": "match_pairs",
+      "renderer_id": "match_pairs",
+      "difficulty": 1,
+      "prompt": "Associe chaque élément russe à son sens français.",
+      "answer": [
+        {
+          "left": "возвращаться",
+          "right": "revenir / retourner"
+        },
+        {
+          "left": "принять душ",
+          "right": "prendre une douche"
+        },
+        {
+          "left": "лечь спать",
+          "right": "aller se coucher"
+        },
+        {
+          "left": "открывать кран",
+          "right": "ouvrir le robinet"
+        },
+        {
+          "left": "ничего не происходит",
+          "right": "rien ne se passe"
+        }
+      ],
+      "pairs": [
+        {
+          "left": "возвращаться",
+          "right": "revenir / retourner"
+        },
+        {
+          "left": "принять душ",
+          "right": "prendre une douche"
+        },
+        {
+          "left": "лечь спать",
+          "right": "aller se coucher"
+        },
+        {
+          "left": "открывать кран",
+          "right": "ouvrir le robinet"
+        },
+        {
+          "left": "ничего не происходит",
+          "right": "rien ne se passe"
+        }
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.7,
+        "comprehension": 0.3
+      },
+      "scoring": {
+        "mode": "per_pair",
+        "max_score": 1.0,
+        "partial_credit": true
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/hotel-problems.json"
+    },
+    {
+      "id": "V3-MATCH-018",
+      "lesson_id": "READ-07",
+      "type": "match_pairs",
+      "activity_type": "match_pairs",
+      "renderer_id": "match_pairs",
+      "difficulty": 1,
+      "prompt": "Associe chaque élément russe à son sens français.",
+      "answer": [
+        {
+          "left": "ключ-карта",
+          "right": "carte d'accès"
+        },
+        {
+          "left": "спускаться",
+          "right": "descendre"
+        },
+        {
+          "left": "первый этаж",
+          "right": "rez-de-chaussée en Russie"
+        },
+        {
+          "left": "стойка регистрации",
+          "right": "réception de l'hôtel"
+        },
+        {
+          "left": "сотрудник",
+          "right": "employé"
+        }
+      ],
+      "pairs": [
+        {
+          "left": "ключ-карта",
+          "right": "carte d'accès"
+        },
+        {
+          "left": "спускаться",
+          "right": "descendre"
+        },
+        {
+          "left": "первый этаж",
+          "right": "rez-de-chaussée en Russie"
+        },
+        {
+          "left": "стойка регистрации",
+          "right": "réception de l'hôtel"
+        },
+        {
+          "left": "сотрудник",
+          "right": "employé"
+        }
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.7,
+        "comprehension": 0.3
+      },
+      "scoring": {
+        "mode": "per_pair",
+        "max_score": 1.0,
+        "partial_credit": true
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/hotel-problems.json"
+    },
+    {
+      "id": "V3-MATCH-019",
+      "lesson_id": "READ-07",
+      "type": "match_pairs",
+      "activity_type": "match_pairs",
+      "renderer_id": "match_pairs",
+      "difficulty": 1,
+      "prompt": "Associe chaque élément russe à son sens français.",
+      "answer": [
+        {
+          "left": "что случилось?",
+          "right": "que s'est-il passé ?"
+        },
+        {
+          "left": "проверять",
+          "right": "vérifier"
+        },
+        {
+          "left": "мастер",
+          "right": "réparateur / technicien"
+        },
+        {
+          "left": "придётся",
+          "right": "il faudra"
+        },
+        {
+          "left": "около получаса",
+          "right": "environ une demi-heure"
+        }
+      ],
+      "pairs": [
+        {
+          "left": "что случилось?",
+          "right": "que s'est-il passé ?"
+        },
+        {
+          "left": "проверять",
+          "right": "vérifier"
+        },
+        {
+          "left": "мастер",
+          "right": "réparateur / technicien"
+        },
+        {
+          "left": "придётся",
+          "right": "il faudra"
+        },
+        {
+          "left": "около получаса",
+          "right": "environ une demi-heure"
+        }
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.7,
+        "comprehension": 0.3
+      },
+      "scoring": {
+        "mode": "per_pair",
+        "max_score": 1.0,
+        "partial_credit": true
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/hotel-problems.json"
+    },
+    {
+      "id": "V3-MATCH-020",
+      "lesson_id": "READ-07",
+      "type": "match_pairs",
+      "activity_type": "match_pairs",
+      "renderer_id": "match_pairs",
+      "difficulty": 1,
+      "prompt": "Associe chaque élément russe à son sens français.",
+      "answer": [
+        {
+          "left": "свободная комната",
+          "right": "chambre disponible"
+        },
+        {
+          "left": "к счастью",
+          "right": "heureusement"
+        },
+        {
+          "left": "извиняться",
+          "right": "s'excuser"
+        },
+        {
+          "left": "неудобство",
+          "right": "désagrément"
+        },
+        {
+          "left": "отправлять сообщение",
+          "right": "envoyer un message"
+        }
+      ],
+      "pairs": [
+        {
+          "left": "свободная комната",
+          "right": "chambre disponible"
+        },
+        {
+          "left": "к счастью",
+          "right": "heureusement"
+        },
+        {
+          "left": "извиняться",
+          "right": "s'excuser"
+        },
+        {
+          "left": "неудобство",
+          "right": "désagrément"
+        },
+        {
+          "left": "отправлять сообщение",
+          "right": "envoyer un message"
+        }
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.7,
+        "comprehension": 0.3
+      },
+      "scoring": {
+        "mode": "per_pair",
+        "max_score": 1.0,
+        "partial_credit": true
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/hotel-problems.json"
+    },
+    {
+      "id": "V3-MATCH-021",
+      "lesson_id": "READ-08",
+      "type": "match_pairs",
+      "activity_type": "match_pairs",
+      "renderer_id": "match_pairs",
+      "difficulty": 1,
+      "prompt": "Associe chaque élément russe à son sens français.",
+      "answer": [
+        {
+          "left": "быть довольным поездкой",
+          "right": "être satisfait de son voyage"
+        },
+        {
+          "left": "мне нравится",
+          "right": "cela me plaît / j'aime"
+        },
+        {
+          "left": "пока не очень",
+          "right": "pas encore vraiment"
+        },
+        {
+          "left": "мне трудно",
+          "right": "c'est difficile pour moi"
+        },
+        {
+          "left": "всего несколько дней",
+          "right": "seulement depuis quelques jours"
+        }
+      ],
+      "pairs": [
+        {
+          "left": "быть довольным поездкой",
+          "right": "être satisfait de son voyage"
+        },
+        {
+          "left": "мне нравится",
+          "right": "cela me plaît / j'aime"
+        },
+        {
+          "left": "пока не очень",
+          "right": "pas encore vraiment"
+        },
+        {
+          "left": "мне трудно",
+          "right": "c'est difficile pour moi"
+        },
+        {
+          "left": "всего несколько дней",
+          "right": "seulement depuis quelques jours"
+        }
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.7,
+        "comprehension": 0.3
+      },
+      "scoring": {
+        "mode": "per_pair",
+        "max_score": 1.0,
+        "partial_credit": true
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/learning-conversation.json"
+    },
+    {
+      "id": "V3-MATCH-022",
+      "lesson_id": "READ-08",
+      "type": "match_pairs",
+      "activity_type": "match_pairs",
+      "renderer_id": "match_pairs",
+      "difficulty": 1,
+      "prompt": "Associe chaque élément russe à son sens français.",
+      "answer": [
+        {
+          "left": "каждый день",
+          "right": "chaque jour"
+        },
+        {
+          "left": "немного больше",
+          "right": "un peu plus"
+        },
+        {
+          "left": "главное",
+          "right": "le plus important"
+        },
+        {
+          "left": "не бояться",
+          "right": "ne pas avoir peur"
+        },
+        {
+          "left": "ты прав",
+          "right": "tu as raison (à un homme)"
+        }
+      ],
+      "pairs": [
+        {
+          "left": "каждый день",
+          "right": "chaque jour"
+        },
+        {
+          "left": "немного больше",
+          "right": "un peu plus"
+        },
+        {
+          "left": "главное",
+          "right": "le plus important"
+        },
+        {
+          "left": "не бояться",
+          "right": "ne pas avoir peur"
+        },
+        {
+          "left": "ты прав",
+          "right": "tu as raison (à un homme)"
+        }
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.7,
+        "comprehension": 0.3
+      },
+      "scoring": {
+        "mode": "per_pair",
+        "max_score": 1.0,
+        "partial_credit": true
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/learning-conversation.json"
+    },
+    {
+      "id": "V3-MATCH-023",
+      "lesson_id": "READ-08",
+      "type": "match_pairs",
+      "activity_type": "match_pairs",
+      "renderer_id": "match_pairs",
+      "difficulty": 1,
+      "prompt": "Associe chaque élément russe à son sens français.",
+      "answer": [
+        {
+          "left": "ты права",
+          "right": "tu as raison (à une femme)"
+        },
+        {
+          "left": "делать ошибку",
+          "right": "faire une erreur"
+        },
+        {
+          "left": "всё равно",
+          "right": "quand même"
+        },
+        {
+          "left": "часть обучения",
+          "right": "une partie de l'apprentissage"
+        }
+      ],
+      "pairs": [
+        {
+          "left": "ты права",
+          "right": "tu as raison (à une femme)"
+        },
+        {
+          "left": "делать ошибку",
+          "right": "faire une erreur"
+        },
+        {
+          "left": "всё равно",
+          "right": "quand même"
+        },
+        {
+          "left": "часть обучения",
+          "right": "une partie de l'apprentissage"
+        }
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.7,
+        "comprehension": 0.3
+      },
+      "scoring": {
+        "mode": "per_pair",
+        "max_score": 1.0,
+        "partial_credit": true
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/learning-conversation.json"
+    },
+    {
+      "id": "V3-MATCH-024",
+      "lesson_id": "FND-04",
+      "type": "match_pairs",
+      "activity_type": "match_pairs",
+      "renderer_id": "match_pairs",
+      "difficulty": 1,
+      "prompt": "Associe chaque élément russe à son sens français.",
+      "answer": [
+        {
+          "left": "лес",
+          "right": "forêt"
+        },
+        {
+          "left": "город",
+          "right": "ville"
+        },
+        {
+          "left": "дом",
+          "right": "maison / chez soi"
+        },
+        {
+          "left": "школа",
+          "right": "école"
+        },
+        {
+          "left": "магазин",
+          "right": "magasin"
+        }
+      ],
+      "pairs": [
+        {
+          "left": "лес",
+          "right": "forêt"
+        },
+        {
+          "left": "город",
+          "right": "ville"
+        },
+        {
+          "left": "дом",
+          "right": "maison / chez soi"
+        },
+        {
+          "left": "школа",
+          "right": "école"
+        },
+        {
+          "left": "магазин",
+          "right": "magasin"
+        }
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.7,
+        "comprehension": 0.3
+      },
+      "scoring": {
+        "mode": "per_pair",
+        "max_score": 1.0,
+        "partial_credit": true
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/places.json"
+    },
+    {
+      "id": "V3-MATCH-025",
+      "lesson_id": "FND-04",
+      "type": "match_pairs",
+      "activity_type": "match_pairs",
+      "renderer_id": "match_pairs",
+      "difficulty": 1,
+      "prompt": "Associe chaque élément russe à son sens français.",
+      "answer": [
+        {
+          "left": "улица",
+          "right": "rue"
+        },
+        {
+          "left": "парк",
+          "right": "parc"
+        },
+        {
+          "left": "Москва",
+          "right": "Moscou"
+        },
+        {
+          "left": "площадь",
+          "right": "place"
+        }
+      ],
+      "pairs": [
+        {
+          "left": "улица",
+          "right": "rue"
+        },
+        {
+          "left": "парк",
+          "right": "parc"
+        },
+        {
+          "left": "Москва",
+          "right": "Moscou"
+        },
+        {
+          "left": "площадь",
+          "right": "place"
+        }
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.7,
+        "comprehension": 0.3
+      },
+      "scoring": {
+        "mode": "per_pair",
+        "max_score": 1.0,
+        "partial_credit": true
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/places.json"
+    }
+  ]
+}

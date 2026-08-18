@@ -1,0 +1,233 @@
+{
+  "id": "FND-01",
+  "order": 1,
+  "track": "foundations",
+  "level": "A0-A1",
+  "title": "Pronoms et phrases simples",
+  "summary": "Identifier qui fait l'action et construire des phrases très simples sans translittération.",
+  "objectives": [
+    "Reconnaître я, ты, он, она, мы, вы, они",
+    "Comprendre quand le pronom peut être omis ou conservé",
+    "Lire des phrases simples sujet + verbe"
+  ],
+  "concepts": [
+    "personal-pronouns",
+    "simple-svo",
+    "subject-identification"
+  ],
+  "notes": [
+    "En russe, le sujet est souvent visible grâce au pronom ou à la terminaison du verbe.",
+    "Au début, garde les pronoms quand cela t'aide à lire. Plus tard, tu verras qu'ils peuvent parfois être omis dans le contexte."
+  ],
+  "examples": [
+    {
+      "ru": "Я работаю.",
+      "fr": "Je travaille."
+    },
+    {
+      "ru": "Она говорит.",
+      "fr": "Elle parle."
+    },
+    {
+      "ru": "Мы читаем.",
+      "fr": "Nous lisons."
+    },
+    {
+      "ru": "Они знают.",
+      "fr": "Ils/Elles savent."
+    }
+  ],
+  "schema_version": "3.0.0",
+  "content_api_version": "3.0",
+  "status": "active",
+  "subtitle": "Trouver qui fait quoi sans traduire mot à mot",
+  "estimated_minutes": 18,
+  "prerequisites": [],
+  "lesson_mode": "guided_course_session",
+  "content_blocks": [
+    {
+      "id": "FND-01-intro",
+      "type": "markdown",
+      "title": "Pourquoi ce chapitre ?",
+      "body": [
+        "Avant les cas et les tableaux de conjugaison, il faut pouvoir regarder une phrase russe et identifier rapidement la personne, l’action et les indices de nombre. Ce chapitre construit ce réflexe de lecture."
+      ],
+      "provenance": "editorial-expansion"
+    },
+    {
+      "id": "FND-01-sec-01",
+      "type": "markdown",
+      "title": "Les pronoms comme points d’ancrage",
+      "body": [
+        "Я, ты, он, она, мы, вы, они servent d’abord de balises visuelles. Quand tu vois un de ces mots, tu peux déjà poser une première hypothèse sur le sujet sans comprendre tout le reste.",
+        "Au début, il est utile de conserver mentalement le pronom même si le russe peut parfois l’omettre dans un contexte clair. L’objectif n’est pas encore d’imiter toutes les ellipses naturelles, mais de lire avec sécurité."
+      ],
+      "examples": [
+        {
+          "ru": "Я работаю.",
+          "fr": "Je travaille."
+        },
+        {
+          "ru": "Она говорит.",
+          "fr": "Elle parle / elle dit."
+        },
+        {
+          "ru": "Мы читаем.",
+          "fr": "Nous lisons."
+        }
+      ],
+      "provenance": "editorial-expansion"
+    },
+    {
+      "id": "FND-01-sec-02",
+      "type": "markdown",
+      "title": "Sujet + verbe : le squelette de la phrase",
+      "body": [
+        "Dans une phrase courte, cherche d’abord le sujet et le verbe. Les compléments viennent ensuite. Cette stratégie évite de bloquer sur un mot inconnu placé au milieu ou à la fin.",
+        "L’ordre russe peut être plus souple que le français, donc ce squelette ne signifie pas que toutes les phrases resteront strictement sujet-verbe-objet. Il sert de point de départ."
+      ],
+      "examples": [
+        {
+          "ru": "Они знают.",
+          "fr": "Ils / elles savent."
+        },
+        {
+          "ru": "Тони понимает слово.",
+          "fr": "Tony comprend le mot."
+        }
+      ],
+      "provenance": "editorial-expansion"
+    },
+    {
+      "id": "FND-01-sec-03",
+      "type": "markdown",
+      "title": "Les terminaisons comme deuxième indice",
+      "body": [
+        "Même sans connaître toute la conjugaison, les terminaisons verbales donnent des indices. Читаю attire vers « je », читает vers « il/elle », читаем vers « nous ». Plus tard, ce réflexe permettra de comprendre certaines phrases même sans pronom explicite."
+      ],
+      "examples": [
+        {
+          "ru": "Я читаю.",
+          "fr": "Je lis."
+        },
+        {
+          "ru": "Она читает.",
+          "fr": "Elle lit."
+        },
+        {
+          "ru": "Мы читаем.",
+          "fr": "Nous lisons."
+        }
+      ],
+      "provenance": "editorial-expansion"
+    },
+    {
+      "id": "FND-01-sec-04",
+      "type": "markdown",
+      "title": "Lire sans paniquer devant l’inconnu",
+      "body": [
+        "Une phrase n’a pas besoin d’être comprise à 100 % pour être utile. Si tu identifies « elle + parle » ou « ils + savent », tu as déjà récupéré la structure essentielle. Le reste peut être déduit par contexte ou appris plus tard."
+      ],
+      "examples": [
+        {
+          "ru": "Она говорит быстро.",
+          "fr": "Elle parle vite."
+        },
+        {
+          "ru": "Они читают книгу.",
+          "fr": "Ils lisent un livre."
+        }
+      ],
+      "provenance": "editorial-expansion"
+    },
+    {
+      "id": "FND-01-mistakes",
+      "type": "contrast",
+      "title": "Erreurs à surveiller",
+      "items": [
+        {
+          "wrong_or_risk": "Traduire chaque mot avant d’identifier le verbe",
+          "correction_or_strategy": "Commencer par sujet + verbe, puis compléter."
+        },
+        {
+          "wrong_or_risk": "Confondre он et она",
+          "correction_or_strategy": "Repérer le -а final de она comme aide visuelle au début."
+        },
+        {
+          "wrong_or_risk": "Croire qu’un pronom doit toujours être présent",
+          "correction_or_strategy": "Le pronom aide, mais le contexte et la terminaison peuvent suffire."
+        }
+      ],
+      "provenance": "editorial-expansion"
+    },
+    {
+      "id": "FND-01-memory",
+      "type": "memory",
+      "title": "À retenir",
+      "items": [
+        "Я = je ; ты = tu ; он/она = il/elle.",
+        "Cherche le verbe avant de chercher chaque mot.",
+        "Une compréhension partielle correcte vaut mieux qu’une traduction mot à mot fausse."
+      ],
+      "provenance": "editorial-expansion"
+    },
+    {
+      "id": "FND-01-pron",
+      "type": "pronunciation",
+      "title": "Prononciation à travailler",
+      "targets": [
+        "Я",
+        "ты",
+        "он",
+        "она",
+        "мы",
+        "вы",
+        "они"
+      ],
+      "provenance": "mixed-source-and-editorial"
+    },
+    {
+      "id": "FND-01-checkpoint",
+      "type": "checkpoint",
+      "title": "Avant de considérer le chapitre compris",
+      "checks": [
+        "Expliquer l’idée principale avec tes propres mots en français.",
+        "Réussir plusieurs exercices de formats différents sans indice.",
+        "Produire au moins une réponse russe complète liée au concept.",
+        "Revoir au moins une partie du concept après un délai, pas uniquement dans la même session."
+      ],
+      "provenance": "editorial-expansion"
+    }
+  ],
+  "source_policy": {
+    "source_derived_content": "Examples and story contexts trace back to the supplied PDF and/or russian-morning-app when source_refs are present.",
+    "editorial_expansion": "Grammar explanations, learning strategy, mastery rules and newly generated examples are model-authored pedagogical expansion."
+  },
+  "skill_weights": {
+    "recognition": 0.25,
+    "comprehension": 0.25,
+    "recall": 0.2,
+    "production": 0.2,
+    "pronunciation": 0.1
+  },
+  "mastery_contract": {
+    "minimum_distinct_activities": 7,
+    "minimum_distinct_prompts": 5,
+    "minimum_overall_score": 0.68,
+    "minimum_production_score": 0.58,
+    "minimum_comprehension_score": 0.62,
+    "critical_error_rate_max": 0.4,
+    "delayed_review_required_for_mastered": true,
+    "delayed_review_min_hours": 48,
+    "next_chapter_soft_unlock_score": 0.68,
+    "soft_unlock_before_mastered": true
+  },
+  "session_recommendation": {
+    "course_session_blocks_min": 4,
+    "course_session_micro_checks_min": 3,
+    "exercise_session_items": 15,
+    "max_choice_ratio": 0.3,
+    "min_production_ratio": 0.3,
+    "pronunciation_ratio_target": 0.1
+  }
+}

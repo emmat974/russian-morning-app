@@ -1,0 +1,67 @@
+{
+  "schema_version": "2.0.0",
+  "timezone_policy": "device_local",
+  "intervals": [
+    {
+      "stage": 0,
+      "after_success_hours": 6,
+      "purpose": "same-day light reinforcement"
+    },
+    {
+      "stage": 1,
+      "after_success_hours": 48,
+      "purpose": "first delayed validation (2 days)"
+    },
+    {
+      "stage": 2,
+      "after_success_hours": 96,
+      "purpose": "4-day confirmation"
+    },
+    {
+      "stage": 3,
+      "after_success_hours": 192,
+      "purpose": "8-day review"
+    },
+    {
+      "stage": 4,
+      "after_success_hours": 384,
+      "purpose": "16-day review"
+    },
+    {
+      "stage": 5,
+      "after_success_hours": 720,
+      "purpose": "30-day review"
+    },
+    {
+      "stage": 6,
+      "after_success_hours": 1440,
+      "purpose": "60-day maintenance"
+    }
+  ],
+  "adjustments": {
+    "perfect_unassisted": {
+      "stage_delta": 1
+    },
+    "correct_with_hint": {
+      "stage_delta": 0,
+      "next_interval_multiplier": 0.65
+    },
+    "minor_orthography_only": {
+      "stage_delta": 0,
+      "next_interval_multiplier": 0.85
+    },
+    "wrong": {
+      "stage_delta": -2,
+      "minimum_stage": 0
+    },
+    "dont_know": {
+      "stage_delta": -3,
+      "minimum_stage": 0
+    },
+    "failed_after_mastery": {
+      "state": "fragile",
+      "next_review_hours": 12
+    }
+  },
+  "selection": "Prefer a different prompt that tests the same concept/error tag. Do not repeat an exact item immediately. Recent improvement should reduce remediation priority; old mistakes must not dominate indefinitely."
+}

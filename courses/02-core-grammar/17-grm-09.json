@@ -1,0 +1,239 @@
+{
+  "id": "GRM-09",
+  "order": 17,
+  "track": "core-grammar",
+  "level": "A1-A2",
+  "status": "preview",
+  "title": "Avec, près de, sans — с / рядом с / без",
+  "summary": "Première exposition pratique aux formes gouvernées par с, рядом с et без.",
+  "objectives": [
+    "Comprendre с Алексеем",
+    "Comprendre рядом с гостиницей",
+    "Opposer с сахаром / без сахара"
+  ],
+  "concepts": [
+    "instrumental-basic",
+    "genitive-basic",
+    "с",
+    "без",
+    "рядом-с"
+  ],
+  "notes": [
+    "Apprends d'abord les blocs fréquents."
+  ],
+  "examples": [
+    {
+      "ru": "с Алексеем",
+      "fr": "avec Alexeï"
+    },
+    {
+      "ru": "рядом с гостиницей",
+      "fr": "près de l'hôtel"
+    },
+    {
+      "ru": "с сахаром",
+      "fr": "avec du sucre"
+    },
+    {
+      "ru": "без сахара",
+      "fr": "sans sucre"
+    }
+  ],
+  "source_refs": [
+    "PDF-FIRST-WEEK-TONY:p1-6",
+    "GH-RUSSIAN-MORNING-APP:banques"
+  ],
+  "schema_version": "3.0.0",
+  "content_api_version": "3.0",
+  "subtitle": "Comprendre des groupes prépositionnels fréquents avant le tableau des cas",
+  "estimated_minutes": 18,
+  "prerequisites": [
+    "GRM-05",
+    "GRM-06"
+  ],
+  "lesson_mode": "guided_course_session",
+  "content_blocks": [
+    {
+      "id": "GRM-09-intro",
+      "type": "markdown",
+      "title": "Pourquoi ce chapitre ?",
+      "body": [
+        "Le PDF et l’ancien repo contiennent рядом с гостиницей, с сахаром, без сахара, с Алексеем. Ces groupes sont assez fréquents pour être appris comme patrons avant une étude systématique de l’instrumental et du génitif."
+      ],
+      "provenance": "editorial-expansion"
+    },
+    {
+      "id": "GRM-09-sec-01",
+      "type": "markdown",
+      "title": "С = avec",
+      "body": [
+        "Au sens de « avec », с entraîne une forme telle que с Алексеем, с сахаром, с говядиной. Il s’agit d’un premier contact avec l’instrumental."
+      ],
+      "examples": [
+        {
+          "ru": "с Алексеем",
+          "fr": "avec Alexeï"
+        },
+        {
+          "ru": "с сахаром",
+          "fr": "avec du sucre"
+        }
+      ],
+      "provenance": "editorial-expansion"
+    },
+    {
+      "id": "GRM-09-sec-02",
+      "type": "markdown",
+      "title": "Без = sans",
+      "body": [
+        "Без est suivi d’une forme de génitif : без сахара, без газа. Le contraste с сахаром / без сахара est particulièrement utile au café ou au restaurant."
+      ],
+      "examples": [
+        {
+          "ru": "без сахара",
+          "fr": "sans sucre"
+        },
+        {
+          "ru": "вода без газа",
+          "fr": "eau plate / sans gaz"
+        }
+      ],
+      "provenance": "editorial-expansion"
+    },
+    {
+      "id": "GRM-09-sec-03",
+      "type": "markdown",
+      "title": "Рядом с = près de",
+      "body": [
+        "Рядом с fonctionne comme un groupe : рядом с гостиницей. Apprends-le entier et remarque que la forme après с change."
+      ],
+      "examples": [
+        {
+          "ru": "рядом с гостиницей",
+          "fr": "près de l’hôtel"
+        }
+      ],
+      "provenance": "editorial-expansion"
+    },
+    {
+      "id": "GRM-09-sec-04",
+      "type": "markdown",
+      "title": "Un même mot change selon la construction",
+      "body": [
+        "Сахар → с сахаром → без сахара illustre pourquoi il faut relier les formes à un lemme plutôt que mémoriser chaque surface comme un nouveau mot."
+      ],
+      "examples": [
+        {
+          "ru": "сахар",
+          "fr": "sucre"
+        },
+        {
+          "ru": "с сахаром",
+          "fr": "avec du sucre"
+        },
+        {
+          "ru": "без сахара",
+          "fr": "sans sucre"
+        }
+      ],
+      "provenance": "editorial-expansion"
+    },
+    {
+      "id": "GRM-09-sec-05",
+      "type": "markdown",
+      "title": "Objectif limité du chapitre",
+      "body": [
+        "Tu n’as pas besoin de produire librement tous les noms à l’instrumental. La maîtrise visée est : reconnaître le patron, produire quelques groupes fréquents et identifier la forme de base."
+      ],
+      "examples": [],
+      "provenance": "editorial-expansion"
+    },
+    {
+      "id": "GRM-09-mistakes",
+      "type": "contrast",
+      "title": "Erreurs à surveiller",
+      "items": [
+        {
+          "wrong_or_risk": "с сахар",
+          "correction_or_strategy": "Avec : с сахаром."
+        },
+        {
+          "wrong_or_risk": "без сахар",
+          "correction_or_strategy": "Sans : без сахара."
+        },
+        {
+          "wrong_or_risk": "рядом гостиница",
+          "correction_or_strategy": "Le groupe fréquent est рядом с + forme appropriée."
+        }
+      ],
+      "provenance": "editorial-expansion"
+    },
+    {
+      "id": "GRM-09-memory",
+      "type": "memory",
+      "title": "À retenir",
+      "items": [
+        "с + instrumental fréquent = avec.",
+        "без + génitif = sans.",
+        "Apprends рядом с comme bloc."
+      ],
+      "provenance": "editorial-expansion"
+    },
+    {
+      "id": "GRM-09-pron",
+      "type": "pronunciation",
+      "title": "Prononciation à travailler",
+      "targets": [
+        "с сахаром",
+        "без сахара",
+        "рядом с гостиницей",
+        "с Алексеем",
+        "вода без газа"
+      ],
+      "provenance": "mixed-source-and-editorial"
+    },
+    {
+      "id": "GRM-09-checkpoint",
+      "type": "checkpoint",
+      "title": "Avant de considérer le chapitre compris",
+      "checks": [
+        "Expliquer l’idée principale avec tes propres mots en français.",
+        "Réussir plusieurs exercices de formats différents sans indice.",
+        "Produire au moins une réponse russe complète liée au concept.",
+        "Revoir au moins une partie du concept après un délai, pas uniquement dans la même session."
+      ],
+      "provenance": "editorial-expansion"
+    }
+  ],
+  "source_policy": {
+    "source_derived_content": "Examples and story contexts trace back to the supplied PDF and/or russian-morning-app when source_refs are present.",
+    "editorial_expansion": "Grammar explanations, learning strategy, mastery rules and newly generated examples are model-authored pedagogical expansion."
+  },
+  "skill_weights": {
+    "recognition": 0.2,
+    "comprehension": 0.2,
+    "recall": 0.2,
+    "production": 0.3,
+    "pronunciation": 0.1
+  },
+  "mastery_contract": {
+    "minimum_distinct_activities": 8,
+    "minimum_distinct_prompts": 6,
+    "minimum_overall_score": 0.7,
+    "minimum_production_score": 0.6,
+    "minimum_comprehension_score": 0.65,
+    "critical_error_rate_max": 0.4,
+    "delayed_review_required_for_mastered": true,
+    "delayed_review_min_hours": 48,
+    "next_chapter_soft_unlock_score": 0.7,
+    "soft_unlock_before_mastered": true
+  },
+  "session_recommendation": {
+    "course_session_blocks_min": 4,
+    "course_session_micro_checks_min": 3,
+    "exercise_session_items": 15,
+    "max_choice_ratio": 0.3,
+    "min_production_ratio": 0.3,
+    "pronunciation_ratio_target": 0.1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "from_content_version": "0.3.0",
+  "to_content_version": "0.3.1",
+  "type": "policy_rebalance",
+  "requires_app_update": false,
+  "recompute_recommended": [
+    "course unlock eligibility",
+    "concept mastery states from current evidence",
+    "review priority from recent errors"
+  ],
+  "do_not_delete": [
+    "attempt history",
+    "error history",
+    "session history"
+  ],
+  "note": "Existing persisted reviewStage/nextReviewAt values may need recomputation by the app if they were produced by older buggy logic; content sync alone cannot rewrite Firebase/local learner state."
+}

@@ -1,0 +1,5681 @@
+{
+  "exercise_set": "33-pronunciation",
+  "items": [
+    {
+      "id": "V3-PRON-0001",
+      "lesson_id": "FND-01",
+      "type": "pronunciation_repeat_word",
+      "activity_type": "pronunciation_repeat_word",
+      "renderer_id": "pronunciation_repeat_word",
+      "difficulty": 1,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "Я",
+      "pronunciation_target_id": "PRN-0001",
+      "concepts": [
+        "personal-pronouns",
+        "simple-svo",
+        "subject-identification"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.9,
+        "listening": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0002",
+      "lesson_id": "FND-01",
+      "type": "pronunciation_repeat_word",
+      "activity_type": "pronunciation_repeat_word",
+      "renderer_id": "pronunciation_repeat_word",
+      "difficulty": 1,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "ты",
+      "pronunciation_target_id": "PRN-0002",
+      "concepts": [
+        "personal-pronouns",
+        "simple-svo",
+        "subject-identification"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.9,
+        "listening": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0003",
+      "lesson_id": "FND-01",
+      "type": "pronunciation_repeat_word",
+      "activity_type": "pronunciation_repeat_word",
+      "renderer_id": "pronunciation_repeat_word",
+      "difficulty": 1,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "он",
+      "pronunciation_target_id": "PRN-0003",
+      "concepts": [
+        "personal-pronouns",
+        "simple-svo",
+        "subject-identification"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.9,
+        "listening": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0004",
+      "lesson_id": "FND-01",
+      "type": "pronunciation_repeat_word",
+      "activity_type": "pronunciation_repeat_word",
+      "renderer_id": "pronunciation_repeat_word",
+      "difficulty": 1,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "она",
+      "pronunciation_target_id": "PRN-0004",
+      "concepts": [
+        "personal-pronouns",
+        "simple-svo",
+        "subject-identification"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.9,
+        "listening": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0005",
+      "lesson_id": "FND-01",
+      "type": "pronunciation_repeat_word",
+      "activity_type": "pronunciation_repeat_word",
+      "renderer_id": "pronunciation_repeat_word",
+      "difficulty": 1,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "мы",
+      "pronunciation_target_id": "PRN-0005",
+      "concepts": [
+        "personal-pronouns",
+        "simple-svo",
+        "subject-identification"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.9,
+        "listening": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0006",
+      "lesson_id": "FND-01",
+      "type": "pronunciation_repeat_word",
+      "activity_type": "pronunciation_repeat_word",
+      "renderer_id": "pronunciation_repeat_word",
+      "difficulty": 1,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "вы",
+      "pronunciation_target_id": "PRN-0006",
+      "concepts": [
+        "personal-pronouns",
+        "simple-svo",
+        "subject-identification"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.9,
+        "listening": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0007",
+      "lesson_id": "FND-01",
+      "type": "pronunciation_repeat_word",
+      "activity_type": "pronunciation_repeat_word",
+      "renderer_id": "pronunciation_repeat_word",
+      "difficulty": 1,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "они",
+      "pronunciation_target_id": "PRN-0007",
+      "concepts": [
+        "personal-pronouns",
+        "simple-svo",
+        "subject-identification"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.9,
+        "listening": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0008",
+      "lesson_id": "FND-01",
+      "type": "pronunciation_repeat_sentence",
+      "activity_type": "pronunciation_repeat_sentence",
+      "renderer_id": "pronunciation_repeat_sentence",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "Я работаю.",
+      "pronunciation_target_id": "PRN-0008",
+      "concepts": [
+        "personal-pronouns",
+        "simple-svo",
+        "subject-identification"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.8,
+        "listening": 0.1,
+        "production": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0009",
+      "lesson_id": "FND-01",
+      "type": "pronunciation_repeat_sentence",
+      "activity_type": "pronunciation_repeat_sentence",
+      "renderer_id": "pronunciation_repeat_sentence",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "Она говорит.",
+      "pronunciation_target_id": "PRN-0009",
+      "concepts": [
+        "personal-pronouns",
+        "simple-svo",
+        "subject-identification"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.8,
+        "listening": 0.1,
+        "production": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0010",
+      "lesson_id": "FND-01",
+      "type": "pronunciation_repeat_sentence",
+      "activity_type": "pronunciation_repeat_sentence",
+      "renderer_id": "pronunciation_repeat_sentence",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "Они знают.",
+      "pronunciation_target_id": "PRN-0010",
+      "concepts": [
+        "personal-pronouns",
+        "simple-svo",
+        "subject-identification"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.8,
+        "listening": 0.1,
+        "production": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0011",
+      "lesson_id": "FND-01",
+      "type": "pronunciation_repeat_sentence",
+      "activity_type": "pronunciation_repeat_sentence",
+      "renderer_id": "pronunciation_repeat_sentence",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "Тони понимает слово.",
+      "pronunciation_target_id": "PRN-0011",
+      "concepts": [
+        "personal-pronouns",
+        "simple-svo",
+        "subject-identification"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.8,
+        "listening": 0.1,
+        "production": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0012",
+      "lesson_id": "FND-01",
+      "type": "pronunciation_repeat_sentence",
+      "activity_type": "pronunciation_repeat_sentence",
+      "renderer_id": "pronunciation_repeat_sentence",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "Я читаю.",
+      "pronunciation_target_id": "PRN-0012",
+      "concepts": [
+        "personal-pronouns",
+        "simple-svo",
+        "subject-identification"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.8,
+        "listening": 0.1,
+        "production": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0013",
+      "lesson_id": "FND-01",
+      "type": "pronunciation_repeat_sentence",
+      "activity_type": "pronunciation_repeat_sentence",
+      "renderer_id": "pronunciation_repeat_sentence",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "Она читает.",
+      "pronunciation_target_id": "PRN-0013",
+      "concepts": [
+        "personal-pronouns",
+        "simple-svo",
+        "subject-identification"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.8,
+        "listening": 0.1,
+        "production": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0014",
+      "lesson_id": "FND-01",
+      "type": "pronunciation_repeat_sentence",
+      "activity_type": "pronunciation_repeat_sentence",
+      "renderer_id": "pronunciation_repeat_sentence",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "Она говорит быстро.",
+      "pronunciation_target_id": "PRN-0014",
+      "concepts": [
+        "personal-pronouns",
+        "simple-svo",
+        "subject-identification"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.8,
+        "listening": 0.1,
+        "production": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0015",
+      "lesson_id": "FND-01",
+      "type": "pronunciation_repeat_sentence",
+      "activity_type": "pronunciation_repeat_sentence",
+      "renderer_id": "pronunciation_repeat_sentence",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "Они читают книгу.",
+      "pronunciation_target_id": "PRN-0015",
+      "concepts": [
+        "personal-pronouns",
+        "simple-svo",
+        "subject-identification"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.8,
+        "listening": 0.1,
+        "production": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0016",
+      "lesson_id": "FND-02",
+      "type": "pronunciation_repeat_word",
+      "activity_type": "pronunciation_repeat_word",
+      "renderer_id": "pronunciation_repeat_word",
+      "difficulty": 1,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "говорю",
+      "pronunciation_target_id": "PRN-0016",
+      "concepts": [
+        "negation",
+        "говорить",
+        "понимать",
+        "знать",
+        "может-быть"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.9,
+        "listening": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0017",
+      "lesson_id": "FND-02",
+      "type": "pronunciation_repeat_word",
+      "activity_type": "pronunciation_repeat_word",
+      "renderer_id": "pronunciation_repeat_word",
+      "difficulty": 1,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "понимаю",
+      "pronunciation_target_id": "PRN-0017",
+      "concepts": [
+        "negation",
+        "говорить",
+        "понимать",
+        "знать",
+        "может-быть"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.9,
+        "listening": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0018",
+      "lesson_id": "FND-02",
+      "type": "pronunciation_repeat_word",
+      "activity_type": "pronunciation_repeat_word",
+      "renderer_id": "pronunciation_repeat_word",
+      "difficulty": 1,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "знаю",
+      "pronunciation_target_id": "PRN-0018",
+      "concepts": [
+        "negation",
+        "говорить",
+        "понимать",
+        "знать",
+        "может-быть"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.9,
+        "listening": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0019",
+      "lesson_id": "FND-02",
+      "type": "pronunciation_repeat_word",
+      "activity_type": "pronunciation_repeat_word",
+      "renderer_id": "pronunciation_repeat_word",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "не понимаю",
+      "pronunciation_target_id": "PRN-0019",
+      "concepts": [
+        "negation",
+        "говорить",
+        "понимать",
+        "знать",
+        "может-быть"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.9,
+        "listening": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0020",
+      "lesson_id": "FND-02",
+      "type": "pronunciation_repeat_word",
+      "activity_type": "pronunciation_repeat_word",
+      "renderer_id": "pronunciation_repeat_word",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "не знаю",
+      "pronunciation_target_id": "PRN-0020",
+      "concepts": [
+        "negation",
+        "говорить",
+        "понимать",
+        "знать",
+        "может-быть"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.9,
+        "listening": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0021",
+      "lesson_id": "FND-02",
+      "type": "pronunciation_repeat_word",
+      "activity_type": "pronunciation_repeat_word",
+      "renderer_id": "pronunciation_repeat_word",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "может быть",
+      "pronunciation_target_id": "PRN-0021",
+      "concepts": [
+        "negation",
+        "говорить",
+        "понимать",
+        "знать",
+        "может-быть"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.9,
+        "listening": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0022",
+      "lesson_id": "FND-02",
+      "type": "pronunciation_repeat_sentence",
+      "activity_type": "pronunciation_repeat_sentence",
+      "renderer_id": "pronunciation_repeat_sentence",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "Я не знаю.",
+      "pronunciation_target_id": "PRN-0022",
+      "concepts": [
+        "negation",
+        "говорить",
+        "понимать",
+        "знать",
+        "может-быть"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.8,
+        "listening": 0.1,
+        "production": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0023",
+      "lesson_id": "FND-02",
+      "type": "pronunciation_repeat_sentence",
+      "activity_type": "pronunciation_repeat_sentence",
+      "renderer_id": "pronunciation_repeat_sentence",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "Я не понимаю.",
+      "pronunciation_target_id": "PRN-0023",
+      "concepts": [
+        "negation",
+        "говорить",
+        "понимать",
+        "знать",
+        "может-быть"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.8,
+        "listening": 0.1,
+        "production": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0024",
+      "lesson_id": "FND-02",
+      "type": "pronunciation_repeat_sentence",
+      "activity_type": "pronunciation_repeat_sentence",
+      "renderer_id": "pronunciation_repeat_sentence",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "Я немного говорю по-русски.",
+      "pronunciation_target_id": "PRN-0024",
+      "concepts": [
+        "negation",
+        "говорить",
+        "понимать",
+        "знать",
+        "может-быть"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.8,
+        "listening": 0.1,
+        "production": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0025",
+      "lesson_id": "FND-02",
+      "type": "pronunciation_repeat_sentence",
+      "activity_type": "pronunciation_repeat_sentence",
+      "renderer_id": "pronunciation_repeat_sentence",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "Я понимаю.",
+      "pronunciation_target_id": "PRN-0025",
+      "concepts": [
+        "negation",
+        "говорить",
+        "понимать",
+        "знать",
+        "может-быть"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.8,
+        "listening": 0.1,
+        "production": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0026",
+      "lesson_id": "FND-02",
+      "type": "pronunciation_repeat_sentence",
+      "activity_type": "pronunciation_repeat_sentence",
+      "renderer_id": "pronunciation_repeat_sentence",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "Я знаю.",
+      "pronunciation_target_id": "PRN-0026",
+      "concepts": [
+        "negation",
+        "говорить",
+        "понимать",
+        "знать",
+        "может-быть"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.8,
+        "listening": 0.1,
+        "production": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0027",
+      "lesson_id": "FND-02",
+      "type": "pronunciation_repeat_sentence",
+      "activity_type": "pronunciation_repeat_sentence",
+      "renderer_id": "pronunciation_repeat_sentence",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "Не знаю.",
+      "pronunciation_target_id": "PRN-0027",
+      "concepts": [
+        "negation",
+        "говорить",
+        "понимать",
+        "знать",
+        "может-быть"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.8,
+        "listening": 0.1,
+        "production": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0028",
+      "lesson_id": "FND-02",
+      "type": "pronunciation_repeat_sentence",
+      "activity_type": "pronunciation_repeat_sentence",
+      "renderer_id": "pronunciation_repeat_sentence",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "Может быть, не знаю.",
+      "pronunciation_target_id": "PRN-0028",
+      "concepts": [
+        "negation",
+        "говорить",
+        "понимать",
+        "знать",
+        "может-быть"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.8,
+        "listening": 0.1,
+        "production": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0029",
+      "lesson_id": "FND-02",
+      "type": "pronunciation_repeat_sentence",
+      "activity_type": "pronunciation_repeat_sentence",
+      "renderer_id": "pronunciation_repeat_sentence",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "Не понимаю.",
+      "pronunciation_target_id": "PRN-0029",
+      "concepts": [
+        "negation",
+        "говорить",
+        "понимать",
+        "знать",
+        "может-быть"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.8,
+        "listening": 0.1,
+        "production": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0030",
+      "lesson_id": "FND-03",
+      "type": "pronunciation_repeat_word",
+      "activity_type": "pronunciation_repeat_word",
+      "renderer_id": "pronunciation_repeat_word",
+      "difficulty": 1,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "что",
+      "pronunciation_target_id": "PRN-0030",
+      "concepts": [
+        "что-clause",
+        "subordination",
+        "clause-boundary"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.9,
+        "listening": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0031",
+      "lesson_id": "FND-03",
+      "type": "pronunciation_repeat_word",
+      "activity_type": "pronunciation_repeat_word",
+      "renderer_id": "pronunciation_repeat_word",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "говорит, что",
+      "pronunciation_target_id": "PRN-0031",
+      "concepts": [
+        "что-clause",
+        "subordination",
+        "clause-boundary"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.9,
+        "listening": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0032",
+      "lesson_id": "FND-03",
+      "type": "pronunciation_repeat_word",
+      "activity_type": "pronunciation_repeat_word",
+      "renderer_id": "pronunciation_repeat_word",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "знаю, что",
+      "pronunciation_target_id": "PRN-0032",
+      "concepts": [
+        "что-clause",
+        "subordination",
+        "clause-boundary"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.9,
+        "listening": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0033",
+      "lesson_id": "FND-03",
+      "type": "pronunciation_repeat_word",
+      "activity_type": "pronunciation_repeat_word",
+      "renderer_id": "pronunciation_repeat_word",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "понимает, что",
+      "pronunciation_target_id": "PRN-0033",
+      "concepts": [
+        "что-clause",
+        "subordination",
+        "clause-boundary"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.9,
+        "listening": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0034",
+      "lesson_id": "FND-03",
+      "type": "pronunciation_repeat_sentence",
+      "activity_type": "pronunciation_repeat_sentence",
+      "renderer_id": "pronunciation_repeat_sentence",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "Что это?",
+      "pronunciation_target_id": "PRN-0034",
+      "concepts": [
+        "что-clause",
+        "subordination",
+        "clause-boundary"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.8,
+        "listening": 0.1,
+        "production": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0035",
+      "lesson_id": "FND-03",
+      "type": "pronunciation_repeat_sentence",
+      "activity_type": "pronunciation_repeat_sentence",
+      "renderer_id": "pronunciation_repeat_sentence",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "Она говорит, что работает.",
+      "pronunciation_target_id": "PRN-0035",
+      "concepts": [
+        "что-clause",
+        "subordination",
+        "clause-boundary"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.8,
+        "listening": 0.1,
+        "production": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0036",
+      "lesson_id": "FND-03",
+      "type": "pronunciation_repeat_sentence",
+      "activity_type": "pronunciation_repeat_sentence",
+      "renderer_id": "pronunciation_repeat_sentence",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "Я знаю, что он дома.",
+      "pronunciation_target_id": "PRN-0036",
+      "concepts": [
+        "что-clause",
+        "subordination",
+        "clause-boundary"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.8,
+        "listening": 0.1,
+        "production": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0037",
+      "lesson_id": "FND-03",
+      "type": "pronunciation_repeat_sentence",
+      "activity_type": "pronunciation_repeat_sentence",
+      "renderer_id": "pronunciation_repeat_sentence",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "Он понимает, что заблудился.",
+      "pronunciation_target_id": "PRN-0037",
+      "concepts": [
+        "что-clause",
+        "subordination",
+        "clause-boundary"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.8,
+        "listening": 0.1,
+        "production": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0038",
+      "lesson_id": "FND-03",
+      "type": "pronunciation_repeat_sentence",
+      "activity_type": "pronunciation_repeat_sentence",
+      "renderer_id": "pronunciation_repeat_sentence",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "Она говорит, что он работает.",
+      "pronunciation_target_id": "PRN-0038",
+      "concepts": [
+        "что-clause",
+        "subordination",
+        "clause-boundary"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.8,
+        "listening": 0.1,
+        "production": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0039",
+      "lesson_id": "FND-03",
+      "type": "pronunciation_repeat_sentence",
+      "activity_type": "pronunciation_repeat_sentence",
+      "renderer_id": "pronunciation_repeat_sentence",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "Через десять минут он понимает, что заблудился.",
+      "pronunciation_target_id": "PRN-0039",
+      "concepts": [
+        "что-clause",
+        "subordination",
+        "clause-boundary"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.8,
+        "listening": 0.1,
+        "production": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0040",
+      "lesson_id": "FND-04",
+      "type": "pronunciation_repeat_word",
+      "activity_type": "pronunciation_repeat_word",
+      "renderer_id": "pronunciation_repeat_word",
+      "difficulty": 1,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "хочу",
+      "pronunciation_target_id": "PRN-0040",
+      "concepts": [
+        "хотеть",
+        "direction",
+        "в-plus-destination",
+        "куда"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.9,
+        "listening": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0041",
+      "lesson_id": "FND-04",
+      "type": "pronunciation_repeat_word",
+      "activity_type": "pronunciation_repeat_word",
+      "renderer_id": "pronunciation_repeat_word",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "в лес",
+      "pronunciation_target_id": "PRN-0041",
+      "concepts": [
+        "хотеть",
+        "direction",
+        "в-plus-destination",
+        "куда"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.9,
+        "listening": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0042",
+      "lesson_id": "FND-04",
+      "type": "pronunciation_repeat_word",
+      "activity_type": "pronunciation_repeat_word",
+      "renderer_id": "pronunciation_repeat_word",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "в город",
+      "pronunciation_target_id": "PRN-0042",
+      "concepts": [
+        "хотеть",
+        "direction",
+        "в-plus-destination",
+        "куда"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.9,
+        "listening": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0043",
+      "lesson_id": "FND-04",
+      "type": "pronunciation_repeat_word",
+      "activity_type": "pronunciation_repeat_word",
+      "renderer_id": "pronunciation_repeat_word",
+      "difficulty": 1,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "домой",
+      "pronunciation_target_id": "PRN-0043",
+      "concepts": [
+        "хотеть",
+        "direction",
+        "в-plus-destination",
+        "куда"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.9,
+        "listening": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0044",
+      "lesson_id": "FND-04",
+      "type": "pronunciation_repeat_sentence",
+      "activity_type": "pronunciation_repeat_sentence",
+      "renderer_id": "pronunciation_repeat_sentence",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "Я хочу в лес",
+      "pronunciation_target_id": "PRN-0044",
+      "concepts": [
+        "хотеть",
+        "direction",
+        "в-plus-destination",
+        "куда"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.8,
+        "listening": 0.1,
+        "production": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0045",
+      "lesson_id": "FND-04",
+      "type": "pronunciation_repeat_sentence",
+      "activity_type": "pronunciation_repeat_sentence",
+      "renderer_id": "pronunciation_repeat_sentence",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "Я хочу чай.",
+      "pronunciation_target_id": "PRN-0045",
+      "concepts": [
+        "хотеть",
+        "direction",
+        "в-plus-destination",
+        "куда"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.8,
+        "listening": 0.1,
+        "production": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0046",
+      "lesson_id": "FND-04",
+      "type": "pronunciation_repeat_sentence",
+      "activity_type": "pronunciation_repeat_sentence",
+      "renderer_id": "pronunciation_repeat_sentence",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "Я хочу в лес.",
+      "pronunciation_target_id": "PRN-0046",
+      "concepts": [
+        "хотеть",
+        "direction",
+        "в-plus-destination",
+        "куда"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.8,
+        "listening": 0.1,
+        "production": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0047",
+      "lesson_id": "FND-04",
+      "type": "pronunciation_repeat_sentence",
+      "activity_type": "pronunciation_repeat_sentence",
+      "renderer_id": "pronunciation_repeat_sentence",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "Я хочу в город.",
+      "pronunciation_target_id": "PRN-0047",
+      "concepts": [
+        "хотеть",
+        "direction",
+        "в-plus-destination",
+        "куда"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.8,
+        "listening": 0.1,
+        "production": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0048",
+      "lesson_id": "FND-04",
+      "type": "pronunciation_repeat_sentence",
+      "activity_type": "pronunciation_repeat_sentence",
+      "renderer_id": "pronunciation_repeat_sentence",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "Мы хотим в парк.",
+      "pronunciation_target_id": "PRN-0048",
+      "concepts": [
+        "хотеть",
+        "direction",
+        "в-plus-destination",
+        "куда"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.8,
+        "listening": 0.1,
+        "production": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0049",
+      "lesson_id": "FND-04",
+      "type": "pronunciation_repeat_sentence",
+      "activity_type": "pronunciation_repeat_sentence",
+      "renderer_id": "pronunciation_repeat_sentence",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "Она хочет домой.",
+      "pronunciation_target_id": "PRN-0049",
+      "concepts": [
+        "хотеть",
+        "direction",
+        "в-plus-destination",
+        "куда"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.8,
+        "listening": 0.1,
+        "production": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0050",
+      "lesson_id": "FND-04",
+      "type": "pronunciation_repeat_sentence",
+      "activity_type": "pronunciation_repeat_sentence",
+      "renderer_id": "pronunciation_repeat_sentence",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "Она дома.",
+      "pronunciation_target_id": "PRN-0050",
+      "concepts": [
+        "хотеть",
+        "direction",
+        "в-plus-destination",
+        "куда"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.8,
+        "listening": 0.1,
+        "production": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0051",
+      "lesson_id": "FND-04",
+      "type": "pronunciation_repeat_sentence",
+      "activity_type": "pronunciation_repeat_sentence",
+      "renderer_id": "pronunciation_repeat_sentence",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "Я иду в кафе.",
+      "pronunciation_target_id": "PRN-0051",
+      "concepts": [
+        "хотеть",
+        "direction",
+        "в-plus-destination",
+        "куда"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.8,
+        "listening": 0.1,
+        "production": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0052",
+      "lesson_id": "FND-04",
+      "type": "pronunciation_repeat_sentence",
+      "activity_type": "pronunciation_repeat_sentence",
+      "renderer_id": "pronunciation_repeat_sentence",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "Я еду во Францию.",
+      "pronunciation_target_id": "PRN-0052",
+      "concepts": [
+        "хотеть",
+        "direction",
+        "в-plus-destination",
+        "куда"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.8,
+        "listening": 0.1,
+        "production": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0053",
+      "lesson_id": "FND-05",
+      "type": "pronunciation_repeat_word",
+      "activity_type": "pronunciation_repeat_word",
+      "renderer_id": "pronunciation_repeat_word",
+      "difficulty": 1,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "Здравствуйте",
+      "pronunciation_target_id": "PRN-0053",
+      "concepts": [
+        "politeness",
+        "survival-russian",
+        "можно",
+        "пожалуйста",
+        "извините"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.9,
+        "listening": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0054",
+      "lesson_id": "FND-05",
+      "type": "pronunciation_repeat_word",
+      "activity_type": "pronunciation_repeat_word",
+      "renderer_id": "pronunciation_repeat_word",
+      "difficulty": 1,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "Извините",
+      "pronunciation_target_id": "PRN-0054",
+      "concepts": [
+        "politeness",
+        "survival-russian",
+        "можно",
+        "пожалуйста",
+        "извините"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.9,
+        "listening": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0055",
+      "lesson_id": "FND-05",
+      "type": "pronunciation_repeat_word",
+      "activity_type": "pronunciation_repeat_word",
+      "renderer_id": "pronunciation_repeat_word",
+      "difficulty": 1,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "пожалуйста",
+      "pronunciation_target_id": "PRN-0055",
+      "concepts": [
+        "politeness",
+        "survival-russian",
+        "можно",
+        "пожалуйста",
+        "извините"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.9,
+        "listening": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0056",
+      "lesson_id": "FND-05",
+      "type": "pronunciation_repeat_sentence",
+      "activity_type": "pronunciation_repeat_sentence",
+      "renderer_id": "pronunciation_repeat_sentence",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "Говорите медленнее, пожалуйста",
+      "pronunciation_target_id": "PRN-0056",
+      "concepts": [
+        "politeness",
+        "survival-russian",
+        "можно",
+        "пожалуйста",
+        "извините"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.8,
+        "listening": 0.1,
+        "production": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0057",
+      "lesson_id": "FND-05",
+      "type": "pronunciation_repeat_sentence",
+      "activity_type": "pronunciation_repeat_sentence",
+      "renderer_id": "pronunciation_repeat_sentence",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "Можно ещё раз?",
+      "pronunciation_target_id": "PRN-0057",
+      "concepts": [
+        "politeness",
+        "survival-russian",
+        "можно",
+        "пожалуйста",
+        "извините"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.8,
+        "listening": 0.1,
+        "production": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0058",
+      "lesson_id": "FND-05",
+      "type": "pronunciation_repeat_sentence",
+      "activity_type": "pronunciation_repeat_sentence",
+      "renderer_id": "pronunciation_repeat_sentence",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "Что это значит?",
+      "pronunciation_target_id": "PRN-0058",
+      "concepts": [
+        "politeness",
+        "survival-russian",
+        "можно",
+        "пожалуйста",
+        "извините"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.8,
+        "listening": 0.1,
+        "production": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0059",
+      "lesson_id": "FND-05",
+      "type": "pronunciation_repeat_sentence",
+      "activity_type": "pronunciation_repeat_sentence",
+      "renderer_id": "pronunciation_repeat_sentence",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "Извините, я не понимаю.",
+      "pronunciation_target_id": "PRN-0059",
+      "concepts": [
+        "politeness",
+        "survival-russian",
+        "можно",
+        "пожалуйста",
+        "извините"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.8,
+        "listening": 0.1,
+        "production": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0060",
+      "lesson_id": "FND-05",
+      "type": "pronunciation_repeat_sentence",
+      "activity_type": "pronunciation_repeat_sentence",
+      "renderer_id": "pronunciation_repeat_sentence",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "Говорите медленнее, пожалуйста.",
+      "pronunciation_target_id": "PRN-0060",
+      "concepts": [
+        "politeness",
+        "survival-russian",
+        "можно",
+        "пожалуйста",
+        "извините"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.8,
+        "listening": 0.1,
+        "production": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0061",
+      "lesson_id": "FND-05",
+      "type": "pronunciation_repeat_sentence",
+      "activity_type": "pronunciation_repeat_sentence",
+      "renderer_id": "pronunciation_repeat_sentence",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "Чай, пожалуйста.",
+      "pronunciation_target_id": "PRN-0061",
+      "concepts": [
+        "politeness",
+        "survival-russian",
+        "можно",
+        "пожалуйста",
+        "извините"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.8,
+        "listening": 0.1,
+        "production": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0062",
+      "lesson_id": "FND-05",
+      "type": "pronunciation_repeat_sentence",
+      "activity_type": "pronunciation_repeat_sentence",
+      "renderer_id": "pronunciation_repeat_sentence",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "Я хотел бы чай.",
+      "pronunciation_target_id": "PRN-0062",
+      "concepts": [
+        "politeness",
+        "survival-russian",
+        "можно",
+        "пожалуйста",
+        "извините"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.8,
+        "listening": 0.1,
+        "production": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0063",
+      "lesson_id": "FND-06",
+      "type": "pronunciation_repeat_word",
+      "activity_type": "pronunciation_repeat_word",
+      "renderer_id": "pronunciation_repeat_word",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "Меня зовут",
+      "pronunciation_target_id": "PRN-0063",
+      "concepts": [
+        "меня-зовут",
+        "мне-тоже",
+        "possession",
+        "family"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.9,
+        "listening": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0064",
+      "lesson_id": "FND-06",
+      "type": "pronunciation_repeat_word",
+      "activity_type": "pronunciation_repeat_word",
+      "renderer_id": "pronunciation_repeat_word",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "Очень приятно",
+      "pronunciation_target_id": "PRN-0064",
+      "concepts": [
+        "меня-зовут",
+        "мне-тоже",
+        "possession",
+        "family"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.9,
+        "listening": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0065",
+      "lesson_id": "FND-06",
+      "type": "pronunciation_repeat_word",
+      "activity_type": "pronunciation_repeat_word",
+      "renderer_id": "pronunciation_repeat_word",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "Мне тоже",
+      "pronunciation_target_id": "PRN-0065",
+      "concepts": [
+        "меня-зовут",
+        "мне-тоже",
+        "possession",
+        "family"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.9,
+        "listening": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0066",
+      "lesson_id": "FND-06",
+      "type": "pronunciation_repeat_sentence",
+      "activity_type": "pronunciation_repeat_sentence",
+      "renderer_id": "pronunciation_repeat_sentence",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "У меня есть",
+      "pronunciation_target_id": "PRN-0066",
+      "concepts": [
+        "меня-зовут",
+        "мне-тоже",
+        "possession",
+        "family"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.8,
+        "listening": 0.1,
+        "production": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0067",
+      "lesson_id": "FND-06",
+      "type": "pronunciation_repeat_word",
+      "activity_type": "pronunciation_repeat_word",
+      "renderer_id": "pronunciation_repeat_word",
+      "difficulty": 1,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "семья",
+      "pronunciation_target_id": "PRN-0067",
+      "concepts": [
+        "меня-зовут",
+        "мне-тоже",
+        "possession",
+        "family"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.9,
+        "listening": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0068",
+      "lesson_id": "FND-06",
+      "type": "pronunciation_repeat_word",
+      "activity_type": "pronunciation_repeat_word",
+      "renderer_id": "pronunciation_repeat_word",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "младшая сестра",
+      "pronunciation_target_id": "PRN-0068",
+      "concepts": [
+        "меня-зовут",
+        "мне-тоже",
+        "possession",
+        "family"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.9,
+        "listening": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0069",
+      "lesson_id": "FND-06",
+      "type": "pronunciation_repeat_word",
+      "activity_type": "pronunciation_repeat_word",
+      "renderer_id": "pronunciation_repeat_word",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "старший брат",
+      "pronunciation_target_id": "PRN-0069",
+      "concepts": [
+        "меня-зовут",
+        "мне-тоже",
+        "possession",
+        "family"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.9,
+        "listening": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0070",
+      "lesson_id": "FND-06",
+      "type": "pronunciation_repeat_sentence",
+      "activity_type": "pronunciation_repeat_sentence",
+      "renderer_id": "pronunciation_repeat_sentence",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "Меня зовут Тони.",
+      "pronunciation_target_id": "PRN-0070",
+      "concepts": [
+        "меня-зовут",
+        "мне-тоже",
+        "possession",
+        "family"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.8,
+        "listening": 0.1,
+        "production": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0071",
+      "lesson_id": "FND-06",
+      "type": "pronunciation_repeat_sentence",
+      "activity_type": "pronunciation_repeat_sentence",
+      "renderer_id": "pronunciation_repeat_sentence",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "Очень приятно.",
+      "pronunciation_target_id": "PRN-0071",
+      "concepts": [
+        "меня-зовут",
+        "мне-тоже",
+        "possession",
+        "family"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.8,
+        "listening": 0.1,
+        "production": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0072",
+      "lesson_id": "FND-06",
+      "type": "pronunciation_repeat_sentence",
+      "activity_type": "pronunciation_repeat_sentence",
+      "renderer_id": "pronunciation_repeat_sentence",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "Мне тоже.",
+      "pronunciation_target_id": "PRN-0072",
+      "concepts": [
+        "меня-зовут",
+        "мне-тоже",
+        "possession",
+        "family"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.8,
+        "listening": 0.1,
+        "production": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0073",
+      "lesson_id": "FND-06",
+      "type": "pronunciation_repeat_sentence",
+      "activity_type": "pronunciation_repeat_sentence",
+      "renderer_id": "pronunciation_repeat_sentence",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "У меня есть брат.",
+      "pronunciation_target_id": "PRN-0073",
+      "concepts": [
+        "меня-зовут",
+        "мне-тоже",
+        "possession",
+        "family"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.8,
+        "listening": 0.1,
+        "production": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0074",
+      "lesson_id": "FND-06",
+      "type": "pronunciation_repeat_sentence",
+      "activity_type": "pronunciation_repeat_sentence",
+      "renderer_id": "pronunciation_repeat_sentence",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "У него есть дети?",
+      "pronunciation_target_id": "PRN-0074",
+      "concepts": [
+        "меня-зовут",
+        "мне-тоже",
+        "possession",
+        "family"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.8,
+        "listening": 0.1,
+        "production": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0075",
+      "lesson_id": "FND-06",
+      "type": "pronunciation_repeat_sentence",
+      "activity_type": "pronunciation_repeat_sentence",
+      "renderer_id": "pronunciation_repeat_sentence",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "Ему тридцать пять лет.",
+      "pronunciation_target_id": "PRN-0075",
+      "concepts": [
+        "меня-зовут",
+        "мне-тоже",
+        "possession",
+        "family"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.8,
+        "listening": 0.1,
+        "production": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0076",
+      "lesson_id": "GRM-01",
+      "type": "pronunciation_repeat_word",
+      "activity_type": "pronunciation_repeat_word",
+      "renderer_id": "pronunciation_repeat_word",
+      "difficulty": 1,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "мне",
+      "pronunciation_target_id": "PRN-0076",
+      "concepts": [
+        "dative",
+        "нравиться",
+        "мне-vs-я",
+        "experiencer-construction"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.9,
+        "listening": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0077",
+      "lesson_id": "GRM-01",
+      "type": "pronunciation_repeat_word",
+      "activity_type": "pronunciation_repeat_word",
+      "renderer_id": "pronunciation_repeat_word",
+      "difficulty": 1,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "нравится",
+      "pronunciation_target_id": "PRN-0077",
+      "concepts": [
+        "dative",
+        "нравиться",
+        "мне-vs-я",
+        "experiencer-construction"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.9,
+        "listening": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0078",
+      "lesson_id": "GRM-01",
+      "type": "pronunciation_repeat_word",
+      "activity_type": "pronunciation_repeat_word",
+      "renderer_id": "pronunciation_repeat_word",
+      "difficulty": 1,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "нравятся",
+      "pronunciation_target_id": "PRN-0078",
+      "concepts": [
+        "dative",
+        "нравиться",
+        "мне-vs-я",
+        "experiencer-construction"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.9,
+        "listening": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0079",
+      "lesson_id": "GRM-01",
+      "type": "pronunciation_repeat_sentence",
+      "activity_type": "pronunciation_repeat_sentence",
+      "renderer_id": "pronunciation_repeat_sentence",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "Мне нравится кофе",
+      "pronunciation_target_id": "PRN-0079",
+      "concepts": [
+        "dative",
+        "нравиться",
+        "мне-vs-я",
+        "experiencer-construction"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.8,
+        "listening": 0.1,
+        "production": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0080",
+      "lesson_id": "GRM-01",
+      "type": "pronunciation_repeat_sentence",
+      "activity_type": "pronunciation_repeat_sentence",
+      "renderer_id": "pronunciation_repeat_sentence",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "Мне нравятся фотографии",
+      "pronunciation_target_id": "PRN-0080",
+      "concepts": [
+        "dative",
+        "нравиться",
+        "мне-vs-я",
+        "experiencer-construction"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.8,
+        "listening": 0.1,
+        "production": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0081",
+      "lesson_id": "GRM-01",
+      "type": "pronunciation_repeat_sentence",
+      "activity_type": "pronunciation_repeat_sentence",
+      "renderer_id": "pronunciation_repeat_sentence",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "Мне нравится кофе.",
+      "pronunciation_target_id": "PRN-0081",
+      "concepts": [
+        "dative",
+        "нравиться",
+        "мне-vs-я",
+        "experiencer-construction"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.8,
+        "listening": 0.1,
+        "production": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0082",
+      "lesson_id": "GRM-01",
+      "type": "pronunciation_repeat_sentence",
+      "activity_type": "pronunciation_repeat_sentence",
+      "renderer_id": "pronunciation_repeat_sentence",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "Мне нравится эта музыка.",
+      "pronunciation_target_id": "PRN-0082",
+      "concepts": [
+        "dative",
+        "нравиться",
+        "мне-vs-я",
+        "experiencer-construction"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.8,
+        "listening": 0.1,
+        "production": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0083",
+      "lesson_id": "GRM-01",
+      "type": "pronunciation_repeat_sentence",
+      "activity_type": "pronunciation_repeat_sentence",
+      "renderer_id": "pronunciation_repeat_sentence",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "Мне нравится фотография.",
+      "pronunciation_target_id": "PRN-0083",
+      "concepts": [
+        "dative",
+        "нравиться",
+        "мне-vs-я",
+        "experiencer-construction"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.8,
+        "listening": 0.1,
+        "production": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0084",
+      "lesson_id": "GRM-01",
+      "type": "pronunciation_repeat_sentence",
+      "activity_type": "pronunciation_repeat_sentence",
+      "renderer_id": "pronunciation_repeat_sentence",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "Мне нравятся фотографии.",
+      "pronunciation_target_id": "PRN-0084",
+      "concepts": [
+        "dative",
+        "нравиться",
+        "мне-vs-я",
+        "experiencer-construction"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.8,
+        "listening": 0.1,
+        "production": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0085",
+      "lesson_id": "GRM-01",
+      "type": "pronunciation_repeat_sentence",
+      "activity_type": "pronunciation_repeat_sentence",
+      "renderer_id": "pronunciation_repeat_sentence",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "Тебе нравится чай?",
+      "pronunciation_target_id": "PRN-0085",
+      "concepts": [
+        "dative",
+        "нравиться",
+        "мне-vs-я",
+        "experiencer-construction"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.8,
+        "listening": 0.1,
+        "production": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0086",
+      "lesson_id": "GRM-01",
+      "type": "pronunciation_repeat_sentence",
+      "activity_type": "pronunciation_repeat_sentence",
+      "renderer_id": "pronunciation_repeat_sentence",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "Ей нравится машина.",
+      "pronunciation_target_id": "PRN-0086",
+      "concepts": [
+        "dative",
+        "нравиться",
+        "мне-vs-я",
+        "experiencer-construction"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.8,
+        "listening": 0.1,
+        "production": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0087",
+      "lesson_id": "GRM-01",
+      "type": "pronunciation_repeat_sentence",
+      "activity_type": "pronunciation_repeat_sentence",
+      "renderer_id": "pronunciation_repeat_sentence",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "Мне не нравится кофе.",
+      "pronunciation_target_id": "PRN-0087",
+      "concepts": [
+        "dative",
+        "нравиться",
+        "мне-vs-я",
+        "experiencer-construction"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.8,
+        "listening": 0.1,
+        "production": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0088",
+      "lesson_id": "GRM-01",
+      "type": "pronunciation_repeat_sentence",
+      "activity_type": "pronunciation_repeat_sentence",
+      "renderer_id": "pronunciation_repeat_sentence",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "Борщ ему нравится.",
+      "pronunciation_target_id": "PRN-0088",
+      "concepts": [
+        "dative",
+        "нравиться",
+        "мне-vs-я",
+        "experiencer-construction"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.8,
+        "listening": 0.1,
+        "production": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0089",
+      "lesson_id": "GRM-02",
+      "type": "pronunciation_repeat_word",
+      "activity_type": "pronunciation_repeat_word",
+      "renderer_id": "pronunciation_repeat_word",
+      "difficulty": 1,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "читаю",
+      "pronunciation_target_id": "PRN-0089",
+      "concepts": [
+        "present-tense",
+        "verb-endings",
+        "first-conjugation",
+        "second-conjugation"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.9,
+        "listening": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0090",
+      "lesson_id": "GRM-02",
+      "type": "pronunciation_repeat_word",
+      "activity_type": "pronunciation_repeat_word",
+      "renderer_id": "pronunciation_repeat_word",
+      "difficulty": 1,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "читает",
+      "pronunciation_target_id": "PRN-0090",
+      "concepts": [
+        "present-tense",
+        "verb-endings",
+        "first-conjugation",
+        "second-conjugation"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.9,
+        "listening": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0091",
+      "lesson_id": "GRM-02",
+      "type": "pronunciation_repeat_word",
+      "activity_type": "pronunciation_repeat_word",
+      "renderer_id": "pronunciation_repeat_word",
+      "difficulty": 1,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "читаешь",
+      "pronunciation_target_id": "PRN-0091",
+      "concepts": [
+        "present-tense",
+        "verb-endings",
+        "first-conjugation",
+        "second-conjugation"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.9,
+        "listening": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0092",
+      "lesson_id": "GRM-02",
+      "type": "pronunciation_repeat_word",
+      "activity_type": "pronunciation_repeat_word",
+      "renderer_id": "pronunciation_repeat_word",
+      "difficulty": 1,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "говоришь",
+      "pronunciation_target_id": "PRN-0092",
+      "concepts": [
+        "present-tense",
+        "verb-endings",
+        "first-conjugation",
+        "second-conjugation"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.9,
+        "listening": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0093",
+      "lesson_id": "GRM-02",
+      "type": "pronunciation_repeat_word",
+      "activity_type": "pronunciation_repeat_word",
+      "renderer_id": "pronunciation_repeat_word",
+      "difficulty": 1,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "говорит",
+      "pronunciation_target_id": "PRN-0093",
+      "concepts": [
+        "present-tense",
+        "verb-endings",
+        "first-conjugation",
+        "second-conjugation"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.9,
+        "listening": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0094",
+      "lesson_id": "GRM-02",
+      "type": "pronunciation_repeat_word",
+      "activity_type": "pronunciation_repeat_word",
+      "renderer_id": "pronunciation_repeat_word",
+      "difficulty": 1,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "работаю",
+      "pronunciation_target_id": "PRN-0094",
+      "concepts": [
+        "present-tense",
+        "verb-endings",
+        "first-conjugation",
+        "second-conjugation"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.9,
+        "listening": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0095",
+      "lesson_id": "GRM-02",
+      "type": "pronunciation_repeat_word",
+      "activity_type": "pronunciation_repeat_word",
+      "renderer_id": "pronunciation_repeat_word",
+      "difficulty": 1,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "работает",
+      "pronunciation_target_id": "PRN-0095",
+      "concepts": [
+        "present-tense",
+        "verb-endings",
+        "first-conjugation",
+        "second-conjugation"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.9,
+        "listening": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0096",
+      "lesson_id": "GRM-02",
+      "type": "pronunciation_repeat_sentence",
+      "activity_type": "pronunciation_repeat_sentence",
+      "renderer_id": "pronunciation_repeat_sentence",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "Она работает.",
+      "pronunciation_target_id": "PRN-0096",
+      "concepts": [
+        "present-tense",
+        "verb-endings",
+        "first-conjugation",
+        "second-conjugation"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.8,
+        "listening": 0.1,
+        "production": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0097",
+      "lesson_id": "GRM-02",
+      "type": "pronunciation_repeat_sentence",
+      "activity_type": "pronunciation_repeat_sentence",
+      "renderer_id": "pronunciation_repeat_sentence",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "Он говорит.",
+      "pronunciation_target_id": "PRN-0097",
+      "concepts": [
+        "present-tense",
+        "verb-endings",
+        "first-conjugation",
+        "second-conjugation"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.8,
+        "listening": 0.1,
+        "production": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0098",
+      "lesson_id": "GRM-02",
+      "type": "pronunciation_repeat_sentence",
+      "activity_type": "pronunciation_repeat_sentence",
+      "renderer_id": "pronunciation_repeat_sentence",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "Ты читаешь.",
+      "pronunciation_target_id": "PRN-0098",
+      "concepts": [
+        "present-tense",
+        "verb-endings",
+        "first-conjugation",
+        "second-conjugation"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.8,
+        "listening": 0.1,
+        "production": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0099",
+      "lesson_id": "GRM-02",
+      "type": "pronunciation_repeat_sentence",
+      "activity_type": "pronunciation_repeat_sentence",
+      "renderer_id": "pronunciation_repeat_sentence",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "Ты говоришь.",
+      "pronunciation_target_id": "PRN-0099",
+      "concepts": [
+        "present-tense",
+        "verb-endings",
+        "first-conjugation",
+        "second-conjugation"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.8,
+        "listening": 0.1,
+        "production": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0100",
+      "lesson_id": "GRM-02",
+      "type": "pronunciation_repeat_sentence",
+      "activity_type": "pronunciation_repeat_sentence",
+      "renderer_id": "pronunciation_repeat_sentence",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "Мы читаем.",
+      "pronunciation_target_id": "PRN-0100",
+      "concepts": [
+        "present-tense",
+        "verb-endings",
+        "first-conjugation",
+        "second-conjugation"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.8,
+        "listening": 0.1,
+        "production": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0101",
+      "lesson_id": "GRM-02",
+      "type": "pronunciation_repeat_sentence",
+      "activity_type": "pronunciation_repeat_sentence",
+      "renderer_id": "pronunciation_repeat_sentence",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "Они читают.",
+      "pronunciation_target_id": "PRN-0101",
+      "concepts": [
+        "present-tense",
+        "verb-endings",
+        "first-conjugation",
+        "second-conjugation"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.8,
+        "listening": 0.1,
+        "production": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0102",
+      "lesson_id": "GRM-03",
+      "type": "pronunciation_repeat_word",
+      "activity_type": "pronunciation_repeat_word",
+      "renderer_id": "pronunciation_repeat_word",
+      "difficulty": 1,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "новый",
+      "pronunciation_target_id": "PRN-0102",
+      "concepts": [
+        "gender",
+        "adjective-agreement",
+        "nominative"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.9,
+        "listening": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0103",
+      "lesson_id": "GRM-03",
+      "type": "pronunciation_repeat_word",
+      "activity_type": "pronunciation_repeat_word",
+      "renderer_id": "pronunciation_repeat_word",
+      "difficulty": 1,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "новая",
+      "pronunciation_target_id": "PRN-0103",
+      "concepts": [
+        "gender",
+        "adjective-agreement",
+        "nominative"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.9,
+        "listening": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0104",
+      "lesson_id": "GRM-03",
+      "type": "pronunciation_repeat_word",
+      "activity_type": "pronunciation_repeat_word",
+      "renderer_id": "pronunciation_repeat_word",
+      "difficulty": 1,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "новое",
+      "pronunciation_target_id": "PRN-0104",
+      "concepts": [
+        "gender",
+        "adjective-agreement",
+        "nominative"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.9,
+        "listening": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0105",
+      "lesson_id": "GRM-03",
+      "type": "pronunciation_repeat_word",
+      "activity_type": "pronunciation_repeat_word",
+      "renderer_id": "pronunciation_repeat_word",
+      "difficulty": 1,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "машина",
+      "pronunciation_target_id": "PRN-0105",
+      "concepts": [
+        "gender",
+        "adjective-agreement",
+        "nominative"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.9,
+        "listening": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0106",
+      "lesson_id": "GRM-03",
+      "type": "pronunciation_repeat_word",
+      "activity_type": "pronunciation_repeat_word",
+      "renderer_id": "pronunciation_repeat_word",
+      "difficulty": 1,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "место",
+      "pronunciation_target_id": "PRN-0106",
+      "concepts": [
+        "gender",
+        "adjective-agreement",
+        "nominative"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.9,
+        "listening": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0107",
+      "lesson_id": "GRM-03",
+      "type": "pronunciation_repeat_word",
+      "activity_type": "pronunciation_repeat_word",
+      "renderer_id": "pronunciation_repeat_word",
+      "difficulty": 1,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "телефон",
+      "pronunciation_target_id": "PRN-0107",
+      "concepts": [
+        "gender",
+        "adjective-agreement",
+        "nominative"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.9,
+        "listening": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0108",
+      "lesson_id": "GRM-03",
+      "type": "pronunciation_repeat_word",
+      "activity_type": "pronunciation_repeat_word",
+      "renderer_id": "pronunciation_repeat_word",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "новый телефон",
+      "pronunciation_target_id": "PRN-0108",
+      "concepts": [
+        "gender",
+        "adjective-agreement",
+        "nominative"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.9,
+        "listening": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0109",
+      "lesson_id": "GRM-03",
+      "type": "pronunciation_repeat_word",
+      "activity_type": "pronunciation_repeat_word",
+      "renderer_id": "pronunciation_repeat_word",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "новая машина",
+      "pronunciation_target_id": "PRN-0109",
+      "concepts": [
+        "gender",
+        "adjective-agreement",
+        "nominative"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.9,
+        "listening": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0110",
+      "lesson_id": "GRM-03",
+      "type": "pronunciation_repeat_sentence",
+      "activity_type": "pronunciation_repeat_sentence",
+      "renderer_id": "pronunciation_repeat_sentence",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "машина → машину",
+      "pronunciation_target_id": "PRN-0110",
+      "concepts": [
+        "gender",
+        "adjective-agreement",
+        "nominative"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.8,
+        "listening": 0.1,
+        "production": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0111",
+      "lesson_id": "GRM-03",
+      "type": "pronunciation_repeat_word",
+      "activity_type": "pronunciation_repeat_word",
+      "renderer_id": "pronunciation_repeat_word",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "молодая женщина",
+      "pronunciation_target_id": "PRN-0111",
+      "concepts": [
+        "gender",
+        "adjective-agreement",
+        "nominative"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.9,
+        "listening": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0112",
+      "lesson_id": "GRM-03",
+      "type": "pronunciation_repeat_word",
+      "activity_type": "pronunciation_repeat_word",
+      "renderer_id": "pronunciation_repeat_word",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "маленькое кафе",
+      "pronunciation_target_id": "PRN-0112",
+      "concepts": [
+        "gender",
+        "adjective-agreement",
+        "nominative"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.9,
+        "listening": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0113",
+      "lesson_id": "GRM-04",
+      "type": "pronunciation_repeat_word",
+      "activity_type": "pronunciation_repeat_word",
+      "renderer_id": "pronunciation_repeat_word",
+      "difficulty": 1,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "машину",
+      "pronunciation_target_id": "PRN-0113",
+      "concepts": [
+        "accusative",
+        "direct-object",
+        "motion-direction"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.9,
+        "listening": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0114",
+      "lesson_id": "GRM-04",
+      "type": "pronunciation_repeat_word",
+      "activity_type": "pronunciation_repeat_word",
+      "renderer_id": "pronunciation_repeat_word",
+      "difficulty": 1,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "книга",
+      "pronunciation_target_id": "PRN-0114",
+      "concepts": [
+        "accusative",
+        "direct-object",
+        "motion-direction"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.9,
+        "listening": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0115",
+      "lesson_id": "GRM-04",
+      "type": "pronunciation_repeat_word",
+      "activity_type": "pronunciation_repeat_word",
+      "renderer_id": "pronunciation_repeat_word",
+      "difficulty": 1,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "книгу",
+      "pronunciation_target_id": "PRN-0115",
+      "concepts": [
+        "accusative",
+        "direct-object",
+        "motion-direction"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.9,
+        "listening": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0116",
+      "lesson_id": "GRM-04",
+      "type": "pronunciation_repeat_word",
+      "activity_type": "pronunciation_repeat_word",
+      "renderer_id": "pronunciation_repeat_word",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "в школу",
+      "pronunciation_target_id": "PRN-0116",
+      "concepts": [
+        "accusative",
+        "direct-object",
+        "motion-direction"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.9,
+        "listening": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0117",
+      "lesson_id": "GRM-04",
+      "type": "pronunciation_repeat_word",
+      "activity_type": "pronunciation_repeat_word",
+      "renderer_id": "pronunciation_repeat_word",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "на кухню",
+      "pronunciation_target_id": "PRN-0117",
+      "concepts": [
+        "accusative",
+        "direct-object",
+        "motion-direction"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.9,
+        "listening": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0118",
+      "lesson_id": "GRM-04",
+      "type": "pronunciation_repeat_sentence",
+      "activity_type": "pronunciation_repeat_sentence",
+      "renderer_id": "pronunciation_repeat_sentence",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "Я вижу машину.",
+      "pronunciation_target_id": "PRN-0118",
+      "concepts": [
+        "accusative",
+        "direct-object",
+        "motion-direction"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.8,
+        "listening": 0.1,
+        "production": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0119",
+      "lesson_id": "GRM-04",
+      "type": "pronunciation_repeat_sentence",
+      "activity_type": "pronunciation_repeat_sentence",
+      "renderer_id": "pronunciation_repeat_sentence",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "Она читает книгу.",
+      "pronunciation_target_id": "PRN-0119",
+      "concepts": [
+        "accusative",
+        "direct-object",
+        "motion-direction"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.8,
+        "listening": 0.1,
+        "production": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0120",
+      "lesson_id": "GRM-04",
+      "type": "pronunciation_repeat_sentence",
+      "activity_type": "pronunciation_repeat_sentence",
+      "renderer_id": "pronunciation_repeat_sentence",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "книга → книгу",
+      "pronunciation_target_id": "PRN-0120",
+      "concepts": [
+        "accusative",
+        "direct-object",
+        "motion-direction"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.8,
+        "listening": 0.1,
+        "production": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0121",
+      "lesson_id": "GRM-04",
+      "type": "pronunciation_repeat_sentence",
+      "activity_type": "pronunciation_repeat_sentence",
+      "renderer_id": "pronunciation_repeat_sentence",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "Мы идём в школу.",
+      "pronunciation_target_id": "PRN-0121",
+      "concepts": [
+        "accusative",
+        "direct-object",
+        "motion-direction"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.8,
+        "listening": 0.1,
+        "production": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0122",
+      "lesson_id": "GRM-04",
+      "type": "pronunciation_repeat_sentence",
+      "activity_type": "pronunciation_repeat_sentence",
+      "renderer_id": "pronunciation_repeat_sentence",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "Он идёт на кухню.",
+      "pronunciation_target_id": "PRN-0122",
+      "concepts": [
+        "accusative",
+        "direct-object",
+        "motion-direction"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.8,
+        "listening": 0.1,
+        "production": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0123",
+      "lesson_id": "GRM-04",
+      "type": "pronunciation_repeat_sentence",
+      "activity_type": "pronunciation_repeat_sentence",
+      "renderer_id": "pronunciation_repeat_sentence",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "Я вижу телефон.",
+      "pronunciation_target_id": "PRN-0123",
+      "concepts": [
+        "accusative",
+        "direct-object",
+        "motion-direction"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.8,
+        "listening": 0.1,
+        "production": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0124",
+      "lesson_id": "GRM-05",
+      "type": "pronunciation_repeat_word",
+      "activity_type": "pronunciation_repeat_word",
+      "renderer_id": "pronunciation_repeat_word",
+      "difficulty": 1,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "где",
+      "pronunciation_target_id": "PRN-0124",
+      "concepts": [
+        "location-vs-direction",
+        "дома",
+        "домой",
+        "где",
+        "куда"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.9,
+        "listening": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0125",
+      "lesson_id": "GRM-05",
+      "type": "pronunciation_repeat_word",
+      "activity_type": "pronunciation_repeat_word",
+      "renderer_id": "pronunciation_repeat_word",
+      "difficulty": 1,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "куда",
+      "pronunciation_target_id": "PRN-0125",
+      "concepts": [
+        "location-vs-direction",
+        "дома",
+        "домой",
+        "где",
+        "куда"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.9,
+        "listening": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0126",
+      "lesson_id": "GRM-05",
+      "type": "pronunciation_repeat_word",
+      "activity_type": "pronunciation_repeat_word",
+      "renderer_id": "pronunciation_repeat_word",
+      "difficulty": 1,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "дома",
+      "pronunciation_target_id": "PRN-0126",
+      "concepts": [
+        "location-vs-direction",
+        "дома",
+        "домой",
+        "где",
+        "куда"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.9,
+        "listening": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0127",
+      "lesson_id": "GRM-05",
+      "type": "pronunciation_repeat_word",
+      "activity_type": "pronunciation_repeat_word",
+      "renderer_id": "pronunciation_repeat_word",
+      "difficulty": 1,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "домашний",
+      "pronunciation_target_id": "PRN-0127",
+      "concepts": [
+        "location-vs-direction",
+        "дома",
+        "домой",
+        "где",
+        "куда"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.9,
+        "listening": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0128",
+      "lesson_id": "GRM-05",
+      "type": "pronunciation_repeat_word",
+      "activity_type": "pronunciation_repeat_word",
+      "renderer_id": "pronunciation_repeat_word",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "на кухне",
+      "pronunciation_target_id": "PRN-0128",
+      "concepts": [
+        "location-vs-direction",
+        "дома",
+        "домой",
+        "где",
+        "куда"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.9,
+        "listening": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0129",
+      "lesson_id": "GRM-05",
+      "type": "pronunciation_repeat_sentence",
+      "activity_type": "pronunciation_repeat_sentence",
+      "renderer_id": "pronunciation_repeat_sentence",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "Где он? Он дома.",
+      "pronunciation_target_id": "PRN-0129",
+      "concepts": [
+        "location-vs-direction",
+        "дома",
+        "домой",
+        "где",
+        "куда"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.8,
+        "listening": 0.1,
+        "production": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0130",
+      "lesson_id": "GRM-05",
+      "type": "pronunciation_repeat_sentence",
+      "activity_type": "pronunciation_repeat_sentence",
+      "renderer_id": "pronunciation_repeat_sentence",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "Он на кухне.",
+      "pronunciation_target_id": "PRN-0130",
+      "concepts": [
+        "location-vs-direction",
+        "дома",
+        "домой",
+        "где",
+        "куда"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.8,
+        "listening": 0.1,
+        "production": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0131",
+      "lesson_id": "GRM-05",
+      "type": "pronunciation_repeat_sentence",
+      "activity_type": "pronunciation_repeat_sentence",
+      "renderer_id": "pronunciation_repeat_sentence",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "Куда он идёт? Домой.",
+      "pronunciation_target_id": "PRN-0131",
+      "concepts": [
+        "location-vs-direction",
+        "дома",
+        "домой",
+        "где",
+        "куда"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.8,
+        "listening": 0.1,
+        "production": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0132",
+      "lesson_id": "GRM-05",
+      "type": "pronunciation_repeat_word",
+      "activity_type": "pronunciation_repeat_word",
+      "renderer_id": "pronunciation_repeat_word",
+      "difficulty": 1,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "дом",
+      "pronunciation_target_id": "PRN-0132",
+      "concepts": [
+        "location-vs-direction",
+        "дома",
+        "домой",
+        "где",
+        "куда"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.9,
+        "listening": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0133",
+      "lesson_id": "GRM-05",
+      "type": "pronunciation_repeat_word",
+      "activity_type": "pronunciation_repeat_word",
+      "renderer_id": "pronunciation_repeat_word",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "в гостинице",
+      "pronunciation_target_id": "PRN-0133",
+      "concepts": [
+        "location-vs-direction",
+        "дома",
+        "домой",
+        "где",
+        "куда"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.9,
+        "listening": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0134",
+      "lesson_id": "GRM-05",
+      "type": "pronunciation_repeat_word",
+      "activity_type": "pronunciation_repeat_word",
+      "renderer_id": "pronunciation_repeat_word",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "в гостиницу",
+      "pronunciation_target_id": "PRN-0134",
+      "concepts": [
+        "location-vs-direction",
+        "дома",
+        "домой",
+        "где",
+        "куда"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.9,
+        "listening": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0135",
+      "lesson_id": "GRM-06",
+      "type": "pronunciation_repeat_sentence",
+      "activity_type": "pronunciation_repeat_sentence",
+      "renderer_id": "pronunciation_repeat_sentence",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "у тебя есть",
+      "pronunciation_target_id": "PRN-0135",
+      "concepts": [
+        "possession",
+        "у-possessor",
+        "есть",
+        "нет",
+        "genitive-basic"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.8,
+        "listening": 0.1,
+        "production": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0136",
+      "lesson_id": "GRM-06",
+      "type": "pronunciation_repeat_sentence",
+      "activity_type": "pronunciation_repeat_sentence",
+      "renderer_id": "pronunciation_repeat_sentence",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "у него есть",
+      "pronunciation_target_id": "PRN-0136",
+      "concepts": [
+        "possession",
+        "у-possessor",
+        "есть",
+        "нет",
+        "genitive-basic"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.8,
+        "listening": 0.1,
+        "production": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0137",
+      "lesson_id": "GRM-06",
+      "type": "pronunciation_repeat_sentence",
+      "activity_type": "pronunciation_repeat_sentence",
+      "renderer_id": "pronunciation_repeat_sentence",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "у неё есть",
+      "pronunciation_target_id": "PRN-0137",
+      "concepts": [
+        "possession",
+        "у-possessor",
+        "есть",
+        "нет",
+        "genitive-basic"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.8,
+        "listening": 0.1,
+        "production": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0138",
+      "lesson_id": "GRM-06",
+      "type": "pronunciation_repeat_word",
+      "activity_type": "pronunciation_repeat_word",
+      "renderer_id": "pronunciation_repeat_word",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "нет телефона",
+      "pronunciation_target_id": "PRN-0138",
+      "concepts": [
+        "possession",
+        "у-possessor",
+        "есть",
+        "нет",
+        "genitive-basic"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.9,
+        "listening": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0139",
+      "lesson_id": "GRM-06",
+      "type": "pronunciation_repeat_word",
+      "activity_type": "pronunciation_repeat_word",
+      "renderer_id": "pronunciation_repeat_word",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "нет детей",
+      "pronunciation_target_id": "PRN-0139",
+      "concepts": [
+        "possession",
+        "у-possessor",
+        "есть",
+        "нет",
+        "genitive-basic"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.9,
+        "listening": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0140",
+      "lesson_id": "GRM-06",
+      "type": "pronunciation_repeat_sentence",
+      "activity_type": "pronunciation_repeat_sentence",
+      "renderer_id": "pronunciation_repeat_sentence",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "У меня есть телефон.",
+      "pronunciation_target_id": "PRN-0140",
+      "concepts": [
+        "possession",
+        "у-possessor",
+        "есть",
+        "нет",
+        "genitive-basic"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.8,
+        "listening": 0.1,
+        "production": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0141",
+      "lesson_id": "GRM-06",
+      "type": "pronunciation_repeat_sentence",
+      "activity_type": "pronunciation_repeat_sentence",
+      "renderer_id": "pronunciation_repeat_sentence",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "У тебя есть машина?",
+      "pronunciation_target_id": "PRN-0141",
+      "concepts": [
+        "possession",
+        "у-possessor",
+        "есть",
+        "нет",
+        "genitive-basic"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.8,
+        "listening": 0.1,
+        "production": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0142",
+      "lesson_id": "GRM-06",
+      "type": "pronunciation_repeat_sentence",
+      "activity_type": "pronunciation_repeat_sentence",
+      "renderer_id": "pronunciation_repeat_sentence",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "У него есть брат.",
+      "pronunciation_target_id": "PRN-0142",
+      "concepts": [
+        "possession",
+        "у-possessor",
+        "есть",
+        "нет",
+        "genitive-basic"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.8,
+        "listening": 0.1,
+        "production": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0143",
+      "lesson_id": "GRM-06",
+      "type": "pronunciation_repeat_sentence",
+      "activity_type": "pronunciation_repeat_sentence",
+      "renderer_id": "pronunciation_repeat_sentence",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "У неё есть сестра.",
+      "pronunciation_target_id": "PRN-0143",
+      "concepts": [
+        "possession",
+        "у-possessor",
+        "есть",
+        "нет",
+        "genitive-basic"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.8,
+        "listening": 0.1,
+        "production": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0144",
+      "lesson_id": "GRM-06",
+      "type": "pronunciation_repeat_sentence",
+      "activity_type": "pronunciation_repeat_sentence",
+      "renderer_id": "pronunciation_repeat_sentence",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "У меня нет телефона.",
+      "pronunciation_target_id": "PRN-0144",
+      "concepts": [
+        "possession",
+        "у-possessor",
+        "есть",
+        "нет",
+        "genitive-basic"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.8,
+        "listening": 0.1,
+        "production": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0145",
+      "lesson_id": "GRM-06",
+      "type": "pronunciation_repeat_sentence",
+      "activity_type": "pronunciation_repeat_sentence",
+      "renderer_id": "pronunciation_repeat_sentence",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "У него нет детей.",
+      "pronunciation_target_id": "PRN-0145",
+      "concepts": [
+        "possession",
+        "у-possessor",
+        "есть",
+        "нет",
+        "genitive-basic"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.8,
+        "listening": 0.1,
+        "production": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0146",
+      "lesson_id": "GRM-06",
+      "type": "pronunciation_repeat_sentence",
+      "activity_type": "pronunciation_repeat_sentence",
+      "renderer_id": "pronunciation_repeat_sentence",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "телефон → нет телефона",
+      "pronunciation_target_id": "PRN-0146",
+      "concepts": [
+        "possession",
+        "у-possessor",
+        "есть",
+        "нет",
+        "genitive-basic"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.8,
+        "listening": 0.1,
+        "production": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0147",
+      "lesson_id": "GRM-06",
+      "type": "pronunciation_repeat_sentence",
+      "activity_type": "pronunciation_repeat_sentence",
+      "renderer_id": "pronunciation_repeat_sentence",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "дети → нет детей",
+      "pronunciation_target_id": "PRN-0147",
+      "concepts": [
+        "possession",
+        "у-possessor",
+        "есть",
+        "нет",
+        "genitive-basic"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.8,
+        "listening": 0.1,
+        "production": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0148",
+      "lesson_id": "GRM-06",
+      "type": "pronunciation_repeat_word",
+      "activity_type": "pronunciation_repeat_word",
+      "renderer_id": "pronunciation_repeat_word",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "бутылка воды",
+      "pronunciation_target_id": "PRN-0148",
+      "concepts": [
+        "possession",
+        "у-possessor",
+        "есть",
+        "нет",
+        "genitive-basic"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.9,
+        "listening": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0149",
+      "lesson_id": "GRM-07",
+      "type": "pronunciation_repeat_word",
+      "activity_type": "pronunciation_repeat_word",
+      "renderer_id": "pronunciation_repeat_word",
+      "difficulty": 1,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "работал",
+      "pronunciation_target_id": "PRN-0149",
+      "concepts": [
+        "past-tense",
+        "past-gender",
+        "past-number"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.9,
+        "listening": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0150",
+      "lesson_id": "GRM-07",
+      "type": "pronunciation_repeat_word",
+      "activity_type": "pronunciation_repeat_word",
+      "renderer_id": "pronunciation_repeat_word",
+      "difficulty": 1,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "работала",
+      "pronunciation_target_id": "PRN-0150",
+      "concepts": [
+        "past-tense",
+        "past-gender",
+        "past-number"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.9,
+        "listening": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0151",
+      "lesson_id": "GRM-07",
+      "type": "pronunciation_repeat_word",
+      "activity_type": "pronunciation_repeat_word",
+      "renderer_id": "pronunciation_repeat_word",
+      "difficulty": 1,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "работали",
+      "pronunciation_target_id": "PRN-0151",
+      "concepts": [
+        "past-tense",
+        "past-gender",
+        "past-number"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.9,
+        "listening": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0152",
+      "lesson_id": "GRM-07",
+      "type": "pronunciation_repeat_word",
+      "activity_type": "pronunciation_repeat_word",
+      "renderer_id": "pronunciation_repeat_word",
+      "difficulty": 1,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "устал",
+      "pronunciation_target_id": "PRN-0152",
+      "concepts": [
+        "past-tense",
+        "past-gender",
+        "past-number"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.9,
+        "listening": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0153",
+      "lesson_id": "GRM-07",
+      "type": "pronunciation_repeat_word",
+      "activity_type": "pronunciation_repeat_word",
+      "renderer_id": "pronunciation_repeat_word",
+      "difficulty": 1,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "устала",
+      "pronunciation_target_id": "PRN-0153",
+      "concepts": [
+        "past-tense",
+        "past-gender",
+        "past-number"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.9,
+        "listening": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0154",
+      "lesson_id": "GRM-07",
+      "type": "pronunciation_repeat_word",
+      "activity_type": "pronunciation_repeat_word",
+      "renderer_id": "pronunciation_repeat_word",
+      "difficulty": 1,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "сказал",
+      "pronunciation_target_id": "PRN-0154",
+      "concepts": [
+        "past-tense",
+        "past-gender",
+        "past-number"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.9,
+        "listening": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0155",
+      "lesson_id": "GRM-07",
+      "type": "pronunciation_repeat_word",
+      "activity_type": "pronunciation_repeat_word",
+      "renderer_id": "pronunciation_repeat_word",
+      "difficulty": 1,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "сказала",
+      "pronunciation_target_id": "PRN-0155",
+      "concepts": [
+        "past-tense",
+        "past-gender",
+        "past-number"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.9,
+        "listening": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0156",
+      "lesson_id": "GRM-07",
+      "type": "pronunciation_repeat_word",
+      "activity_type": "pronunciation_repeat_word",
+      "renderer_id": "pronunciation_repeat_word",
+      "difficulty": 1,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "приехали",
+      "pronunciation_target_id": "PRN-0156",
+      "concepts": [
+        "past-tense",
+        "past-gender",
+        "past-number"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.9,
+        "listening": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0157",
+      "lesson_id": "GRM-07",
+      "type": "pronunciation_repeat_sentence",
+      "activity_type": "pronunciation_repeat_sentence",
+      "renderer_id": "pronunciation_repeat_sentence",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "Он работал вчера.",
+      "pronunciation_target_id": "PRN-0157",
+      "concepts": [
+        "past-tense",
+        "past-gender",
+        "past-number"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.8,
+        "listening": 0.1,
+        "production": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0158",
+      "lesson_id": "GRM-07",
+      "type": "pronunciation_repeat_sentence",
+      "activity_type": "pronunciation_repeat_sentence",
+      "renderer_id": "pronunciation_repeat_sentence",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "Он устал.",
+      "pronunciation_target_id": "PRN-0158",
+      "concepts": [
+        "past-tense",
+        "past-gender",
+        "past-number"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.8,
+        "listening": 0.1,
+        "production": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0159",
+      "lesson_id": "GRM-07",
+      "type": "pronunciation_repeat_sentence",
+      "activity_type": "pronunciation_repeat_sentence",
+      "renderer_id": "pronunciation_repeat_sentence",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "Она работала вчера.",
+      "pronunciation_target_id": "PRN-0159",
+      "concepts": [
+        "past-tense",
+        "past-gender",
+        "past-number"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.8,
+        "listening": 0.1,
+        "production": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    },
+    {
+      "id": "V3-PRON-0160",
+      "lesson_id": "GRM-07",
+      "type": "pronunciation_repeat_sentence",
+      "activity_type": "pronunciation_repeat_sentence",
+      "renderer_id": "pronunciation_repeat_sentence",
+      "difficulty": 2,
+      "prompt": "Écoute, puis répète en russe.",
+      "answer": "Она сказала мне нет.",
+      "pronunciation_target_id": "PRN-0160",
+      "concepts": [
+        "past-tense",
+        "past-gender",
+        "past-number"
+      ],
+      "error_tags": [],
+      "skill_dimensions": {
+        "pronunciation": 0.8,
+        "listening": 0.1,
+        "production": 0.1
+      },
+      "scoring": {
+        "mode": "speech_evaluation",
+        "max_score": 1.0,
+        "hint_penalty": 0.0,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 5,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-pronunciation-catalog"
+    }
+  ]
+}

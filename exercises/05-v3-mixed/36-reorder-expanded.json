@@ -1,0 +1,3050 @@
+{
+  "exercise_set": "36-reorder-expanded",
+  "items": [
+    {
+      "id": "V3-REORDER-0001",
+      "lesson_id": "FND-01",
+      "type": "reorder_tokens",
+      "activity_type": "reorder_tokens",
+      "renderer_id": "reorder_tokens",
+      "difficulty": 2,
+      "prompt": "Reconstruis la phrase russe : « Tony comprend le mot. »",
+      "answer": "Тони понимает слово.",
+      "tokens": [
+        "понимает",
+        "Тони",
+        "слово."
+      ],
+      "concepts": [
+        "personal-pronouns",
+        "simple-svo",
+        "subject-identification"
+      ],
+      "error_tags": [
+        "word-order"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.2,
+        "comprehension": 0.2,
+        "production": 0.6
+      },
+      "scoring": {
+        "mode": "ordered_tokens",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-course-example",
+      "shuffle_on_render": true
+    },
+    {
+      "id": "V3-REORDER-0002",
+      "lesson_id": "FND-01",
+      "type": "reorder_tokens",
+      "activity_type": "reorder_tokens",
+      "renderer_id": "reorder_tokens",
+      "difficulty": 2,
+      "prompt": "Reconstruis la phrase russe : « Elle parle vite. »",
+      "answer": "Она говорит быстро.",
+      "tokens": [
+        "быстро.",
+        "Она",
+        "говорит"
+      ],
+      "concepts": [
+        "personal-pronouns",
+        "simple-svo",
+        "subject-identification"
+      ],
+      "error_tags": [
+        "word-order"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.2,
+        "comprehension": 0.2,
+        "production": 0.6
+      },
+      "scoring": {
+        "mode": "ordered_tokens",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-course-example",
+      "shuffle_on_render": true
+    },
+    {
+      "id": "V3-REORDER-0003",
+      "lesson_id": "FND-01",
+      "type": "reorder_tokens",
+      "activity_type": "reorder_tokens",
+      "renderer_id": "reorder_tokens",
+      "difficulty": 2,
+      "prompt": "Reconstruis la phrase russe : « Ils lisent un livre. »",
+      "answer": "Они читают книгу.",
+      "tokens": [
+        "книгу.",
+        "читают",
+        "Они"
+      ],
+      "concepts": [
+        "personal-pronouns",
+        "simple-svo",
+        "subject-identification"
+      ],
+      "error_tags": [
+        "word-order"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.2,
+        "comprehension": 0.2,
+        "production": 0.6
+      },
+      "scoring": {
+        "mode": "ordered_tokens",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-course-example",
+      "shuffle_on_render": true
+    },
+    {
+      "id": "V3-REORDER-0004",
+      "lesson_id": "FND-02",
+      "type": "reorder_tokens",
+      "activity_type": "reorder_tokens",
+      "renderer_id": "reorder_tokens",
+      "difficulty": 2,
+      "prompt": "Reconstruis la phrase russe : « Je ne sais pas. »",
+      "answer": "Я не знаю.",
+      "tokens": [
+        "знаю.",
+        "не",
+        "Я"
+      ],
+      "concepts": [
+        "negation",
+        "говорить",
+        "понимать",
+        "знать",
+        "может-быть"
+      ],
+      "error_tags": [
+        "word-order"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.2,
+        "comprehension": 0.2,
+        "production": 0.6
+      },
+      "scoring": {
+        "mode": "ordered_tokens",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-course-example",
+      "shuffle_on_render": true
+    },
+    {
+      "id": "V3-REORDER-0005",
+      "lesson_id": "FND-02",
+      "type": "reorder_tokens",
+      "activity_type": "reorder_tokens",
+      "renderer_id": "reorder_tokens",
+      "difficulty": 2,
+      "prompt": "Reconstruis la phrase russe : « Je ne comprends pas. »",
+      "answer": "Я не понимаю.",
+      "tokens": [
+        "не",
+        "понимаю.",
+        "Я"
+      ],
+      "concepts": [
+        "negation",
+        "говорить",
+        "понимать",
+        "знать",
+        "может-быть"
+      ],
+      "error_tags": [
+        "word-order"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.2,
+        "comprehension": 0.2,
+        "production": 0.6
+      },
+      "scoring": {
+        "mode": "ordered_tokens",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-course-example",
+      "shuffle_on_render": true
+    },
+    {
+      "id": "V3-REORDER-0006",
+      "lesson_id": "FND-02",
+      "type": "reorder_tokens",
+      "activity_type": "reorder_tokens",
+      "renderer_id": "reorder_tokens",
+      "difficulty": 2,
+      "prompt": "Reconstruis la phrase russe : « Je parle un peu russe. »",
+      "answer": "Я немного говорю по-русски.",
+      "tokens": [
+        "говорю",
+        "немного",
+        "по-русски.",
+        "Я"
+      ],
+      "concepts": [
+        "negation",
+        "говорить",
+        "понимать",
+        "знать",
+        "может-быть"
+      ],
+      "error_tags": [
+        "word-order"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.2,
+        "comprehension": 0.2,
+        "production": 0.6
+      },
+      "scoring": {
+        "mode": "ordered_tokens",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-course-example",
+      "shuffle_on_render": true
+    },
+    {
+      "id": "V3-REORDER-0007",
+      "lesson_id": "FND-02",
+      "type": "reorder_tokens",
+      "activity_type": "reorder_tokens",
+      "renderer_id": "reorder_tokens",
+      "difficulty": 2,
+      "prompt": "Reconstruis la phrase russe : « Elle parle vite. »",
+      "answer": "Она говорит быстро.",
+      "tokens": [
+        "быстро.",
+        "Она",
+        "говорит"
+      ],
+      "concepts": [
+        "negation",
+        "говорить",
+        "понимать",
+        "знать",
+        "может-быть"
+      ],
+      "error_tags": [
+        "word-order"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.2,
+        "comprehension": 0.2,
+        "production": 0.6
+      },
+      "scoring": {
+        "mode": "ordered_tokens",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-course-example",
+      "shuffle_on_render": true
+    },
+    {
+      "id": "V3-REORDER-0008",
+      "lesson_id": "FND-02",
+      "type": "reorder_tokens",
+      "activity_type": "reorder_tokens",
+      "renderer_id": "reorder_tokens",
+      "difficulty": 2,
+      "prompt": "Reconstruis la phrase russe : « Je ne comprends pas. »",
+      "answer": "Я не понимаю.",
+      "tokens": [
+        "понимаю.",
+        "Я",
+        "не"
+      ],
+      "concepts": [
+        "negation",
+        "говорить",
+        "понимать",
+        "знать",
+        "может-быть"
+      ],
+      "error_tags": [
+        "word-order"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.2,
+        "comprehension": 0.2,
+        "production": 0.6
+      },
+      "scoring": {
+        "mode": "ordered_tokens",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-course-example",
+      "shuffle_on_render": true
+    },
+    {
+      "id": "V3-REORDER-0009",
+      "lesson_id": "FND-02",
+      "type": "reorder_tokens",
+      "activity_type": "reorder_tokens",
+      "renderer_id": "reorder_tokens",
+      "difficulty": 2,
+      "prompt": "Reconstruis la phrase russe : « Peut-être, je ne sais pas. »",
+      "answer": "Может быть, не знаю.",
+      "tokens": [
+        "Может",
+        "не",
+        "быть,",
+        "знаю."
+      ],
+      "concepts": [
+        "negation",
+        "говорить",
+        "понимать",
+        "знать",
+        "может-быть"
+      ],
+      "error_tags": [
+        "word-order"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.2,
+        "comprehension": 0.2,
+        "production": 0.6
+      },
+      "scoring": {
+        "mode": "ordered_tokens",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-course-example",
+      "shuffle_on_render": true
+    },
+    {
+      "id": "V3-REORDER-0010",
+      "lesson_id": "FND-03",
+      "type": "reorder_tokens",
+      "activity_type": "reorder_tokens",
+      "renderer_id": "reorder_tokens",
+      "difficulty": 2,
+      "prompt": "Reconstruis la phrase russe : « Elle dit qu’elle travaille. »",
+      "answer": "Она говорит, что работает.",
+      "tokens": [
+        "говорит,",
+        "работает.",
+        "что",
+        "Она"
+      ],
+      "concepts": [
+        "что-clause",
+        "subordination",
+        "clause-boundary"
+      ],
+      "error_tags": [
+        "word-order"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.2,
+        "comprehension": 0.2,
+        "production": 0.6
+      },
+      "scoring": {
+        "mode": "ordered_tokens",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-course-example",
+      "shuffle_on_render": true
+    },
+    {
+      "id": "V3-REORDER-0011",
+      "lesson_id": "FND-03",
+      "type": "reorder_tokens",
+      "activity_type": "reorder_tokens",
+      "renderer_id": "reorder_tokens",
+      "difficulty": 2,
+      "prompt": "Reconstruis la phrase russe : « Je sais qu’il est à la maison. »",
+      "answer": "Я знаю, что он дома.",
+      "tokens": [
+        "он",
+        "что",
+        "Я",
+        "знаю,",
+        "дома."
+      ],
+      "concepts": [
+        "что-clause",
+        "subordination",
+        "clause-boundary"
+      ],
+      "error_tags": [
+        "word-order"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.2,
+        "comprehension": 0.2,
+        "production": 0.6
+      },
+      "scoring": {
+        "mode": "ordered_tokens",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-course-example",
+      "shuffle_on_render": true
+    },
+    {
+      "id": "V3-REORDER-0012",
+      "lesson_id": "FND-03",
+      "type": "reorder_tokens",
+      "activity_type": "reorder_tokens",
+      "renderer_id": "reorder_tokens",
+      "difficulty": 2,
+      "prompt": "Reconstruis la phrase russe : « Il comprend qu’il s’est perdu. »",
+      "answer": "Он понимает, что заблудился.",
+      "tokens": [
+        "что",
+        "понимает,",
+        "заблудился.",
+        "Он"
+      ],
+      "concepts": [
+        "что-clause",
+        "subordination",
+        "clause-boundary"
+      ],
+      "error_tags": [
+        "word-order"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.2,
+        "comprehension": 0.2,
+        "production": 0.6
+      },
+      "scoring": {
+        "mode": "ordered_tokens",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-course-example",
+      "shuffle_on_render": true
+    },
+    {
+      "id": "V3-REORDER-0013",
+      "lesson_id": "FND-03",
+      "type": "reorder_tokens",
+      "activity_type": "reorder_tokens",
+      "renderer_id": "reorder_tokens",
+      "difficulty": 2,
+      "prompt": "Reconstruis la phrase russe : « Elle dit qu’elle travaille. »",
+      "answer": "Она говорит, что работает.",
+      "tokens": [
+        "Она",
+        "что",
+        "работает.",
+        "говорит,"
+      ],
+      "concepts": [
+        "что-clause",
+        "subordination",
+        "clause-boundary"
+      ],
+      "error_tags": [
+        "word-order"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.2,
+        "comprehension": 0.2,
+        "production": 0.6
+      },
+      "scoring": {
+        "mode": "ordered_tokens",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-course-example",
+      "shuffle_on_render": true
+    },
+    {
+      "id": "V3-REORDER-0014",
+      "lesson_id": "FND-03",
+      "type": "reorder_tokens",
+      "activity_type": "reorder_tokens",
+      "renderer_id": "reorder_tokens",
+      "difficulty": 2,
+      "prompt": "Reconstruis la phrase russe : « Elle dit qu’il travaille. »",
+      "answer": "Она говорит, что он работает.",
+      "tokens": [
+        "работает.",
+        "он",
+        "Она",
+        "что",
+        "говорит,"
+      ],
+      "concepts": [
+        "что-clause",
+        "subordination",
+        "clause-boundary"
+      ],
+      "error_tags": [
+        "word-order"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.2,
+        "comprehension": 0.2,
+        "production": 0.6
+      },
+      "scoring": {
+        "mode": "ordered_tokens",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-course-example",
+      "shuffle_on_render": true
+    },
+    {
+      "id": "V3-REORDER-0015",
+      "lesson_id": "FND-03",
+      "type": "reorder_tokens",
+      "activity_type": "reorder_tokens",
+      "renderer_id": "reorder_tokens",
+      "difficulty": 2,
+      "prompt": "Reconstruis la phrase russe : « Dix minutes plus tard, il comprend qu’il s’est perdu. »",
+      "answer": "Через десять минут он понимает, что заблудился.",
+      "tokens": [
+        "понимает,",
+        "заблудился.",
+        "минут",
+        "он",
+        "десять",
+        "что",
+        "Через"
+      ],
+      "concepts": [
+        "что-clause",
+        "subordination",
+        "clause-boundary"
+      ],
+      "error_tags": [
+        "word-order"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.2,
+        "comprehension": 0.2,
+        "production": 0.6
+      },
+      "scoring": {
+        "mode": "ordered_tokens",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-course-example",
+      "shuffle_on_render": true
+    },
+    {
+      "id": "V3-REORDER-0016",
+      "lesson_id": "FND-04",
+      "type": "reorder_tokens",
+      "activity_type": "reorder_tokens",
+      "renderer_id": "reorder_tokens",
+      "difficulty": 2,
+      "prompt": "Reconstruis la phrase russe : « Je veux du thé. »",
+      "answer": "Я хочу чай.",
+      "tokens": [
+        "хочу",
+        "чай.",
+        "Я"
+      ],
+      "concepts": [
+        "хотеть",
+        "direction",
+        "в-plus-destination",
+        "куда"
+      ],
+      "error_tags": [
+        "word-order"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.2,
+        "comprehension": 0.2,
+        "production": 0.6
+      },
+      "scoring": {
+        "mode": "ordered_tokens",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-course-example",
+      "shuffle_on_render": true
+    },
+    {
+      "id": "V3-REORDER-0017",
+      "lesson_id": "FND-04",
+      "type": "reorder_tokens",
+      "activity_type": "reorder_tokens",
+      "renderer_id": "reorder_tokens",
+      "difficulty": 2,
+      "prompt": "Reconstruis la phrase russe : « Je veux aller en forêt. »",
+      "answer": "Я хочу в лес.",
+      "tokens": [
+        "хочу",
+        "лес.",
+        "Я",
+        "в"
+      ],
+      "concepts": [
+        "хотеть",
+        "direction",
+        "в-plus-destination",
+        "куда"
+      ],
+      "error_tags": [
+        "word-order"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.2,
+        "comprehension": 0.2,
+        "production": 0.6
+      },
+      "scoring": {
+        "mode": "ordered_tokens",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-course-example",
+      "shuffle_on_render": true
+    },
+    {
+      "id": "V3-REORDER-0018",
+      "lesson_id": "FND-04",
+      "type": "reorder_tokens",
+      "activity_type": "reorder_tokens",
+      "renderer_id": "reorder_tokens",
+      "difficulty": 2,
+      "prompt": "Reconstruis la phrase russe : « Je veux aller en ville. »",
+      "answer": "Я хочу в город.",
+      "tokens": [
+        "город.",
+        "в",
+        "Я",
+        "хочу"
+      ],
+      "concepts": [
+        "хотеть",
+        "direction",
+        "в-plus-destination",
+        "куда"
+      ],
+      "error_tags": [
+        "word-order"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.2,
+        "comprehension": 0.2,
+        "production": 0.6
+      },
+      "scoring": {
+        "mode": "ordered_tokens",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-course-example",
+      "shuffle_on_render": true
+    },
+    {
+      "id": "V3-REORDER-0019",
+      "lesson_id": "FND-04",
+      "type": "reorder_tokens",
+      "activity_type": "reorder_tokens",
+      "renderer_id": "reorder_tokens",
+      "difficulty": 2,
+      "prompt": "Reconstruis la phrase russe : « Nous voulons aller au parc. »",
+      "answer": "Мы хотим в парк.",
+      "tokens": [
+        "в",
+        "хотим",
+        "парк.",
+        "Мы"
+      ],
+      "concepts": [
+        "хотеть",
+        "direction",
+        "в-plus-destination",
+        "куда"
+      ],
+      "error_tags": [
+        "word-order"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.2,
+        "comprehension": 0.2,
+        "production": 0.6
+      },
+      "scoring": {
+        "mode": "ordered_tokens",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-course-example",
+      "shuffle_on_render": true
+    },
+    {
+      "id": "V3-REORDER-0020",
+      "lesson_id": "FND-04",
+      "type": "reorder_tokens",
+      "activity_type": "reorder_tokens",
+      "renderer_id": "reorder_tokens",
+      "difficulty": 2,
+      "prompt": "Reconstruis la phrase russe : « Elle veut rentrer chez elle. »",
+      "answer": "Она хочет домой.",
+      "tokens": [
+        "домой.",
+        "хочет",
+        "Она"
+      ],
+      "concepts": [
+        "хотеть",
+        "direction",
+        "в-plus-destination",
+        "куда"
+      ],
+      "error_tags": [
+        "word-order"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.2,
+        "comprehension": 0.2,
+        "production": 0.6
+      },
+      "scoring": {
+        "mode": "ordered_tokens",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-course-example",
+      "shuffle_on_render": true
+    },
+    {
+      "id": "V3-REORDER-0021",
+      "lesson_id": "FND-04",
+      "type": "reorder_tokens",
+      "activity_type": "reorder_tokens",
+      "renderer_id": "reorder_tokens",
+      "difficulty": 2,
+      "prompt": "Reconstruis la phrase russe : « Je vais au café à pied. »",
+      "answer": "Я иду в кафе.",
+      "tokens": [
+        "кафе.",
+        "иду",
+        "в",
+        "Я"
+      ],
+      "concepts": [
+        "хотеть",
+        "direction",
+        "в-plus-destination",
+        "куда"
+      ],
+      "error_tags": [
+        "word-order"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.2,
+        "comprehension": 0.2,
+        "production": 0.6
+      },
+      "scoring": {
+        "mode": "ordered_tokens",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-course-example",
+      "shuffle_on_render": true
+    },
+    {
+      "id": "V3-REORDER-0022",
+      "lesson_id": "FND-04",
+      "type": "reorder_tokens",
+      "activity_type": "reorder_tokens",
+      "renderer_id": "reorder_tokens",
+      "difficulty": 2,
+      "prompt": "Reconstruis la phrase russe : « Je vais en France en transport. »",
+      "answer": "Я еду во Францию.",
+      "tokens": [
+        "еду",
+        "во",
+        "Я",
+        "Францию."
+      ],
+      "concepts": [
+        "хотеть",
+        "direction",
+        "в-plus-destination",
+        "куда"
+      ],
+      "error_tags": [
+        "word-order"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.2,
+        "comprehension": 0.2,
+        "production": 0.6
+      },
+      "scoring": {
+        "mode": "ordered_tokens",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-course-example",
+      "shuffle_on_render": true
+    },
+    {
+      "id": "V3-REORDER-0023",
+      "lesson_id": "FND-05",
+      "type": "reorder_tokens",
+      "activity_type": "reorder_tokens",
+      "renderer_id": "reorder_tokens",
+      "difficulty": 2,
+      "prompt": "Reconstruis la phrase russe : « Excusez-moi, je ne comprends pas. »",
+      "answer": "Извините, я не понимаю.",
+      "tokens": [
+        "не",
+        "Извините,",
+        "я",
+        "понимаю."
+      ],
+      "concepts": [
+        "politeness",
+        "survival-russian",
+        "можно",
+        "пожалуйста",
+        "извините"
+      ],
+      "error_tags": [
+        "word-order"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.2,
+        "comprehension": 0.2,
+        "production": 0.6
+      },
+      "scoring": {
+        "mode": "ordered_tokens",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-course-example",
+      "shuffle_on_render": true
+    },
+    {
+      "id": "V3-REORDER-0024",
+      "lesson_id": "FND-05",
+      "type": "reorder_tokens",
+      "activity_type": "reorder_tokens",
+      "renderer_id": "reorder_tokens",
+      "difficulty": 2,
+      "prompt": "Reconstruis la phrase russe : « Parlez plus lentement, s’il vous plaît. »",
+      "answer": "Говорите медленнее, пожалуйста.",
+      "tokens": [
+        "пожалуйста.",
+        "медленнее,",
+        "Говорите"
+      ],
+      "concepts": [
+        "politeness",
+        "survival-russian",
+        "можно",
+        "пожалуйста",
+        "извините"
+      ],
+      "error_tags": [
+        "word-order"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.2,
+        "comprehension": 0.2,
+        "production": 0.6
+      },
+      "scoring": {
+        "mode": "ordered_tokens",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-course-example",
+      "shuffle_on_render": true
+    },
+    {
+      "id": "V3-REORDER-0025",
+      "lesson_id": "FND-05",
+      "type": "reorder_tokens",
+      "activity_type": "reorder_tokens",
+      "renderer_id": "reorder_tokens",
+      "difficulty": 2,
+      "prompt": "Reconstruis la phrase russe : « Pouvez-vous répéter ? / Encore une fois ? »",
+      "answer": "Можно ещё раз?",
+      "tokens": [
+        "Можно",
+        "раз?",
+        "ещё"
+      ],
+      "concepts": [
+        "politeness",
+        "survival-russian",
+        "можно",
+        "пожалуйста",
+        "извините"
+      ],
+      "error_tags": [
+        "word-order"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.2,
+        "comprehension": 0.2,
+        "production": 0.6
+      },
+      "scoring": {
+        "mode": "ordered_tokens",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-course-example",
+      "shuffle_on_render": true
+    },
+    {
+      "id": "V3-REORDER-0026",
+      "lesson_id": "FND-05",
+      "type": "reorder_tokens",
+      "activity_type": "reorder_tokens",
+      "renderer_id": "reorder_tokens",
+      "difficulty": 2,
+      "prompt": "Reconstruis la phrase russe : « Qu’est-ce que cela signifie ? »",
+      "answer": "Что это значит?",
+      "tokens": [
+        "значит?",
+        "это",
+        "Что"
+      ],
+      "concepts": [
+        "politeness",
+        "survival-russian",
+        "можно",
+        "пожалуйста",
+        "извините"
+      ],
+      "error_tags": [
+        "word-order"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.2,
+        "comprehension": 0.2,
+        "production": 0.6
+      },
+      "scoring": {
+        "mode": "ordered_tokens",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-course-example",
+      "shuffle_on_render": true
+    },
+    {
+      "id": "V3-REORDER-0027",
+      "lesson_id": "FND-05",
+      "type": "reorder_tokens",
+      "activity_type": "reorder_tokens",
+      "renderer_id": "reorder_tokens",
+      "difficulty": 2,
+      "prompt": "Reconstruis la phrase russe : « Je voudrais du thé. »",
+      "answer": "Я хотел бы чай.",
+      "tokens": [
+        "Я",
+        "чай.",
+        "бы",
+        "хотел"
+      ],
+      "concepts": [
+        "politeness",
+        "survival-russian",
+        "можно",
+        "пожалуйста",
+        "извините"
+      ],
+      "error_tags": [
+        "word-order"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.2,
+        "comprehension": 0.2,
+        "production": 0.6
+      },
+      "scoring": {
+        "mode": "ordered_tokens",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-course-example",
+      "shuffle_on_render": true
+    },
+    {
+      "id": "V3-REORDER-0028",
+      "lesson_id": "FND-06",
+      "type": "reorder_tokens",
+      "activity_type": "reorder_tokens",
+      "renderer_id": "reorder_tokens",
+      "difficulty": 2,
+      "prompt": "Reconstruis la phrase russe : « Je m’appelle Tony. »",
+      "answer": "Меня зовут Тони.",
+      "tokens": [
+        "Тони.",
+        "зовут",
+        "Меня"
+      ],
+      "concepts": [
+        "меня-зовут",
+        "мне-тоже",
+        "possession",
+        "family"
+      ],
+      "error_tags": [
+        "word-order"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.2,
+        "comprehension": 0.2,
+        "production": 0.6
+      },
+      "scoring": {
+        "mode": "ordered_tokens",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-course-example",
+      "shuffle_on_render": true
+    },
+    {
+      "id": "V3-REORDER-0029",
+      "lesson_id": "FND-06",
+      "type": "reorder_tokens",
+      "activity_type": "reorder_tokens",
+      "renderer_id": "reorder_tokens",
+      "difficulty": 2,
+      "prompt": "Reconstruis la phrase russe : « J’ai un frère. »",
+      "answer": "У меня есть брат.",
+      "tokens": [
+        "брат.",
+        "есть",
+        "У",
+        "меня"
+      ],
+      "concepts": [
+        "меня-зовут",
+        "мне-тоже",
+        "possession",
+        "family"
+      ],
+      "error_tags": [
+        "word-order"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.2,
+        "comprehension": 0.2,
+        "production": 0.6
+      },
+      "scoring": {
+        "mode": "ordered_tokens",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-course-example",
+      "shuffle_on_render": true
+    },
+    {
+      "id": "V3-REORDER-0030",
+      "lesson_id": "FND-06",
+      "type": "reorder_tokens",
+      "activity_type": "reorder_tokens",
+      "renderer_id": "reorder_tokens",
+      "difficulty": 2,
+      "prompt": "Reconstruis la phrase russe : « Est-ce qu’il a des enfants ? »",
+      "answer": "У него есть дети?",
+      "tokens": [
+        "У",
+        "есть",
+        "него",
+        "дети?"
+      ],
+      "concepts": [
+        "меня-зовут",
+        "мне-тоже",
+        "possession",
+        "family"
+      ],
+      "error_tags": [
+        "word-order"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.2,
+        "comprehension": 0.2,
+        "production": 0.6
+      },
+      "scoring": {
+        "mode": "ordered_tokens",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-course-example",
+      "shuffle_on_render": true
+    },
+    {
+      "id": "V3-REORDER-0031",
+      "lesson_id": "FND-06",
+      "type": "reorder_tokens",
+      "activity_type": "reorder_tokens",
+      "renderer_id": "reorder_tokens",
+      "difficulty": 2,
+      "prompt": "Reconstruis la phrase russe : « Il a trente-cinq ans. »",
+      "answer": "Ему тридцать пять лет.",
+      "tokens": [
+        "пять",
+        "Ему",
+        "лет.",
+        "тридцать"
+      ],
+      "concepts": [
+        "меня-зовут",
+        "мне-тоже",
+        "possession",
+        "family"
+      ],
+      "error_tags": [
+        "word-order"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.2,
+        "comprehension": 0.2,
+        "production": 0.6
+      },
+      "scoring": {
+        "mode": "ordered_tokens",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-course-example",
+      "shuffle_on_render": true
+    },
+    {
+      "id": "V3-REORDER-0032",
+      "lesson_id": "GRM-01",
+      "type": "reorder_tokens",
+      "activity_type": "reorder_tokens",
+      "renderer_id": "reorder_tokens",
+      "difficulty": 2,
+      "prompt": "Reconstruis la phrase russe : « J’aime le café. »",
+      "answer": "Мне нравится кофе.",
+      "tokens": [
+        "Мне",
+        "кофе.",
+        "нравится"
+      ],
+      "concepts": [
+        "dative",
+        "нравиться",
+        "мне-vs-я",
+        "experiencer-construction"
+      ],
+      "error_tags": [
+        "word-order"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.2,
+        "comprehension": 0.2,
+        "production": 0.6
+      },
+      "scoring": {
+        "mode": "ordered_tokens",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-course-example",
+      "shuffle_on_render": true
+    },
+    {
+      "id": "V3-REORDER-0033",
+      "lesson_id": "GRM-01",
+      "type": "reorder_tokens",
+      "activity_type": "reorder_tokens",
+      "renderer_id": "reorder_tokens",
+      "difficulty": 2,
+      "prompt": "Reconstruis la phrase russe : « J’aime cette musique. »",
+      "answer": "Мне нравится эта музыка.",
+      "tokens": [
+        "нравится",
+        "Мне",
+        "эта",
+        "музыка."
+      ],
+      "concepts": [
+        "dative",
+        "нравиться",
+        "мне-vs-я",
+        "experiencer-construction"
+      ],
+      "error_tags": [
+        "word-order"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.2,
+        "comprehension": 0.2,
+        "production": 0.6
+      },
+      "scoring": {
+        "mode": "ordered_tokens",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-course-example",
+      "shuffle_on_render": true
+    },
+    {
+      "id": "V3-REORDER-0034",
+      "lesson_id": "GRM-01",
+      "type": "reorder_tokens",
+      "activity_type": "reorder_tokens",
+      "renderer_id": "reorder_tokens",
+      "difficulty": 2,
+      "prompt": "Reconstruis la phrase russe : « J’aime la photographie. »",
+      "answer": "Мне нравится фотография.",
+      "tokens": [
+        "нравится",
+        "Мне",
+        "фотография."
+      ],
+      "concepts": [
+        "dative",
+        "нравиться",
+        "мне-vs-я",
+        "experiencer-construction"
+      ],
+      "error_tags": [
+        "word-order"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.2,
+        "comprehension": 0.2,
+        "production": 0.6
+      },
+      "scoring": {
+        "mode": "ordered_tokens",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-course-example",
+      "shuffle_on_render": true
+    },
+    {
+      "id": "V3-REORDER-0035",
+      "lesson_id": "GRM-01",
+      "type": "reorder_tokens",
+      "activity_type": "reorder_tokens",
+      "renderer_id": "reorder_tokens",
+      "difficulty": 2,
+      "prompt": "Reconstruis la phrase russe : « J’aime les photographies. »",
+      "answer": "Мне нравятся фотографии.",
+      "tokens": [
+        "нравятся",
+        "фотографии.",
+        "Мне"
+      ],
+      "concepts": [
+        "dative",
+        "нравиться",
+        "мне-vs-я",
+        "experiencer-construction"
+      ],
+      "error_tags": [
+        "word-order"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.2,
+        "comprehension": 0.2,
+        "production": 0.6
+      },
+      "scoring": {
+        "mode": "ordered_tokens",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-course-example",
+      "shuffle_on_render": true
+    },
+    {
+      "id": "V3-REORDER-0036",
+      "lesson_id": "GRM-01",
+      "type": "reorder_tokens",
+      "activity_type": "reorder_tokens",
+      "renderer_id": "reorder_tokens",
+      "difficulty": 2,
+      "prompt": "Reconstruis la phrase russe : « Tu aimes le thé ? »",
+      "answer": "Тебе нравится чай?",
+      "tokens": [
+        "нравится",
+        "чай?",
+        "Тебе"
+      ],
+      "concepts": [
+        "dative",
+        "нравиться",
+        "мне-vs-я",
+        "experiencer-construction"
+      ],
+      "error_tags": [
+        "word-order"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.2,
+        "comprehension": 0.2,
+        "production": 0.6
+      },
+      "scoring": {
+        "mode": "ordered_tokens",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-course-example",
+      "shuffle_on_render": true
+    },
+    {
+      "id": "V3-REORDER-0037",
+      "lesson_id": "GRM-01",
+      "type": "reorder_tokens",
+      "activity_type": "reorder_tokens",
+      "renderer_id": "reorder_tokens",
+      "difficulty": 2,
+      "prompt": "Reconstruis la phrase russe : « Elle aime la voiture. »",
+      "answer": "Ей нравится машина.",
+      "tokens": [
+        "машина.",
+        "Ей",
+        "нравится"
+      ],
+      "concepts": [
+        "dative",
+        "нравиться",
+        "мне-vs-я",
+        "experiencer-construction"
+      ],
+      "error_tags": [
+        "word-order"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.2,
+        "comprehension": 0.2,
+        "production": 0.6
+      },
+      "scoring": {
+        "mode": "ordered_tokens",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-course-example",
+      "shuffle_on_render": true
+    },
+    {
+      "id": "V3-REORDER-0038",
+      "lesson_id": "GRM-01",
+      "type": "reorder_tokens",
+      "activity_type": "reorder_tokens",
+      "renderer_id": "reorder_tokens",
+      "difficulty": 2,
+      "prompt": "Reconstruis la phrase russe : « Je n’aime pas le café. »",
+      "answer": "Мне не нравится кофе.",
+      "tokens": [
+        "не",
+        "кофе.",
+        "Мне",
+        "нравится"
+      ],
+      "concepts": [
+        "dative",
+        "нравиться",
+        "мне-vs-я",
+        "experiencer-construction"
+      ],
+      "error_tags": [
+        "word-order"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.2,
+        "comprehension": 0.2,
+        "production": 0.6
+      },
+      "scoring": {
+        "mode": "ordered_tokens",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-course-example",
+      "shuffle_on_render": true
+    },
+    {
+      "id": "V3-REORDER-0039",
+      "lesson_id": "GRM-01",
+      "type": "reorder_tokens",
+      "activity_type": "reorder_tokens",
+      "renderer_id": "reorder_tokens",
+      "difficulty": 2,
+      "prompt": "Reconstruis la phrase russe : « Le bortsch lui plaît / il aime le bortsch. »",
+      "answer": "Борщ ему нравится.",
+      "tokens": [
+        "нравится.",
+        "ему",
+        "Борщ"
+      ],
+      "concepts": [
+        "dative",
+        "нравиться",
+        "мне-vs-я",
+        "experiencer-construction"
+      ],
+      "error_tags": [
+        "word-order"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.2,
+        "comprehension": 0.2,
+        "production": 0.6
+      },
+      "scoring": {
+        "mode": "ordered_tokens",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-course-example",
+      "shuffle_on_render": true
+    },
+    {
+      "id": "V3-REORDER-0040",
+      "lesson_id": "GRM-03",
+      "type": "reorder_tokens",
+      "activity_type": "reorder_tokens",
+      "renderer_id": "reorder_tokens",
+      "difficulty": 2,
+      "prompt": "Reconstruis la phrase russe : « voiture : forme de base → objet direct »",
+      "answer": "машина → машину",
+      "tokens": [
+        "машину",
+        "машина",
+        "→"
+      ],
+      "concepts": [
+        "gender",
+        "adjective-agreement",
+        "nominative"
+      ],
+      "error_tags": [
+        "word-order"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.2,
+        "comprehension": 0.2,
+        "production": 0.6
+      },
+      "scoring": {
+        "mode": "ordered_tokens",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-course-example",
+      "shuffle_on_render": true
+    },
+    {
+      "id": "V3-REORDER-0041",
+      "lesson_id": "GRM-04",
+      "type": "reorder_tokens",
+      "activity_type": "reorder_tokens",
+      "renderer_id": "reorder_tokens",
+      "difficulty": 2,
+      "prompt": "Reconstruis la phrase russe : « Je vois la voiture. »",
+      "answer": "Я вижу машину.",
+      "tokens": [
+        "машину.",
+        "Я",
+        "вижу"
+      ],
+      "concepts": [
+        "accusative",
+        "direct-object",
+        "motion-direction"
+      ],
+      "error_tags": [
+        "word-order"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.2,
+        "comprehension": 0.2,
+        "production": 0.6
+      },
+      "scoring": {
+        "mode": "ordered_tokens",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-course-example",
+      "shuffle_on_render": true
+    },
+    {
+      "id": "V3-REORDER-0042",
+      "lesson_id": "GRM-04",
+      "type": "reorder_tokens",
+      "activity_type": "reorder_tokens",
+      "renderer_id": "reorder_tokens",
+      "difficulty": 2,
+      "prompt": "Reconstruis la phrase russe : « Elle lit un livre. »",
+      "answer": "Она читает книгу.",
+      "tokens": [
+        "читает",
+        "книгу.",
+        "Она"
+      ],
+      "concepts": [
+        "accusative",
+        "direct-object",
+        "motion-direction"
+      ],
+      "error_tags": [
+        "word-order"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.2,
+        "comprehension": 0.2,
+        "production": 0.6
+      },
+      "scoring": {
+        "mode": "ordered_tokens",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-course-example",
+      "shuffle_on_render": true
+    },
+    {
+      "id": "V3-REORDER-0043",
+      "lesson_id": "GRM-04",
+      "type": "reorder_tokens",
+      "activity_type": "reorder_tokens",
+      "renderer_id": "reorder_tokens",
+      "difficulty": 2,
+      "prompt": "Reconstruis la phrase russe : « voiture »",
+      "answer": "машина → машину",
+      "tokens": [
+        "машину",
+        "→",
+        "машина"
+      ],
+      "concepts": [
+        "accusative",
+        "direct-object",
+        "motion-direction"
+      ],
+      "error_tags": [
+        "word-order"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.2,
+        "comprehension": 0.2,
+        "production": 0.6
+      },
+      "scoring": {
+        "mode": "ordered_tokens",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-course-example",
+      "shuffle_on_render": true
+    },
+    {
+      "id": "V3-REORDER-0044",
+      "lesson_id": "GRM-04",
+      "type": "reorder_tokens",
+      "activity_type": "reorder_tokens",
+      "renderer_id": "reorder_tokens",
+      "difficulty": 2,
+      "prompt": "Reconstruis la phrase russe : « livre »",
+      "answer": "книга → книгу",
+      "tokens": [
+        "книга",
+        "книгу",
+        "→"
+      ],
+      "concepts": [
+        "accusative",
+        "direct-object",
+        "motion-direction"
+      ],
+      "error_tags": [
+        "word-order"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.2,
+        "comprehension": 0.2,
+        "production": 0.6
+      },
+      "scoring": {
+        "mode": "ordered_tokens",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-course-example",
+      "shuffle_on_render": true
+    },
+    {
+      "id": "V3-REORDER-0045",
+      "lesson_id": "GRM-04",
+      "type": "reorder_tokens",
+      "activity_type": "reorder_tokens",
+      "renderer_id": "reorder_tokens",
+      "difficulty": 2,
+      "prompt": "Reconstruis la phrase russe : « Nous allons à l’école. »",
+      "answer": "Мы идём в школу.",
+      "tokens": [
+        "в",
+        "Мы",
+        "идём",
+        "школу."
+      ],
+      "concepts": [
+        "accusative",
+        "direct-object",
+        "motion-direction"
+      ],
+      "error_tags": [
+        "word-order"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.2,
+        "comprehension": 0.2,
+        "production": 0.6
+      },
+      "scoring": {
+        "mode": "ordered_tokens",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-course-example",
+      "shuffle_on_render": true
+    },
+    {
+      "id": "V3-REORDER-0046",
+      "lesson_id": "GRM-04",
+      "type": "reorder_tokens",
+      "activity_type": "reorder_tokens",
+      "renderer_id": "reorder_tokens",
+      "difficulty": 2,
+      "prompt": "Reconstruis la phrase russe : « Il va dans la cuisine. »",
+      "answer": "Он идёт на кухню.",
+      "tokens": [
+        "на",
+        "Он",
+        "идёт",
+        "кухню."
+      ],
+      "concepts": [
+        "accusative",
+        "direct-object",
+        "motion-direction"
+      ],
+      "error_tags": [
+        "word-order"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.2,
+        "comprehension": 0.2,
+        "production": 0.6
+      },
+      "scoring": {
+        "mode": "ordered_tokens",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-course-example",
+      "shuffle_on_render": true
+    },
+    {
+      "id": "V3-REORDER-0047",
+      "lesson_id": "GRM-04",
+      "type": "reorder_tokens",
+      "activity_type": "reorder_tokens",
+      "renderer_id": "reorder_tokens",
+      "difficulty": 2,
+      "prompt": "Reconstruis la phrase russe : « Je vois le téléphone. »",
+      "answer": "Я вижу телефон.",
+      "tokens": [
+        "вижу",
+        "Я",
+        "телефон."
+      ],
+      "concepts": [
+        "accusative",
+        "direct-object",
+        "motion-direction"
+      ],
+      "error_tags": [
+        "word-order"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.2,
+        "comprehension": 0.2,
+        "production": 0.6
+      },
+      "scoring": {
+        "mode": "ordered_tokens",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-course-example",
+      "shuffle_on_render": true
+    },
+    {
+      "id": "V3-REORDER-0048",
+      "lesson_id": "GRM-05",
+      "type": "reorder_tokens",
+      "activity_type": "reorder_tokens",
+      "renderer_id": "reorder_tokens",
+      "difficulty": 2,
+      "prompt": "Reconstruis la phrase russe : « Où est-il ? Il est à la maison. »",
+      "answer": "Где он? Он дома.",
+      "tokens": [
+        "дома.",
+        "он?",
+        "Где",
+        "Он"
+      ],
+      "concepts": [
+        "location-vs-direction",
+        "дома",
+        "домой",
+        "где",
+        "куда"
+      ],
+      "error_tags": [
+        "word-order"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.2,
+        "comprehension": 0.2,
+        "production": 0.6
+      },
+      "scoring": {
+        "mode": "ordered_tokens",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-course-example",
+      "shuffle_on_render": true
+    },
+    {
+      "id": "V3-REORDER-0049",
+      "lesson_id": "GRM-05",
+      "type": "reorder_tokens",
+      "activity_type": "reorder_tokens",
+      "renderer_id": "reorder_tokens",
+      "difficulty": 2,
+      "prompt": "Reconstruis la phrase russe : « Il est dans la cuisine. »",
+      "answer": "Он на кухне.",
+      "tokens": [
+        "на",
+        "кухне.",
+        "Он"
+      ],
+      "concepts": [
+        "location-vs-direction",
+        "дома",
+        "домой",
+        "где",
+        "куда"
+      ],
+      "error_tags": [
+        "word-order"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.2,
+        "comprehension": 0.2,
+        "production": 0.6
+      },
+      "scoring": {
+        "mode": "ordered_tokens",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-course-example",
+      "shuffle_on_render": true
+    },
+    {
+      "id": "V3-REORDER-0050",
+      "lesson_id": "GRM-05",
+      "type": "reorder_tokens",
+      "activity_type": "reorder_tokens",
+      "renderer_id": "reorder_tokens",
+      "difficulty": 2,
+      "prompt": "Reconstruis la phrase russe : « Où va-t-il ? Chez lui. »",
+      "answer": "Куда он идёт? Домой.",
+      "tokens": [
+        "идёт?",
+        "он",
+        "Куда",
+        "Домой."
+      ],
+      "concepts": [
+        "location-vs-direction",
+        "дома",
+        "домой",
+        "где",
+        "куда"
+      ],
+      "error_tags": [
+        "word-order"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.2,
+        "comprehension": 0.2,
+        "production": 0.6
+      },
+      "scoring": {
+        "mode": "ordered_tokens",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-course-example",
+      "shuffle_on_render": true
+    },
+    {
+      "id": "V3-REORDER-0051",
+      "lesson_id": "GRM-05",
+      "type": "reorder_tokens",
+      "activity_type": "reorder_tokens",
+      "renderer_id": "reorder_tokens",
+      "difficulty": 2,
+      "prompt": "Reconstruis la phrase russe : « Il va dans la cuisine. »",
+      "answer": "Он идёт на кухню.",
+      "tokens": [
+        "на",
+        "кухню.",
+        "идёт",
+        "Он"
+      ],
+      "concepts": [
+        "location-vs-direction",
+        "дома",
+        "домой",
+        "где",
+        "куда"
+      ],
+      "error_tags": [
+        "word-order"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.2,
+        "comprehension": 0.2,
+        "production": 0.6
+      },
+      "scoring": {
+        "mode": "ordered_tokens",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-course-example",
+      "shuffle_on_render": true
+    },
+    {
+      "id": "V3-REORDER-0052",
+      "lesson_id": "GRM-06",
+      "type": "reorder_tokens",
+      "activity_type": "reorder_tokens",
+      "renderer_id": "reorder_tokens",
+      "difficulty": 2,
+      "prompt": "Reconstruis la phrase russe : « J’ai un téléphone. »",
+      "answer": "У меня есть телефон.",
+      "tokens": [
+        "есть",
+        "У",
+        "меня",
+        "телефон."
+      ],
+      "concepts": [
+        "possession",
+        "у-possessor",
+        "есть",
+        "нет",
+        "genitive-basic"
+      ],
+      "error_tags": [
+        "word-order"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.2,
+        "comprehension": 0.2,
+        "production": 0.6
+      },
+      "scoring": {
+        "mode": "ordered_tokens",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-course-example",
+      "shuffle_on_render": true
+    },
+    {
+      "id": "V3-REORDER-0053",
+      "lesson_id": "GRM-06",
+      "type": "reorder_tokens",
+      "activity_type": "reorder_tokens",
+      "renderer_id": "reorder_tokens",
+      "difficulty": 2,
+      "prompt": "Reconstruis la phrase russe : « Tu as une voiture ? »",
+      "answer": "У тебя есть машина?",
+      "tokens": [
+        "машина?",
+        "есть",
+        "У",
+        "тебя"
+      ],
+      "concepts": [
+        "possession",
+        "у-possessor",
+        "есть",
+        "нет",
+        "genitive-basic"
+      ],
+      "error_tags": [
+        "word-order"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.2,
+        "comprehension": 0.2,
+        "production": 0.6
+      },
+      "scoring": {
+        "mode": "ordered_tokens",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-course-example",
+      "shuffle_on_render": true
+    },
+    {
+      "id": "V3-REORDER-0054",
+      "lesson_id": "GRM-06",
+      "type": "reorder_tokens",
+      "activity_type": "reorder_tokens",
+      "renderer_id": "reorder_tokens",
+      "difficulty": 2,
+      "prompt": "Reconstruis la phrase russe : « Il a un frère. »",
+      "answer": "У него есть брат.",
+      "tokens": [
+        "есть",
+        "У",
+        "него",
+        "брат."
+      ],
+      "concepts": [
+        "possession",
+        "у-possessor",
+        "есть",
+        "нет",
+        "genitive-basic"
+      ],
+      "error_tags": [
+        "word-order"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.2,
+        "comprehension": 0.2,
+        "production": 0.6
+      },
+      "scoring": {
+        "mode": "ordered_tokens",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-course-example",
+      "shuffle_on_render": true
+    },
+    {
+      "id": "V3-REORDER-0055",
+      "lesson_id": "GRM-06",
+      "type": "reorder_tokens",
+      "activity_type": "reorder_tokens",
+      "renderer_id": "reorder_tokens",
+      "difficulty": 2,
+      "prompt": "Reconstruis la phrase russe : « Elle a une sœur. »",
+      "answer": "У неё есть сестра.",
+      "tokens": [
+        "сестра.",
+        "есть",
+        "неё",
+        "У"
+      ],
+      "concepts": [
+        "possession",
+        "у-possessor",
+        "есть",
+        "нет",
+        "genitive-basic"
+      ],
+      "error_tags": [
+        "word-order"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.2,
+        "comprehension": 0.2,
+        "production": 0.6
+      },
+      "scoring": {
+        "mode": "ordered_tokens",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-course-example",
+      "shuffle_on_render": true
+    },
+    {
+      "id": "V3-REORDER-0056",
+      "lesson_id": "GRM-06",
+      "type": "reorder_tokens",
+      "activity_type": "reorder_tokens",
+      "renderer_id": "reorder_tokens",
+      "difficulty": 2,
+      "prompt": "Reconstruis la phrase russe : « Je n’ai pas de téléphone. »",
+      "answer": "У меня нет телефона.",
+      "tokens": [
+        "нет",
+        "телефона.",
+        "У",
+        "меня"
+      ],
+      "concepts": [
+        "possession",
+        "у-possessor",
+        "есть",
+        "нет",
+        "genitive-basic"
+      ],
+      "error_tags": [
+        "word-order"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.2,
+        "comprehension": 0.2,
+        "production": 0.6
+      },
+      "scoring": {
+        "mode": "ordered_tokens",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-course-example",
+      "shuffle_on_render": true
+    },
+    {
+      "id": "V3-REORDER-0057",
+      "lesson_id": "GRM-06",
+      "type": "reorder_tokens",
+      "activity_type": "reorder_tokens",
+      "renderer_id": "reorder_tokens",
+      "difficulty": 2,
+      "prompt": "Reconstruis la phrase russe : « Il n’a pas d’enfants. »",
+      "answer": "У него нет детей.",
+      "tokens": [
+        "У",
+        "детей.",
+        "нет",
+        "него"
+      ],
+      "concepts": [
+        "possession",
+        "у-possessor",
+        "есть",
+        "нет",
+        "genitive-basic"
+      ],
+      "error_tags": [
+        "word-order"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.2,
+        "comprehension": 0.2,
+        "production": 0.6
+      },
+      "scoring": {
+        "mode": "ordered_tokens",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-course-example",
+      "shuffle_on_render": true
+    },
+    {
+      "id": "V3-REORDER-0058",
+      "lesson_id": "GRM-06",
+      "type": "reorder_tokens",
+      "activity_type": "reorder_tokens",
+      "renderer_id": "reorder_tokens",
+      "difficulty": 2,
+      "prompt": "Reconstruis la phrase russe : « téléphone → pas de téléphone »",
+      "answer": "телефон → нет телефона",
+      "tokens": [
+        "телефона",
+        "нет",
+        "→",
+        "телефон"
+      ],
+      "concepts": [
+        "possession",
+        "у-possessor",
+        "есть",
+        "нет",
+        "genitive-basic"
+      ],
+      "error_tags": [
+        "word-order"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.2,
+        "comprehension": 0.2,
+        "production": 0.6
+      },
+      "scoring": {
+        "mode": "ordered_tokens",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-course-example",
+      "shuffle_on_render": true
+    },
+    {
+      "id": "V3-REORDER-0059",
+      "lesson_id": "GRM-06",
+      "type": "reorder_tokens",
+      "activity_type": "reorder_tokens",
+      "renderer_id": "reorder_tokens",
+      "difficulty": 2,
+      "prompt": "Reconstruis la phrase russe : « enfants → pas d’enfants »",
+      "answer": "дети → нет детей",
+      "tokens": [
+        "детей",
+        "дети",
+        "→",
+        "нет"
+      ],
+      "concepts": [
+        "possession",
+        "у-possessor",
+        "есть",
+        "нет",
+        "genitive-basic"
+      ],
+      "error_tags": [
+        "word-order"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.2,
+        "comprehension": 0.2,
+        "production": 0.6
+      },
+      "scoring": {
+        "mode": "ordered_tokens",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-course-example",
+      "shuffle_on_render": true
+    },
+    {
+      "id": "V3-REORDER-0060",
+      "lesson_id": "GRM-07",
+      "type": "reorder_tokens",
+      "activity_type": "reorder_tokens",
+      "renderer_id": "reorder_tokens",
+      "difficulty": 2,
+      "prompt": "Reconstruis la phrase russe : « Il a travaillé hier. »",
+      "answer": "Он работал вчера.",
+      "tokens": [
+        "работал",
+        "вчера.",
+        "Он"
+      ],
+      "concepts": [
+        "past-tense",
+        "past-gender",
+        "past-number"
+      ],
+      "error_tags": [
+        "word-order"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.2,
+        "comprehension": 0.2,
+        "production": 0.6
+      },
+      "scoring": {
+        "mode": "ordered_tokens",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-course-example",
+      "shuffle_on_render": true
+    },
+    {
+      "id": "V3-REORDER-0061",
+      "lesson_id": "GRM-07",
+      "type": "reorder_tokens",
+      "activity_type": "reorder_tokens",
+      "renderer_id": "reorder_tokens",
+      "difficulty": 2,
+      "prompt": "Reconstruis la phrase russe : « Elle a travaillé hier. »",
+      "answer": "Она работала вчера.",
+      "tokens": [
+        "Она",
+        "вчера.",
+        "работала"
+      ],
+      "concepts": [
+        "past-tense",
+        "past-gender",
+        "past-number"
+      ],
+      "error_tags": [
+        "word-order"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.2,
+        "comprehension": 0.2,
+        "production": 0.6
+      },
+      "scoring": {
+        "mode": "ordered_tokens",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-course-example",
+      "shuffle_on_render": true
+    },
+    {
+      "id": "V3-REORDER-0062",
+      "lesson_id": "GRM-07",
+      "type": "reorder_tokens",
+      "activity_type": "reorder_tokens",
+      "renderer_id": "reorder_tokens",
+      "difficulty": 2,
+      "prompt": "Reconstruis la phrase russe : « Elle m’a dit non. »",
+      "answer": "Она сказала мне нет.",
+      "tokens": [
+        "нет.",
+        "Она",
+        "мне",
+        "сказала"
+      ],
+      "concepts": [
+        "past-tense",
+        "past-gender",
+        "past-number"
+      ],
+      "error_tags": [
+        "word-order"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.2,
+        "comprehension": 0.2,
+        "production": 0.6
+      },
+      "scoring": {
+        "mode": "ordered_tokens",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-course-example",
+      "shuffle_on_render": true
+    },
+    {
+      "id": "V3-REORDER-0063",
+      "lesson_id": "GRM-07",
+      "type": "reorder_tokens",
+      "activity_type": "reorder_tokens",
+      "renderer_id": "reorder_tokens",
+      "difficulty": 2,
+      "prompt": "Reconstruis la phrase russe : « Ils sont arrivés hier. »",
+      "answer": "Они приехали вчера.",
+      "tokens": [
+        "приехали",
+        "Они",
+        "вчера."
+      ],
+      "concepts": [
+        "past-tense",
+        "past-gender",
+        "past-number"
+      ],
+      "error_tags": [
+        "word-order"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.2,
+        "comprehension": 0.2,
+        "production": 0.6
+      },
+      "scoring": {
+        "mode": "ordered_tokens",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-course-example",
+      "shuffle_on_render": true
+    },
+    {
+      "id": "V3-REORDER-0064",
+      "lesson_id": "GRM-07",
+      "type": "reorder_tokens",
+      "activity_type": "reorder_tokens",
+      "renderer_id": "reorder_tokens",
+      "difficulty": 2,
+      "prompt": "Reconstruis la phrase russe : « Ils ont fait connaissance sur Internet. »",
+      "answer": "Они познакомились в интернете.",
+      "tokens": [
+        "в",
+        "интернете.",
+        "познакомились",
+        "Они"
+      ],
+      "concepts": [
+        "past-tense",
+        "past-gender",
+        "past-number"
+      ],
+      "error_tags": [
+        "word-order"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.2,
+        "comprehension": 0.2,
+        "production": 0.6
+      },
+      "scoring": {
+        "mode": "ordered_tokens",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-course-example",
+      "shuffle_on_render": true
+    },
+    {
+      "id": "V3-REORDER-0065",
+      "lesson_id": "GRM-07",
+      "type": "reorder_tokens",
+      "activity_type": "reorder_tokens",
+      "renderer_id": "reorder_tokens",
+      "difficulty": 2,
+      "prompt": "Reconstruis la phrase russe : « il y a quelques mois »",
+      "answer": "несколько месяцев назад",
+      "tokens": [
+        "месяцев",
+        "несколько",
+        "назад"
+      ],
+      "concepts": [
+        "past-tense",
+        "past-gender",
+        "past-number"
+      ],
+      "error_tags": [
+        "word-order"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.2,
+        "comprehension": 0.2,
+        "production": 0.6
+      },
+      "scoring": {
+        "mode": "ordered_tokens",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-course-example",
+      "shuffle_on_render": true
+    },
+    {
+      "id": "V3-REORDER-0066",
+      "lesson_id": "GRM-08",
+      "type": "reorder_tokens",
+      "activity_type": "reorder_tokens",
+      "renderer_id": "reorder_tokens",
+      "difficulty": 2,
+      "prompt": "Reconstruis la phrase russe : « Je vois une voiture. »",
+      "answer": "Я вижу машину.",
+      "tokens": [
+        "машину.",
+        "Я",
+        "вижу"
+      ],
+      "concepts": [
+        "pronoun-cases",
+        "accusative-pronouns",
+        "dative-pronouns"
+      ],
+      "error_tags": [
+        "word-order"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.2,
+        "comprehension": 0.2,
+        "production": 0.6
+      },
+      "scoring": {
+        "mode": "ordered_tokens",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-course-example",
+      "shuffle_on_render": true
+    },
+    {
+      "id": "V3-REORDER-0067",
+      "lesson_id": "GRM-08",
+      "type": "reorder_tokens",
+      "activity_type": "reorder_tokens",
+      "renderer_id": "reorder_tokens",
+      "difficulty": 2,
+      "prompt": "Reconstruis la phrase russe : « Je m’appelle Tony. »",
+      "answer": "Меня зовут Тони.",
+      "tokens": [
+        "зовут",
+        "Тони.",
+        "Меня"
+      ],
+      "concepts": [
+        "pronoun-cases",
+        "accusative-pronouns",
+        "dative-pronouns"
+      ],
+      "error_tags": [
+        "word-order"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.2,
+        "comprehension": 0.2,
+        "production": 0.6
+      },
+      "scoring": {
+        "mode": "ordered_tokens",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-course-example",
+      "shuffle_on_render": true
+    },
+    {
+      "id": "V3-REORDER-0068",
+      "lesson_id": "GRM-08",
+      "type": "reorder_tokens",
+      "activity_type": "reorder_tokens",
+      "renderer_id": "reorder_tokens",
+      "difficulty": 2,
+      "prompt": "Reconstruis la phrase russe : « Tu me vois ? »",
+      "answer": "Ты меня видишь?",
+      "tokens": [
+        "меня",
+        "видишь?",
+        "Ты"
+      ],
+      "concepts": [
+        "pronoun-cases",
+        "accusative-pronouns",
+        "dative-pronouns"
+      ],
+      "error_tags": [
+        "word-order"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.2,
+        "comprehension": 0.2,
+        "production": 0.6
+      },
+      "scoring": {
+        "mode": "ordered_tokens",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-course-example",
+      "shuffle_on_render": true
+    },
+    {
+      "id": "V3-REORDER-0069",
+      "lesson_id": "GRM-08",
+      "type": "reorder_tokens",
+      "activity_type": "reorder_tokens",
+      "renderer_id": "reorder_tokens",
+      "difficulty": 2,
+      "prompt": "Reconstruis la phrase russe : « J’aime le café. »",
+      "answer": "Мне нравится кофе.",
+      "tokens": [
+        "кофе.",
+        "нравится",
+        "Мне"
+      ],
+      "concepts": [
+        "pronoun-cases",
+        "accusative-pronouns",
+        "dative-pronouns"
+      ],
+      "error_tags": [
+        "word-order"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.2,
+        "comprehension": 0.2,
+        "production": 0.6
+      },
+      "scoring": {
+        "mode": "ordered_tokens",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-course-example",
+      "shuffle_on_render": true
+    },
+    {
+      "id": "V3-REORDER-0070",
+      "lesson_id": "GRM-08",
+      "type": "reorder_tokens",
+      "activity_type": "reorder_tokens",
+      "renderer_id": "reorder_tokens",
+      "difficulty": 2,
+      "prompt": "Reconstruis la phrase russe : « J’ai du mal à répondre. »",
+      "answer": "Мне трудно отвечать.",
+      "tokens": [
+        "отвечать.",
+        "Мне",
+        "трудно"
+      ],
+      "concepts": [
+        "pronoun-cases",
+        "accusative-pronouns",
+        "dative-pronouns"
+      ],
+      "error_tags": [
+        "word-order"
+      ],
+      "skill_dimensions": {
+        "recognition": 0.2,
+        "comprehension": 0.2,
+        "production": 0.6
+      },
+      "scoring": {
+        "mode": "ordered_tokens",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "v0.3-course-example",
+      "shuffle_on_render": true
+    }
+  ]
+}

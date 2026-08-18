@@ -1,0 +1,462 @@
+{
+  "exercise_set": "10-read-02",
+  "items": [
+    {
+      "id": "READ02-001",
+      "lesson_id": "READ-02",
+      "type": "comprehension",
+      "difficulty": 1,
+      "prompt": "Lis : « Я хочу в лес, но не знаю, будет ли сегодня дождь. » Que veut faire la personne ?",
+      "answer": "Aller en forêt.",
+      "concepts": [
+        "reading-strategy",
+        "хотеть"
+      ],
+      "error_tags": [
+        "context-miss"
+      ],
+      "options": [
+        "Aller en forêt.",
+        "Aller au travail.",
+        "Acheter un téléphone.",
+        "Lire un livre."
+      ],
+      "context": "Я хочу в лес, но не знаю, будет ли сегодня дождь.",
+      "schema_version": "3.0.0",
+      "activity_type": "reading_comprehension",
+      "renderer_id": "reading_comprehension",
+      "skill_dimensions": {
+        "comprehension": 0.8,
+        "recognition": 0.2
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "READ02-002",
+      "lesson_id": "READ-02",
+      "type": "comprehension",
+      "difficulty": 1,
+      "prompt": "Même phrase : qu'est-ce que la personne ne sait pas ?",
+      "answer": "S'il va pleuvoir aujourd'hui.",
+      "concepts": [
+        "reading-strategy",
+        "negation"
+      ],
+      "error_tags": [
+        "context-miss"
+      ],
+      "options": [
+        "Où est la forêt.",
+        "S'il va pleuvoir aujourd'hui.",
+        "Qui travaille.",
+        "Quelle heure il est."
+      ],
+      "context": "Я хочу в лес, но не знаю, будет ли сегодня дождь.",
+      "schema_version": "3.0.0",
+      "activity_type": "reading_comprehension",
+      "renderer_id": "reading_comprehension",
+      "skill_dimensions": {
+        "comprehension": 0.8,
+        "recognition": 0.2
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "READ02-003",
+      "lesson_id": "READ-02",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis : « Она говорит, что уже дома и немного устала. »",
+      "answer": "Elle dit qu'elle est déjà à la maison et un peu fatiguée.",
+      "concepts": [
+        "что-clause",
+        "reading-strategy"
+      ],
+      "error_tags": [
+        "clause-boundary",
+        "connector-meaning"
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "READ02-004",
+      "lesson_id": "READ-02",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Dans « Она говорит, что уже дома... », quel élément connais-tu déjà et aide à découper la phrase ?",
+      "answer": "что",
+      "concepts": [
+        "reading-strategy",
+        "что-clause"
+      ],
+      "error_tags": [
+        "reading-strategy"
+      ],
+      "options": [
+        "уже",
+        "что",
+        "дома",
+        "немного"
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "READ02-005",
+      "lesson_id": "READ-02",
+      "type": "comprehension",
+      "difficulty": 1,
+      "prompt": "Lis : « Мне нравится эта фотография, но я не знаю, где это место. » Qu'est-ce que la personne aime ?",
+      "answer": "La photographie.",
+      "concepts": [
+        "нравиться",
+        "reading-strategy"
+      ],
+      "error_tags": [
+        "context-miss"
+      ],
+      "options": [
+        "Le lieu.",
+        "La photographie.",
+        "La ville.",
+        "La forêt."
+      ],
+      "context": "Мне нравится эта фотография, но я не знаю, где это место.",
+      "schema_version": "3.0.0",
+      "activity_type": "reading_comprehension",
+      "renderer_id": "reading_comprehension",
+      "skill_dimensions": {
+        "comprehension": 0.8,
+        "recognition": 0.2
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "READ02-006",
+      "lesson_id": "READ-02",
+      "type": "comprehension",
+      "difficulty": 1,
+      "prompt": "Même phrase : qu'est-ce que la personne ignore ?",
+      "answer": "Où se trouve / quel est le lieu.",
+      "concepts": [
+        "reading-strategy",
+        "negation"
+      ],
+      "error_tags": [
+        "context-miss"
+      ],
+      "options": [
+        "Qui a pris la photo.",
+        "Où se trouve / quel est le lieu.",
+        "Pourquoi elle aime la photo.",
+        "Quel appareil a été utilisé."
+      ],
+      "context": "Мне нравится эта фотография, но я не знаю, где это место.",
+      "schema_version": "3.0.0",
+      "activity_type": "reading_comprehension",
+      "renderer_id": "reading_comprehension",
+      "skill_dimensions": {
+        "comprehension": 0.8,
+        "recognition": 0.2
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "READ02-007",
+      "lesson_id": "READ-02",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis : « Мы хотим в город, но она хочет домой. »",
+      "answer": "Nous voulons aller en ville, mais elle veut rentrer chez elle.",
+      "concepts": [
+        "хотеть",
+        "direction",
+        "connector-meaning"
+      ],
+      "error_tags": [
+        "direction-vs-location"
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "READ02-008",
+      "lesson_id": "READ-02",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Face à une phrase longue avec un mot inconnu, la meilleure première réaction est :",
+      "answer": "repérer les structures et mots connus",
+      "concepts": [
+        "reading-strategy"
+      ],
+      "error_tags": [
+        "reading-strategy"
+      ],
+      "options": [
+        "abandonner la phrase",
+        "traduire chaque lettre",
+        "repérer les structures et mots connus",
+        "chercher toutes les déclinaisons"
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "READ02-009",
+      "lesson_id": "READ-02",
+      "type": "comprehension",
+      "difficulty": 1,
+      "prompt": "Lis : « Через десять минут она говорит, что хочет домой. » Quelle est l'idée finale ?",
+      "answer": "Elle veut rentrer chez elle.",
+      "concepts": [
+        "через",
+        "что-clause",
+        "хотеть"
+      ],
+      "error_tags": [
+        "context-miss"
+      ],
+      "options": [
+        "Elle veut travailler.",
+        "Elle veut rentrer chez elle.",
+        "Elle est perdue.",
+        "Elle aime le café."
+      ],
+      "context": "Через десять минут она говорит, что хочет домой.",
+      "schema_version": "3.0.0",
+      "activity_type": "reading_comprehension",
+      "renderer_id": "reading_comprehension",
+      "skill_dimensions": {
+        "comprehension": 0.8,
+        "recognition": 0.2
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "READ02-010",
+      "lesson_id": "READ-02",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis : « Я немного говорю по-русски, но понимаю не всё. »",
+      "answer": "Je parle un peu russe, mais je ne comprends pas tout.",
+      "concepts": [
+        "говорить",
+        "понимать",
+        "negation"
+      ],
+      "error_tags": [
+        "говорить-vs-понимать"
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "READ02-011",
+      "lesson_id": "READ-02",
+      "type": "comprehension",
+      "difficulty": 1,
+      "prompt": "Lis : « Она читает книгу и иногда говорит по-русски. » Quelles sont les deux actions ?",
+      "answer": "Elle lit et elle parle.",
+      "concepts": [
+        "reading-strategy"
+      ],
+      "error_tags": [
+        "verb-identification"
+      ],
+      "options": [
+        "Elle lit et elle parle.",
+        "Elle travaille et elle dort.",
+        "Elle marche et elle lit.",
+        "Elle parle et elle écrit."
+      ],
+      "context": "Она читает книгу и иногда говорит по-русски.",
+      "schema_version": "3.0.0",
+      "activity_type": "reading_comprehension",
+      "renderer_id": "reading_comprehension",
+      "skill_dimensions": {
+        "comprehension": 0.8,
+        "recognition": 0.2
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "READ02-012",
+      "lesson_id": "READ-02",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis : « Мне нравятся эти фотографии, потому что они очень разные. »",
+      "answer": "J'aime ces photos parce qu'elles sont très différentes.",
+      "concepts": [
+        "нравиться",
+        "reading-strategy"
+      ],
+      "error_tags": [
+        "нравится-vs-нравятся",
+        "context-miss"
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    }
+  ]
+}

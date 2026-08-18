@@ -1,0 +1,447 @@
+{
+  "exercise_set": "05-grm-01",
+  "items": [
+    {
+      "id": "GRM01-001",
+      "lesson_id": "GRM-01",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Complète : ___ нравится кофе.",
+      "answer": "Мне",
+      "concepts": [
+        "dative",
+        "нравиться",
+        "мне-vs-я"
+      ],
+      "error_tags": [
+        "я-вместо-мне"
+      ],
+      "options": [
+        "Я",
+        "Мне",
+        "Меня",
+        "Мой"
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "GRM01-002",
+      "lesson_id": "GRM-01",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis : « Мне нравится кофе. »",
+      "answer": "J'aime le café.",
+      "concepts": [
+        "нравиться",
+        "experiencer-construction"
+      ],
+      "error_tags": [
+        "literal-translation"
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "GRM01-003",
+      "lesson_id": "GRM-01",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Pourquoi pas « Я нравится кофе » ?",
+      "answer": "Parce que la construction russe utilise мне : le café plaît à moi.",
+      "concepts": [
+        "мне-vs-я",
+        "experiencer-construction"
+      ],
+      "error_tags": [
+        "я-вместо-мне"
+      ],
+      "options": [
+        "Parce que кофе est féminin.",
+        "Parce que нравится est au passé.",
+        "Parce que la construction russe utilise мне : le café plaît à moi.",
+        "Parce que Я ne peut jamais commencer une phrase."
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "GRM01-004",
+      "lesson_id": "GRM-01",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "prompt": "___ нравится эта музыка.",
+      "answer": "Мне",
+      "concepts": [
+        "dative",
+        "нравиться"
+      ],
+      "error_tags": [
+        "я-вместо-мне"
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "fill_blank",
+      "renderer_id": "fill_blank",
+      "skill_dimensions": {
+        "recognition": 0.15,
+        "recall": 0.45,
+        "production": 0.4
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "GRM01-005",
+      "lesson_id": "GRM-01",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis en russe : « J'aime cette musique. »",
+      "answer": "Мне нравится эта музыка.",
+      "concepts": [
+        "нравиться",
+        "dative"
+      ],
+      "error_tags": [
+        "я-вместо-мне"
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "GRM01-006",
+      "lesson_id": "GRM-01",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Complète : Мне ___ эти фотографии.",
+      "answer": "нравятся",
+      "concepts": [
+        "нравиться",
+        "plural-agreement"
+      ],
+      "error_tags": [
+        "нравится-vs-нравятся"
+      ],
+      "options": [
+        "нравится",
+        "нравятся",
+        "нравишься",
+        "нравимся"
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "GRM01-007",
+      "lesson_id": "GRM-01",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "prompt": "Мне ___ книга.",
+      "answer": "нравится",
+      "concepts": [
+        "нравиться",
+        "singular-agreement"
+      ],
+      "error_tags": [
+        "нравится-vs-нравятся"
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "fill_blank",
+      "renderer_id": "fill_blank",
+      "skill_dimensions": {
+        "recognition": 0.15,
+        "recall": 0.45,
+        "production": 0.4
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "GRM01-008",
+      "lesson_id": "GRM-01",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Dans « Мне нравится музыка », quel élément est grammaticalement au datif ?",
+      "answer": "Мне",
+      "concepts": [
+        "dative"
+      ],
+      "error_tags": [
+        "case-identification"
+      ],
+      "options": [
+        "Мне",
+        "нравится",
+        "музыка",
+        "aucun"
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "GRM01-009",
+      "lesson_id": "GRM-01",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis : « Мне нравятся фотографии. »",
+      "answer": "J'aime les photos.",
+      "concepts": [
+        "нравиться",
+        "plural-agreement"
+      ],
+      "error_tags": [
+        "нравится-vs-нравятся"
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "GRM01-010",
+      "lesson_id": "GRM-01",
+      "type": "reorder",
+      "difficulty": 1,
+      "prompt": "Construis : « J'aime le café. »",
+      "answer": "Мне нравится кофе.",
+      "concepts": [
+        "нравиться",
+        "dative"
+      ],
+      "error_tags": [
+        "я-вместо-мне",
+        "word-order"
+      ],
+      "tokens": [
+        "кофе",
+        "нравится",
+        "Мне"
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "reorder_tokens",
+      "renderer_id": "reorder_tokens",
+      "skill_dimensions": {
+        "recognition": 0.25,
+        "comprehension": 0.25,
+        "production": 0.5
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "shuffle_on_render": true
+    },
+    {
+      "id": "GRM01-011",
+      "lesson_id": "GRM-01",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Choisis la phrase correcte.",
+      "answer": "Мне нравится машина.",
+      "concepts": [
+        "нравиться",
+        "dative"
+      ],
+      "error_tags": [
+        "я-вместо-мне",
+        "нравится-vs-нравятся"
+      ],
+      "options": [
+        "Я нравится машина.",
+        "Мне нравится машина.",
+        "Мне нравятся машина.",
+        "Я нравятся машину."
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "GRM01-012",
+      "lesson_id": "GRM-01",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis en russe : « J'aime les voitures. »",
+      "answer": "Мне нравятся машины.",
+      "concepts": [
+        "нравиться",
+        "plural-agreement"
+      ],
+      "error_tags": [
+        "я-вместо-мне",
+        "нравится-vs-нравятся"
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    }
+  ]
+}

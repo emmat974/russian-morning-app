@@ -1,0 +1,371 @@
+{
+  "exercise_set": "09-read-01",
+  "items": [
+    {
+      "id": "READ01-001",
+      "lesson_id": "READ-01",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis : « Через десять минут »",
+      "answer": "Dans dix minutes / dix minutes plus tard.",
+      "concepts": [
+        "через",
+        "time-expression"
+      ],
+      "error_tags": [
+        "через-meaning"
+      ],
+      "acceptable_answers": [
+        "Dans dix minutes.",
+        "Dix minutes plus tard.",
+        "Après dix minutes."
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "READ01-002",
+      "lesson_id": "READ-01",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Dans « Через десять минут он понимает... », que donne d'abord через ?",
+      "answer": "un repère temporel",
+      "concepts": [
+        "через",
+        "chronology"
+      ],
+      "error_tags": [
+        "через-meaning"
+      ],
+      "options": [
+        "un sujet",
+        "un repère temporel",
+        "une négation",
+        "un lieu"
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "READ01-003",
+      "lesson_id": "READ-01",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis : « Через десять минут он понимает, что заблудился. »",
+      "answer": "Dix minutes plus tard, il comprend qu'il s'est perdu.",
+      "concepts": [
+        "через",
+        "что-clause",
+        "chronology"
+      ],
+      "error_tags": [
+        "через-meaning",
+        "clause-boundary"
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "READ01-004",
+      "lesson_id": "READ-01",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Quel est le sujet de « он понимает » ?",
+      "answer": "он",
+      "concepts": [
+        "subject-identification"
+      ],
+      "error_tags": [
+        "subject-identification"
+      ],
+      "options": [
+        "через",
+        "минут",
+        "он",
+        "что"
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "READ01-005",
+      "lesson_id": "READ-01",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "prompt": "Через ___ минут",
+      "answer": "десять",
+      "concepts": [
+        "time-expression"
+      ],
+      "error_tags": [
+        "time-expression"
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "fill_blank",
+      "renderer_id": "fill_blank",
+      "skill_dimensions": {
+        "recognition": 0.15,
+        "recall": 0.45,
+        "production": 0.4
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "READ01-006",
+      "lesson_id": "READ-01",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Quel mot relie « понимает » et « заблудился » ?",
+      "answer": "что",
+      "concepts": [
+        "что-clause"
+      ],
+      "error_tags": [
+        "missing-что"
+      ],
+      "options": [
+        "он",
+        "через",
+        "что",
+        "минут"
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "READ01-007",
+      "lesson_id": "READ-01",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis : « Через час мы дома. »",
+      "answer": "Dans une heure, nous sommes à la maison.",
+      "concepts": [
+        "через",
+        "time-expression"
+      ],
+      "error_tags": [
+        "через-meaning"
+      ],
+      "acceptable_answers": [
+        "Dans une heure, nous serons à la maison.",
+        "Dans une heure, nous sommes à la maison."
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "READ01-008",
+      "lesson_id": "READ-01",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Pour comprendre cette phrase, quelle information lire en premier ?",
+      "answer": "la chronologie + le sujet + les verbes",
+      "concepts": [
+        "reading-strategy"
+      ],
+      "error_tags": [
+        "reading-strategy"
+      ],
+      "options": [
+        "la terminaison de chaque nom",
+        "la chronologie + le sujet + les verbes",
+        "uniquement les adjectifs",
+        "le mot le plus long"
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "READ01-009",
+      "lesson_id": "READ-01",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "prompt": "Он понимает, ___ заблудился.",
+      "answer": "что",
+      "concepts": [
+        "что-clause"
+      ],
+      "error_tags": [
+        "missing-что"
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "fill_blank",
+      "renderer_id": "fill_blank",
+      "skill_dimensions": {
+        "recognition": 0.15,
+        "recall": 0.45,
+        "production": 0.4
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "READ01-010",
+      "lesson_id": "READ-01",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis en russe : « Dans une heure. »",
+      "answer": "Через час.",
+      "concepts": [
+        "через",
+        "time-expression"
+      ],
+      "error_tags": [
+        "через-meaning"
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,2455 @@
+{
+  "exercise_set": "24-pract-01-active-translation",
+  "items": [
+    {
+      "id": "PRACT01-001",
+      "lesson_id": "PRACT-01",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis en russe : « Je parle avec Anastasia. »",
+      "answer": "Я говорю с Анастасией.",
+      "concepts": [
+        "active-translation",
+        "dire"
+      ],
+      "error_tags": [
+        "с-instrumental",
+        "active-translation-structure"
+      ],
+      "acceptable_answers": [
+        "Я разговариваю с Анастасией."
+      ],
+      "context": "Je parle avec Anastasia.",
+      "source": "GH:series-traduction/dire",
+      "series": "dire",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT01-002",
+      "lesson_id": "PRACT-01",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis en russe : « Tony dit bonjour. »",
+      "answer": "Тони говорит: «Привет!»",
+      "concepts": [
+        "active-translation",
+        "dire"
+      ],
+      "error_tags": [
+        "active-translation-structure"
+      ],
+      "acceptable_answers": [
+        "Тони говорит привет."
+      ],
+      "context": "Tony dit bonjour.",
+      "source": "GH:series-traduction/dire",
+      "series": "dire",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT01-003",
+      "lesson_id": "PRACT-01",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis en russe : « Elle dit qu’elle travaille. »",
+      "answer": "Она говорит, что работает.",
+      "concepts": [
+        "active-translation",
+        "dire"
+      ],
+      "error_tags": [
+        "clause-order",
+        "active-translation-structure"
+      ],
+      "context": "Elle dit qu’elle travaille.",
+      "source": "GH:series-traduction/dire",
+      "series": "dire",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT01-004",
+      "lesson_id": "PRACT-01",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis en russe : « Qu’est-ce que tu dis ? »",
+      "answer": "Что ты говоришь?",
+      "concepts": [
+        "active-translation",
+        "dire"
+      ],
+      "error_tags": [
+        "verb-form-2sg",
+        "active-translation-structure"
+      ],
+      "context": "Qu’est-ce que tu dis ?",
+      "source": "GH:series-traduction/dire",
+      "series": "dire",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT01-005",
+      "lesson_id": "PRACT-01",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis en russe : « Dites-moi, s’il vous plaît. »",
+      "answer": "Скажите мне, пожалуйста.",
+      "concepts": [
+        "active-translation",
+        "dire"
+      ],
+      "error_tags": [
+        "polite-vs-informal",
+        "active-translation-structure"
+      ],
+      "context": "Dites-moi, s’il vous plaît.",
+      "source": "GH:series-traduction/dire",
+      "series": "dire",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT01-006",
+      "lesson_id": "PRACT-01",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis en russe : « Il a dit la vérité. »",
+      "answer": "Он сказал правду.",
+      "concepts": [
+        "active-translation",
+        "dire"
+      ],
+      "error_tags": [
+        "говорить-vs-сказать",
+        "active-translation-structure"
+      ],
+      "context": "Il a dit la vérité.",
+      "source": "GH:series-traduction/dire",
+      "series": "dire",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT01-007",
+      "lesson_id": "PRACT-01",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis en russe : « Elle m’a dit non. »",
+      "answer": "Она сказала мне нет.",
+      "concepts": [
+        "active-translation",
+        "dire"
+      ],
+      "error_tags": [
+        "меня-vs-мне",
+        "active-translation-structure"
+      ],
+      "context": "Elle m’a dit non.",
+      "source": "GH:series-traduction/dire",
+      "series": "dire",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT01-008",
+      "lesson_id": "PRACT-01",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis en russe : « Nous parlons russe. »",
+      "answer": "Мы говорим по-русски.",
+      "concepts": [
+        "active-translation",
+        "dire"
+      ],
+      "error_tags": [
+        "verb-form-1pl",
+        "active-translation-structure"
+      ],
+      "acceptable_answers": [
+        "Мы говорим на русском языке."
+      ],
+      "context": "Nous parlons russe.",
+      "source": "GH:series-traduction/dire",
+      "series": "dire",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT01-009",
+      "lesson_id": "PRACT-01",
+      "type": "translation",
+      "difficulty": 2,
+      "prompt": "Traduis en russe : « Je demande à Anastasia. »",
+      "answer": "Я спрашиваю Анастасию.",
+      "concepts": [
+        "active-translation",
+        "demander"
+      ],
+      "error_tags": [
+        "спрашивать-vs-просить",
+        "active-translation-structure"
+      ],
+      "context": "Je demande à Anastasia.",
+      "source": "GH:series-traduction/demander",
+      "series": "demander",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT01-010",
+      "lesson_id": "PRACT-01",
+      "type": "translation",
+      "difficulty": 2,
+      "prompt": "Traduis en russe : « Il demande où est Tony. »",
+      "answer": "Он спрашивает, где Тони.",
+      "concepts": [
+        "active-translation",
+        "demander"
+      ],
+      "error_tags": [
+        "question-word",
+        "active-translation-structure"
+      ],
+      "context": "Il demande où est Tony.",
+      "source": "GH:series-traduction/demander",
+      "series": "demander",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT01-011",
+      "lesson_id": "PRACT-01",
+      "type": "translation",
+      "difficulty": 2,
+      "prompt": "Traduis en russe : « Que demandez-vous ? »",
+      "answer": "Что вы спрашиваете?",
+      "concepts": [
+        "active-translation",
+        "demander"
+      ],
+      "error_tags": [
+        "вы-verb-form",
+        "active-translation-structure"
+      ],
+      "context": "Que demandez-vous ?",
+      "source": "GH:series-traduction/demander",
+      "series": "demander",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT01-012",
+      "lesson_id": "PRACT-01",
+      "type": "translation",
+      "difficulty": 2,
+      "prompt": "Traduis en russe : « Elle m’a demandé mon nom. »",
+      "answer": "Она спросила меня, как меня зовут.",
+      "concepts": [
+        "active-translation",
+        "demander"
+      ],
+      "error_tags": [
+        "меня-vs-мне",
+        "active-translation-structure"
+      ],
+      "context": "Elle m’a demandé mon nom.",
+      "source": "GH:series-traduction/demander",
+      "series": "demander",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT01-013",
+      "lesson_id": "PRACT-01",
+      "type": "translation",
+      "difficulty": 2,
+      "prompt": "Traduis en russe : « Je demande du thé. »",
+      "answer": "Я прошу чай.",
+      "concepts": [
+        "active-translation",
+        "demander"
+      ],
+      "error_tags": [
+        "спрашивать-vs-просить",
+        "active-translation-structure"
+      ],
+      "acceptable_answers": [
+        "Я прошу чаю."
+      ],
+      "context": "Je demande du thé.",
+      "source": "GH:series-traduction/demander",
+      "series": "demander",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT01-014",
+      "lesson_id": "PRACT-01",
+      "type": "translation",
+      "difficulty": 2,
+      "prompt": "Traduis en russe : « Je te demande de venir. »",
+      "answer": "Я прошу тебя прийти.",
+      "concepts": [
+        "active-translation",
+        "demander"
+      ],
+      "error_tags": [
+        "спрашивать-vs-просить",
+        "active-translation-structure"
+      ],
+      "context": "Je te demande de venir.",
+      "source": "GH:series-traduction/demander",
+      "series": "demander",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT01-015",
+      "lesson_id": "PRACT-01",
+      "type": "translation",
+      "difficulty": 2,
+      "prompt": "Traduis en russe : « Demandez au serveur. »",
+      "answer": "Спросите официанта.",
+      "concepts": [
+        "active-translation",
+        "demander"
+      ],
+      "error_tags": [
+        "polite-vs-informal",
+        "active-translation-structure"
+      ],
+      "context": "Demandez au serveur.",
+      "source": "GH:series-traduction/demander",
+      "series": "demander",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT01-016",
+      "lesson_id": "PRACT-01",
+      "type": "translation",
+      "difficulty": 2,
+      "prompt": "Traduis en russe : « Puis-je vous demander quelque chose ? »",
+      "answer": "Можно вас кое о чём спросить?",
+      "concepts": [
+        "active-translation",
+        "demander"
+      ],
+      "error_tags": [
+        "спрашивать-vs-просить",
+        "active-translation-structure"
+      ],
+      "acceptable_answers": [
+        "Можно вас спросить?"
+      ],
+      "context": "Puis-je vous demander quelque chose ?",
+      "source": "GH:series-traduction/demander",
+      "series": "demander",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT01-017",
+      "lesson_id": "PRACT-01",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis en russe : « Je travaille à la maison. »",
+      "answer": "Я работаю дома.",
+      "concepts": [
+        "active-translation",
+        "travailler"
+      ],
+      "error_tags": [
+        "дома-vs-домой",
+        "active-translation-structure"
+      ],
+      "context": "Je travaille à la maison.",
+      "source": "GH:series-traduction/travailler",
+      "series": "travailler",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT01-018",
+      "lesson_id": "PRACT-01",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis en russe : « Tu travailles aujourd’hui ? »",
+      "answer": "Ты сегодня работаешь?",
+      "concepts": [
+        "active-translation",
+        "travailler"
+      ],
+      "error_tags": [
+        "verb-form-2sg",
+        "active-translation-structure"
+      ],
+      "context": "Tu travailles aujourd’hui ?",
+      "source": "GH:series-traduction/travailler",
+      "series": "travailler",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT01-019",
+      "lesson_id": "PRACT-01",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis en russe : « Elle travaille dans un café. »",
+      "answer": "Она работает в кафе.",
+      "concepts": [
+        "active-translation",
+        "travailler"
+      ],
+      "error_tags": [
+        "verb-form-3sg",
+        "active-translation-structure"
+      ],
+      "context": "Elle travaille dans un café.",
+      "source": "GH:series-traduction/travailler",
+      "series": "travailler",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT01-020",
+      "lesson_id": "PRACT-01",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis en russe : « Nous travaillons ensemble. »",
+      "answer": "Мы работаем вместе.",
+      "concepts": [
+        "active-translation",
+        "travailler"
+      ],
+      "error_tags": [
+        "verb-form-1pl",
+        "active-translation-structure"
+      ],
+      "context": "Nous travaillons ensemble.",
+      "source": "GH:series-traduction/travailler",
+      "series": "travailler",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT01-021",
+      "lesson_id": "PRACT-01",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis en russe : « Mes parents travaillent en France. »",
+      "answer": "Мои родители работают во Франции.",
+      "concepts": [
+        "active-translation",
+        "travailler"
+      ],
+      "error_tags": [
+        "verb-form-3pl",
+        "active-translation-structure"
+      ],
+      "context": "Mes parents travaillent en France.",
+      "source": "GH:series-traduction/travailler",
+      "series": "travailler",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT01-022",
+      "lesson_id": "PRACT-01",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis en russe : « Il a travaillé hier. »",
+      "answer": "Он работал вчера.",
+      "concepts": [
+        "active-translation",
+        "travailler"
+      ],
+      "error_tags": [
+        "past-gender",
+        "active-translation-structure"
+      ],
+      "context": "Il a travaillé hier.",
+      "source": "GH:series-traduction/travailler",
+      "series": "travailler",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT01-023",
+      "lesson_id": "PRACT-01",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis en russe : « Anastasia a travaillé hier. »",
+      "answer": "Анастасия работала вчера.",
+      "concepts": [
+        "active-translation",
+        "travailler"
+      ],
+      "error_tags": [
+        "past-gender",
+        "active-translation-structure"
+      ],
+      "context": "Anastasia a travaillé hier.",
+      "source": "GH:series-traduction/travailler",
+      "series": "travailler",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT01-024",
+      "lesson_id": "PRACT-01",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis en russe : « Où travaillez-vous ? »",
+      "answer": "Где вы работаете?",
+      "concepts": [
+        "active-translation",
+        "travailler"
+      ],
+      "error_tags": [
+        "вы-verb-form",
+        "active-translation-structure"
+      ],
+      "context": "Où travaillez-vous ?",
+      "source": "GH:series-traduction/travailler",
+      "series": "travailler",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT01-025",
+      "lesson_id": "PRACT-01",
+      "type": "translation",
+      "difficulty": 2,
+      "prompt": "Traduis en russe : « J’invite Tony au café. »",
+      "answer": "Я приглашаю Тони в кафе.",
+      "concepts": [
+        "active-translation",
+        "inviter"
+      ],
+      "error_tags": [
+        "verb-form-1sg",
+        "active-translation-structure"
+      ],
+      "context": "J’invite Tony au café.",
+      "source": "GH:series-traduction/inviter",
+      "series": "inviter",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT01-026",
+      "lesson_id": "PRACT-01",
+      "type": "translation",
+      "difficulty": 2,
+      "prompt": "Traduis en russe : « Elle invite Anastasia chez elle. »",
+      "answer": "Она приглашает Анастасию к себе домой.",
+      "concepts": [
+        "active-translation",
+        "inviter"
+      ],
+      "error_tags": [
+        "дома-vs-домой",
+        "active-translation-structure"
+      ],
+      "context": "Elle invite Anastasia chez elle.",
+      "source": "GH:series-traduction/inviter",
+      "series": "inviter",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT01-027",
+      "lesson_id": "PRACT-01",
+      "type": "translation",
+      "difficulty": 2,
+      "prompt": "Traduis en russe : « On m’a invité chez Tony. »",
+      "answer": "Меня пригласили к Тони.",
+      "concepts": [
+        "active-translation",
+        "inviter"
+      ],
+      "error_tags": [
+        "past-plural",
+        "active-translation-structure"
+      ],
+      "context": "On m’a invité chez Tony.",
+      "source": "GH:series-traduction/inviter",
+      "series": "inviter",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT01-028",
+      "lesson_id": "PRACT-01",
+      "type": "translation",
+      "difficulty": 2,
+      "prompt": "Traduis en russe : « Est-ce qu’on t’a invité chez Tony ? »",
+      "answer": "Тебя пригласили к Тони?",
+      "concepts": [
+        "active-translation",
+        "inviter"
+      ],
+      "error_tags": [
+        "тебя-vs-тебе",
+        "active-translation-structure"
+      ],
+      "context": "Est-ce qu’on t’a invité chez Tony ?",
+      "source": "GH:series-traduction/inviter",
+      "series": "inviter",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT01-029",
+      "lesson_id": "PRACT-01",
+      "type": "translation",
+      "difficulty": 2,
+      "prompt": "Traduis en russe : « Ma mère m’a invité. »",
+      "answer": "Меня пригласила моя мама.",
+      "concepts": [
+        "active-translation",
+        "inviter"
+      ],
+      "error_tags": [
+        "past-gender",
+        "active-translation-structure"
+      ],
+      "context": "Ma mère m’a invité.",
+      "source": "GH:series-traduction/inviter",
+      "series": "inviter",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT01-030",
+      "lesson_id": "PRACT-01",
+      "type": "translation",
+      "difficulty": 2,
+      "prompt": "Traduis en russe : « Mes parents m’ont invité. »",
+      "answer": "Меня пригласили мои родители.",
+      "concepts": [
+        "active-translation",
+        "inviter"
+      ],
+      "error_tags": [
+        "past-plural",
+        "active-translation-structure"
+      ],
+      "context": "Mes parents m’ont invité.",
+      "source": "GH:series-traduction/inviter",
+      "series": "inviter",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT01-031",
+      "lesson_id": "PRACT-01",
+      "type": "translation",
+      "difficulty": 2,
+      "prompt": "Traduis en russe : « Qui t’a invité ? »",
+      "answer": "Кто тебя пригласил?",
+      "concepts": [
+        "active-translation",
+        "inviter"
+      ],
+      "error_tags": [
+        "тебя-vs-тебе",
+        "active-translation-structure"
+      ],
+      "context": "Qui t’a invité ?",
+      "source": "GH:series-traduction/inviter",
+      "series": "inviter",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT01-032",
+      "lesson_id": "PRACT-01",
+      "type": "translation",
+      "difficulty": 2,
+      "prompt": "Traduis en russe : « Je veux inviter Benjamin. »",
+      "answer": "Я хочу пригласить Бенжамина.",
+      "concepts": [
+        "active-translation",
+        "inviter"
+      ],
+      "error_tags": [
+        "хотеть-conjugation",
+        "active-translation-structure"
+      ],
+      "context": "Je veux inviter Benjamin.",
+      "source": "GH:series-traduction/inviter",
+      "series": "inviter",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT01-033",
+      "lesson_id": "PRACT-01",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis en russe : « Je vois une voiture. »",
+      "answer": "Я вижу машину.",
+      "concepts": [
+        "active-translation",
+        "voir"
+      ],
+      "error_tags": [
+        "accusative-feminine-ending",
+        "active-translation-structure"
+      ],
+      "context": "Je vois une voiture.",
+      "source": "GH:series-traduction/voir",
+      "series": "voir",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT01-034",
+      "lesson_id": "PRACT-01",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis en russe : « Tu me vois ? »",
+      "answer": "Ты меня видишь?",
+      "concepts": [
+        "active-translation",
+        "voir"
+      ],
+      "error_tags": [
+        "меня-vs-мне",
+        "active-translation-structure"
+      ],
+      "context": "Tu me vois ?",
+      "source": "GH:series-traduction/voir",
+      "series": "voir",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT01-035",
+      "lesson_id": "PRACT-01",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis en russe : « Je te vois. »",
+      "answer": "Я тебя вижу.",
+      "concepts": [
+        "active-translation",
+        "voir"
+      ],
+      "error_tags": [
+        "тебя-vs-тебе",
+        "active-translation-structure"
+      ],
+      "context": "Je te vois.",
+      "source": "GH:series-traduction/voir",
+      "series": "voir",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT01-036",
+      "lesson_id": "PRACT-01",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis en russe : « Il voit Anastasia dans le café. »",
+      "answer": "Он видит Анастасию в кафе.",
+      "concepts": [
+        "active-translation",
+        "voir"
+      ],
+      "error_tags": [
+        "accusative-feminine-ending",
+        "active-translation-structure"
+      ],
+      "context": "Il voit Anastasia dans le café.",
+      "source": "GH:series-traduction/voir",
+      "series": "voir",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT01-037",
+      "lesson_id": "PRACT-01",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis en russe : « Nous voyons Tony. »",
+      "answer": "Мы видим Тони.",
+      "concepts": [
+        "active-translation",
+        "voir"
+      ],
+      "error_tags": [
+        "verb-form-1pl",
+        "active-translation-structure"
+      ],
+      "context": "Nous voyons Tony.",
+      "source": "GH:series-traduction/voir",
+      "series": "voir",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT01-038",
+      "lesson_id": "PRACT-01",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis en russe : « J’ai vu une belle voiture. »",
+      "answer": "Я видел красивую машину.",
+      "concepts": [
+        "active-translation",
+        "voir"
+      ],
+      "error_tags": [
+        "past-gender",
+        "active-translation-structure"
+      ],
+      "context": "J’ai vu une belle voiture.",
+      "source": "GH:series-traduction/voir",
+      "series": "voir",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT01-039",
+      "lesson_id": "PRACT-01",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis en russe : « Elle a vu Benjamin. »",
+      "answer": "Она увидела Бенжамина.",
+      "concepts": [
+        "active-translation",
+        "voir"
+      ],
+      "error_tags": [
+        "past-gender",
+        "active-translation-structure"
+      ],
+      "context": "Elle a vu Benjamin.",
+      "source": "GH:series-traduction/voir",
+      "series": "voir",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT01-040",
+      "lesson_id": "PRACT-01",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis en russe : « Qu’est-ce que vous voyez ? »",
+      "answer": "Что вы видите?",
+      "concepts": [
+        "active-translation",
+        "voir"
+      ],
+      "error_tags": [
+        "вы-verb-form",
+        "active-translation-structure"
+      ],
+      "context": "Qu’est-ce que vous voyez ?",
+      "source": "GH:series-traduction/voir",
+      "series": "voir",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT01-041",
+      "lesson_id": "PRACT-01",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis en russe : « J’aime le café. »",
+      "answer": "Мне нравится кофе.",
+      "concepts": [
+        "active-translation",
+        "aimer"
+      ],
+      "error_tags": [
+        "я-вместо-мне",
+        "active-translation-structure"
+      ],
+      "context": "J’aime le café.",
+      "source": "GH:series-traduction/aimer",
+      "series": "aimer",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT01-042",
+      "lesson_id": "PRACT-01",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis en russe : « Je n’aime pas le café. »",
+      "answer": "Мне не нравится кофе.",
+      "concepts": [
+        "active-translation",
+        "aimer"
+      ],
+      "error_tags": [
+        "missing-ne",
+        "active-translation-structure"
+      ],
+      "context": "Je n’aime pas le café.",
+      "source": "GH:series-traduction/aimer",
+      "series": "aimer",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT01-043",
+      "lesson_id": "PRACT-01",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis en russe : « Tu aimes le thé ? »",
+      "answer": "Тебе нравится чай?",
+      "concepts": [
+        "active-translation",
+        "aimer"
+      ],
+      "error_tags": [
+        "тебя-vs-тебе",
+        "active-translation-structure"
+      ],
+      "context": "Tu aimes le thé ?",
+      "source": "GH:series-traduction/aimer",
+      "series": "aimer",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT01-044",
+      "lesson_id": "PRACT-01",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis en russe : « Elle aime cette voiture. »",
+      "answer": "Ей нравится эта машина.",
+      "concepts": [
+        "active-translation",
+        "aimer"
+      ],
+      "error_tags": [
+        "ей-vs-её",
+        "active-translation-structure"
+      ],
+      "context": "Elle aime cette voiture.",
+      "source": "GH:series-traduction/aimer",
+      "series": "aimer",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT01-045",
+      "lesson_id": "PRACT-01",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis en russe : « Tony aime Anastasia. »",
+      "answer": "Тони нравится Анастасия.",
+      "concepts": [
+        "active-translation",
+        "aimer"
+      ],
+      "error_tags": [
+        "active-translation-structure"
+      ],
+      "context": "Tony aime Anastasia.",
+      "source": "GH:series-traduction/aimer",
+      "series": "aimer",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT01-046",
+      "lesson_id": "PRACT-01",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis en russe : « J’aime les photos. »",
+      "answer": "Мне нравятся фотографии.",
+      "concepts": [
+        "active-translation",
+        "aimer"
+      ],
+      "error_tags": [
+        "нравится-vs-нравятся",
+        "active-translation-structure"
+      ],
+      "context": "J’aime les photos.",
+      "source": "GH:series-traduction/aimer",
+      "series": "aimer",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT01-047",
+      "lesson_id": "PRACT-01",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis en russe : « Mes parents aiment le thé. »",
+      "answer": "Моим родителям нравится чай.",
+      "concepts": [
+        "active-translation",
+        "aimer"
+      ],
+      "error_tags": [
+        "active-translation-structure"
+      ],
+      "context": "Mes parents aiment le thé.",
+      "source": "GH:series-traduction/aimer",
+      "series": "aimer",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT01-048",
+      "lesson_id": "PRACT-01",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis en russe : « Qu’est-ce que tu aimes ? »",
+      "answer": "Что тебе нравится?",
+      "concepts": [
+        "active-translation",
+        "aimer"
+      ],
+      "error_tags": [
+        "тебя-vs-тебе",
+        "active-translation-structure"
+      ],
+      "context": "Qu’est-ce que tu aimes ?",
+      "source": "GH:series-traduction/aimer",
+      "series": "aimer",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT01-049",
+      "lesson_id": "PRACT-01",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis en russe : « J’ai un téléphone. »",
+      "answer": "У меня есть телефон.",
+      "concepts": [
+        "active-translation",
+        "avoir"
+      ],
+      "error_tags": [
+        "у-possessor-form",
+        "active-translation-structure"
+      ],
+      "context": "J’ai un téléphone.",
+      "source": "GH:series-traduction/avoir",
+      "series": "avoir",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT01-050",
+      "lesson_id": "PRACT-01",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis en russe : « Je n’ai pas de téléphone. »",
+      "answer": "У меня нет телефона.",
+      "concepts": [
+        "active-translation",
+        "avoir"
+      ],
+      "error_tags": [
+        "genitive-after-нет",
+        "active-translation-structure"
+      ],
+      "context": "Je n’ai pas de téléphone.",
+      "source": "GH:series-traduction/avoir",
+      "series": "avoir",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT01-051",
+      "lesson_id": "PRACT-01",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis en russe : « Tu as une voiture ? »",
+      "answer": "У тебя есть машина?",
+      "concepts": [
+        "active-translation",
+        "avoir"
+      ],
+      "error_tags": [
+        "у-possessor-form",
+        "active-translation-structure"
+      ],
+      "context": "Tu as une voiture ?",
+      "source": "GH:series-traduction/avoir",
+      "series": "avoir",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT01-052",
+      "lesson_id": "PRACT-01",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis en russe : « Il a un frère. »",
+      "answer": "У него есть брат.",
+      "concepts": [
+        "active-translation",
+        "avoir"
+      ],
+      "error_tags": [
+        "у-possessor-form",
+        "active-translation-structure"
+      ],
+      "context": "Il a un frère.",
+      "source": "GH:series-traduction/avoir",
+      "series": "avoir",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT01-053",
+      "lesson_id": "PRACT-01",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis en russe : « Elle a une sœur. »",
+      "answer": "У неё есть сестра.",
+      "concepts": [
+        "active-translation",
+        "avoir"
+      ],
+      "error_tags": [
+        "у-possessor-form",
+        "active-translation-structure"
+      ],
+      "context": "Elle a une sœur.",
+      "source": "GH:series-traduction/avoir",
+      "series": "avoir",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT01-054",
+      "lesson_id": "PRACT-01",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis en russe : « Nous avons du thé. »",
+      "answer": "У нас есть чай.",
+      "concepts": [
+        "active-translation",
+        "avoir"
+      ],
+      "error_tags": [
+        "у-possessor-form",
+        "active-translation-structure"
+      ],
+      "context": "Nous avons du thé.",
+      "source": "GH:series-traduction/avoir",
+      "series": "avoir",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT01-055",
+      "lesson_id": "PRACT-01",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis en russe : « Mes parents n’ont pas de voiture. »",
+      "answer": "У моих родителей нет машины.",
+      "concepts": [
+        "active-translation",
+        "avoir"
+      ],
+      "error_tags": [
+        "genitive-after-нет",
+        "active-translation-structure"
+      ],
+      "context": "Mes parents n’ont pas de voiture.",
+      "source": "GH:series-traduction/avoir",
+      "series": "avoir",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT01-056",
+      "lesson_id": "PRACT-01",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis en russe : « Qu’est-ce que tu as ? »",
+      "answer": "Что у тебя есть?",
+      "concepts": [
+        "active-translation",
+        "avoir"
+      ],
+      "error_tags": [
+        "у-possessor-form",
+        "active-translation-structure"
+      ],
+      "context": "Qu’est-ce que tu as ?",
+      "source": "GH:series-traduction/avoir",
+      "series": "avoir",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT01-057",
+      "lesson_id": "PRACT-01",
+      "type": "translation",
+      "difficulty": 2,
+      "prompt": "Traduis en russe : « Je vais au café à pied. »",
+      "answer": "Я иду в кафе.",
+      "concepts": [
+        "active-translation",
+        "aller-venir"
+      ],
+      "error_tags": [
+        "идти-vs-ехать",
+        "active-translation-structure"
+      ],
+      "context": "Je vais au café à pied.",
+      "source": "GH:series-traduction/aller-venir",
+      "series": "aller-venir",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT01-058",
+      "lesson_id": "PRACT-01",
+      "type": "translation",
+      "difficulty": 2,
+      "prompt": "Traduis en russe : « Je vais en France. »",
+      "answer": "Я еду во Францию.",
+      "concepts": [
+        "active-translation",
+        "aller-venir"
+      ],
+      "error_tags": [
+        "идти-vs-ехать",
+        "active-translation-structure"
+      ],
+      "context": "Je vais en France.",
+      "source": "GH:series-traduction/aller-venir",
+      "series": "aller-venir",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT01-059",
+      "lesson_id": "PRACT-01",
+      "type": "translation",
+      "difficulty": 2,
+      "prompt": "Traduis en russe : « Benjamin arrive en France. »",
+      "answer": "Бенжамин приезжает во Францию.",
+      "concepts": [
+        "active-translation",
+        "aller-venir"
+      ],
+      "error_tags": [
+        "идти-vs-ехать",
+        "active-translation-structure"
+      ],
+      "context": "Benjamin arrive en France.",
+      "source": "GH:series-traduction/aller-venir",
+      "series": "aller-venir",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT01-060",
+      "lesson_id": "PRACT-01",
+      "type": "translation",
+      "difficulty": 2,
+      "prompt": "Traduis en russe : « Elle va à la maison. »",
+      "answer": "Она идёт домой.",
+      "concepts": [
+        "active-translation",
+        "aller-venir"
+      ],
+      "error_tags": [
+        "дома-vs-домой",
+        "active-translation-structure"
+      ],
+      "context": "Elle va à la maison.",
+      "source": "GH:series-traduction/aller-venir",
+      "series": "aller-venir",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT01-061",
+      "lesson_id": "PRACT-01",
+      "type": "translation",
+      "difficulty": 2,
+      "prompt": "Traduis en russe : « Nous allons chez Tony. »",
+      "answer": "Мы идём к Тони.",
+      "concepts": [
+        "active-translation",
+        "aller-venir"
+      ],
+      "error_tags": [
+        "preposition-function",
+        "active-translation-structure"
+      ],
+      "context": "Nous allons chez Tony.",
+      "source": "GH:series-traduction/aller-venir",
+      "series": "aller-venir",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT01-062",
+      "lesson_id": "PRACT-01",
+      "type": "translation",
+      "difficulty": 2,
+      "prompt": "Traduis en russe : « Tu viens au café ? »",
+      "answer": "Ты идёшь в кафе?",
+      "concepts": [
+        "active-translation",
+        "aller-venir"
+      ],
+      "error_tags": [
+        "идти-vs-ехать",
+        "active-translation-structure"
+      ],
+      "acceptable_answers": [
+        "Ты приходишь в кафе?"
+      ],
+      "context": "Tu viens au café ?",
+      "source": "GH:series-traduction/aller-venir",
+      "series": "aller-venir",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT01-063",
+      "lesson_id": "PRACT-01",
+      "type": "translation",
+      "difficulty": 2,
+      "prompt": "Traduis en russe : « Ils sont arrivés hier. »",
+      "answer": "Они приехали вчера.",
+      "concepts": [
+        "active-translation",
+        "aller-venir"
+      ],
+      "error_tags": [
+        "past-plural",
+        "active-translation-structure"
+      ],
+      "context": "Ils sont arrivés hier.",
+      "source": "GH:series-traduction/aller-venir",
+      "series": "aller-venir",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT01-064",
+      "lesson_id": "PRACT-01",
+      "type": "translation",
+      "difficulty": 2,
+      "prompt": "Traduis en russe : « Où allez-vous ? »",
+      "answer": "Куда вы идёте?",
+      "concepts": [
+        "active-translation",
+        "aller-venir"
+      ],
+      "error_tags": [
+        "где-vs-куда",
+        "active-translation-structure"
+      ],
+      "acceptable_answers": [
+        "Куда вы едете?"
+      ],
+      "context": "Où allez-vous ?",
+      "source": "GH:series-traduction/aller-venir",
+      "series": "aller-venir",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    }
+  ]
+}

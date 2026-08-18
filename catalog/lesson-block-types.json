@@ -1,0 +1,10 @@
+{
+  "content_api_version": "3.0",
+  "block_types": {
+    "markdown": "Paragraphes explicatifs + exemples optionnels",
+    "contrast": "Erreurs, contrastes, pièges",
+    "memory": "Résumé / cartes mémoire",
+    "pronunciation": "Liste de cibles à écouter/répéter",
+    "checkpoint": "Liste de vérifications de fin de cours"
+  }
+}

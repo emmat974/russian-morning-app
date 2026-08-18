@@ -1,0 +1,377 @@
+{
+  "exercise_set": "23-read-08-epilogue",
+  "items": [
+    {
+      "id": "READ08-001",
+      "lesson_id": "READ-08",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis : « Тебе нравится Москва? »",
+      "answer": "Est-ce que Moscou te plaît ?",
+      "concepts": [
+        "нравиться",
+        "dative-pronouns"
+      ],
+      "error_tags": [
+        "тебя-vs-тебе"
+      ],
+      "acceptable_answers": [
+        "Tu aimes Moscou ?"
+      ],
+      "source": "PDF:p16",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "READ08-002",
+      "lesson_id": "READ-08",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis : « Пока не очень. »",
+      "answer": "Pas encore vraiment.",
+      "concepts": [
+        "fixed-expression"
+      ],
+      "error_tags": [
+        "fixed-expression"
+      ],
+      "source": "PDF:p17",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "READ08-003",
+      "lesson_id": "READ-08",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis : « Я понимаю простые фразы, но мне трудно отвечать. »",
+      "answer": "Je comprends les phrases simples, mais j'ai du mal à répondre.",
+      "concepts": [
+        "понимать",
+        "мне-трудно"
+      ],
+      "error_tags": [
+        "clause-boundary",
+        "literal-translation"
+      ],
+      "source": "PDF:p17",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "READ08-004",
+      "lesson_id": "READ-08",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "« каждый день » signifie :",
+      "answer": "chaque jour",
+      "concepts": [
+        "time-expression"
+      ],
+      "error_tags": [
+        "time-expression"
+      ],
+      "options": [
+        "hier",
+        "chaque jour",
+        "dans quelques jours",
+        "toute la nuit"
+      ],
+      "source": "PDF:p18",
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "READ08-005",
+      "lesson_id": "READ-08",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis : « Каждый день я понимаю немного больше. »",
+      "answer": "Chaque jour, je comprends un peu plus.",
+      "concepts": [
+        "понимать",
+        "progress"
+      ],
+      "error_tags": [
+        "context-miss"
+      ],
+      "source": "PDF:p17",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "READ08-006",
+      "lesson_id": "READ-08",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Que conseille Anna ?",
+      "answer": "De ne pas avoir peur de parler.",
+      "concepts": [
+        "learning-strategy"
+      ],
+      "error_tags": [
+        "reading-detail-vs-main"
+      ],
+      "options": [
+        "D'arrêter d'étudier.",
+        "De ne pas avoir peur de parler.",
+        "De mémoriser un dictionnaire.",
+        "De ne parler qu'en français."
+      ],
+      "source": "PDF:p17",
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "READ08-007",
+      "lesson_id": "READ-08",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis : « Ошибки — это часть обучения. »",
+      "answer": "Les erreurs font partie de l'apprentissage.",
+      "concepts": [
+        "learning-language"
+      ],
+      "error_tags": [
+        "context-miss"
+      ],
+      "source": "PDF:p17",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "READ08-008",
+      "lesson_id": "READ-08",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Tony dit qu'en cas d'erreur :",
+      "answer": "les gens le comprennent quand même",
+      "concepts": [
+        "learning-language"
+      ],
+      "error_tags": [
+        "reading-detail-vs-main"
+      ],
+      "options": [
+        "personne ne le comprend",
+        "les gens le comprennent quand même",
+        "il arrête de parler",
+        "il change de langue"
+      ],
+      "source": "PDF:p17",
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "READ08-009",
+      "lesson_id": "READ-08",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "« всё равно » signifie ici :",
+      "answer": "quand même",
+      "concepts": [
+        "connector"
+      ],
+      "error_tags": [
+        "connector-meaning"
+      ],
+      "options": [
+        "toujours",
+        "quand même",
+        "tout de suite",
+        "ensemble"
+      ],
+      "source": "PDF:p18",
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "READ08-010",
+      "lesson_id": "READ-08",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Idée principale :",
+      "answer": "Tony reste débutant mais constate qu'il comprend davantage et peut communiquer.",
+      "concepts": [
+        "reading-strategy"
+      ],
+      "error_tags": [
+        "reading-detail-vs-main"
+      ],
+      "options": [
+        "Tony est devenu bilingue.",
+        "Tony reste débutant mais constate qu'il comprend davantage et peut communiquer.",
+        "Tony ne comprend plus rien.",
+        "Tony décide d'abandonner le russe."
+      ],
+      "source": "PDF:p16-18",
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    }
+  ]
+}

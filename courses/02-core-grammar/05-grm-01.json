@@ -1,0 +1,233 @@
+{
+  "id": "GRM-01",
+  "order": 5,
+  "track": "core-grammar",
+  "level": "A1",
+  "title": "Мне ou Я ? — нравится",
+  "summary": "Comprendre la logique de Мне нравится ... sans essayer de calquer le français.",
+  "objectives": [
+    "Reconnaître мне comme datif de я",
+    "Utiliser мне нравится avec un nom singulier",
+    "Éviter l'erreur Я нравится"
+  ],
+  "concepts": [
+    "dative",
+    "нравиться",
+    "мне-vs-я",
+    "experiencer-construction"
+  ],
+  "notes": [
+    "Мне нравится кофе signifie littéralement quelque chose comme 'le café plaît à moi'.",
+    "Le russe ne construit donc pas cette idée comme le français 'j'aime le café'.",
+    "Avec un élément singulier : нравится. Avec plusieurs choses : нравятся."
+  ],
+  "examples": [
+    {
+      "ru": "Мне нравится кофе.",
+      "fr": "J'aime le café."
+    },
+    {
+      "ru": "Мне нравится эта музыка.",
+      "fr": "J'aime cette musique."
+    },
+    {
+      "ru": "Мне нравятся эти фотографии.",
+      "fr": "J'aime ces photos."
+    }
+  ],
+  "schema_version": "3.0.0",
+  "content_api_version": "3.0",
+  "status": "active",
+  "subtitle": "Comprendre la logique de Мне нравится au lieu de mémoriser une exception",
+  "estimated_minutes": 18,
+  "prerequisites": [
+    "FND-01",
+    "FND-02"
+  ],
+  "lesson_mode": "guided_course_session",
+  "content_blocks": [
+    {
+      "id": "GRM-01-intro",
+      "type": "markdown",
+      "title": "Pourquoi ce chapitre ?",
+      "body": [
+        "Cette construction t’a déjà posé question parce que le français place « je » comme sujet de « aimer ». Le russe organise l’idée autrement : la chose plaît à la personne. Comprendre ce changement de perspective évite une famille entière d’erreurs."
+      ],
+      "provenance": "editorial-expansion"
+    },
+    {
+      "id": "GRM-01-sec-01",
+      "type": "markdown",
+      "title": "Pourquoi Мне et pas Я",
+      "body": [
+        "Мне est une forme de я utilisée ici pour la personne qui ressent l’appréciation. Мне нравится кофе se rapproche littéralement de « le café plaît à moi ». La traduction naturelle reste « j’aime le café »."
+      ],
+      "examples": [
+        {
+          "ru": "Мне нравится кофе.",
+          "fr": "J’aime le café."
+        },
+        {
+          "ru": "Мне нравится эта музыка.",
+          "fr": "J’aime cette musique."
+        }
+      ],
+      "provenance": "editorial-expansion"
+    },
+    {
+      "id": "GRM-01-sec-02",
+      "type": "markdown",
+      "title": "Ce qui plaît contrôle нравится / нравятся",
+      "body": [
+        "Avec un élément singulier, on rencontre нравится. Avec plusieurs éléments au pluriel, нравятся. La personne en мне ne contrôle pas cet accord."
+      ],
+      "examples": [
+        {
+          "ru": "Мне нравится фотография.",
+          "fr": "J’aime la photographie."
+        },
+        {
+          "ru": "Мне нравятся фотографии.",
+          "fr": "J’aime les photographies."
+        }
+      ],
+      "provenance": "editorial-expansion"
+    },
+    {
+      "id": "GRM-01-sec-03",
+      "type": "markdown",
+      "title": "Changer la personne",
+      "body": [
+        "Le même mécanisme fonctionne avec тебе, ему, ей, нам, вам, им. Tu n’as pas besoin d’apprendre tout le tableau d’un coup ; l’app introduira les formes à travers des phrases concrètes."
+      ],
+      "examples": [
+        {
+          "ru": "Тебе нравится чай?",
+          "fr": "Tu aimes le thé ?"
+        },
+        {
+          "ru": "Ей нравится машина.",
+          "fr": "Elle aime la voiture."
+        }
+      ],
+      "provenance": "editorial-expansion"
+    },
+    {
+      "id": "GRM-01-sec-04",
+      "type": "markdown",
+      "title": "Négation",
+      "body": [
+        "Не se place devant нравится : Мне не нравится кофе. Le pronom reste au datif ; seule l’évaluation devient négative."
+      ],
+      "examples": [
+        {
+          "ru": "Мне не нравится кофе.",
+          "fr": "Je n’aime pas le café."
+        }
+      ],
+      "provenance": "editorial-expansion"
+    },
+    {
+      "id": "GRM-01-sec-05",
+      "type": "markdown",
+      "title": "Lire la structure sans français",
+      "body": [
+        "Quand tu vois Мне + нравится, reconnais directement le patron « X plaît à moi » au lieu de passer par « Я + aimer ». Ce raccourci mental rend la structure beaucoup plus stable."
+      ],
+      "examples": [
+        {
+          "ru": "Борщ ему нравится.",
+          "fr": "Le bortsch lui plaît / il aime le bortsch."
+        }
+      ],
+      "provenance": "editorial-expansion"
+    },
+    {
+      "id": "GRM-01-mistakes",
+      "type": "contrast",
+      "title": "Erreurs à surveiller",
+      "items": [
+        {
+          "wrong_or_risk": "Я нравится кофе",
+          "correction_or_strategy": "Utiliser Мне нравится кофе."
+        },
+        {
+          "wrong_or_risk": "Мне нравятся кофе",
+          "correction_or_strategy": "Кофе est traité ici comme singulier : нравится."
+        },
+        {
+          "wrong_or_risk": "Accorder нравится avec la personne",
+          "correction_or_strategy": "L’accord dépend de ce qui plaît, pas de мне/тебе/etc."
+        }
+      ],
+      "provenance": "editorial-expansion"
+    },
+    {
+      "id": "GRM-01-memory",
+      "type": "memory",
+      "title": "À retenir",
+      "items": [
+        "Мне нравится = « cela plaît à moi ».",
+        "Singulier → нравится ; pluriel → нравятся.",
+        "Ne reconstruis pas la phrase à partir du français « j’aime »."
+      ],
+      "provenance": "editorial-expansion"
+    },
+    {
+      "id": "GRM-01-pron",
+      "type": "pronunciation",
+      "title": "Prononciation à travailler",
+      "targets": [
+        "мне",
+        "нравится",
+        "нравятся",
+        "Мне нравится кофе",
+        "Мне нравятся фотографии"
+      ],
+      "provenance": "mixed-source-and-editorial"
+    },
+    {
+      "id": "GRM-01-checkpoint",
+      "type": "checkpoint",
+      "title": "Avant de considérer le chapitre compris",
+      "checks": [
+        "Expliquer l’idée principale avec tes propres mots en français.",
+        "Réussir plusieurs exercices de formats différents sans indice.",
+        "Produire au moins une réponse russe complète liée au concept.",
+        "Revoir au moins une partie du concept après un délai, pas uniquement dans la même session."
+      ],
+      "provenance": "editorial-expansion"
+    }
+  ],
+  "source_policy": {
+    "source_derived_content": "Examples and story contexts trace back to the supplied PDF and/or russian-morning-app when source_refs are present.",
+    "editorial_expansion": "Grammar explanations, learning strategy, mastery rules and newly generated examples are model-authored pedagogical expansion."
+  },
+  "skill_weights": {
+    "recognition": 0.2,
+    "comprehension": 0.2,
+    "recall": 0.2,
+    "production": 0.3,
+    "pronunciation": 0.1
+  },
+  "mastery_contract": {
+    "minimum_distinct_activities": 8,
+    "minimum_distinct_prompts": 6,
+    "minimum_overall_score": 0.7,
+    "minimum_production_score": 0.6,
+    "minimum_comprehension_score": 0.65,
+    "critical_error_rate_max": 0.4,
+    "delayed_review_required_for_mastered": true,
+    "delayed_review_min_hours": 48,
+    "next_chapter_soft_unlock_score": 0.7,
+    "soft_unlock_before_mastered": true
+  },
+  "session_recommendation": {
+    "course_session_blocks_min": 4,
+    "course_session_micro_checks_min": 3,
+    "exercise_session_items": 15,
+    "max_choice_ratio": 0.3,
+    "min_production_ratio": 0.3,
+    "pronunciation_ratio_target": 0.1
+  }
+}

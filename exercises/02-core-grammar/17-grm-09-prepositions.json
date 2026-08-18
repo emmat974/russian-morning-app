@@ -1,0 +1,381 @@
+{
+  "exercise_set": "17-grm-09-prepositions",
+  "items": [
+    {
+      "id": "GRM09-001",
+      "lesson_id": "GRM-09",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "prompt": "Complète : Тони встречается ___ Алексеем.",
+      "answer": "с",
+      "concepts": [
+        "с"
+      ],
+      "error_tags": [
+        "с-instrumental"
+      ],
+      "options": [
+        "с",
+        "к",
+        "у",
+        "о"
+      ],
+      "source": "GH:banque-ch2-recit",
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "GRM09-002",
+      "lesson_id": "GRM-09",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "« рядом с гостиницей » signifie :",
+      "answer": "près de l'hôtel",
+      "concepts": [
+        "рядом-с"
+      ],
+      "error_tags": [
+        "рядом-с"
+      ],
+      "options": [
+        "dans l'hôtel",
+        "près de l'hôtel",
+        "vers l'hôtel",
+        "derrière l'hôtel"
+      ],
+      "source": "GH:serie-contextes",
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "GRM09-003",
+      "lesson_id": "GRM-09",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "prompt": "Complète : рядом с ___.",
+      "answer": "гостиницей",
+      "concepts": [
+        "instrumental-basic"
+      ],
+      "error_tags": [
+        "рядом-с"
+      ],
+      "options": [
+        "гостиница",
+        "гостинице",
+        "гостиницу",
+        "гостиницей"
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "GRM09-004",
+      "lesson_id": "GRM-09",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Complète : с ___.",
+      "answer": "сахаром",
+      "concepts": [
+        "instrumental-basic"
+      ],
+      "error_tags": [
+        "с-instrumental"
+      ],
+      "options": [
+        "сахар",
+        "сахара",
+        "сахаром",
+        "сахаре"
+      ],
+      "source": "PDF:p2",
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "GRM09-005",
+      "lesson_id": "GRM-09",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Complète : без ___.",
+      "answer": "сахара",
+      "concepts": [
+        "genitive-basic"
+      ],
+      "error_tags": [
+        "без-genitive"
+      ],
+      "options": [
+        "сахар",
+        "сахара",
+        "сахаром",
+        "сахаре"
+      ],
+      "source": "PDF:p2",
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "GRM09-006",
+      "lesson_id": "GRM-09",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis : « без сахара »",
+      "answer": "sans sucre",
+      "concepts": [
+        "без"
+      ],
+      "error_tags": [
+        "без-genitive"
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "GRM09-007",
+      "lesson_id": "GRM-09",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis : « с сахаром »",
+      "answer": "avec du sucre",
+      "concepts": [
+        "с"
+      ],
+      "error_tags": [
+        "с-instrumental"
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "GRM09-008",
+      "lesson_id": "GRM-09",
+      "type": "translation",
+      "difficulty": 2,
+      "prompt": "Traduis en russe : « Je parle avec Anastasia. »",
+      "answer": "Я говорю с Анастасией.",
+      "concepts": [
+        "с",
+        "говорить"
+      ],
+      "error_tags": [
+        "с-instrumental"
+      ],
+      "acceptable_answers": [
+        "Я разговариваю с Анастасией."
+      ],
+      "source": "GH:series-traduction/dire",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "GRM09-009",
+      "lesson_id": "GRM-09",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Dans « борщ с говядиной », с signifie :",
+      "answer": "avec / au bœuf",
+      "concepts": [
+        "с"
+      ],
+      "error_tags": [
+        "с-instrumental",
+        "restaurant-vocab"
+      ],
+      "options": [
+        "sans",
+        "avec / au bœuf",
+        "vers",
+        "près de"
+      ],
+      "source": "PDF:p11",
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "GRM09-010",
+      "lesson_id": "GRM-09",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Le meilleur réflexe ici est :",
+      "answer": "mémoriser d'abord les blocs fréquents puis généraliser",
+      "concepts": [
+        "learning-strategy"
+      ],
+      "error_tags": [
+        "overgeneralization"
+      ],
+      "options": [
+        "réciter tout l'instrumental immédiatement",
+        "mémoriser d'abord les blocs fréquents puis généraliser",
+        "ignorer les prépositions",
+        "traduire chaque terminaison isolément"
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    }
+  ]
+}

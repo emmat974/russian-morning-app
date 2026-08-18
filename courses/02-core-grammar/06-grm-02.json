@@ -1,0 +1,245 @@
+{
+  "id": "GRM-02",
+  "order": 6,
+  "track": "core-grammar",
+  "level": "A1",
+  "title": "Terminaisons verbales au présent",
+  "summary": "Repérer les terminaisons fréquentes sans apprendre toutes les conjugaisons d'un coup.",
+  "objectives": [
+    "Associer -ю/-у à la 1re personne singulier dans des verbes fréquents",
+    "Reconnaître -ет/-ит à la 3e personne singulier",
+    "Reconnaître -ешь/-ишь à la 2e personne singulier"
+  ],
+  "concepts": [
+    "present-tense",
+    "verb-endings",
+    "first-conjugation",
+    "second-conjugation"
+  ],
+  "notes": [
+    "À ce stade, le but est surtout de reconnaître des formes fréquentes.",
+    "Les terminaisons donnent souvent un indice sur le sujet, mais il existe des irrégularités."
+  ],
+  "examples": [
+    {
+      "ru": "Я читаю.",
+      "fr": "Je lis."
+    },
+    {
+      "ru": "Он читает.",
+      "fr": "Il lit."
+    },
+    {
+      "ru": "Ты говоришь.",
+      "fr": "Tu parles."
+    },
+    {
+      "ru": "Она работает.",
+      "fr": "Elle travaille."
+    }
+  ],
+  "schema_version": "3.0.0",
+  "content_api_version": "3.0",
+  "status": "active",
+  "subtitle": "Utiliser les terminaisons pour reconnaître la personne",
+  "estimated_minutes": 18,
+  "prerequisites": [
+    "FND-01",
+    "FND-02"
+  ],
+  "lesson_mode": "guided_course_session",
+  "content_blocks": [
+    {
+      "id": "GRM-02-intro",
+      "type": "markdown",
+      "title": "Pourquoi ce chapitre ?",
+      "body": [
+        "Tu as déjà remarqué des familles comme -аю, -ает, -ишь et -ит. Ce chapitre transforme cette observation en outil de lecture sans exiger immédiatement la mémorisation de tous les paradigmes verbaux."
+      ],
+      "provenance": "editorial-expansion"
+    },
+    {
+      "id": "GRM-02-sec-01",
+      "type": "markdown",
+      "title": "Première personne : formes fréquentes",
+      "body": [
+        "De nombreux verbes présentent -ю / -у ou -аю / -яю à la première personne : читаю, работаю, понимаю. Ce n’est pas une règle suffisante pour conjuguer n’importe quel verbe, mais c’est un indice puissant."
+      ],
+      "examples": [
+        {
+          "ru": "Я читаю.",
+          "fr": "Je lis."
+        },
+        {
+          "ru": "Я работаю.",
+          "fr": "Je travaille."
+        },
+        {
+          "ru": "Я понимаю.",
+          "fr": "Je comprends."
+        }
+      ],
+      "provenance": "editorial-expansion"
+    },
+    {
+      "id": "GRM-02-sec-02",
+      "type": "markdown",
+      "title": "Troisième personne en -ет / -ит",
+      "body": [
+        "Он/она apparaît souvent avec -ет ou -ит : читает, работает, говорит. Les deux familles reflètent des modèles de conjugaison différents que tu apprendras progressivement."
+      ],
+      "examples": [
+        {
+          "ru": "Она работает.",
+          "fr": "Elle travaille."
+        },
+        {
+          "ru": "Он говорит.",
+          "fr": "Il parle."
+        }
+      ],
+      "provenance": "editorial-expansion"
+    },
+    {
+      "id": "GRM-02-sec-03",
+      "type": "markdown",
+      "title": "Deuxième personne en -ешь / -ишь",
+      "body": [
+        "Ты s’associe souvent à -ешь ou -ишь : читаешь, говоришь. Là encore, le but immédiat est la reconnaissance et le contrôle de compatibilité sujet-verbe."
+      ],
+      "examples": [
+        {
+          "ru": "Ты читаешь.",
+          "fr": "Tu lis."
+        },
+        {
+          "ru": "Ты говоришь.",
+          "fr": "Tu parles."
+        }
+      ],
+      "provenance": "editorial-expansion"
+    },
+    {
+      "id": "GRM-02-sec-04",
+      "type": "markdown",
+      "title": "Pluriel : commencer à repérer",
+      "body": [
+        "Мы читаем, они читают, вы работаете fournissent d’autres signatures visuelles. Le moteur d’exercices doit alterner les personnes afin d’éviter l’automatisme « je + verbe »."
+      ],
+      "examples": [
+        {
+          "ru": "Мы читаем.",
+          "fr": "Nous lisons."
+        },
+        {
+          "ru": "Они читают.",
+          "fr": "Ils lisent."
+        },
+        {
+          "ru": "Вы работаете?",
+          "fr": "Vous travaillez ?"
+        }
+      ],
+      "provenance": "editorial-expansion"
+    },
+    {
+      "id": "GRM-02-sec-05",
+      "type": "markdown",
+      "title": "Reconnaissance avant production exhaustive",
+      "body": [
+        "L’app doit accepter qu’une notion soit d’abord reconnue correctement avant d’exiger une conjugaison libre. La progression passe donc de QCM de compatibilité à texte à trous puis à saisie complète."
+      ],
+      "examples": [],
+      "provenance": "editorial-expansion"
+    },
+    {
+      "id": "GRM-02-mistakes",
+      "type": "contrast",
+      "title": "Erreurs à surveiller",
+      "items": [
+        {
+          "wrong_or_risk": "Appliquer -ет à tous les verbes",
+          "correction_or_strategy": "Certaines formes utilisent -ит ; apprendre les verbes en contexte."
+        },
+        {
+          "wrong_or_risk": "Associer говоришь à он",
+          "correction_or_strategy": "Говоришь pointe vers ты."
+        },
+        {
+          "wrong_or_risk": "Croire qu’une terminaison unique suffit toujours",
+          "correction_or_strategy": "Les irrégularités et changements de radical existent ; utiliser aussi le contexte."
+        }
+      ],
+      "provenance": "editorial-expansion"
+    },
+    {
+      "id": "GRM-02-memory",
+      "type": "memory",
+      "title": "À retenir",
+      "items": [
+        "-ю/-у aide souvent à repérer « je ».",
+        "-ешь/-ишь aide souvent à repérer « tu ».",
+        "-ет/-ит aide souvent à repérer « il/elle »."
+      ],
+      "provenance": "editorial-expansion"
+    },
+    {
+      "id": "GRM-02-pron",
+      "type": "pronunciation",
+      "title": "Prononciation à travailler",
+      "targets": [
+        "читаю",
+        "читает",
+        "читаешь",
+        "говоришь",
+        "говорит",
+        "работаю",
+        "работает"
+      ],
+      "provenance": "mixed-source-and-editorial"
+    },
+    {
+      "id": "GRM-02-checkpoint",
+      "type": "checkpoint",
+      "title": "Avant de considérer le chapitre compris",
+      "checks": [
+        "Expliquer l’idée principale avec tes propres mots en français.",
+        "Réussir plusieurs exercices de formats différents sans indice.",
+        "Produire au moins une réponse russe complète liée au concept.",
+        "Revoir au moins une partie du concept après un délai, pas uniquement dans la même session."
+      ],
+      "provenance": "editorial-expansion"
+    }
+  ],
+  "source_policy": {
+    "source_derived_content": "Examples and story contexts trace back to the supplied PDF and/or russian-morning-app when source_refs are present.",
+    "editorial_expansion": "Grammar explanations, learning strategy, mastery rules and newly generated examples are model-authored pedagogical expansion."
+  },
+  "skill_weights": {
+    "recognition": 0.2,
+    "comprehension": 0.2,
+    "recall": 0.2,
+    "production": 0.3,
+    "pronunciation": 0.1
+  },
+  "mastery_contract": {
+    "minimum_distinct_activities": 8,
+    "minimum_distinct_prompts": 6,
+    "minimum_overall_score": 0.7,
+    "minimum_production_score": 0.6,
+    "minimum_comprehension_score": 0.65,
+    "critical_error_rate_max": 0.4,
+    "delayed_review_required_for_mastered": true,
+    "delayed_review_min_hours": 48,
+    "next_chapter_soft_unlock_score": 0.7,
+    "soft_unlock_before_mastered": true
+  },
+  "session_recommendation": {
+    "course_session_blocks_min": 4,
+    "course_session_micro_checks_min": 3,
+    "exercise_session_items": 15,
+    "max_choice_ratio": 0.3,
+    "min_production_ratio": 0.3,
+    "pronunciation_ratio_target": 0.1
+  }
+}

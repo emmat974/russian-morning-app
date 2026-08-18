@@ -1,0 +1,379 @@
+{
+  "exercise_set": "04-fnd-04",
+  "items": [
+    {
+      "id": "FND04-001",
+      "lesson_id": "FND-04",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis : « Я хочу в лес. »",
+      "answer": "J'ai envie d'aller en forêt.",
+      "concepts": [
+        "хотеть",
+        "direction"
+      ],
+      "error_tags": [
+        "literal-motion-translation"
+      ],
+      "acceptable_answers": [
+        "Je veux aller en forêt.",
+        "J'ai envie d'aller en forêt.",
+        "Je veux dans la forêt."
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "FND04-002",
+      "lesson_id": "FND-04",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Dans « хочу в лес », quel mot signifie « forêt » ?",
+      "answer": "лес",
+      "concepts": [
+        "лес"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "options": [
+        "хочу",
+        "в",
+        "лес",
+        "я"
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "FND04-003",
+      "lesson_id": "FND-04",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "prompt": "Я хочу ___ лес.",
+      "answer": "в",
+      "concepts": [
+        "direction",
+        "в-plus-destination"
+      ],
+      "error_tags": [
+        "missing-preposition"
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "fill_blank",
+      "renderer_id": "fill_blank",
+      "skill_dimensions": {
+        "recognition": 0.15,
+        "recall": 0.45,
+        "production": 0.4
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "FND04-004",
+      "lesson_id": "FND-04",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis en russe : « Je veux aller en ville. »",
+      "answer": "Я хочу в город.",
+      "concepts": [
+        "хотеть",
+        "direction"
+      ],
+      "error_tags": [
+        "literal-motion-translation"
+      ],
+      "acceptable_answers": [
+        "Я хочу в город",
+        "Хочу в город."
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "FND04-005",
+      "lesson_id": "FND-04",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "« Она хочет домой » veut dire :",
+      "answer": "Elle veut rentrer / aller chez elle.",
+      "concepts": [
+        "хотеть",
+        "домой"
+      ],
+      "error_tags": [
+        "direction-vs-location"
+      ],
+      "options": [
+        "Elle est à la maison.",
+        "Elle veut rentrer / aller chez elle.",
+        "Elle travaille chez elle.",
+        "Elle ne sait pas où aller."
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "FND04-006",
+      "lesson_id": "FND-04",
+      "type": "reorder",
+      "difficulty": 1,
+      "prompt": "Construis : « Nous voulons aller en ville. »",
+      "answer": "Мы хотим в город.",
+      "concepts": [
+        "хотеть",
+        "direction"
+      ],
+      "error_tags": [
+        "word-order"
+      ],
+      "tokens": [
+        "в",
+        "город",
+        "хотим",
+        "Мы"
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "reorder_tokens",
+      "renderer_id": "reorder_tokens",
+      "skill_dimensions": {
+        "recognition": 0.25,
+        "comprehension": 0.25,
+        "production": 0.5
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "shuffle_on_render": true
+    },
+    {
+      "id": "FND04-007",
+      "lesson_id": "FND-04",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Dans « Я хочу в лес », le verbe « aller » est :",
+      "answer": "sous-entendu par la construction et le contexte",
+      "concepts": [
+        "direction",
+        "reading-strategy"
+      ],
+      "error_tags": [
+        "literal-motion-translation"
+      ],
+      "options": [
+        "présent sous la forme лес",
+        "sous-entendu par la construction et le contexte",
+        "interdit en russe",
+        "remplacé par я"
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "FND04-008",
+      "lesson_id": "FND-04",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis : « Мы хотим в парк. »",
+      "answer": "Nous voulons aller au parc.",
+      "concepts": [
+        "хотеть",
+        "direction"
+      ],
+      "error_tags": [
+        "literal-motion-translation"
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "FND04-009",
+      "lesson_id": "FND-04",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "prompt": "Она ___ домой.",
+      "answer": "хочет",
+      "concepts": [
+        "хотеть",
+        "verb-form-3sg"
+      ],
+      "error_tags": [
+        "verb-form-3sg"
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "fill_blank",
+      "renderer_id": "fill_blank",
+      "skill_dimensions": {
+        "recognition": 0.15,
+        "recall": 0.45,
+        "production": 0.4
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "FND04-010",
+      "lesson_id": "FND-04",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Quel mot indique le plus clairement une destination dans « в город » ?",
+      "answer": "в",
+      "concepts": [
+        "в-plus-destination"
+      ],
+      "error_tags": [
+        "preposition-function"
+      ],
+      "options": [
+        "город",
+        "в",
+        "я",
+        "хочу"
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    }
+  ]
+}

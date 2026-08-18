@@ -1,0 +1,213 @@
+{
+  "id": "READ-07",
+  "order": 22,
+  "track": "reading",
+  "level": "A1-A2",
+  "status": "preview",
+  "title": "Lecture : un problème à l'hôtel",
+  "summary": "Décrire un problème, demander de l'aide et comprendre une solution proposée.",
+  "objectives": [
+    "Comprendre не работает / воды нет",
+    "Demander ce qui s'est passé",
+    "Comprendre combien de temps attendre"
+  ],
+  "concepts": [
+    "hotel",
+    "problem-reporting",
+    "нет",
+    "requests"
+  ],
+  "notes": [
+    "Les phrases recyclent не, нет, можно et les questions."
+  ],
+  "examples": [
+    {
+      "ru": "В моей комнате не работает душ. Воды нет.",
+      "fr": "La douche ne fonctionne pas dans ma chambre. Il n'y a pas d'eau."
+    }
+  ],
+  "source_refs": [
+    "PDF-FIRST-WEEK-TONY:p13-15"
+  ],
+  "schema_version": "3.0.0",
+  "content_api_version": "3.0",
+  "subtitle": "Hôtel : signaler un problème et négocier une solution",
+  "estimated_minutes": 25,
+  "prerequisites": [
+    "GRM-06"
+  ],
+  "lesson_mode": "guided_course_session",
+  "content_blocks": [
+    {
+      "id": "READ-07-intro",
+      "type": "markdown",
+      "title": "Pourquoi ce chapitre ?",
+      "body": [
+        "Ce récit est particulièrement utile en voyage : problème matériel, absence d’eau, attente, demande d’une autre chambre. Il réutilise не et нет dans un contexte où la différence devient concrète."
+      ],
+      "provenance": "editorial-expansion"
+    },
+    {
+      "id": "READ-07-sec-01",
+      "type": "markdown",
+      "title": "Décrire le problème",
+      "body": [
+        "Не работает душ signifie que la douche ne fonctionne pas. Воды нет signifie qu’il n’y a pas d’eau. L’un nie le fonctionnement d’une action, l’autre exprime l’absence."
+      ],
+      "examples": [
+        {
+          "ru": "Не работает душ.",
+          "fr": "La douche ne fonctionne pas."
+        },
+        {
+          "ru": "Воды нет.",
+          "fr": "Il n’y a pas d’eau."
+        }
+      ],
+      "provenance": "mixed-source-and-editorial"
+    },
+    {
+      "id": "READ-07-sec-02",
+      "type": "markdown",
+      "title": "Demander ce qui s’est passé",
+      "body": [
+        "Что случилось? est une question entière à mémoriser comme bloc. Elle apparaît dans des contextes de problème ou d’incident."
+      ],
+      "examples": [
+        {
+          "ru": "Что случилось?",
+          "fr": "Que s’est-il passé ?"
+        }
+      ],
+      "provenance": "mixed-source-and-editorial"
+    },
+    {
+      "id": "READ-07-sec-03",
+      "type": "markdown",
+      "title": "Solution proposée",
+      "body": [
+        "L’employé peut envoyer un technicien mais Tony devra attendre environ une demi-heure. Comprendre les durées devient ici fonctionnel."
+      ],
+      "examples": [
+        {
+          "ru": "Примерно тридцать минут.",
+          "fr": "Environ trente minutes."
+        }
+      ],
+      "provenance": "mixed-source-and-editorial"
+    },
+    {
+      "id": "READ-07-sec-04",
+      "type": "markdown",
+      "title": "Demander une alternative",
+      "body": [
+        "Есть ли другая свободная комната? introduit une question oui/non avec ли. Le but immédiat est la reconnaissance du bloc, pas une théorie complète de ли."
+      ],
+      "examples": [
+        {
+          "ru": "Есть ли другая свободная комната?",
+          "fr": "Y a-t-il une autre chambre disponible ?"
+        }
+      ],
+      "provenance": "mixed-source-and-editorial"
+    },
+    {
+      "id": "READ-07-sec-05",
+      "type": "markdown",
+      "title": "Résolution",
+      "body": [
+        "Tony reçoit une nouvelle carte, tout fonctionne et il s’endort. Le résumé doit montrer problème → proposition → alternative → résolution."
+      ],
+      "examples": [],
+      "provenance": "mixed-source-and-editorial"
+    },
+    {
+      "id": "READ-07-mistakes",
+      "type": "contrast",
+      "title": "Erreurs à surveiller",
+      "items": [
+        {
+          "wrong_or_risk": "Utiliser не et нет comme synonymes parfaits",
+          "correction_or_strategy": "Не nie un élément ; нет exprime souvent absence/non-existence."
+        },
+        {
+          "wrong_or_risk": "Analyser ли trop tôt",
+          "correction_or_strategy": "Reconnaître la question entière d’abord."
+        },
+        {
+          "wrong_or_risk": "Oublier le vocabulaire fonctionnel au profit des détails",
+          "correction_or_strategy": "Priorité à помощь, не работает, нет, ждать, свободная комната."
+        }
+      ],
+      "provenance": "editorial-expansion"
+    },
+    {
+      "id": "READ-07-memory",
+      "type": "memory",
+      "title": "À retenir",
+      "items": [
+        "Не работает = ne fonctionne pas.",
+        "Нет = il n’y a pas / absence.",
+        "Problème → demande d’aide → solution."
+      ],
+      "provenance": "editorial-expansion"
+    },
+    {
+      "id": "READ-07-pron",
+      "type": "pronunciation",
+      "title": "Prononciation à travailler",
+      "targets": [
+        "Мне нужна помощь",
+        "Что случилось?",
+        "Не работает душ",
+        "Воды нет",
+        "Сколько надо ждать?",
+        "свободная комната"
+      ],
+      "provenance": "mixed-source-and-editorial"
+    },
+    {
+      "id": "READ-07-checkpoint",
+      "type": "checkpoint",
+      "title": "Avant de considérer le chapitre compris",
+      "checks": [
+        "Expliquer l’idée principale avec tes propres mots en français.",
+        "Réussir plusieurs exercices de formats différents sans indice.",
+        "Produire au moins une réponse russe complète liée au concept.",
+        "Revoir au moins une partie du concept après un délai, pas uniquement dans la même session."
+      ],
+      "provenance": "editorial-expansion"
+    }
+  ],
+  "source_policy": {
+    "source_derived_content": "Examples and story contexts trace back to the supplied PDF and/or russian-morning-app when source_refs are present.",
+    "editorial_expansion": "Grammar explanations, learning strategy, mastery rules and newly generated examples are model-authored pedagogical expansion."
+  },
+  "skill_weights": {
+    "recognition": 0.1,
+    "comprehension": 0.55,
+    "recall": 0.1,
+    "production": 0.15,
+    "pronunciation": 0.1
+  },
+  "mastery_contract": {
+    "minimum_distinct_activities": 7,
+    "minimum_distinct_prompts": 5,
+    "minimum_overall_score": 0.68,
+    "minimum_production_score": 0.45,
+    "minimum_comprehension_score": 0.65,
+    "critical_error_rate_max": 0.4,
+    "delayed_review_required_for_mastered": true,
+    "delayed_review_min_hours": 48,
+    "next_chapter_soft_unlock_score": 0.68,
+    "soft_unlock_before_mastered": true
+  },
+  "session_recommendation": {
+    "course_session_blocks_min": 4,
+    "course_session_micro_checks_min": 3,
+    "exercise_session_items": 15,
+    "max_choice_ratio": 0.3,
+    "min_production_ratio": 0.3,
+    "pronunciation_ratio_target": 0.1
+  }
+}

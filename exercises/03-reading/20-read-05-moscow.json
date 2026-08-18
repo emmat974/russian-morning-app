@@ -1,0 +1,465 @@
+{
+  "exercise_set": "20-read-05-moscow",
+  "items": [
+    {
+      "id": "READ05-001",
+      "lesson_id": "READ-05",
+      "type": "comprehension",
+      "difficulty": 1,
+      "prompt": "Que veut voir Tony dans le centre de Moscou ?",
+      "answer": "La place Rouge.",
+      "concepts": [
+        "city"
+      ],
+      "error_tags": [
+        "context-miss"
+      ],
+      "options": [
+        "L'aéroport.",
+        "La place Rouge.",
+        "Son hôtel.",
+        "Un restaurant."
+      ],
+      "source": "PDF:p7",
+      "schema_version": "3.0.0",
+      "activity_type": "reading_comprehension",
+      "renderer_id": "reading_comprehension",
+      "skill_dimensions": {
+        "comprehension": 0.8,
+        "recognition": 0.2
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "READ05-002",
+      "lesson_id": "READ-05",
+      "type": "comprehension",
+      "difficulty": 1,
+      "prompt": "Pourquoi se perd-il ?",
+      "answer": "Il tourne dans la mauvaise direction après le métro.",
+      "concepts": [
+        "directions"
+      ],
+      "error_tags": [
+        "context-miss"
+      ],
+      "options": [
+        "Son taxi part sans lui.",
+        "Il tourne dans la mauvaise direction après le métro.",
+        "Il ne connaît pas le mot café.",
+        "Il perd son passeport."
+      ],
+      "source": "PDF:p7",
+      "schema_version": "3.0.0",
+      "activity_type": "reading_comprehension",
+      "renderer_id": "reading_comprehension",
+      "skill_dimensions": {
+        "comprehension": 0.8,
+        "recognition": 0.2
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "READ05-003",
+      "lesson_id": "READ-05",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis : « Через десять минут он понимает, что заблудился. »",
+      "answer": "Dix minutes plus tard, il comprend qu'il s'est perdu.",
+      "concepts": [
+        "через",
+        "что-clause"
+      ],
+      "error_tags": [
+        "через-meaning",
+        "clause-boundary"
+      ],
+      "source": "PDF:p7",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "READ05-004",
+      "lesson_id": "READ-05",
+      "type": "comprehension",
+      "difficulty": 1,
+      "prompt": "Quel problème supplémentaire a son téléphone ?",
+      "answer": "Il est presque déchargé.",
+      "concepts": [
+        "city"
+      ],
+      "error_tags": [
+        "context-miss"
+      ],
+      "options": [
+        "Il est volé.",
+        "Il est presque déchargé.",
+        "Il n'a pas de carte.",
+        "Il est cassé en deux."
+      ],
+      "source": "PDF:p7",
+      "schema_version": "3.0.0",
+      "activity_type": "reading_comprehension",
+      "renderer_id": "reading_comprehension",
+      "skill_dimensions": {
+        "comprehension": 0.8,
+        "recognition": 0.2
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "READ05-005",
+      "lesson_id": "READ-05",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis en russe : « Où est la place Rouge ? »",
+      "answer": "Где Красная площадь?",
+      "concepts": [
+        "где",
+        "directions"
+      ],
+      "error_tags": [
+        "где-vs-куда"
+      ],
+      "acceptable_answers": [
+        "Где Красная площадь?"
+      ],
+      "source": "PDF:p7",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "READ05-006",
+      "lesson_id": "READ-05",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "« прямо » signifie :",
+      "answer": "tout droit",
+      "concepts": [
+        "directions"
+      ],
+      "error_tags": [
+        "direction-sequence"
+      ],
+      "options": [
+        "à gauche",
+        "à droite",
+        "tout droit",
+        "près de"
+      ],
+      "source": "PDF:p8",
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "READ05-007",
+      "lesson_id": "READ-05",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "« налево » signifie :",
+      "answer": "à gauche",
+      "concepts": [
+        "directions"
+      ],
+      "error_tags": [
+        "direction-sequence"
+      ],
+      "options": [
+        "à gauche",
+        "à droite",
+        "tout droit",
+        "derrière"
+      ],
+      "source": "PDF:p8",
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "READ05-008",
+      "lesson_id": "READ-05",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "« направо » signifie :",
+      "answer": "à droite",
+      "concepts": [
+        "directions"
+      ],
+      "error_tags": [
+        "direction-sequence"
+      ],
+      "options": [
+        "à gauche",
+        "à droite",
+        "tout droit",
+        "devant"
+      ],
+      "source": "PDF:p8",
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "READ05-009",
+      "lesson_id": "READ-05",
+      "type": "comprehension",
+      "difficulty": 1,
+      "prompt": "Comment la femme aide-t-elle finalement Tony ?",
+      "answer": "Elle lui montre le chemin sur la carte.",
+      "concepts": [
+        "asking-for-help"
+      ],
+      "error_tags": [
+        "context-miss"
+      ],
+      "options": [
+        "Elle l'accompagne en taxi.",
+        "Elle lui montre le chemin sur la carte.",
+        "Elle lui prête son téléphone.",
+        "Elle appelle Alexeï."
+      ],
+      "source": "PDF:p7",
+      "schema_version": "3.0.0",
+      "activity_type": "reading_comprehension",
+      "renderer_id": "reading_comprehension",
+      "skill_dimensions": {
+        "comprehension": 0.8,
+        "recognition": 0.2
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "READ05-010",
+      "lesson_id": "READ-05",
+      "type": "comprehension",
+      "difficulty": 1,
+      "prompt": "Combien de temps plus tard voit-il la place Rouge ?",
+      "answer": "Quinze minutes.",
+      "concepts": [
+        "time-expression"
+      ],
+      "error_tags": [
+        "time-expression"
+      ],
+      "options": [
+        "Cinq minutes.",
+        "Dix minutes.",
+        "Quinze minutes.",
+        "Une heure."
+      ],
+      "source": "PDF:p7",
+      "schema_version": "3.0.0",
+      "activity_type": "reading_comprehension",
+      "renderer_id": "reading_comprehension",
+      "skill_dimensions": {
+        "comprehension": 0.8,
+        "recognition": 0.2
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "READ05-011",
+      "lesson_id": "READ-05",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis : « Покажите на карте, пожалуйста. »",
+      "answer": "Montrez-moi sur la carte, s'il vous plaît.",
+      "concepts": [
+        "politeness",
+        "directions"
+      ],
+      "error_tags": [
+        "polite-vs-informal"
+      ],
+      "source": "PDF:p7",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "READ05-012",
+      "lesson_id": "READ-05",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Idée principale :",
+      "answer": "Tony se perd, demande de l'aide et finit par trouver la place Rouge.",
+      "concepts": [
+        "reading-strategy"
+      ],
+      "error_tags": [
+        "reading-detail-vs-main"
+      ],
+      "options": [
+        "Tony rate son vol.",
+        "Tony se perd, demande de l'aide et finit par trouver la place Rouge.",
+        "Tony apprend à cuisiner.",
+        "Tony change d'hôtel."
+      ],
+      "source": "PDF:p7-9",
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    }
+  ]
+}

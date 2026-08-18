@@ -1,0 +1,233 @@
+{
+  "id": "FND-05",
+  "order": 11,
+  "track": "foundations",
+  "level": "A1",
+  "status": "active",
+  "title": "Survivre dans un échange simple",
+  "summary": "Phrases prêtes à l'emploi pour ralentir, demander une répétition, comprendre un mot et commander poliment.",
+  "objectives": [
+    "Utiliser Извините et пожалуйста",
+    "Demander de parler plus lentement",
+    "Demander ce qu'un mot signifie",
+    "Commander avec une structure courte"
+  ],
+  "concepts": [
+    "politeness",
+    "survival-russian",
+    "можно",
+    "пожалуйста",
+    "извините"
+  ],
+  "notes": [
+    "Apprends ces expressions comme des blocs complets avant d'essayer de tout analyser."
+  ],
+  "examples": [
+    {
+      "ru": "Извините, я не понимаю.",
+      "fr": "Excusez-moi, je ne comprends pas."
+    },
+    {
+      "ru": "Говорите медленнее, пожалуйста.",
+      "fr": "Parlez plus lentement, s'il vous plaît."
+    },
+    {
+      "ru": "Можно ещё раз?",
+      "fr": "Pouvez-vous répéter ?"
+    },
+    {
+      "ru": "Что это значит?",
+      "fr": "Qu'est-ce que cela signifie ?"
+    }
+  ],
+  "source_refs": [
+    "PDF-FIRST-WEEK-TONY:p1-3",
+    "GH-RUSSIAN-MORNING-APP:banque-ch1-dialogue"
+  ],
+  "schema_version": "3.0.0",
+  "content_api_version": "3.0",
+  "subtitle": "Gagner du temps et garder le contrôle d’une conversation",
+  "estimated_minutes": 18,
+  "prerequisites": [
+    "FND-02"
+  ],
+  "lesson_mode": "guided_course_session",
+  "content_blocks": [
+    {
+      "id": "FND-05-intro",
+      "type": "markdown",
+      "title": "Pourquoi ce chapitre ?",
+      "body": [
+        "Le premier chapitre du PDF montre une situation réaliste : Tony sait saluer et dire qu’il parle un peu russe, puis la conversation devient trop rapide. Ce cours transforme cette difficulté en quelques phrases de survie réutilisables partout."
+      ],
+      "provenance": "editorial-expansion"
+    },
+    {
+      "id": "FND-05-sec-01",
+      "type": "markdown",
+      "title": "Signaler un problème de compréhension",
+      "body": [
+        "Извините, я не понимаю est une phrase complète, polie et immédiatement utile. Elle évite de faire semblant d’avoir compris et ouvre la porte à une reformulation."
+      ],
+      "examples": [
+        {
+          "ru": "Извините, я не понимаю.",
+          "fr": "Excusez-moi, je ne comprends pas."
+        }
+      ],
+      "provenance": "editorial-expansion"
+    },
+    {
+      "id": "FND-05-sec-02",
+      "type": "markdown",
+      "title": "Demander de ralentir",
+      "body": [
+        "Говорите медленнее, пожалуйста s’adresse poliment à une personne que tu vouvoies. Le but ici est d’apprendre le bloc ; l’analyse détaillée de l’impératif peut attendre."
+      ],
+      "examples": [
+        {
+          "ru": "Говорите медленнее, пожалуйста.",
+          "fr": "Parlez plus lentement, s’il vous plaît."
+        }
+      ],
+      "provenance": "editorial-expansion"
+    },
+    {
+      "id": "FND-05-sec-03",
+      "type": "markdown",
+      "title": "Demander une répétition",
+      "body": [
+        "Можно ещё раз? est très économique : « encore une fois, c’est possible ? ». Dans une interaction réelle, cette brièveté est un avantage."
+      ],
+      "examples": [
+        {
+          "ru": "Можно ещё раз?",
+          "fr": "Pouvez-vous répéter ? / Encore une fois ?"
+        }
+      ],
+      "provenance": "editorial-expansion"
+    },
+    {
+      "id": "FND-05-sec-04",
+      "type": "markdown",
+      "title": "Demander la signification",
+      "body": [
+        "Что это значит? permet de transformer un mot inconnu en occasion d’apprentissage sans quitter la conversation."
+      ],
+      "examples": [
+        {
+          "ru": "Что это значит?",
+          "fr": "Qu’est-ce que cela signifie ?"
+        }
+      ],
+      "provenance": "editorial-expansion"
+    },
+    {
+      "id": "FND-05-sec-05",
+      "type": "markdown",
+      "title": "Commander sans phrase compliquée",
+      "body": [
+        "Чай, пожалуйста ou Воду, пожалуйста suffisent souvent. Le PDF introduit aussi Я хотел бы..., une forme polie « je voudrais », que l’app peut faire reconnaître avant d’exiger sa production."
+      ],
+      "examples": [
+        {
+          "ru": "Чай, пожалуйста.",
+          "fr": "Un thé, s’il vous plaît."
+        },
+        {
+          "ru": "Я хотел бы чай.",
+          "fr": "Je voudrais du thé."
+        }
+      ],
+      "provenance": "editorial-expansion"
+    },
+    {
+      "id": "FND-05-mistakes",
+      "type": "contrast",
+      "title": "Erreurs à surveiller",
+      "items": [
+        {
+          "wrong_or_risk": "Chercher une phrase parfaite trop longue",
+          "correction_or_strategy": "Utiliser un bloc court et sûr."
+        },
+        {
+          "wrong_or_risk": "Tutoyer par erreur dans une interaction formelle",
+          "correction_or_strategy": "Les formes en -те sont un indice fréquent du registre poli/pluriel."
+        },
+        {
+          "wrong_or_risk": "Confondre « encore » et « autre chose »",
+          "correction_or_strategy": "Ещё dépend du contexte : Можно ещё раз? ≠ Что-нибудь ещё?"
+        }
+      ],
+      "provenance": "editorial-expansion"
+    },
+    {
+      "id": "FND-05-memory",
+      "type": "memory",
+      "title": "À retenir",
+      "items": [
+        "Ne pas comprendre est une information à communiquer.",
+        "Можно ещё раз? est une phrase de secours essentielle.",
+        "Пожалуйста rend beaucoup de demandes immédiatement plus naturelles."
+      ],
+      "provenance": "editorial-expansion"
+    },
+    {
+      "id": "FND-05-pron",
+      "type": "pronunciation",
+      "title": "Prononciation à travailler",
+      "targets": [
+        "Здравствуйте",
+        "Извините",
+        "пожалуйста",
+        "Говорите медленнее, пожалуйста",
+        "Можно ещё раз?",
+        "Что это значит?"
+      ],
+      "provenance": "mixed-source-and-editorial"
+    },
+    {
+      "id": "FND-05-checkpoint",
+      "type": "checkpoint",
+      "title": "Avant de considérer le chapitre compris",
+      "checks": [
+        "Expliquer l’idée principale avec tes propres mots en français.",
+        "Réussir plusieurs exercices de formats différents sans indice.",
+        "Produire au moins une réponse russe complète liée au concept.",
+        "Revoir au moins une partie du concept après un délai, pas uniquement dans la même session."
+      ],
+      "provenance": "editorial-expansion"
+    }
+  ],
+  "source_policy": {
+    "source_derived_content": "Examples and story contexts trace back to the supplied PDF and/or russian-morning-app when source_refs are present.",
+    "editorial_expansion": "Grammar explanations, learning strategy, mastery rules and newly generated examples are model-authored pedagogical expansion."
+  },
+  "skill_weights": {
+    "recognition": 0.25,
+    "comprehension": 0.25,
+    "recall": 0.2,
+    "production": 0.2,
+    "pronunciation": 0.1
+  },
+  "mastery_contract": {
+    "minimum_distinct_activities": 7,
+    "minimum_distinct_prompts": 5,
+    "minimum_overall_score": 0.68,
+    "minimum_production_score": 0.58,
+    "minimum_comprehension_score": 0.62,
+    "critical_error_rate_max": 0.4,
+    "delayed_review_required_for_mastered": true,
+    "delayed_review_min_hours": 48,
+    "next_chapter_soft_unlock_score": 0.68,
+    "soft_unlock_before_mastered": true
+  },
+  "session_recommendation": {
+    "course_session_blocks_min": 4,
+    "course_session_micro_checks_min": 3,
+    "exercise_session_items": 15,
+    "max_choice_ratio": 0.3,
+    "min_production_ratio": 0.3,
+    "pronunciation_ratio_target": 0.1
+  }
+}

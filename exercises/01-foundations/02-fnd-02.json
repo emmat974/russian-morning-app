@@ -1,0 +1,371 @@
+{
+  "exercise_set": "02-fnd-02",
+  "items": [
+    {
+      "id": "FND02-001",
+      "lesson_id": "FND-02",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis en russe : « Je ne sais pas. »",
+      "answer": "Я не знаю.",
+      "concepts": [
+        "negation",
+        "знать"
+      ],
+      "error_tags": [
+        "missing-ne"
+      ],
+      "acceptable_answers": [
+        "Я не знаю",
+        "Не знаю."
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "FND02-002",
+      "lesson_id": "FND-02",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "« Я немного говорю по-русски » signifie :",
+      "answer": "Je parle un peu russe.",
+      "concepts": [
+        "говорить"
+      ],
+      "error_tags": [
+        "говорить-vs-понимать"
+      ],
+      "options": [
+        "Je comprends bien le russe.",
+        "Je parle un peu russe.",
+        "Je ne parle pas russe.",
+        "J'étudie le russe."
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "FND02-003",
+      "lesson_id": "FND-02",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Pour dire « je ne comprends pas » :",
+      "answer": "Я не понимаю.",
+      "concepts": [
+        "понимать",
+        "negation"
+      ],
+      "error_tags": [
+        "говорить-vs-понимать",
+        "знать-vs-понимать"
+      ],
+      "options": [
+        "Я не знаю.",
+        "Я не понимаю.",
+        "Я не говорю.",
+        "Я понимаю."
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "FND02-004",
+      "lesson_id": "FND-02",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "prompt": "Я ___ знаю.",
+      "answer": "не",
+      "concepts": [
+        "negation"
+      ],
+      "error_tags": [
+        "missing-ne"
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "fill_blank",
+      "renderer_id": "fill_blank",
+      "skill_dimensions": {
+        "recognition": 0.15,
+        "recall": 0.45,
+        "production": 0.4
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "FND02-005",
+      "lesson_id": "FND-02",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis en français : « Может быть, не знаю. »",
+      "answer": "Peut-être, je ne sais pas.",
+      "concepts": [
+        "может-быть",
+        "знать"
+      ],
+      "error_tags": [
+        "connector-meaning"
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "FND02-006",
+      "lesson_id": "FND-02",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Quel verbe correspond à « comprendre » ?",
+      "answer": "понимать",
+      "concepts": [
+        "понимать"
+      ],
+      "error_tags": [
+        "говорить-vs-понимать"
+      ],
+      "options": [
+        "говорить",
+        "понимать",
+        "знать",
+        "читать"
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "FND02-007",
+      "lesson_id": "FND-02",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Quel verbe correspond le mieux à « savoir » ?",
+      "answer": "знать",
+      "concepts": [
+        "знать"
+      ],
+      "error_tags": [
+        "verb-meaning"
+      ],
+      "options": [
+        "знать",
+        "читать",
+        "работать",
+        "идти"
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "FND02-008",
+      "lesson_id": "FND-02",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis en russe : « Je parle un peu russe. »",
+      "answer": "Я немного говорю по-русски.",
+      "concepts": [
+        "говорить"
+      ],
+      "error_tags": [
+        "говорить-vs-понимать"
+      ],
+      "acceptable_answers": [
+        "Я немного говорю по-русски",
+        "Немного говорю по-русски."
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "FND02-009",
+      "lesson_id": "FND-02",
+      "type": "classify",
+      "difficulty": 1,
+      "prompt": "« Я не понимаю » : affirmation ou négation ?",
+      "answer": "négation",
+      "concepts": [
+        "negation"
+      ],
+      "error_tags": [
+        "missing-ne"
+      ],
+      "options": [
+        "affirmation",
+        "négation"
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "FND02-010",
+      "lesson_id": "FND-02",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "prompt": "Может быть, я не ___.",
+      "answer": "знаю",
+      "concepts": [
+        "знать",
+        "verb-form-1sg"
+      ],
+      "error_tags": [
+        "verb-form-1sg"
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "fill_blank",
+      "renderer_id": "fill_blank",
+      "skill_dimensions": {
+        "recognition": 0.15,
+        "recall": 0.45,
+        "production": 0.4
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    }
+  ]
+}

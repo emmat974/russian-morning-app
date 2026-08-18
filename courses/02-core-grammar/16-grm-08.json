@@ -1,0 +1,244 @@
+{
+  "id": "GRM-08",
+  "order": 16,
+  "track": "core-grammar",
+  "level": "A1",
+  "status": "active",
+  "title": "Я n'est pas toujours 'moi' — меня, мне, тебя, тебе",
+  "summary": "Commencer à reconnaître les pronoms selon leur rôle dans la phrase.",
+  "objectives": [
+    "Distinguer Я / меня / мне",
+    "Distinguer ты / тебя / тебе",
+    "Reconnaître ему / ей dans des phrases fréquentes"
+  ],
+  "concepts": [
+    "pronoun-cases",
+    "accusative-pronouns",
+    "dative-pronouns"
+  ],
+  "notes": [
+    "Relie chaque forme à des constructions concrètes plutôt que réciter un tableau."
+  ],
+  "examples": [
+    {
+      "ru": "Меня зовут Тони.",
+      "fr": "Je m'appelle Tony."
+    },
+    {
+      "ru": "Мне нравится кофе.",
+      "fr": "J'aime le café."
+    },
+    {
+      "ru": "Я тебя вижу.",
+      "fr": "Je te vois."
+    },
+    {
+      "ru": "Тебе нравится чай?",
+      "fr": "Tu aimes le thé ?"
+    }
+  ],
+  "source_refs": [
+    "PDF-FIRST-WEEK-TONY:p4-6",
+    "GH-RUSSIAN-MORNING-APP:series-traduction"
+  ],
+  "schema_version": "3.0.0",
+  "content_api_version": "3.0",
+  "subtitle": "Choisir Я, меня, мне, ты, тебя, тебе selon le rôle",
+  "estimated_minutes": 18,
+  "prerequisites": [
+    "GRM-01",
+    "FND-06"
+  ],
+  "lesson_mode": "guided_course_session",
+  "content_blocks": [
+    {
+      "id": "GRM-08-intro",
+      "type": "markdown",
+      "title": "Pourquoi ce chapitre ?",
+      "body": [
+        "Le français peut traduire plusieurs formes russes par « je / me / moi » ou « tu / te / toi ». Apprendre les formes par constructions concrètes évite d’utiliser Я partout et prépare les déclinaisons sans tableau massif."
+      ],
+      "provenance": "editorial-expansion"
+    },
+    {
+      "id": "GRM-08-sec-01",
+      "type": "markdown",
+      "title": "Я : sujet",
+      "body": [
+        "Я travaille quand « je » réalise l’action : Я говорю, Я вижу, Я знаю."
+      ],
+      "examples": [
+        {
+          "ru": "Я вижу машину.",
+          "fr": "Je vois une voiture."
+        }
+      ],
+      "provenance": "editorial-expansion"
+    },
+    {
+      "id": "GRM-08-sec-02",
+      "type": "markdown",
+      "title": "Меня : objet / certaines constructions",
+      "body": [
+        "Меня apparaît notamment dans Меня зовут et Я? non : Ты меня видишь? Ici, la personne reçoit l’action ou participe à une construction figée."
+      ],
+      "examples": [
+        {
+          "ru": "Меня зовут Тони.",
+          "fr": "Je m’appelle Tony."
+        },
+        {
+          "ru": "Ты меня видишь?",
+          "fr": "Tu me vois ?"
+        }
+      ],
+      "provenance": "editorial-expansion"
+    },
+    {
+      "id": "GRM-08-sec-03",
+      "type": "markdown",
+      "title": "Мне : destinataire / expérience",
+      "body": [
+        "Мне apparaît dans Мне нравится, Мне трудно, Она сказала мне. Une traduction littérale « à moi » peut parfois aider à sentir la fonction."
+      ],
+      "examples": [
+        {
+          "ru": "Мне нравится кофе.",
+          "fr": "J’aime le café."
+        },
+        {
+          "ru": "Мне трудно отвечать.",
+          "fr": "J’ai du mal à répondre."
+        },
+        {
+          "ru": "Она сказала мне нет.",
+          "fr": "Elle m’a dit non."
+        }
+      ],
+      "provenance": "editorial-expansion"
+    },
+    {
+      "id": "GRM-08-sec-04",
+      "type": "markdown",
+      "title": "Ты / тебя / тебе",
+      "body": [
+        "La même distinction existe à la deuxième personne : ты comme sujet, тебя comme objet dans Я тебя вижу, тебе dans Тебе нравится чай?"
+      ],
+      "examples": [
+        {
+          "ru": "Ты говоришь.",
+          "fr": "Tu parles."
+        },
+        {
+          "ru": "Я тебя вижу.",
+          "fr": "Je te vois."
+        },
+        {
+          "ru": "Тебе нравится чай?",
+          "fr": "Tu aimes le thé ?"
+        }
+      ],
+      "provenance": "editorial-expansion"
+    },
+    {
+      "id": "GRM-08-sec-05",
+      "type": "markdown",
+      "title": "Apprendre par patrons",
+      "body": [
+        "Au lieu de réciter uniquement Я → меня → мне, associe chaque forme à deux ou trois patrons. Le moteur adaptatif doit ensuite mélanger les patrons pour vérifier que tu choisis par fonction, pas par mémorisation d’une phrase unique."
+      ],
+      "examples": [],
+      "provenance": "editorial-expansion"
+    },
+    {
+      "id": "GRM-08-mistakes",
+      "type": "contrast",
+      "title": "Erreurs à surveiller",
+      "items": [
+        {
+          "wrong_or_risk": "Мне зовут Тони",
+          "correction_or_strategy": "La formule est Меня зовут Тони."
+        },
+        {
+          "wrong_or_risk": "Я нравится кофе",
+          "correction_or_strategy": "La personne qui ressent est Мне."
+        },
+        {
+          "wrong_or_risk": "Я тебе вижу",
+          "correction_or_strategy": "Objet direct ici : Я тебя вижу."
+        }
+      ],
+      "provenance": "editorial-expansion"
+    },
+    {
+      "id": "GRM-08-memory",
+      "type": "memory",
+      "title": "À retenir",
+      "items": [
+        "Я agit ; меня reçoit souvent l’action ; мне reçoit/ressent dans plusieurs patrons.",
+        "Ты / тебя / тебе suivent la même idée de rôles différents.",
+        "Apprends les formes dans des phrases."
+      ],
+      "provenance": "editorial-expansion"
+    },
+    {
+      "id": "GRM-08-pron",
+      "type": "pronunciation",
+      "title": "Prononciation à travailler",
+      "targets": [
+        "я",
+        "меня",
+        "мне",
+        "ты",
+        "тебя",
+        "тебе",
+        "Меня зовут Тони",
+        "Мне нравится кофе"
+      ],
+      "provenance": "mixed-source-and-editorial"
+    },
+    {
+      "id": "GRM-08-checkpoint",
+      "type": "checkpoint",
+      "title": "Avant de considérer le chapitre compris",
+      "checks": [
+        "Expliquer l’idée principale avec tes propres mots en français.",
+        "Réussir plusieurs exercices de formats différents sans indice.",
+        "Produire au moins une réponse russe complète liée au concept.",
+        "Revoir au moins une partie du concept après un délai, pas uniquement dans la même session."
+      ],
+      "provenance": "editorial-expansion"
+    }
+  ],
+  "source_policy": {
+    "source_derived_content": "Examples and story contexts trace back to the supplied PDF and/or russian-morning-app when source_refs are present.",
+    "editorial_expansion": "Grammar explanations, learning strategy, mastery rules and newly generated examples are model-authored pedagogical expansion."
+  },
+  "skill_weights": {
+    "recognition": 0.2,
+    "comprehension": 0.2,
+    "recall": 0.2,
+    "production": 0.3,
+    "pronunciation": 0.1
+  },
+  "mastery_contract": {
+    "minimum_distinct_activities": 8,
+    "minimum_distinct_prompts": 6,
+    "minimum_overall_score": 0.7,
+    "minimum_production_score": 0.6,
+    "minimum_comprehension_score": 0.65,
+    "critical_error_rate_max": 0.4,
+    "delayed_review_required_for_mastered": true,
+    "delayed_review_min_hours": 48,
+    "next_chapter_soft_unlock_score": 0.7,
+    "soft_unlock_before_mastered": true
+  },
+  "session_recommendation": {
+    "course_session_blocks_min": 4,
+    "course_session_micro_checks_min": 3,
+    "exercise_session_items": 15,
+    "max_choice_ratio": 0.3,
+    "min_production_ratio": 0.3,
+    "pronunciation_ratio_target": 0.1
+  }
+}

@@ -1,0 +1,231 @@
+{
+  "id": "READ-05",
+  "order": 20,
+  "track": "reading",
+  "level": "A1",
+  "status": "active",
+  "title": "Lecture : Tony se perd dans Moscou",
+  "summary": "Chronologie, orientation, demande d'aide et indications simples.",
+  "objectives": [
+    "Comprendre pourquoi Tony est perdu",
+    "Repérer через + durée",
+    "Comprendre прямо / налево / направо"
+  ],
+  "concepts": [
+    "reading-strategy",
+    "directions",
+    "через",
+    "что-clause"
+  ],
+  "notes": [
+    "Utilise la phrase avec Через десять минут comme point d'entrée."
+  ],
+  "examples": [
+    {
+      "ru": "Через десять минут он понимает, что заблудился.",
+      "fr": "Dix minutes plus tard, il comprend qu'il s'est perdu."
+    }
+  ],
+  "source_refs": [
+    "PDF-FIRST-WEEK-TONY:p7-9"
+  ],
+  "schema_version": "3.0.0",
+  "content_api_version": "3.0",
+  "subtitle": "Moscou : comprendre une erreur d’orientation et des indications",
+  "estimated_minutes": 25,
+  "prerequisites": [
+    "READ-01",
+    "GRM-05"
+  ],
+  "lesson_mode": "guided_course_session",
+  "content_blocks": [
+    {
+      "id": "READ-05-intro",
+      "type": "markdown",
+      "title": "Pourquoi ce chapitre ?",
+      "body": [
+        "Ce chapitre du PDF contient la phrase Через десять минут он понимает, что заблудился et un vrai dialogue de direction. Il combine lecture narrative, chronologie, demande d’aide et vocabulaire spatial."
+      ],
+      "provenance": "editorial-expansion"
+    },
+    {
+      "id": "READ-05-sec-01",
+      "type": "markdown",
+      "title": "Objectif de Tony",
+      "body": [
+        "Il veut voir la place Rouge et prendre quelques photographies. Au début, tout se passe correctement : métro et itinéraire sur téléphone."
+      ],
+      "examples": [
+        {
+          "ru": "Он хочет увидеть Красную площадь.",
+          "fr": "Il veut voir la place Rouge."
+        },
+        {
+          "ru": "Он смотрит маршрут на телефоне.",
+          "fr": "Il regarde l’itinéraire sur son téléphone."
+        }
+      ],
+      "provenance": "mixed-source-and-editorial"
+    },
+    {
+      "id": "READ-05-sec-02",
+      "type": "markdown",
+      "title": "Le moment où tout bascule",
+      "body": [
+        "Après la sortie du métro, il tourne du mauvais côté. Через десять минут marque le délai avant qu’il comprenne qu’il est perdu."
+      ],
+      "examples": [
+        {
+          "ru": "Он поворачивает не туда.",
+          "fr": "Il tourne dans la mauvaise direction."
+        },
+        {
+          "ru": "Через десять минут он понимает, что заблудился.",
+          "fr": "Dix minutes plus tard, il comprend qu’il s’est perdu."
+        }
+      ],
+      "provenance": "mixed-source-and-editorial"
+    },
+    {
+      "id": "READ-05-sec-03",
+      "type": "markdown",
+      "title": "Demander de l’aide",
+      "body": [
+        "Где Красная площадь? puis Покажите на карте, пожалуйста permettent de réduire une explication orale difficile à un support visuel."
+      ],
+      "examples": [
+        {
+          "ru": "Где Красная площадь?",
+          "fr": "Où est la place Rouge ?"
+        },
+        {
+          "ru": "Покажите на карте, пожалуйста.",
+          "fr": "Montrez-moi sur la carte, s’il vous plaît."
+        }
+      ],
+      "provenance": "mixed-source-and-editorial"
+    },
+    {
+      "id": "READ-05-sec-04",
+      "type": "markdown",
+      "title": "Suivre les directions",
+      "body": [
+        "Прямо, налево, направо, перекрёсток, перейти дорогу structurent l’itinéraire. L’objectif est de suivre une séquence, pas de traduire tous les cas."
+      ],
+      "examples": [
+        {
+          "ru": "идти прямо",
+          "fr": "aller tout droit"
+        },
+        {
+          "ru": "повернуть налево",
+          "fr": "tourner à gauche"
+        },
+        {
+          "ru": "повернуть направо",
+          "fr": "tourner à droite"
+        }
+      ],
+      "provenance": "mixed-source-and-editorial"
+    },
+    {
+      "id": "READ-05-sec-05",
+      "type": "markdown",
+      "title": "Résolution",
+      "body": [
+        "Après quinze minutes, Tony voit la place Rouge. Un bon exercice de compréhension doit pouvoir demander l’ordre des actions, pas seulement le sens d’un mot isolé."
+      ],
+      "examples": [],
+      "provenance": "mixed-source-and-editorial"
+    },
+    {
+      "id": "READ-05-mistakes",
+      "type": "contrast",
+      "title": "Erreurs à surveiller",
+      "items": [
+        {
+          "wrong_or_risk": "Confondre налево et направо",
+          "correction_or_strategy": "Associer chaque mot à un geste ou une direction visuelle."
+        },
+        {
+          "wrong_or_risk": "Oublier le rôle temporel de через",
+          "correction_or_strategy": "Placer l’événement sur la chronologie."
+        },
+        {
+          "wrong_or_risk": "Essayer de mémoriser toute l’indication en une fois",
+          "correction_or_strategy": "Découper en étapes : прямo → налево → traverser → направо."
+        }
+      ],
+      "provenance": "editorial-expansion"
+    },
+    {
+      "id": "READ-05-memory",
+      "type": "memory",
+      "title": "À retenir",
+      "items": [
+        "не туда = pas dans la bonne direction.",
+        "через dix minutes → prise de conscience.",
+        "прямо / налево / направо forment un trio à automatiser."
+      ],
+      "provenance": "editorial-expansion"
+    },
+    {
+      "id": "READ-05-pron",
+      "type": "pronunciation",
+      "title": "Prononciation à travailler",
+      "targets": [
+        "Красная площадь",
+        "заблудился",
+        "Где Красная площадь?",
+        "прямо",
+        "налево",
+        "направо",
+        "перекрёсток"
+      ],
+      "provenance": "mixed-source-and-editorial"
+    },
+    {
+      "id": "READ-05-checkpoint",
+      "type": "checkpoint",
+      "title": "Avant de considérer le chapitre compris",
+      "checks": [
+        "Expliquer l’idée principale avec tes propres mots en français.",
+        "Réussir plusieurs exercices de formats différents sans indice.",
+        "Produire au moins une réponse russe complète liée au concept.",
+        "Revoir au moins une partie du concept après un délai, pas uniquement dans la même session."
+      ],
+      "provenance": "editorial-expansion"
+    }
+  ],
+  "source_policy": {
+    "source_derived_content": "Examples and story contexts trace back to the supplied PDF and/or russian-morning-app when source_refs are present.",
+    "editorial_expansion": "Grammar explanations, learning strategy, mastery rules and newly generated examples are model-authored pedagogical expansion."
+  },
+  "skill_weights": {
+    "recognition": 0.1,
+    "comprehension": 0.55,
+    "recall": 0.1,
+    "production": 0.15,
+    "pronunciation": 0.1
+  },
+  "mastery_contract": {
+    "minimum_distinct_activities": 7,
+    "minimum_distinct_prompts": 5,
+    "minimum_overall_score": 0.68,
+    "minimum_production_score": 0.45,
+    "minimum_comprehension_score": 0.65,
+    "critical_error_rate_max": 0.4,
+    "delayed_review_required_for_mastered": true,
+    "delayed_review_min_hours": 48,
+    "next_chapter_soft_unlock_score": 0.68,
+    "soft_unlock_before_mastered": true
+  },
+  "session_recommendation": {
+    "course_session_blocks_min": 4,
+    "course_session_micro_checks_min": 3,
+    "exercise_session_items": 15,
+    "max_choice_ratio": 0.3,
+    "min_production_ratio": 0.3,
+    "pronunciation_ratio_target": 0.1
+  }
+}

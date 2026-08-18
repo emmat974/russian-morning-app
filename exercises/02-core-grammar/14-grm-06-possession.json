@@ -1,0 +1,453 @@
+{
+  "exercise_set": "14-grm-06-possession",
+  "items": [
+    {
+      "id": "GRM06-001",
+      "lesson_id": "GRM-06",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis en russe : « J'ai un téléphone. »",
+      "answer": "У меня есть телефон.",
+      "concepts": [
+        "possession"
+      ],
+      "error_tags": [
+        "у-possessor-form"
+      ],
+      "source": "GH:series-traduction/avoir",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "GRM06-002",
+      "lesson_id": "GRM-06",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis en russe : « Je n'ai pas de téléphone. »",
+      "answer": "У меня нет телефона.",
+      "concepts": [
+        "possession",
+        "нет"
+      ],
+      "error_tags": [
+        "genitive-after-нет",
+        "есть-vs-нет"
+      ],
+      "source": "GH:series-traduction/avoir",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "GRM06-003",
+      "lesson_id": "GRM-06",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Complète : У ___ есть машина?",
+      "answer": "тебя",
+      "concepts": [
+        "у-possessor"
+      ],
+      "error_tags": [
+        "у-possessor-form"
+      ],
+      "options": [
+        "ты",
+        "тебя",
+        "тебе",
+        "твой"
+      ],
+      "source": "GH:series-traduction/avoir",
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "GRM06-004",
+      "lesson_id": "GRM-06",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Complète : У ___ есть брат.",
+      "answer": "него",
+      "concepts": [
+        "у-possessor"
+      ],
+      "error_tags": [
+        "у-possessor-form",
+        "ему-vs-его"
+      ],
+      "options": [
+        "он",
+        "его",
+        "него",
+        "ему"
+      ],
+      "source": "GH:series-traduction/avoir",
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "GRM06-005",
+      "lesson_id": "GRM-06",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Complète : У ___ есть сестра.",
+      "answer": "неё",
+      "concepts": [
+        "у-possessor"
+      ],
+      "error_tags": [
+        "у-possessor-form",
+        "ей-vs-её"
+      ],
+      "options": [
+        "она",
+        "её",
+        "ней",
+        "неё"
+      ],
+      "source": "GH:series-traduction/avoir",
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "GRM06-006",
+      "lesson_id": "GRM-06",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Complète : У него нет ___.",
+      "answer": "детей",
+      "concepts": [
+        "нет"
+      ],
+      "error_tags": [
+        "genitive-after-нет"
+      ],
+      "options": [
+        "дети",
+        "детей",
+        "детям",
+        "детьми"
+      ],
+      "source": "PDF:p6",
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "GRM06-007",
+      "lesson_id": "GRM-06",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Après нет, téléphone devient ici :",
+      "answer": "телефона",
+      "concepts": [
+        "genitive-basic"
+      ],
+      "error_tags": [
+        "genitive-after-нет"
+      ],
+      "options": [
+        "телефон",
+        "телефона",
+        "телефону",
+        "телефоном"
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "GRM06-008",
+      "lesson_id": "GRM-06",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis : « Что у тебя есть? »",
+      "answer": "Qu'est-ce que tu as ?",
+      "concepts": [
+        "possession"
+      ],
+      "error_tags": [
+        "literal-translation"
+      ],
+      "source": "GH:series-traduction/avoir",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "GRM06-009",
+      "lesson_id": "GRM-06",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "« бутылка воды » se comprend comme :",
+      "answer": "une bouteille d'eau",
+      "concepts": [
+        "container-genitive"
+      ],
+      "error_tags": [
+        "container-genitive"
+      ],
+      "options": [
+        "une bouteille dans l'eau",
+        "une bouteille d'eau",
+        "l'eau est absente",
+        "boire la bouteille"
+      ],
+      "source": "PDF:p2",
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "GRM06-010",
+      "lesson_id": "GRM-06",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Complète : бутылка ___.",
+      "answer": "воды",
+      "concepts": [
+        "container-genitive"
+      ],
+      "error_tags": [
+        "container-genitive"
+      ],
+      "options": [
+        "вода",
+        "воды",
+        "воду",
+        "водой"
+      ],
+      "source": "GH:banque-ch1-recit",
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "GRM06-011",
+      "lesson_id": "GRM-06",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis en russe : « Nous avons du thé. »",
+      "answer": "У нас есть чай.",
+      "concepts": [
+        "possession"
+      ],
+      "error_tags": [
+        "у-possessor-form"
+      ],
+      "source": "GH:series-traduction/avoir",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "GRM06-012",
+      "lesson_id": "GRM-06",
+      "type": "translation",
+      "difficulty": 2,
+      "prompt": "Traduis en russe : « Mes parents n'ont pas de voiture. »",
+      "answer": "У моих родителей нет машины.",
+      "concepts": [
+        "possession",
+        "нет"
+      ],
+      "error_tags": [
+        "genitive-after-нет",
+        "active-translation-structure"
+      ],
+      "source": "GH:series-traduction/avoir",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    }
+  ]
+}

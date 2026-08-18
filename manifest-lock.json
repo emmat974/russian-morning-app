@@ -1,0 +1,581 @@
+{
+  "schema_version": "1.0.0",
+  "content_version": "0.3.1",
+  "files": [
+    {
+      "path": ".github/workflows/validate-content.yml",
+      "sha256": "1134b011abecf30ac3a7f90b7bcfd293126a6cb1ed5ef00451e0a40581fdf098",
+      "size": 370
+    },
+    {
+      "path": "ADAPTIVE_ENGINE_SPEC.md",
+      "sha256": "ecca5950ae4b37686f2c6f0e3e1f37b580883765c6c6dcbe43a8db5274b91266",
+      "size": 1357
+    },
+    {
+      "path": "APP_CONTENT_API.md",
+      "sha256": "f9f72fc368334c359befdb8620732c3703d431bfd46bed94e622bf0c86a9ce8f",
+      "size": 1283
+    },
+    {
+      "path": "APP_CONTRACT.md",
+      "sha256": "751504ac2d18ab4a608c00141211cc8104537941113f2bb64ca2029a0d7c965c",
+      "size": 1812
+    },
+    {
+      "path": "CONTENT_AUTHORING_GUIDE.md",
+      "sha256": "d7f34d0666da631aec3f9f6d6540df01af1d361ea1806f9a242a63cf6c82176e",
+      "size": 1789
+    },
+    {
+      "path": "CONTENT_SPEC.md",
+      "sha256": "bcac73c37206880fab15012b6c55cb4cb5339713e4a4f8994c4e026091c14395",
+      "size": 1475
+    },
+    {
+      "path": "MIGRATION_V02_V03.md",
+      "sha256": "f7342a4248b1dfe666aa2b4efba7ae09ad906f5053549a8a13c2a60416e18258",
+      "size": 776
+    },
+    {
+      "path": "PRONUNCIATION_SPEC.md",
+      "sha256": "c72f5580b76c9403d0ca5d022d641274561a607c90d9b2d473efc69a0af17315",
+      "size": 1024
+    },
+    {
+      "path": "README.md",
+      "sha256": "bbf83f92981746f1f17319a00e1c9c890a7224b9e79f2af5fe1b445b6ef0ada9",
+      "size": 3783
+    },
+    {
+      "path": "ROADMAP.md",
+      "sha256": "54565de51249d2c95adbc180e3ff50b20d353babab180c3f72a722f952f8f54a",
+      "size": 1518
+    },
+    {
+      "path": "SOURCES.md",
+      "sha256": "2d5fcb6f0ec8fe58f6f432b746300e7c1611d25eae5e5b39955d2ae8c8d6767a",
+      "size": 945
+    },
+    {
+      "path": "STATS.json",
+      "sha256": "6d0970420b57ae6daa48e85cdccdab15253d112806e0b9e9d334f613a7cfe62c",
+      "size": 620
+    },
+    {
+      "path": "adaptive/chapter-unlock.json",
+      "sha256": "b0313777d2a3da6a3ac036ef1c542971cf8e27048cbcca83909875e424a4f133",
+      "size": 1055
+    },
+    {
+      "path": "adaptive/mastery-policy.json",
+      "sha256": "267aca01d8322d0d2dfb16451054ffe7fcd31bfd03ff3928823d1a532745f861",
+      "size": 2066
+    },
+    {
+      "path": "adaptive/remediation-map.json",
+      "sha256": "dd8d833fdbc976251d47e2367c62936f6afd7341431b2e5f133233332372fae5",
+      "size": 21961
+    },
+    {
+      "path": "adaptive/session-profiles.json",
+      "sha256": "5c9706518dc4a50765ae0596ed64b5d36aef49d2eb30d8421d4bcb3a31f95c8c",
+      "size": 2285
+    },
+    {
+      "path": "adaptive/spaced-review.json",
+      "sha256": "de1e5edad4e12388c49580270d49a48da5d80df557a4f0425d7d201f61863c27",
+      "size": 1562
+    },
+    {
+      "path": "catalog/activity-types.json",
+      "sha256": "8167894aeb095b2aa43854c80f1f015106225862de76e25dab2bc35a0ec4ded4",
+      "size": 2555
+    },
+    {
+      "path": "catalog/content-packs.json",
+      "sha256": "533c3fc0576a3506e91f2a15e70470073e6ac8f34b12cb59f2de272864c04310",
+      "size": 4845
+    },
+    {
+      "path": "catalog/curriculum.json",
+      "sha256": "738cdfc6a7e9c5550aaf5746f107280c4cc01dd098a1486aa444cc64652d623b",
+      "size": 10288
+    },
+    {
+      "path": "catalog/lesson-block-types.json",
+      "sha256": "fa78e57c8c83c41f00f9f508ab4e8863b8753d4b84f5ef6122f84756e6f43f2f",
+      "size": 338
+    },
+    {
+      "path": "compatibility.json",
+      "sha256": "8f91907f29aeed8a957cef689ca90c8cb82aba4ba6d66dd9869eff98b5416b6c",
+      "size": 1548
+    },
+    {
+      "path": "courses/01-foundations/01-fnd-01.json",
+      "sha256": "a04d0e3fcd262a1b0552497581b8741cc259c58893e2d799fa408588bf21b4b7",
+      "size": 8112
+    },
+    {
+      "path": "courses/01-foundations/02-fnd-02.json",
+      "sha256": "bdc6f238ad16490410b5e7f4ab99e0b60feeca5752aba75279a0dccf53f6e266",
+      "size": 7999
+    },
+    {
+      "path": "courses/01-foundations/03-fnd-03.json",
+      "sha256": "85588a3f105c5ce8bec69849b95dae247fa50693baeab8604396209f0722e123",
+      "size": 7610
+    },
+    {
+      "path": "courses/01-foundations/04-fnd-04.json",
+      "sha256": "7110557c9eb10f727e6572c120a17f335db32d166caf133f31a28d4d06294f6b",
+      "size": 7442
+    },
+    {
+      "path": "courses/01-foundations/11-fnd-05.json",
+      "sha256": "a0728f672308d567f2db786da2019493ecf8ce31ecdd5617d1daa677c30dc3f3",
+      "size": 8044
+    },
+    {
+      "path": "courses/01-foundations/12-fnd-06.json",
+      "sha256": "55c25209721e4af9853c4b72f56bcd78ea5054d522ecf90b384ff82a28a0af5a",
+      "size": 8142
+    },
+    {
+      "path": "courses/02-core-grammar/05-grm-01.json",
+      "sha256": "baef313a6f9d8cc2a7ad3f77a6c76a54cafbcca0931e25af12bd1fdff680409d",
+      "size": 8140
+    },
+    {
+      "path": "courses/02-core-grammar/06-grm-02.json",
+      "sha256": "b53a950ff8c1f24b2d78672a62de528a7c5274c9589b6447829264f487a50906",
+      "size": 8020
+    },
+    {
+      "path": "courses/02-core-grammar/07-grm-03.json",
+      "sha256": "b9c723a0a4009d7b44f211cbf1527184706cee2a1dde8546c73e7325342d2460",
+      "size": 7475
+    },
+    {
+      "path": "courses/02-core-grammar/08-grm-04.json",
+      "sha256": "ec3e6c5a24078ad10eb5c63bdc18f19c9df8dfd98eade0bbf98954183737716d",
+      "size": 7175
+    },
+    {
+      "path": "courses/02-core-grammar/13-grm-05.json",
+      "sha256": "11068e065be15a3746f0fc46cf6e355f159c01592e7e00dd69ac7e4531201438",
+      "size": 8024
+    },
+    {
+      "path": "courses/02-core-grammar/14-grm-06.json",
+      "sha256": "0174352fa572866ab194195253487e6c4a4b1bc2cc37c69b1cda00648adc9405",
+      "size": 7949
+    },
+    {
+      "path": "courses/02-core-grammar/15-grm-07.json",
+      "sha256": "898b4723f146e272e32ddfeb898fba81f994800b762132ad4cea0ffc28b7c475",
+      "size": 7334
+    },
+    {
+      "path": "courses/02-core-grammar/16-grm-08.json",
+      "sha256": "ecd4bf6c84233f16170d81454095ef7806b19eacf90dbdfa19158895cdfa18d6",
+      "size": 7845
+    },
+    {
+      "path": "courses/02-core-grammar/17-grm-09.json",
+      "sha256": "9f521e526ea41af66c41eda3b48e69e232ca2775bc43ee20befe470fc64bedd5",
+      "size": 7445
+    },
+    {
+      "path": "courses/03-reading/09-read-01.json",
+      "sha256": "86a80720ceb173a7e2ac6275d58ad8e583c1c7f99cec6e1693cd4549e29c167c",
+      "size": 7174
+    },
+    {
+      "path": "courses/03-reading/10-read-02.json",
+      "sha256": "72fcae16dd68aa179a1f75858b9380cf9bf9db13aec2ff35a6f8fb898f46a7d7",
+      "size": 7683
+    },
+    {
+      "path": "courses/03-reading/18-read-03.json",
+      "sha256": "7098a307f12e31cc4dda79aadca07bdae01e64b7b5dfbf098424d3bac4a54a6f",
+      "size": 7618
+    },
+    {
+      "path": "courses/03-reading/19-read-04.json",
+      "sha256": "70af933ccf8b8aa2061bf76c42a66b33f5f2f70179c4d4e1cb56ad2a2ca57ed5",
+      "size": 7745
+    },
+    {
+      "path": "courses/03-reading/20-read-05.json",
+      "sha256": "829b54c91fb75907e301b39cc2f2cd56315ae49b335badf2119098371fdac505",
+      "size": 7980
+    },
+    {
+      "path": "courses/03-reading/21-read-06.json",
+      "sha256": "757eb7c9e606ba7335450ce964e833baad07a6758f7d833ec2872a2c26fcf144",
+      "size": 7447
+    },
+    {
+      "path": "courses/03-reading/22-read-07.json",
+      "sha256": "75e95947e9592d2f4348bfaa9ed6d8c500376414e1209b7033edaf11b80a9a70",
+      "size": 7269
+    },
+    {
+      "path": "courses/03-reading/23-read-08.json",
+      "sha256": "e8c50effbc2968859e66f2d828440e7de11a264481f6e09d2e79943ff4f497ea",
+      "size": 7670
+    },
+    {
+      "path": "courses/04-practice/24-pract-01.json",
+      "sha256": "b39efe366f8a0d6029a4b672eae19dc70191da41b8fcb5e8015cbb65a80ce87c",
+      "size": 7001
+    },
+    {
+      "path": "courses/04-practice/25-pract-02.json",
+      "sha256": "21a91dd3e3e611069426dcb8c0b1a912c5665c20ba6f7dc3195f938587530d60",
+      "size": 7407
+    },
+    {
+      "path": "courses/04-practice/26-pract-03.json",
+      "sha256": "8432fc120274c8b65c40adaf0c29499bd124e718fc3a427195761811c187c04d",
+      "size": 8035
+    },
+    {
+      "path": "error-taxonomy.json",
+      "sha256": "a2bffdbdc045519b5a2399334f40ac652e8169893b533f393fab6afc11148a03",
+      "size": 12366
+    },
+    {
+      "path": "exercises/01-foundations/01-fnd-01.json",
+      "sha256": "140fa4105f0b7681fbfe128059862e064ba44e57d4b72ff7ceabfde012dc5160",
+      "size": 9514
+    },
+    {
+      "path": "exercises/01-foundations/02-fnd-02.json",
+      "sha256": "a53dc53e0b48a22a4df07b0bd5323aec73ff3ea6384aba9c9d778f459bf4b9df",
+      "size": 9531
+    },
+    {
+      "path": "exercises/01-foundations/03-fnd-03.json",
+      "sha256": "754be901b5131ddc86758b859ccadd3f443f51df22baa7863f9e9aab6c9e964d",
+      "size": 9552
+    },
+    {
+      "path": "exercises/01-foundations/04-fnd-04.json",
+      "sha256": "92c4faaaa7108016994ed9dc18743d66aa7d0b3e775b72be7f700879f5cd89df",
+      "size": 9699
+    },
+    {
+      "path": "exercises/01-foundations/11-fnd-05-survival.json",
+      "sha256": "59df3f6fe47ea25904b286b2b3d9716bca327848baf66c6ed7389a8cf24e148e",
+      "size": 11707
+    },
+    {
+      "path": "exercises/01-foundations/12-fnd-06-intro-family.json",
+      "sha256": "7486e9994a8b761f3e14e1b03719a4669507bf3fc40eba8af9be99f6cd0411f7",
+      "size": 11821
+    },
+    {
+      "path": "exercises/02-core-grammar/05-grm-01.json",
+      "sha256": "54d476553b12ef5cd2c555e42d37a6e1f7ad839632b481c686640dbd95bc92b5",
+      "size": 11812
+    },
+    {
+      "path": "exercises/02-core-grammar/06-grm-02.json",
+      "sha256": "9e2bf6b4583a8cbe7dd847d29907f0b5240be0330447ed7551ff9d40fb02f255",
+      "size": 11023
+    },
+    {
+      "path": "exercises/02-core-grammar/07-grm-03.json",
+      "sha256": "bb922ccdb11ed887acbe7d4af5affb9b2a6ff632f0a3f6d81e055a2ca82e9abc",
+      "size": 9167
+    },
+    {
+      "path": "exercises/02-core-grammar/08-grm-04.json",
+      "sha256": "cda144093b4850162c5370f9329991df21a94370d07c5c71036c4f30e8a44483",
+      "size": 9399
+    },
+    {
+      "path": "exercises/02-core-grammar/13-grm-05-location-direction.json",
+      "sha256": "9a980846d007a104a4847e879688a7ccf2650407c1158ec9d38be81dc91d24de",
+      "size": 11942
+    },
+    {
+      "path": "exercises/02-core-grammar/14-grm-06-possession.json",
+      "sha256": "d20b114e2078c3b0ec6a13e55b8df0aad0136e954292bdfd0ae15e172f76b47f",
+      "size": 11622
+    },
+    {
+      "path": "exercises/02-core-grammar/15-grm-07-past.json",
+      "sha256": "ffc2849564eed55f5a41161afc424b692e340b769fefb17cf763cd1d34f8ace7",
+      "size": 11744
+    },
+    {
+      "path": "exercises/02-core-grammar/16-grm-08-pronouns.json",
+      "sha256": "160c3a231435ac4cfcb4da36349cebf240135d70d77c65b9b7719181fca80e2b",
+      "size": 11760
+    },
+    {
+      "path": "exercises/02-core-grammar/17-grm-09-prepositions.json",
+      "sha256": "172e20b528864cbcd8f667f8db107122807d66519bb686d35f57651a7ba67012",
+      "size": 9689
+    },
+    {
+      "path": "exercises/03-reading/09-read-01.json",
+      "sha256": "f91585dfe14abacfc433cab5a95c178f16596420a8f56a850b95068edd603dad",
+      "size": 9693
+    },
+    {
+      "path": "exercises/03-reading/10-read-02.json",
+      "sha256": "c2fd36be60b92b6dc0c2160b1865b13be77e5ca963ea05643c6615c3b7365bde",
+      "size": 13453
+    },
+    {
+      "path": "exercises/03-reading/18-read-03-cafe.json",
+      "sha256": "d02184a4437b012bdce415047b15f6d31c8655c4eb8bd446dfda9cbb39f906e9",
+      "size": 10482
+    },
+    {
+      "path": "exercises/03-reading/19-read-04-family.json",
+      "sha256": "7ebfbd84260ce4072ff194893f5fd542e2a83fc32e1a66a55faedea6810e8179",
+      "size": 10315
+    },
+    {
+      "path": "exercises/03-reading/20-read-05-moscow.json",
+      "sha256": "8413150218c42738b2f97dcb75cab630fcba0b30a4ad99e7361f066889f88651",
+      "size": 12169
+    },
+    {
+      "path": "exercises/03-reading/21-read-06-restaurant.json",
+      "sha256": "dcb574d97082632e59a7b0be0ed14d42d8b68f453030620f2c7dd72955c8f705",
+      "size": 10331
+    },
+    {
+      "path": "exercises/03-reading/22-read-07-hotel.json",
+      "sha256": "db6fb4700be8e1985740349660af6910acb9b718cc42da4f96818e27cb2cda98",
+      "size": 10306
+    },
+    {
+      "path": "exercises/03-reading/23-read-08-epilogue.json",
+      "sha256": "fe78e3c79ad74de48bbdaa15cdbfda9875544264746e146a10d4338749f6ceb8",
+      "size": 10074
+    },
+    {
+      "path": "exercises/04-practice/24-pract-01-active-translation.json",
+      "sha256": "90e247fc8e7b071ca805b0cbf55a9870393eb97797a3458b386f5074cc9a3610",
+      "size": 68990
+    },
+    {
+      "path": "exercises/04-practice/25-pract-02-word-families.json",
+      "sha256": "587db708b7c3da3ec466aaee2328d3e5cc539940c382026f06745af3da201487",
+      "size": 20299
+    },
+    {
+      "path": "exercises/04-practice/26-pract-03-verb-choice.json",
+      "sha256": "4e69150bb7c2bab0e9386cbb7666de99fe2a881b6532f23292fb899c2e7e34a6",
+      "size": 15923
+    },
+    {
+      "path": "exercises/05-v3-mixed/31-phrase-completion.json",
+      "sha256": "0b6ac46516d2c2b28aaa8d4db155b7f713b010cc3e95daf0b583c6cd58e47351",
+      "size": 130908
+    },
+    {
+      "path": "exercises/05-v3-mixed/32-listen-type.json",
+      "sha256": "d258da6c36b77a4e351bd6f24a788bb157745aa26c3a38abe1316d78f222497e",
+      "size": 101690
+    },
+    {
+      "path": "exercises/05-v3-mixed/33-pronunciation.json",
+      "sha256": "a3937c14d87372b6ff77e14962f5a5591dc08cb0bce6f4a8a79a9ae4d0e55de5",
+      "size": 161174
+    },
+    {
+      "path": "exercises/05-v3-mixed/34-self-explain.json",
+      "sha256": "b69cd9f9b45cd472f4bfc6b50e2c29620444d42ddda5f2bc075cfdbd331b5747",
+      "size": 27046
+    },
+    {
+      "path": "exercises/05-v3-mixed/35-text-input-vocabulary.json",
+      "sha256": "d4dbf747db06bf3e5c8d36ff81a6fb8209f623e677383ebd9698d894d97e01c7",
+      "size": 91106
+    },
+    {
+      "path": "exercises/05-v3-mixed/36-reorder-expanded.json",
+      "sha256": "7f332128a34a4cca48d47c2c15476c522e26d6ab80ffc36b8d8d1224099d3ae6",
+      "size": 79259
+    },
+    {
+      "path": "exercises/05-v3-mixed/37-cloze-text.json",
+      "sha256": "2c148273fab91396103051f37b2bd2c71f79bdad6bdbf67120f4bde579aa4f6b",
+      "size": 25639
+    },
+    {
+      "path": "exercises/05-v3-mixed/38-match-pairs.json",
+      "sha256": "cc79a2949357467348c5e4a214e4e68bc28c86087e040a1d2196a06906f6da96",
+      "size": 43400
+    },
+    {
+      "path": "manifest.json",
+      "sha256": "2c12db2e0015d74c338cbeb47ae188333fba02cc755a79a7d769ba50f7128d6f",
+      "size": 6125
+    },
+    {
+      "path": "migrations/v0.2.0-manifest.json",
+      "sha256": "0d6f14f40628ada84bca23ea406c0ca76dafa3d3fc45117854851f5fe5cca007",
+      "size": 4944
+    },
+    {
+      "path": "migrations/v0.3.0-to-v0.3.1-policy-rebalance.json",
+      "sha256": "18807003fcccfdc24d5d37249b5d127f2e4df19336fda54e6bef18a321e22358",
+      "size": 591
+    },
+    {
+      "path": "normalization.json",
+      "sha256": "bd4cc7f77c6de2693a1289476db26f4d91fddc27fc7013aee2f80f55b00b85e7",
+      "size": 986
+    },
+    {
+      "path": "practice-series.json",
+      "sha256": "2016235260711a84ed35e2d43e719353abaeb0db613f0f8c0a0df3b4f1cd1c80",
+      "size": 2260
+    },
+    {
+      "path": "pronunciation/stress-dictionary.json",
+      "sha256": "094a1f015dc85d618e539eb40d6c9d585bef18c4ec72f0f8211494de1ac4a606",
+      "size": 54776
+    },
+    {
+      "path": "pronunciation/targets.json",
+      "sha256": "019e7bc5f3cf9077274d3baf8d27b65dc25411d1b3c28c98173d1a628e32eed8",
+      "size": 389828
+    },
+    {
+      "path": "release.json",
+      "sha256": "a5b749a637382ef32efd5c751fab8a32286433a7e334c2a73fa752204afd2e5a",
+      "size": 390
+    },
+    {
+      "path": "schemas/course.schema.json",
+      "sha256": "d1156ea2025e88bb128d71f6270c65f1d36b3c396c688af11db6ffb93d915f85",
+      "size": 1400
+    },
+    {
+      "path": "schemas/exercise.schema.json",
+      "sha256": "1b88afc0caa61d798e63736c22b46dbde31b8a7f8effd3fb71ba3535074af3d0",
+      "size": 1518
+    },
+    {
+      "path": "schemas/v3/activity.schema.json",
+      "sha256": "d4636079abe8b4735b95722d68a1c1da84fd98a63f95b00763845a6208e0a595",
+      "size": 680
+    },
+    {
+      "path": "schemas/v3/course.schema.json",
+      "sha256": "0df8e89802ae235f8621194913458f31a18f3e3d291bdb49da091ac10a1330ab",
+      "size": 1178
+    },
+    {
+      "path": "schemas/v3/pronunciation-target.schema.json",
+      "sha256": "93ff25dea5d703619b2bdbb2093a34ea1e091fc14d9ed677e6fa934917b128a1",
+      "size": 600
+    },
+    {
+      "path": "schemas/vocabulary.schema.json",
+      "sha256": "bfb1351e6d446bb012e7289445132efaf41310205278d1e40e9b03cb381c10ac",
+      "size": 655
+    },
+    {
+      "path": "scripts/build_release.py",
+      "sha256": "6da72e7006bf1cb2c1d51c17a878102b6ada0546b547c84ae1dd22f0682d5a19",
+      "size": 754
+    },
+    {
+      "path": "scripts/rebuild_manifest.py",
+      "sha256": "11d56a514b733463bedabadf8e73a8eb6dfc8edb7858e1f0a267d1808db98fd4",
+      "size": 695
+    },
+    {
+      "path": "scripts/validate_content.py",
+      "sha256": "ee31e95fcddc7071d040dbd9d7b76f709b8eff0e32bf1a4bf0245f332e979297",
+      "size": 2484
+    },
+    {
+      "path": "scripts/validate_v3.py",
+      "sha256": "54a269ba736cd4234744f65fff9af9bf4aadea5ad93683a12bd08d5ba7a81803",
+      "size": 3471
+    },
+    {
+      "path": "sources/github/russian-morning-app-map.json",
+      "sha256": "e513a64a760d19a05f6d9b0b2c35aaca8ea2000a2dabf4585a90585a7cd1dc35",
+      "size": 1099
+    },
+    {
+      "path": "sources/pdf/first-week-tony-pages.json",
+      "sha256": "1a5a068759a66bd64bb0680f443fd78b3e505510924156fc156522a5b2a94ac3",
+      "size": 31087
+    },
+    {
+      "path": "sources/pdf/index.json",
+      "sha256": "ca6af5d94b1b227efe68721493b9067f9d88908b9511496e034ecababa4099cd",
+      "size": 1476
+    },
+    {
+      "path": "sources/pdf/original/Première semaine de Tony en Russie.pdf",
+      "sha256": "189d2230f70e4f7adf7be1f74e679aa09f188efc5ed193b34ae364df9bffa4f9",
+      "size": 280784
+    },
+    {
+      "path": "vocabulary/city-directions.json",
+      "sha256": "ec2c3302d59175cf321b8690dbb6ac2064db0d7182f70a20f5c646b55dac3e15",
+      "size": 1941
+    },
+    {
+      "path": "vocabulary/connectors.json",
+      "sha256": "43c5dd3e71abda0d5a341ce125443db3960c1bb3a1b81b8a2826f633da4a0866",
+      "size": 682
+    },
+    {
+      "path": "vocabulary/core-people-actions.json",
+      "sha256": "34678c09386db6e690ac00cfa609be2462c65c06faa34e29ed93b05948c7dafc",
+      "size": 1036
+    },
+    {
+      "path": "vocabulary/daily.json",
+      "sha256": "05af36f74667f78106cb7954b73a83a8ce8a29694616120a0bc5498bb8bcd8ca",
+      "size": 773
+    },
+    {
+      "path": "vocabulary/family-social.json",
+      "sha256": "0f71715fa0f15a66cf2b791d8888ce4e6b55d32fbd141706d937dd8090065320",
+      "size": 1685
+    },
+    {
+      "path": "vocabulary/hotel-problems.json",
+      "sha256": "9a0167fd7792418cbe9a84e4f4949d93699d2aedd82e6fab8ed2b9fe70f22346",
+      "size": 1921
+    },
+    {
+      "path": "vocabulary/learning-conversation.json",
+      "sha256": "a13b341556ee947fe78fbd8e82804693ef071d6967db620eb8fd9e1f367bf83c",
+      "size": 1346
+    },
+    {
+      "path": "vocabulary/places.json",
+      "sha256": "e9480a4e01715531efb8f78852028ffde01a44e544349a84b0be2d7ebfab5d96",
+      "size": 632
+    },
+    {
+      "path": "vocabulary/restaurant.json",
+      "sha256": "bfbdc1f74b042b65f6974af30c5e381a8100adf53e37909d4594375f4a14a27d",
+      "size": 1878
+    },
+    {
+      "path": "vocabulary/travel-cafe.json",
+      "sha256": "6875beb458004c4b5e76d9ad12c408f17997e470847647f6a462de621988802b",
+      "size": 1587
+    }
+  ]
+}

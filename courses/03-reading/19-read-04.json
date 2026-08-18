@@ -1,0 +1,229 @@
+{
+  "id": "READ-04",
+  "order": 19,
+  "track": "reading",
+  "level": "A1",
+  "status": "active",
+  "title": "Lecture : une soirée dans une famille russe",
+  "summary": "Présentation, famille, photographie et questions personnelles simples.",
+  "objectives": [
+    "Suivre qui est qui dans la famille",
+    "Comprendre une présentation",
+    "Repérer où se passent les actions"
+  ],
+  "concepts": [
+    "reading-strategy",
+    "family",
+    "introductions",
+    "questions"
+  ],
+  "notes": [
+    "Utilise les noms, pronoms et verbes comme points d'ancrage."
+  ],
+  "examples": [
+    {
+      "ru": "Они спрашивают, откуда он, где он живёт и почему изучает русский язык.",
+      "fr": "Ils demandent d'où il vient, où il habite et pourquoi il apprend le russe."
+    }
+  ],
+  "source_refs": [
+    "PDF-FIRST-WEEK-TONY:p4-6"
+  ],
+  "schema_version": "3.0.0",
+  "content_api_version": "3.0",
+  "subtitle": "Famille : suivre plusieurs personnes et plusieurs actions",
+  "estimated_minutes": 25,
+  "prerequisites": [
+    "FND-06"
+  ],
+  "lesson_mode": "guided_course_session",
+  "content_blocks": [
+    {
+      "id": "READ-04-intro",
+      "type": "markdown",
+      "title": "Pourquoi ce chapitre ?",
+      "body": [
+        "Le deuxième récit augmente la densité : mère, père, sœur, grand-mère, grand-père, Alexeï et Tony apparaissent dans le même appartement. C’est un excellent entraînement pour suivre les sujets sans tout traduire."
+      ],
+      "provenance": "editorial-expansion"
+    },
+    {
+      "id": "READ-04-sec-01",
+      "type": "markdown",
+      "title": "Entrée et présentation",
+      "body": [
+        "La mère d’Alexeï ouvre la porte, vérifie l’identité de Tony et se présente comme Irina. Le dialogue recycle Меня зовут, Очень приятно et Мне тоже."
+      ],
+      "examples": [
+        {
+          "ru": "Вы, наверное, Тони?",
+          "fr": "Vous êtes probablement Tony ?"
+        },
+        {
+          "ru": "Меня зовут Ирина.",
+          "fr": "Je m’appelle Irina."
+        }
+      ],
+      "provenance": "mixed-source-and-editorial"
+    },
+    {
+      "id": "READ-04-sec-02",
+      "type": "markdown",
+      "title": "Carte mentale de la famille",
+      "body": [
+        "Le père prépare le dîner, la sœur lit, la grand-mère regarde la télévision et le grand-père joue avec le chien. Associe chaque personne à une action au lieu de traduire ligne par ligne."
+      ],
+      "examples": [
+        {
+          "ru": "Его папа готовит ужин.",
+          "fr": "Son père prépare le dîner."
+        },
+        {
+          "ru": "Его младшая сестра читает книгу.",
+          "fr": "Sa petite sœur lit un livre."
+        }
+      ],
+      "provenance": "mixed-source-and-editorial"
+    },
+    {
+      "id": "READ-04-sec-03",
+      "type": "markdown",
+      "title": "Photographies et ressemblances",
+      "body": [
+        "Les photos de famille introduisent Кто это? et Вы похожи!. Le contexte visuel aide à donner un sens aux formes nouvelles."
+      ],
+      "examples": [
+        {
+          "ru": "Кто это?",
+          "fr": "Qui est-ce ?"
+        },
+        {
+          "ru": "Вы похожи!",
+          "fr": "Vous vous ressemblez !"
+        }
+      ],
+      "provenance": "mixed-source-and-editorial"
+    },
+    {
+      "id": "READ-04-sec-04",
+      "type": "markdown",
+      "title": "Questions personnelles",
+      "body": [
+        "La famille demande d’où il vient, où il habite et pourquoi il apprend le russe. Ces mots interrogatifs peuvent être reconnus comme des catégories de question avant d’être produits librement."
+      ],
+      "examples": [
+        {
+          "ru": "откуда он",
+          "fr": "d’où il vient"
+        },
+        {
+          "ru": "где он живёт",
+          "fr": "où il habite"
+        },
+        {
+          "ru": "почему изучает русский язык",
+          "fr": "pourquoi il apprend le russe"
+        }
+      ],
+      "provenance": "mixed-source-and-editorial"
+    },
+    {
+      "id": "READ-04-sec-05",
+      "type": "markdown",
+      "title": "Bilan narratif",
+      "body": [
+        "À la fin, Tony est fatigué mais content de la soirée. Le chapitre doit être résumé en quelques étapes : invitation → rencontre de la famille → photos/questions → thé et tarte."
+      ],
+      "examples": [],
+      "provenance": "mixed-source-and-editorial"
+    },
+    {
+      "id": "READ-04-mistakes",
+      "type": "contrast",
+      "title": "Erreurs à surveiller",
+      "items": [
+        {
+          "wrong_or_risk": "Perdre le référent de его",
+          "correction_or_strategy": "Revenir au personnage principal de la phrase/contexte."
+        },
+        {
+          "wrong_or_risk": "Confondre Мне тоже et Я тоже",
+          "correction_or_strategy": "Dans la présentation, conserver le bloc du dialogue."
+        },
+        {
+          "wrong_or_risk": "Essayer de décliner chaque nom pendant la première lecture",
+          "correction_or_strategy": "Suivre d’abord les personnes et les actions."
+        }
+      ],
+      "provenance": "editorial-expansion"
+    },
+    {
+      "id": "READ-04-memory",
+      "type": "memory",
+      "title": "À retenir",
+      "items": [
+        "Construis une carte personne → action.",
+        "Les questions donnent le type d’information recherchée.",
+        "Résume le chapitre par événements."
+      ],
+      "provenance": "editorial-expansion"
+    },
+    {
+      "id": "READ-04-pron",
+      "type": "pronunciation",
+      "title": "Prononciation à travailler",
+      "targets": [
+        "на следующий день",
+        "Меня зовут Ирина",
+        "Мне тоже",
+        "семья",
+        "Кто это?",
+        "Вы похожи!"
+      ],
+      "provenance": "mixed-source-and-editorial"
+    },
+    {
+      "id": "READ-04-checkpoint",
+      "type": "checkpoint",
+      "title": "Avant de considérer le chapitre compris",
+      "checks": [
+        "Expliquer l’idée principale avec tes propres mots en français.",
+        "Réussir plusieurs exercices de formats différents sans indice.",
+        "Produire au moins une réponse russe complète liée au concept.",
+        "Revoir au moins une partie du concept après un délai, pas uniquement dans la même session."
+      ],
+      "provenance": "editorial-expansion"
+    }
+  ],
+  "source_policy": {
+    "source_derived_content": "Examples and story contexts trace back to the supplied PDF and/or russian-morning-app when source_refs are present.",
+    "editorial_expansion": "Grammar explanations, learning strategy, mastery rules and newly generated examples are model-authored pedagogical expansion."
+  },
+  "skill_weights": {
+    "recognition": 0.1,
+    "comprehension": 0.55,
+    "recall": 0.1,
+    "production": 0.15,
+    "pronunciation": 0.1
+  },
+  "mastery_contract": {
+    "minimum_distinct_activities": 7,
+    "minimum_distinct_prompts": 5,
+    "minimum_overall_score": 0.68,
+    "minimum_production_score": 0.45,
+    "minimum_comprehension_score": 0.65,
+    "critical_error_rate_max": 0.4,
+    "delayed_review_required_for_mastered": true,
+    "delayed_review_min_hours": 48,
+    "next_chapter_soft_unlock_score": 0.68,
+    "soft_unlock_before_mastered": true
+  },
+  "session_recommendation": {
+    "course_session_blocks_min": 4,
+    "course_session_micro_checks_min": 3,
+    "exercise_session_items": 15,
+    "max_choice_ratio": 0.3,
+    "min_production_ratio": 0.3,
+    "pronunciation_ratio_target": 0.1
+  }
+}

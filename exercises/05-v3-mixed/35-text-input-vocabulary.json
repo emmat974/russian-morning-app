@@ -1,0 +1,3605 @@
+{
+  "exercise_set": "35-text-input-vocabulary",
+  "items": [
+    {
+      "id": "V3-TEXT-0001",
+      "lesson_id": "READ-05",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 1,
+      "prompt": "Écris en russe : « se promener »",
+      "answer": "гулять",
+      "acceptable_answers": [
+        "гулять"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/city-directions.json"
+    },
+    {
+      "id": "V3-TEXT-0002",
+      "lesson_id": "READ-05",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 2,
+      "prompt": "Écris en russe : « centre-ville »",
+      "answer": "центр города",
+      "acceptable_answers": [
+        "центр города"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/city-directions.json"
+    },
+    {
+      "id": "V3-TEXT-0003",
+      "lesson_id": "READ-05",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 1,
+      "prompt": "Écris en russe : « place »",
+      "answer": "площадь",
+      "acceptable_answers": [
+        "площадь"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/city-directions.json"
+    },
+    {
+      "id": "V3-TEXT-0004",
+      "lesson_id": "READ-05",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 2,
+      "prompt": "Écris en russe : « prendre une photographie »",
+      "answer": "сделать фотографию",
+      "acceptable_answers": [
+        "сделать фотографию"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/city-directions.json"
+    },
+    {
+      "id": "V3-TEXT-0005",
+      "lesson_id": "READ-05",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 2,
+      "prompt": "Écris en russe : « prendre / monter dans le métro »",
+      "answer": "садиться в метро",
+      "acceptable_answers": [
+        "садиться в метро"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/city-directions.json"
+    },
+    {
+      "id": "V3-TEXT-0006",
+      "lesson_id": "READ-05",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 1,
+      "prompt": "Écris en russe : « itinéraire »",
+      "answer": "маршрут",
+      "acceptable_answers": [
+        "маршрут"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/city-directions.json"
+    },
+    {
+      "id": "V3-TEXT-0007",
+      "lesson_id": "READ-05",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 1,
+      "prompt": "Écris en russe : « sortie »",
+      "answer": "выход",
+      "acceptable_answers": [
+        "выход"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/city-directions.json"
+    },
+    {
+      "id": "V3-TEXT-0008",
+      "lesson_id": "READ-05",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 2,
+      "prompt": "Écris en russe : « tourner dans la mauvaise direction »",
+      "answer": "повернуть не туда",
+      "acceptable_answers": [
+        "повернуть не туда"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/city-directions.json"
+    },
+    {
+      "id": "V3-TEXT-0009",
+      "lesson_id": "READ-05",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 1,
+      "prompt": "Écris en russe : « se perdre »",
+      "answer": "заблудиться",
+      "acceptable_answers": [
+        "заблудиться"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/city-directions.json"
+    },
+    {
+      "id": "V3-TEXT-0010",
+      "lesson_id": "READ-05",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 1,
+      "prompt": "Écris en russe : « autour »",
+      "answer": "вокруг",
+      "acceptable_answers": [
+        "вокруг"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/city-directions.json"
+    },
+    {
+      "id": "V3-TEXT-0011",
+      "lesson_id": "READ-05",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 1,
+      "prompt": "Écris en russe : « bâtiment »",
+      "answer": "здание",
+      "acceptable_answers": [
+        "здание"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/city-directions.json"
+    },
+    {
+      "id": "V3-TEXT-0012",
+      "lesson_id": "READ-05",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 1,
+      "prompt": "Écris en russe : « presque »",
+      "answer": "почти",
+      "acceptable_answers": [
+        "почти"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/city-directions.json"
+    },
+    {
+      "id": "V3-TEXT-0013",
+      "lesson_id": "READ-05",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 1,
+      "prompt": "Écris en russe : « se décharger »",
+      "answer": "разрядиться",
+      "acceptable_answers": [
+        "разрядиться"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/city-directions.json"
+    },
+    {
+      "id": "V3-TEXT-0014",
+      "lesson_id": "READ-05",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 1,
+      "prompt": "Écris en russe : « indications »",
+      "answer": "указания",
+      "acceptable_answers": [
+        "указания"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/city-directions.json"
+    },
+    {
+      "id": "V3-TEXT-0015",
+      "lesson_id": "READ-05",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 1,
+      "prompt": "Écris en russe : « chemin / route »",
+      "answer": "дорога",
+      "acceptable_answers": [
+        "дорога"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/city-directions.json"
+    },
+    {
+      "id": "V3-TEXT-0016",
+      "lesson_id": "READ-05",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 1,
+      "prompt": "Écris en russe : « carrefour »",
+      "answer": "перекрёсток",
+      "acceptable_answers": [
+        "перекрёсток"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/city-directions.json"
+    },
+    {
+      "id": "V3-TEXT-0017",
+      "lesson_id": "READ-05",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 2,
+      "prompt": "Écris en russe : « traverser la route »",
+      "answer": "перейти дорогу",
+      "acceptable_answers": [
+        "перейти дорогу"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/city-directions.json"
+    },
+    {
+      "id": "V3-TEXT-0018",
+      "lesson_id": "READ-05",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 2,
+      "prompt": "Écris en russe : « poursuivre son chemin »",
+      "answer": "продолжать путь",
+      "acceptable_answers": [
+        "продолжать путь"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/city-directions.json"
+    },
+    {
+      "id": "V3-TEXT-0019",
+      "lesson_id": "READ-05",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 1,
+      "prompt": "Écris en russe : « à pied »",
+      "answer": "пешком",
+      "acceptable_answers": [
+        "пешком"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/city-directions.json"
+    },
+    {
+      "id": "V3-TEXT-0020",
+      "lesson_id": "READ-05",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 1,
+      "prompt": "Écris en russe : « entrée »",
+      "answer": "вход",
+      "acceptable_answers": [
+        "вход"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/city-directions.json"
+    },
+    {
+      "id": "V3-TEXT-0021",
+      "lesson_id": "READ-05",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 1,
+      "prompt": "Écris en russe : « à droite »",
+      "answer": "справа",
+      "acceptable_answers": [
+        "справа"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/city-directions.json"
+    },
+    {
+      "id": "V3-TEXT-0022",
+      "lesson_id": "READ-05",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 1,
+      "prompt": "Écris en russe : « à gauche »",
+      "answer": "слева",
+      "acceptable_answers": [
+        "слева"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/city-directions.json"
+    },
+    {
+      "id": "V3-TEXT-0023",
+      "lesson_id": "READ-05",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 1,
+      "prompt": "Écris en russe : « tout droit »",
+      "answer": "прямо",
+      "acceptable_answers": [
+        "прямо"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/city-directions.json"
+    },
+    {
+      "id": "V3-TEXT-0024",
+      "lesson_id": "READ-05",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 1,
+      "prompt": "Écris en russe : « à gauche »",
+      "answer": "налево",
+      "acceptable_answers": [
+        "налево"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/city-directions.json"
+    },
+    {
+      "id": "V3-TEXT-0025",
+      "lesson_id": "READ-05",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 1,
+      "prompt": "Écris en russe : « à droite »",
+      "answer": "направо",
+      "acceptable_answers": [
+        "направо"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/city-directions.json"
+    },
+    {
+      "id": "V3-TEXT-0026",
+      "lesson_id": "READ-02",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 1,
+      "prompt": "Écris en russe : « que / quoi »",
+      "answer": "что",
+      "acceptable_answers": [
+        "что"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/connectors.json"
+    },
+    {
+      "id": "V3-TEXT-0027",
+      "lesson_id": "READ-02",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 1,
+      "prompt": "Écris en russe : « mais »",
+      "answer": "но",
+      "acceptable_answers": [
+        "но"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/connectors.json"
+    },
+    {
+      "id": "V3-TEXT-0028",
+      "lesson_id": "READ-02",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 1,
+      "prompt": "Écris en russe : « et »",
+      "answer": "и",
+      "acceptable_answers": [
+        "и"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/connectors.json"
+    },
+    {
+      "id": "V3-TEXT-0029",
+      "lesson_id": "READ-02",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 1,
+      "prompt": "Écris en russe : « ou »",
+      "answer": "или",
+      "acceptable_answers": [
+        "или"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/connectors.json"
+    },
+    {
+      "id": "V3-TEXT-0030",
+      "lesson_id": "READ-02",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 1,
+      "prompt": "Écris en russe : « aussi »",
+      "answer": "тоже",
+      "acceptable_answers": [
+        "тоже"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/connectors.json"
+    },
+    {
+      "id": "V3-TEXT-0031",
+      "lesson_id": "READ-02",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 1,
+      "prompt": "Écris en russe : « déjà »",
+      "answer": "уже",
+      "acceptable_answers": [
+        "уже"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/connectors.json"
+    },
+    {
+      "id": "V3-TEXT-0032",
+      "lesson_id": "READ-02",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 1,
+      "prompt": "Écris en russe : « un peu »",
+      "answer": "немного",
+      "acceptable_answers": [
+        "немного"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/connectors.json"
+    },
+    {
+      "id": "V3-TEXT-0033",
+      "lesson_id": "READ-02",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 2,
+      "prompt": "Écris en russe : « peut-être »",
+      "answer": "может быть",
+      "acceptable_answers": [
+        "может быть"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/connectors.json"
+    },
+    {
+      "id": "V3-TEXT-0034",
+      "lesson_id": "READ-02",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 1,
+      "prompt": "Écris en russe : « ne... pas »",
+      "answer": "не",
+      "acceptable_answers": [
+        "не"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/connectors.json"
+    },
+    {
+      "id": "V3-TEXT-0035",
+      "lesson_id": "READ-02",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 1,
+      "prompt": "Écris en russe : « dans / après »",
+      "answer": "через",
+      "acceptable_answers": [
+        "через"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/connectors.json"
+    },
+    {
+      "id": "V3-TEXT-0036",
+      "lesson_id": "FND-02",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 1,
+      "prompt": "Écris en russe : « je »",
+      "answer": "я",
+      "acceptable_answers": [
+        "я"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/core-people-actions.json"
+    },
+    {
+      "id": "V3-TEXT-0037",
+      "lesson_id": "FND-02",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 1,
+      "prompt": "Écris en russe : « tu »",
+      "answer": "ты",
+      "acceptable_answers": [
+        "ты"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/core-people-actions.json"
+    },
+    {
+      "id": "V3-TEXT-0038",
+      "lesson_id": "FND-02",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 1,
+      "prompt": "Écris en russe : « il »",
+      "answer": "он",
+      "acceptable_answers": [
+        "он"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/core-people-actions.json"
+    },
+    {
+      "id": "V3-TEXT-0039",
+      "lesson_id": "FND-02",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 1,
+      "prompt": "Écris en russe : « elle »",
+      "answer": "она",
+      "acceptable_answers": [
+        "она"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/core-people-actions.json"
+    },
+    {
+      "id": "V3-TEXT-0040",
+      "lesson_id": "FND-02",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 1,
+      "prompt": "Écris en russe : « nous »",
+      "answer": "мы",
+      "acceptable_answers": [
+        "мы"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/core-people-actions.json"
+    },
+    {
+      "id": "V3-TEXT-0041",
+      "lesson_id": "FND-02",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 1,
+      "prompt": "Écris en russe : « vous »",
+      "answer": "вы",
+      "acceptable_answers": [
+        "вы"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/core-people-actions.json"
+    },
+    {
+      "id": "V3-TEXT-0042",
+      "lesson_id": "FND-02",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 1,
+      "prompt": "Écris en russe : « ils/elles »",
+      "answer": "они",
+      "acceptable_answers": [
+        "они"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/core-people-actions.json"
+    },
+    {
+      "id": "V3-TEXT-0043",
+      "lesson_id": "FND-02",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 1,
+      "prompt": "Écris en russe : « parler / dire »",
+      "answer": "говорить",
+      "acceptable_answers": [
+        "говорить"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/core-people-actions.json"
+    },
+    {
+      "id": "V3-TEXT-0044",
+      "lesson_id": "FND-02",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 1,
+      "prompt": "Écris en russe : « comprendre »",
+      "answer": "понимать",
+      "acceptable_answers": [
+        "понимать"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/core-people-actions.json"
+    },
+    {
+      "id": "V3-TEXT-0045",
+      "lesson_id": "FND-02",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 1,
+      "prompt": "Écris en russe : « savoir / connaître »",
+      "answer": "знать",
+      "acceptable_answers": [
+        "знать"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/core-people-actions.json"
+    },
+    {
+      "id": "V3-TEXT-0046",
+      "lesson_id": "FND-02",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 1,
+      "prompt": "Écris en russe : « travailler »",
+      "answer": "работать",
+      "acceptable_answers": [
+        "работать"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/core-people-actions.json"
+    },
+    {
+      "id": "V3-TEXT-0047",
+      "lesson_id": "FND-02",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 1,
+      "prompt": "Écris en russe : « lire »",
+      "answer": "читать",
+      "acceptable_answers": [
+        "читать"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/core-people-actions.json"
+    },
+    {
+      "id": "V3-TEXT-0048",
+      "lesson_id": "FND-02",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 1,
+      "prompt": "Écris en russe : « vouloir »",
+      "answer": "хотеть",
+      "acceptable_answers": [
+        "хотеть"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/core-people-actions.json"
+    },
+    {
+      "id": "V3-TEXT-0049",
+      "lesson_id": "FND-02",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 1,
+      "prompt": "Écris en russe : « aller à pied / être en train d'aller »",
+      "answer": "идти",
+      "acceptable_answers": [
+        "идти"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/core-people-actions.json"
+    },
+    {
+      "id": "V3-TEXT-0050",
+      "lesson_id": "FND-02",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 1,
+      "prompt": "Écris en russe : « voir »",
+      "answer": "видеть",
+      "acceptable_answers": [
+        "видеть"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/core-people-actions.json"
+    },
+    {
+      "id": "V3-TEXT-0051",
+      "lesson_id": "FND-02",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 1,
+      "prompt": "Écris en russe : « café »",
+      "answer": "кофе",
+      "acceptable_answers": [
+        "кофе"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/daily.json"
+    },
+    {
+      "id": "V3-TEXT-0052",
+      "lesson_id": "FND-02",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 1,
+      "prompt": "Écris en russe : « musique »",
+      "answer": "музыка",
+      "acceptable_answers": [
+        "музыка"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/daily.json"
+    },
+    {
+      "id": "V3-TEXT-0053",
+      "lesson_id": "FND-02",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 1,
+      "prompt": "Écris en russe : « photographie »",
+      "answer": "фотография",
+      "acceptable_answers": [
+        "фотография"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/daily.json"
+    },
+    {
+      "id": "V3-TEXT-0054",
+      "lesson_id": "FND-02",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 1,
+      "prompt": "Écris en russe : « livre »",
+      "answer": "книга",
+      "acceptable_answers": [
+        "книга"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/daily.json"
+    },
+    {
+      "id": "V3-TEXT-0055",
+      "lesson_id": "FND-02",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 1,
+      "prompt": "Écris en russe : « voiture »",
+      "answer": "машина",
+      "acceptable_answers": [
+        "машина"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/daily.json"
+    },
+    {
+      "id": "V3-TEXT-0056",
+      "lesson_id": "FND-02",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 1,
+      "prompt": "Écris en russe : « téléphone »",
+      "answer": "телефон",
+      "acceptable_answers": [
+        "телефон"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/daily.json"
+    },
+    {
+      "id": "V3-TEXT-0057",
+      "lesson_id": "FND-02",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 1,
+      "prompt": "Écris en russe : « travail »",
+      "answer": "работа",
+      "acceptable_answers": [
+        "работа"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/daily.json"
+    },
+    {
+      "id": "V3-TEXT-0058",
+      "lesson_id": "FND-02",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 1,
+      "prompt": "Écris en russe : « pluie »",
+      "answer": "дождь",
+      "acceptable_answers": [
+        "дождь"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/daily.json"
+    },
+    {
+      "id": "V3-TEXT-0059",
+      "lesson_id": "FND-02",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 1,
+      "prompt": "Écris en russe : « temps »",
+      "answer": "время",
+      "acceptable_answers": [
+        "время"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/daily.json"
+    },
+    {
+      "id": "V3-TEXT-0060",
+      "lesson_id": "FND-02",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 1,
+      "prompt": "Écris en russe : « minute »",
+      "answer": "минута",
+      "acceptable_answers": [
+        "минута"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/daily.json"
+    },
+    {
+      "id": "V3-TEXT-0061",
+      "lesson_id": "FND-02",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 1,
+      "prompt": "Écris en russe : « heure »",
+      "answer": "час",
+      "acceptable_answers": [
+        "час"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/daily.json"
+    },
+    {
+      "id": "V3-TEXT-0062",
+      "lesson_id": "FND-06",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 2,
+      "prompt": "Écris en russe : « le lendemain »",
+      "answer": "на следующий день",
+      "acceptable_answers": [
+        "на следующий день"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/family-social.json"
+    },
+    {
+      "id": "V3-TEXT-0063",
+      "lesson_id": "FND-06",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 1,
+      "prompt": "Écris en russe : « rencontrer / retrouver »",
+      "answer": "встречаться",
+      "acceptable_answers": [
+        "встречаться"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/family-social.json"
+    },
+    {
+      "id": "V3-TEXT-0064",
+      "lesson_id": "FND-06",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 2,
+      "prompt": "Écris en russe : « il y a quelques mois »",
+      "answer": "несколько месяцев назад",
+      "acceptable_answers": [
+        "несколько месяцев назад"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/family-social.json"
+    },
+    {
+      "id": "V3-TEXT-0065",
+      "lesson_id": "FND-06",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 1,
+      "prompt": "Écris en russe : « inviter »",
+      "answer": "приглашать",
+      "acceptable_answers": [
+        "приглашать"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/family-social.json"
+    },
+    {
+      "id": "V3-TEXT-0066",
+      "lesson_id": "FND-06",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 2,
+      "prompt": "Écris en russe : « chez soi »",
+      "answer": "к себе домой",
+      "acceptable_answers": [
+        "к себе домой"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/family-social.json"
+    },
+    {
+      "id": "V3-TEXT-0067",
+      "lesson_id": "FND-06",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 1,
+      "prompt": "Écris en russe : « probablement »",
+      "answer": "наверное",
+      "acceptable_answers": [
+        "наверное"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/family-social.json"
+    },
+    {
+      "id": "V3-TEXT-0068",
+      "lesson_id": "FND-06",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 1,
+      "prompt": "Écris en russe : « entrez »",
+      "answer": "проходите",
+      "acceptable_answers": [
+        "проходите"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/family-social.json"
+    },
+    {
+      "id": "V3-TEXT-0069",
+      "lesson_id": "FND-06",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 1,
+      "prompt": "Écris en russe : « appartement »",
+      "answer": "квартира",
+      "acceptable_answers": [
+        "квартира"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/family-social.json"
+    },
+    {
+      "id": "V3-TEXT-0070",
+      "lesson_id": "FND-06",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 1,
+      "prompt": "Écris en russe : « cuisine »",
+      "answer": "кухня",
+      "acceptable_answers": [
+        "кухня"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/family-social.json"
+    },
+    {
+      "id": "V3-TEXT-0071",
+      "lesson_id": "FND-06",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 1,
+      "prompt": "Écris en russe : « salon »",
+      "answer": "гостиная",
+      "acceptable_answers": [
+        "гостиная"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/family-social.json"
+    },
+    {
+      "id": "V3-TEXT-0072",
+      "lesson_id": "FND-06",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 2,
+      "prompt": "Écris en russe : « sœur cadette »",
+      "answer": "младшая сестра",
+      "acceptable_answers": [
+        "младшая сестра"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/family-social.json"
+    },
+    {
+      "id": "V3-TEXT-0073",
+      "lesson_id": "FND-06",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 2,
+      "prompt": "Écris en russe : « frère aîné »",
+      "answer": "старший брат",
+      "acceptable_answers": [
+        "старший брат"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/family-social.json"
+    },
+    {
+      "id": "V3-TEXT-0074",
+      "lesson_id": "FND-06",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 2,
+      "prompt": "Écris en russe : « photographie de famille »",
+      "answer": "семейная фотография",
+      "acceptable_answers": [
+        "семейная фотография"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/family-social.json"
+    },
+    {
+      "id": "V3-TEXT-0075",
+      "lesson_id": "FND-06",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 2,
+      "prompt": "Écris en russe : « ressembler »",
+      "answer": "быть похожим",
+      "acceptable_answers": [
+        "быть похожим"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/family-social.json"
+    },
+    {
+      "id": "V3-TEXT-0076",
+      "lesson_id": "FND-06",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 2,
+      "prompt": "Écris en russe : « poser une question »",
+      "answer": "задавать вопрос",
+      "acceptable_answers": [
+        "задавать вопрос"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/family-social.json"
+    },
+    {
+      "id": "V3-TEXT-0077",
+      "lesson_id": "FND-06",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 2,
+      "prompt": "Écris en russe : « tarte faite maison »",
+      "answer": "домашний пирог",
+      "acceptable_answers": [
+        "домашний пирог"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/family-social.json"
+    },
+    {
+      "id": "V3-TEXT-0078",
+      "lesson_id": "FND-06",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 2,
+      "prompt": "Écris en russe : « accueil chaleureux »",
+      "answer": "тёплый приём",
+      "acceptable_answers": [
+        "тёплый приём"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/family-social.json"
+    },
+    {
+      "id": "V3-TEXT-0079",
+      "lesson_id": "FND-06",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 1,
+      "prompt": "Écris en russe : « gentil »",
+      "answer": "добрый",
+      "acceptable_answers": [
+        "добрый"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/family-social.json"
+    },
+    {
+      "id": "V3-TEXT-0080",
+      "lesson_id": "FND-06",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 1,
+      "prompt": "Écris en russe : « satisfait (homme) »",
+      "answer": "доволен",
+      "acceptable_answers": [
+        "доволен"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/family-social.json"
+    },
+    {
+      "id": "V3-TEXT-0081",
+      "lesson_id": "FND-06",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 1,
+      "prompt": "Écris en russe : « satisfaite (femme) »",
+      "answer": "довольна",
+      "acceptable_answers": [
+        "довольна"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/family-social.json"
+    },
+    {
+      "id": "V3-TEXT-0082",
+      "lesson_id": "READ-07",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 1,
+      "prompt": "Écris en russe : « revenir / retourner »",
+      "answer": "возвращаться",
+      "acceptable_answers": [
+        "возвращаться"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/hotel-problems.json"
+    },
+    {
+      "id": "V3-TEXT-0083",
+      "lesson_id": "READ-07",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 2,
+      "prompt": "Écris en russe : « prendre une douche »",
+      "answer": "принять душ",
+      "acceptable_answers": [
+        "принять душ"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/hotel-problems.json"
+    },
+    {
+      "id": "V3-TEXT-0084",
+      "lesson_id": "READ-07",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 2,
+      "prompt": "Écris en russe : « aller se coucher »",
+      "answer": "лечь спать",
+      "acceptable_answers": [
+        "лечь спать"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/hotel-problems.json"
+    },
+    {
+      "id": "V3-TEXT-0085",
+      "lesson_id": "READ-07",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 2,
+      "prompt": "Écris en russe : « ouvrir le robinet »",
+      "answer": "открывать кран",
+      "acceptable_answers": [
+        "открывать кран"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/hotel-problems.json"
+    },
+    {
+      "id": "V3-TEXT-0086",
+      "lesson_id": "READ-07",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 2,
+      "prompt": "Écris en russe : « rien ne se passe »",
+      "answer": "ничего не происходит",
+      "acceptable_answers": [
+        "ничего не происходит"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/hotel-problems.json"
+    },
+    {
+      "id": "V3-TEXT-0087",
+      "lesson_id": "READ-07",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 1,
+      "prompt": "Écris en russe : « carte d'accès »",
+      "answer": "ключ-карта",
+      "acceptable_answers": [
+        "ключ-карта"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/hotel-problems.json"
+    },
+    {
+      "id": "V3-TEXT-0088",
+      "lesson_id": "READ-07",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 1,
+      "prompt": "Écris en russe : « descendre »",
+      "answer": "спускаться",
+      "acceptable_answers": [
+        "спускаться"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/hotel-problems.json"
+    },
+    {
+      "id": "V3-TEXT-0089",
+      "lesson_id": "READ-07",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 2,
+      "prompt": "Écris en russe : « rez-de-chaussée en Russie »",
+      "answer": "первый этаж",
+      "acceptable_answers": [
+        "первый этаж"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/hotel-problems.json"
+    },
+    {
+      "id": "V3-TEXT-0090",
+      "lesson_id": "READ-07",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 2,
+      "prompt": "Écris en russe : « réception de l'hôtel »",
+      "answer": "стойка регистрации",
+      "acceptable_answers": [
+        "стойка регистрации"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/hotel-problems.json"
+    },
+    {
+      "id": "V3-TEXT-0091",
+      "lesson_id": "READ-07",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 1,
+      "prompt": "Écris en russe : « employé »",
+      "answer": "сотрудник",
+      "acceptable_answers": [
+        "сотрудник"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/hotel-problems.json"
+    },
+    {
+      "id": "V3-TEXT-0092",
+      "lesson_id": "READ-07",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 2,
+      "prompt": "Écris en russe : « que s'est-il passé ? »",
+      "answer": "что случилось?",
+      "acceptable_answers": [
+        "что случилось?"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/hotel-problems.json"
+    },
+    {
+      "id": "V3-TEXT-0093",
+      "lesson_id": "READ-07",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 1,
+      "prompt": "Écris en russe : « vérifier »",
+      "answer": "проверять",
+      "acceptable_answers": [
+        "проверять"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/hotel-problems.json"
+    },
+    {
+      "id": "V3-TEXT-0094",
+      "lesson_id": "READ-07",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 1,
+      "prompt": "Écris en russe : « réparateur / technicien »",
+      "answer": "мастер",
+      "acceptable_answers": [
+        "мастер"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/hotel-problems.json"
+    },
+    {
+      "id": "V3-TEXT-0095",
+      "lesson_id": "READ-07",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 1,
+      "prompt": "Écris en russe : « il faudra »",
+      "answer": "придётся",
+      "acceptable_answers": [
+        "придётся"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/hotel-problems.json"
+    },
+    {
+      "id": "V3-TEXT-0096",
+      "lesson_id": "READ-07",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 2,
+      "prompt": "Écris en russe : « environ une demi-heure »",
+      "answer": "около получаса",
+      "acceptable_answers": [
+        "около получаса"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/hotel-problems.json"
+    },
+    {
+      "id": "V3-TEXT-0097",
+      "lesson_id": "READ-07",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 2,
+      "prompt": "Écris en russe : « chambre disponible »",
+      "answer": "свободная комната",
+      "acceptable_answers": [
+        "свободная комната"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/hotel-problems.json"
+    },
+    {
+      "id": "V3-TEXT-0098",
+      "lesson_id": "READ-07",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 2,
+      "prompt": "Écris en russe : « heureusement »",
+      "answer": "к счастью",
+      "acceptable_answers": [
+        "к счастью"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/hotel-problems.json"
+    },
+    {
+      "id": "V3-TEXT-0099",
+      "lesson_id": "READ-07",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 1,
+      "prompt": "Écris en russe : « s'excuser »",
+      "answer": "извиняться",
+      "acceptable_answers": [
+        "извиняться"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/hotel-problems.json"
+    },
+    {
+      "id": "V3-TEXT-0100",
+      "lesson_id": "READ-07",
+      "type": "text_input",
+      "activity_type": "text_input",
+      "renderer_id": "text_input",
+      "difficulty": 1,
+      "prompt": "Écris en russe : « désagrément »",
+      "answer": "неудобство",
+      "acceptable_answers": [
+        "неудобство"
+      ],
+      "concepts": [
+        "vocabulary"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "skill_dimensions": {
+        "recall": 0.45,
+        "production": 0.55
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      },
+      "schema_version": "3.0.0",
+      "source": "vocabulary/hotel-problems.json"
+    }
+  ]
+}

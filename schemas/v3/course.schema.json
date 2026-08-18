@@ -1,0 +1,69 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Russian learning rich course v3",
+  "type": "object",
+  "required": [
+    "id",
+    "order",
+    "track",
+    "level",
+    "title",
+    "subtitle",
+    "content_blocks",
+    "prerequisites",
+    "mastery_contract"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "order": {
+      "type": "integer"
+    },
+    "track": {
+      "type": "string"
+    },
+    "level": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "active",
+        "preview",
+        "archived"
+      ]
+    },
+    "prerequisites": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "content_blocks": {
+      "type": "array",
+      "minItems": 6,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "type",
+          "title",
+          "provenance"
+        ]
+      }
+    },
+    "mastery_contract": {
+      "type": "object"
+    },
+    "session_recommendation": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": true
+}

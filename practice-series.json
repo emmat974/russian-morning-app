@@ -1,0 +1,117 @@
+{
+  "id": "PRACTICE-SERIES",
+  "series": [
+    {
+      "id": "dire",
+      "title": "dire",
+      "exercise_ids": [
+        "PRACT01-001",
+        "PRACT01-002",
+        "PRACT01-003",
+        "PRACT01-004",
+        "PRACT01-005",
+        "PRACT01-006",
+        "PRACT01-007",
+        "PRACT01-008"
+      ]
+    },
+    {
+      "id": "demander",
+      "title": "demander",
+      "exercise_ids": [
+        "PRACT01-009",
+        "PRACT01-010",
+        "PRACT01-011",
+        "PRACT01-012",
+        "PRACT01-013",
+        "PRACT01-014",
+        "PRACT01-015",
+        "PRACT01-016"
+      ]
+    },
+    {
+      "id": "travailler",
+      "title": "travailler",
+      "exercise_ids": [
+        "PRACT01-017",
+        "PRACT01-018",
+        "PRACT01-019",
+        "PRACT01-020",
+        "PRACT01-021",
+        "PRACT01-022",
+        "PRACT01-023",
+        "PRACT01-024"
+      ]
+    },
+    {
+      "id": "inviter",
+      "title": "inviter",
+      "exercise_ids": [
+        "PRACT01-025",
+        "PRACT01-026",
+        "PRACT01-027",
+        "PRACT01-028",
+        "PRACT01-029",
+        "PRACT01-030",
+        "PRACT01-031",
+        "PRACT01-032"
+      ]
+    },
+    {
+      "id": "voir",
+      "title": "voir",
+      "exercise_ids": [
+        "PRACT01-033",
+        "PRACT01-034",
+        "PRACT01-035",
+        "PRACT01-036",
+        "PRACT01-037",
+        "PRACT01-038",
+        "PRACT01-039",
+        "PRACT01-040"
+      ]
+    },
+    {
+      "id": "aimer",
+      "title": "aimer",
+      "exercise_ids": [
+        "PRACT01-041",
+        "PRACT01-042",
+        "PRACT01-043",
+        "PRACT01-044",
+        "PRACT01-045",
+        "PRACT01-046",
+        "PRACT01-047",
+        "PRACT01-048"
+      ]
+    },
+    {
+      "id": "avoir",
+      "title": "avoir",
+      "exercise_ids": [
+        "PRACT01-049",
+        "PRACT01-050",
+        "PRACT01-051",
+        "PRACT01-052",
+        "PRACT01-053",
+        "PRACT01-054",
+        "PRACT01-055",
+        "PRACT01-056"
+      ]
+    },
+    {
+      "id": "aller-venir",
+      "title": "aller-venir",
+      "exercise_ids": [
+        "PRACT01-057",
+        "PRACT01-058",
+        "PRACT01-059",
+        "PRACT01-060",
+        "PRACT01-061",
+        "PRACT01-062",
+        "PRACT01-063",
+        "PRACT01-064"
+      ]
+    }
+  ]
+}

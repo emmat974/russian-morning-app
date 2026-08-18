@@ -1,0 +1,139 @@
+{
+  "schema_version": "1.0.0",
+  "packs": [
+    {
+      "id": "core-foundations",
+      "version": "0.3.1",
+      "files": [
+        "courses/01-foundations/01-fnd-01.json",
+        "courses/01-foundations/02-fnd-02.json",
+        "courses/01-foundations/03-fnd-03.json",
+        "courses/01-foundations/04-fnd-04.json",
+        "courses/01-foundations/11-fnd-05.json",
+        "courses/01-foundations/12-fnd-06.json",
+        "exercises/01-foundations/01-fnd-01.json",
+        "exercises/01-foundations/02-fnd-02.json",
+        "exercises/01-foundations/03-fnd-03.json",
+        "exercises/01-foundations/04-fnd-04.json",
+        "exercises/01-foundations/11-fnd-05-survival.json",
+        "exercises/01-foundations/12-fnd-06-intro-family.json"
+      ]
+    },
+    {
+      "id": "core-grammar",
+      "version": "0.3.1",
+      "files": [
+        "courses/02-core-grammar/05-grm-01.json",
+        "courses/02-core-grammar/06-grm-02.json",
+        "courses/02-core-grammar/07-grm-03.json",
+        "courses/02-core-grammar/08-grm-04.json",
+        "courses/02-core-grammar/13-grm-05.json",
+        "courses/02-core-grammar/14-grm-06.json",
+        "courses/02-core-grammar/15-grm-07.json",
+        "courses/02-core-grammar/16-grm-08.json",
+        "courses/02-core-grammar/17-grm-09.json",
+        "exercises/02-core-grammar/05-grm-01.json",
+        "exercises/02-core-grammar/06-grm-02.json",
+        "exercises/02-core-grammar/07-grm-03.json",
+        "exercises/02-core-grammar/08-grm-04.json",
+        "exercises/02-core-grammar/13-grm-05-location-direction.json",
+        "exercises/02-core-grammar/14-grm-06-possession.json",
+        "exercises/02-core-grammar/15-grm-07-past.json",
+        "exercises/02-core-grammar/16-grm-08-pronouns.json",
+        "exercises/02-core-grammar/17-grm-09-prepositions.json"
+      ]
+    },
+    {
+      "id": "reading",
+      "version": "0.3.1",
+      "files": [
+        "courses/03-reading/09-read-01.json",
+        "courses/03-reading/10-read-02.json",
+        "courses/03-reading/18-read-03.json",
+        "courses/03-reading/19-read-04.json",
+        "courses/03-reading/20-read-05.json",
+        "courses/03-reading/21-read-06.json",
+        "courses/03-reading/22-read-07.json",
+        "courses/03-reading/23-read-08.json",
+        "exercises/03-reading/09-read-01.json",
+        "exercises/03-reading/10-read-02.json",
+        "exercises/03-reading/18-read-03-cafe.json",
+        "exercises/03-reading/19-read-04-family.json",
+        "exercises/03-reading/20-read-05-moscow.json",
+        "exercises/03-reading/21-read-06-restaurant.json",
+        "exercises/03-reading/22-read-07-hotel.json",
+        "exercises/03-reading/23-read-08-epilogue.json"
+      ]
+    },
+    {
+      "id": "practice",
+      "version": "0.3.1",
+      "files": [
+        "courses/04-practice/24-pract-01.json",
+        "courses/04-practice/25-pract-02.json",
+        "courses/04-practice/26-pract-03.json",
+        "exercises/04-practice/24-pract-01-active-translation.json",
+        "exercises/04-practice/25-pract-02-word-families.json",
+        "exercises/04-practice/26-pract-03-verb-choice.json"
+      ]
+    },
+    {
+      "id": "mixed-v3",
+      "version": "0.3.1",
+      "files": [
+        "exercises/05-v3-mixed/31-phrase-completion.json",
+        "exercises/05-v3-mixed/32-listen-type.json",
+        "exercises/05-v3-mixed/33-pronunciation.json",
+        "exercises/05-v3-mixed/34-self-explain.json",
+        "exercises/05-v3-mixed/35-text-input-vocabulary.json",
+        "exercises/05-v3-mixed/36-reorder-expanded.json",
+        "exercises/05-v3-mixed/37-cloze-text.json",
+        "exercises/05-v3-mixed/38-match-pairs.json"
+      ]
+    },
+    {
+      "id": "vocabulary",
+      "version": "0.3.0",
+      "files": [
+        "vocabulary/city-directions.json",
+        "vocabulary/connectors.json",
+        "vocabulary/core-people-actions.json",
+        "vocabulary/daily.json",
+        "vocabulary/family-social.json",
+        "vocabulary/hotel-problems.json",
+        "vocabulary/learning-conversation.json",
+        "vocabulary/places.json",
+        "vocabulary/restaurant.json",
+        "vocabulary/travel-cafe.json"
+      ]
+    },
+    {
+      "id": "pronunciation",
+      "version": "0.3.0",
+      "files": [
+        "pronunciation/stress-dictionary.json",
+        "pronunciation/targets.json"
+      ]
+    },
+    {
+      "id": "adaptive-policy",
+      "version": "0.3.1",
+      "files": [
+        "adaptive/chapter-unlock.json",
+        "adaptive/mastery-policy.json",
+        "adaptive/remediation-map.json",
+        "adaptive/session-profiles.json",
+        "adaptive/spaced-review.json"
+      ]
+    },
+    {
+      "id": "catalog",
+      "version": "0.3.1",
+      "files": [
+        "catalog/activity-types.json",
+        "catalog/curriculum.json",
+        "catalog/lesson-block-types.json"
+      ]
+    }
+  ]
+}

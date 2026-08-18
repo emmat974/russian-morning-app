@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "vocabulary.schema.json",
+  "type": "object",
+  "required": [
+    "id",
+    "level",
+    "title",
+    "items"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "level": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "ru",
+          "fr"
+        ],
+        "properties": {
+          "ru": {
+            "type": "string"
+          },
+          "fr": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

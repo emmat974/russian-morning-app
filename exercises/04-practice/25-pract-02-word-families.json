@@ -1,0 +1,786 @@
+{
+  "exercise_set": "25-pract-02-word-families",
+  "items": [
+    {
+      "id": "PRACT02-001",
+      "lesson_id": "PRACT-02",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Retrouve la forme de dictionnaire : семью",
+      "answer": "семья",
+      "concepts": [
+        "lemma-recovery"
+      ],
+      "error_tags": [
+        "word-family-base"
+      ],
+      "options": [
+        "семья",
+        "семейный",
+        "семьи",
+        "семью"
+      ],
+      "source": "GH:serie-familles",
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT02-002",
+      "lesson_id": "PRACT-02",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Retrouve la forme de dictionnaire : фотографии",
+      "answer": "фотография",
+      "concepts": [
+        "lemma-recovery"
+      ],
+      "error_tags": [
+        "word-family-base"
+      ],
+      "options": [
+        "фотография",
+        "фотографий",
+        "фотографию",
+        "фотографии"
+      ],
+      "source": "GH:serie-familles",
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT02-003",
+      "lesson_id": "PRACT-02",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Retrouve la forme de dictionnaire : гостиницей",
+      "answer": "гостиница",
+      "concepts": [
+        "lemma-recovery"
+      ],
+      "error_tags": [
+        "word-family-base"
+      ],
+      "options": [
+        "гостиница",
+        "гостинице",
+        "гостиницу",
+        "гостиницы"
+      ],
+      "source": "GH:serie-familles",
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT02-004",
+      "lesson_id": "PRACT-02",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Quel mot appartient à la famille de дом ?",
+      "answer": "домой",
+      "concepts": [
+        "word-family"
+      ],
+      "error_tags": [
+        "form-lookalike"
+      ],
+      "options": [
+        "домой",
+        "думает",
+        "другие",
+        "доволен"
+      ],
+      "source": "GH:serie-familles",
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT02-005",
+      "lesson_id": "PRACT-02",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Quel mot appartient à la famille de семья ?",
+      "answer": "семейный",
+      "concepts": [
+        "word-family"
+      ],
+      "error_tags": [
+        "form-lookalike"
+      ],
+      "options": [
+        "семейный",
+        "сегодня",
+        "семь",
+        "себя"
+      ],
+      "source": "GH:serie-familles",
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT02-006",
+      "lesson_id": "PRACT-02",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Retrouve l'infinitif : показывает",
+      "answer": "показывать",
+      "concepts": [
+        "infinitive-recovery"
+      ],
+      "error_tags": [
+        "infinitive-recovery"
+      ],
+      "options": [
+        "показывать",
+        "показать",
+        "спрашивать",
+        "показывает"
+      ],
+      "source": "GH:serie-familles",
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT02-007",
+      "lesson_id": "PRACT-02",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Retrouve l'infinitif : понимает",
+      "answer": "понимать",
+      "concepts": [
+        "infinitive-recovery"
+      ],
+      "error_tags": [
+        "infinitive-recovery"
+      ],
+      "options": [
+        "понимать",
+        "понимает",
+        "отвечать",
+        "объяснять"
+      ],
+      "source": "GH:serie-familles",
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT02-008",
+      "lesson_id": "PRACT-02",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Choisis la bonne forme : Сегодня ___ Тони приезжает.",
+      "answer": "утром",
+      "concepts": [
+        "form-discrimination"
+      ],
+      "error_tags": [
+        "form-lookalike"
+      ],
+      "options": [
+        "утро",
+        "утром",
+        "утра",
+        "вечером"
+      ],
+      "source": "GH:serie-formes",
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT02-009",
+      "lesson_id": "PRACT-02",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Choisis la bonne forme : Его комната ещё не ___.",
+      "answer": "готова",
+      "concepts": [
+        "adjective-agreement"
+      ],
+      "error_tags": [
+        "adjective-gender"
+      ],
+      "options": [
+        "готов",
+        "готова",
+        "готово",
+        "готовы"
+      ],
+      "source": "GH:serie-rappel",
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT02-010",
+      "lesson_id": "PRACT-02",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Choisis la bonne forme : Она очень ___.",
+      "answer": "добрая",
+      "concepts": [
+        "adjective-agreement"
+      ],
+      "error_tags": [
+        "adjective-gender"
+      ],
+      "options": [
+        "добрый",
+        "добрая",
+        "доброе",
+        "добрые"
+      ],
+      "source": "GH:serie-rappel",
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT02-011",
+      "lesson_id": "PRACT-02",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Choisis : Тони ___ чай.",
+      "answer": "заказывает",
+      "concepts": [
+        "verb-endings"
+      ],
+      "error_tags": [
+        "person-ending-confusion"
+      ],
+      "options": [
+        "заказывать",
+        "заказываю",
+        "заказывает",
+        "заказывают"
+      ],
+      "source": "GH:serie-rappel",
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT02-012",
+      "lesson_id": "PRACT-02",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Choisis : Алексей ___ Тони фотографии.",
+      "answer": "показывает",
+      "concepts": [
+        "verb-endings"
+      ],
+      "error_tags": [
+        "person-ending-confusion"
+      ],
+      "options": [
+        "показывать",
+        "показываю",
+        "показывает",
+        "показывают"
+      ],
+      "source": "GH:serie-rappel",
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT02-013",
+      "lesson_id": "PRACT-02",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Dans « домашний пирог », домашний signifie :",
+      "answer": "fait maison",
+      "concepts": [
+        "word-family"
+      ],
+      "error_tags": [
+        "form-lookalike"
+      ],
+      "options": [
+        "à la maison",
+        "vers chez soi",
+        "fait maison",
+        "de la maison"
+      ],
+      "source": "GH:serie-contextes",
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT02-014",
+      "lesson_id": "PRACT-02",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Dans « дома », le sens est :",
+      "answer": "à la maison",
+      "concepts": [
+        "word-family"
+      ],
+      "error_tags": [
+        "дома-vs-домой"
+      ],
+      "options": [
+        "à la maison",
+        "vers chez soi",
+        "fait maison",
+        "maison"
+      ],
+      "source": "GH:serie-contextes",
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT02-015",
+      "lesson_id": "PRACT-02",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Dans « домой », le sens est :",
+      "answer": "vers chez soi",
+      "concepts": [
+        "word-family"
+      ],
+      "error_tags": [
+        "дома-vs-домой"
+      ],
+      "options": [
+        "à la maison",
+        "vers chez soi",
+        "fait maison",
+        "de la maison"
+      ],
+      "source": "GH:serie-contextes",
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT02-016",
+      "lesson_id": "PRACT-02",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "prompt": "Dans « на одной фотографии », фотографии est ici :",
+      "answer": "singulier dans une forme de lieu/support",
+      "concepts": [
+        "form-discrimination"
+      ],
+      "error_tags": [
+        "form-lookalike"
+      ],
+      "options": [
+        "forcément pluriel",
+        "singulier dans une forme de lieu/support",
+        "un verbe",
+        "un adjectif"
+      ],
+      "source": "GH:serie-ecriture-contextuelle",
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT02-017",
+      "lesson_id": "PRACT-02",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Complète : семейные ___.",
+      "answer": "фотографии",
+      "concepts": [
+        "number",
+        "adjective-agreement"
+      ],
+      "error_tags": [
+        "number-confusion"
+      ],
+      "options": [
+        "фотография",
+        "фотографии",
+        "фотографию",
+        "фотографий"
+      ],
+      "source": "GH:serie-formes",
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT02-018",
+      "lesson_id": "PRACT-02",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Complète : всю ___.",
+      "answer": "семью",
+      "concepts": [
+        "accusative"
+      ],
+      "error_tags": [
+        "accusative-feminine-ending"
+      ],
+      "options": [
+        "семья",
+        "семьи",
+        "семью",
+        "семейную"
+      ],
+      "source": "GH:serie-formes",
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT02-019",
+      "lesson_id": "PRACT-02",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Complète : бутылку ___.",
+      "answer": "воды",
+      "concepts": [
+        "container-genitive"
+      ],
+      "error_tags": [
+        "container-genitive"
+      ],
+      "options": [
+        "вода",
+        "воды",
+        "воду",
+        "водой"
+      ],
+      "source": "GH:serie-ecriture-contextuelle",
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT02-020",
+      "lesson_id": "PRACT-02",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Complète : в ___. (dans le salon)",
+      "answer": "гостиной",
+      "concepts": [
+        "location"
+      ],
+      "error_tags": [
+        "где-vs-куда"
+      ],
+      "options": [
+        "гостиная",
+        "гостиной",
+        "гостиную",
+        "гостиные"
+      ],
+      "source": "GH:serie-ecriture-contextuelle",
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    }
+  ]
+}

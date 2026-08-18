@@ -1,0 +1,450 @@
+{
+  "exercise_set": "12-fnd-06-intro-family",
+  "items": [
+    {
+      "id": "FND06-001",
+      "lesson_id": "FND-06",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis en russe : « Je m'appelle Tony. »",
+      "answer": "Меня зовут Тони.",
+      "concepts": [
+        "меня-зовут"
+      ],
+      "error_tags": [
+        "fixed-expression",
+        "меня-vs-мне"
+      ],
+      "source": "PDF:p4",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "FND06-002",
+      "lesson_id": "FND-06",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Complète : Меня ___ Тони.",
+      "answer": "зовут",
+      "concepts": [
+        "меня-зовут"
+      ],
+      "error_tags": [
+        "fixed-expression"
+      ],
+      "options": [
+        "зову",
+        "зовут",
+        "зовёшь",
+        "зовёт"
+      ],
+      "source": "GH:banque-ch2-dialogue",
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "FND06-003",
+      "lesson_id": "FND-06",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis : « Очень приятно. »",
+      "answer": "Enchanté.",
+      "concepts": [
+        "fixed-expression"
+      ],
+      "error_tags": [
+        "literal-translation"
+      ],
+      "source": "PDF:p4",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "FND06-004",
+      "lesson_id": "FND-06",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Après « Очень приятно », traduis « Moi aussi. »",
+      "answer": "Мне тоже.",
+      "concepts": [
+        "мне-тоже"
+      ],
+      "error_tags": [
+        "меня-vs-мне",
+        "fixed-expression"
+      ],
+      "source": "PDF:p4",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "FND06-005",
+      "lesson_id": "FND-06",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "« Я тоже » est naturel surtout quand :",
+      "answer": "on reprend une action ou un état avec Я comme sujet",
+      "concepts": [
+        "я-тоже",
+        "мне-тоже"
+      ],
+      "error_tags": [
+        "fixed-expression"
+      ],
+      "options": [
+        "on reprend une action ou un état avec Я comme sujet",
+        "on répond toujours à Очень приятно",
+        "on donne son nom",
+        "on exprime toujours la possession"
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "FND06-006",
+      "lesson_id": "FND-06",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis en russe : « J'ai une mère, un père et un frère. »",
+      "answer": "У меня есть мама, папа и один брат.",
+      "concepts": [
+        "possession",
+        "family"
+      ],
+      "error_tags": [
+        "у-possessor-form"
+      ],
+      "acceptable_answers": [
+        "У меня есть мама, папа и брат."
+      ],
+      "source": "PDF:p5",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "FND06-007",
+      "lesson_id": "FND-06",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Complète : У тебя большая ___?",
+      "answer": "семья",
+      "concepts": [
+        "family",
+        "possession"
+      ],
+      "error_tags": [
+        "family-vocab",
+        "case-identification"
+      ],
+      "options": [
+        "семья",
+        "семью",
+        "семье",
+        "семьёй"
+      ],
+      "source": "GH:banque-ch2-dialogue",
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "FND06-008",
+      "lesson_id": "FND-06",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis : « У него нет детей. »",
+      "answer": "Il n'a pas d'enfants.",
+      "concepts": [
+        "possession",
+        "нет"
+      ],
+      "error_tags": [
+        "есть-vs-нет"
+      ],
+      "source": "PDF:p6",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "FND06-009",
+      "lesson_id": "FND-06",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "« Ему тридцать пять лет » veut dire :",
+      "answer": "Il a trente-cinq ans.",
+      "concepts": [
+        "age",
+        "dative"
+      ],
+      "error_tags": [
+        "literal-translation"
+      ],
+      "options": [
+        "Il travaille depuis trente-cinq ans.",
+        "Il a trente-cinq ans.",
+        "Il a trente-cinq enfants.",
+        "Il est trente-cinquième."
+      ],
+      "source": "PDF:p5",
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "FND06-010",
+      "lesson_id": "FND-06",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis : « Это моя бабушка. Она очень добрая. »",
+      "answer": "C'est ma grand-mère. Elle est très gentille.",
+      "concepts": [
+        "family",
+        "adjective-agreement"
+      ],
+      "error_tags": [
+        "family-vocab",
+        "adjective-gender"
+      ],
+      "source": "PDF:p6",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "FND06-011",
+      "lesson_id": "FND-06",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Quel mot signifie « probablement » ?",
+      "answer": "наверное",
+      "concepts": [
+        "наверное"
+      ],
+      "error_tags": [
+        "vocabulary"
+      ],
+      "options": [
+        "наверное",
+        "теперь",
+        "рядом",
+        "почему"
+      ],
+      "source": "PDF:p6",
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "FND06-012",
+      "lesson_id": "FND-06",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis en russe : « Enchanté. Moi aussi. »",
+      "answer": "Очень приятно. Мне тоже.",
+      "concepts": [
+        "fixed-expression"
+      ],
+      "error_tags": [
+        "fixed-expression",
+        "меня-vs-мне"
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    }
+  ]
+}

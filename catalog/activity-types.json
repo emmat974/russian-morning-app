@@ -1,0 +1,76 @@
+{
+  "content_api_version": "3.0",
+  "activity_types": {
+    "choice_single": {
+      "response": "single_option",
+      "needs_audio": false,
+      "description": "Sélectionner une réponse parmi plusieurs choix."
+    },
+    "text_input": {
+      "response": "free_text",
+      "needs_audio": false,
+      "description": "Saisir librement un mot ou une courte réponse."
+    },
+    "translation_input": {
+      "response": "free_text",
+      "needs_audio": false,
+      "description": "Produire une traduction complète."
+    },
+    "fill_blank": {
+      "response": "free_text_or_token",
+      "needs_audio": false,
+      "description": "Compléter un mot ou un emplacement dans une phrase."
+    },
+    "phrase_completion": {
+      "response": "free_text",
+      "needs_audio": false,
+      "description": "Compléter une portion manquante d’une phrase avec contexte."
+    },
+    "reorder_tokens": {
+      "response": "ordered_tokens",
+      "needs_audio": false,
+      "description": "Reconstruire une phrase à partir de blocs présentés dans un ordre mélangé; l’ordre initial ne doit jamais être déjà correct.",
+      "initial_state": "shuffle_until_unsolved"
+    },
+    "reading_comprehension": {
+      "response": "single_option_or_text",
+      "needs_audio": false,
+      "description": "Répondre après lecture d’un contexte."
+    },
+    "listen_choose": {
+      "response": "single_option",
+      "needs_audio": true,
+      "description": "Écouter un mot/une phrase puis choisir le sens ou la transcription."
+    },
+    "listen_type": {
+      "response": "free_text",
+      "needs_audio": true,
+      "description": "Dictée : écouter puis saisir le russe."
+    },
+    "pronunciation_repeat_word": {
+      "response": "speech",
+      "needs_audio": true,
+      "description": "Écouter puis prononcer un mot."
+    },
+    "pronunciation_repeat_sentence": {
+      "response": "speech",
+      "needs_audio": true,
+      "description": "Écouter puis prononcer une phrase complète."
+    },
+    "self_explain": {
+      "response": "self_rating_or_text",
+      "needs_audio": false,
+      "description": "Expliquer une règle ou résumer une lecture avec ses propres mots."
+    },
+    "cloze_text": {
+      "response": "multiple_blanks",
+      "needs_audio": false,
+      "description": "Compléter plusieurs blancs dans un texte ou mini-paragraphe."
+    },
+    "match_pairs": {
+      "response": "pair_mapping",
+      "needs_audio": false,
+      "description": "Associer mots, formes, traductions ou concepts par paires."
+    }
+  }
+}

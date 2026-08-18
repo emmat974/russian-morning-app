@@ -1,0 +1,597 @@
+{
+  "exercise_set": "26-pract-03-verb-choice",
+  "items": [
+    {
+      "id": "PRACT03-001",
+      "lesson_id": "PRACT-03",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Je veux dire « je comprends » :",
+      "answer": "Я понимаю.",
+      "concepts": [
+        "verb-choice"
+      ],
+      "error_tags": [
+        "говорить-vs-понимать"
+      ],
+      "options": [
+        "Я говорю.",
+        "Я понимаю.",
+        "Я знаю.",
+        "Я спрашиваю."
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT03-002",
+      "lesson_id": "PRACT-03",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Je veux dire « je sais » :",
+      "answer": "Я знаю.",
+      "concepts": [
+        "verb-choice"
+      ],
+      "error_tags": [
+        "знать-vs-понимать"
+      ],
+      "options": [
+        "Я знаю.",
+        "Я понимаю.",
+        "Я говорю.",
+        "Я вижу."
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT03-003",
+      "lesson_id": "PRACT-03",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Je veux dire « je parle russe » :",
+      "answer": "Я говорю по-русски.",
+      "concepts": [
+        "verb-choice"
+      ],
+      "error_tags": [
+        "говорить-vs-понимать"
+      ],
+      "options": [
+        "Я понимаю по-русски.",
+        "Я говорю по-русски.",
+        "Я знаю по-русски.",
+        "Я спрашиваю по-русски."
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT03-004",
+      "lesson_id": "PRACT-03",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Tu poses une question au serveur. Quel verbe ?",
+      "answer": "спрашивать",
+      "concepts": [
+        "спрашивать-vs-просить"
+      ],
+      "error_tags": [
+        "спрашивать-vs-просить"
+      ],
+      "options": [
+        "спрашивать",
+        "просить",
+        "видеть",
+        "знать"
+      ],
+      "source": "GH:series-traduction/demander",
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT03-005",
+      "lesson_id": "PRACT-03",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Tu demandes du thé. Quel verbe ?",
+      "answer": "просить",
+      "concepts": [
+        "спрашивать-vs-просить"
+      ],
+      "error_tags": [
+        "спрашивать-vs-просить"
+      ],
+      "options": [
+        "спрашивать",
+        "просить",
+        "говорить",
+        "работать"
+      ],
+      "source": "GH:series-traduction/demander",
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT03-006",
+      "lesson_id": "PRACT-03",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Déplacement à pied en cours :",
+      "answer": "идти",
+      "concepts": [
+        "идти-vs-ехать"
+      ],
+      "error_tags": [
+        "идти-vs-ехать"
+      ],
+      "options": [
+        "идти",
+        "ехать",
+        "работать",
+        "приезжать"
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT03-007",
+      "lesson_id": "PRACT-03",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Trajet en transport en cours :",
+      "answer": "ехать",
+      "concepts": [
+        "идти-vs-ехать"
+      ],
+      "error_tags": [
+        "идти-vs-ехать"
+      ],
+      "options": [
+        "идти",
+        "ехать",
+        "стоять",
+        "читать"
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT03-008",
+      "lesson_id": "PRACT-03",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Arriver en transport :",
+      "answer": "приезжать",
+      "concepts": [
+        "идти-vs-ехать"
+      ],
+      "error_tags": [
+        "идти-vs-ехать"
+      ],
+      "options": [
+        "приезжать",
+        "понимать",
+        "сидеть",
+        "надевать"
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT03-009",
+      "lesson_id": "PRACT-03",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Parole en cours / activité de parler :",
+      "answer": "говорить",
+      "concepts": [
+        "говорить-vs-сказать"
+      ],
+      "error_tags": [
+        "говорить-vs-сказать"
+      ],
+      "options": [
+        "говорить",
+        "сказать",
+        "просить",
+        "идти"
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT03-010",
+      "lesson_id": "PRACT-03",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "prompt": "Dire quelque chose une fois / action ponctuelle :",
+      "answer": "сказать",
+      "concepts": [
+        "говорить-vs-сказать"
+      ],
+      "error_tags": [
+        "говорить-vs-сказать"
+      ],
+      "options": [
+        "говорить",
+        "сказать",
+        "знать",
+        "читать"
+      ],
+      "schema_version": "3.0.0",
+      "activity_type": "choice_single",
+      "renderer_id": "choice_single",
+      "skill_dimensions": {
+        "recognition": 0.65,
+        "comprehension": 0.35
+      },
+      "scoring": {
+        "mode": "exact_or_accepted",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT03-011",
+      "lesson_id": "PRACT-03",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis en russe : « Il demande où est Tony. »",
+      "answer": "Он спрашивает, где Тони.",
+      "concepts": [
+        "спрашивать-vs-просить"
+      ],
+      "error_tags": [
+        "спрашивать-vs-просить",
+        "question-word"
+      ],
+      "source": "GH:series-traduction/demander",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT03-012",
+      "lesson_id": "PRACT-03",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis en russe : « Je demande du thé. »",
+      "answer": "Я прошу чай.",
+      "concepts": [
+        "спрашивать-vs-просить"
+      ],
+      "error_tags": [
+        "спрашивать-vs-просить"
+      ],
+      "acceptable_answers": [
+        "Я прошу чаю."
+      ],
+      "source": "GH:series-traduction/demander",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT03-013",
+      "lesson_id": "PRACT-03",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis en russe : « Je vais en France. »",
+      "answer": "Я еду во Францию.",
+      "concepts": [
+        "идти-vs-ехать"
+      ],
+      "error_tags": [
+        "идти-vs-ехать"
+      ],
+      "source": "GH:series-traduction/aller-venir",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT03-014",
+      "lesson_id": "PRACT-03",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis en russe : « Je vais au café à pied. »",
+      "answer": "Я иду в кафе.",
+      "concepts": [
+        "идти-vs-ехать"
+      ],
+      "error_tags": [
+        "идти-vs-ехать"
+      ],
+      "source": "GH:series-traduction/aller-venir",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT03-015",
+      "lesson_id": "PRACT-03",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis en russe : « Il a dit la vérité. »",
+      "answer": "Он сказал правду.",
+      "concepts": [
+        "говорить-vs-сказать",
+        "past-tense"
+      ],
+      "error_tags": [
+        "говорить-vs-сказать"
+      ],
+      "source": "GH:series-traduction/dire",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    },
+    {
+      "id": "PRACT03-016",
+      "lesson_id": "PRACT-03",
+      "type": "translation",
+      "difficulty": 1,
+      "prompt": "Traduis en russe : « Elle dit qu'elle travaille. »",
+      "answer": "Она говорит, что работает.",
+      "concepts": [
+        "говорить",
+        "что-clause"
+      ],
+      "error_tags": [
+        "clause-order"
+      ],
+      "source": "GH:series-traduction/dire",
+      "schema_version": "3.0.0",
+      "activity_type": "translation_input",
+      "renderer_id": "translation_input",
+      "skill_dimensions": {
+        "recall": 0.25,
+        "production": 0.65,
+        "comprehension": 0.1
+      },
+      "scoring": {
+        "mode": "normalized_text",
+        "max_score": 1.0,
+        "hint_penalty": 0.15,
+        "dont_know_score": 0.0
+      },
+      "review": {
+        "eligible": true,
+        "same_item_cooldown_sessions": 4,
+        "prefer_variant_on_failure": true
+      }
+    }
+  ]
+}

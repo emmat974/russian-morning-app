@@ -1,0 +1,2156 @@
+{
+  "schema_version": "1.0.0",
+  "locale": "ru-RU",
+  "entries": [
+    {
+      "plain": "",
+      "stress_display": "́",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "а",
+      "stress_display": "А́",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "алексеем",
+      "stress_display": "Алексе́ем",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "алексеи",
+      "stress_display": "Алексе́и",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "алексею",
+      "stress_display": "Алексе́ю",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "алексея",
+      "stress_display": "Алексе́я",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "бабушка",
+      "stress_display": "Ба́бушка",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "банка",
+      "stress_display": "ба́нка",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "благодарит",
+      "stress_display": "благодари́т",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "ближаи",
+      "stress_display": "ближа́и",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "большая",
+      "stress_display": "больша́я",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "больше",
+      "stress_display": "бо́льше",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "больших",
+      "stress_display": "больши́х",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "большого",
+      "stress_display": "большо́го",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "большое",
+      "stress_display": "Большо́е",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "большои",
+      "stress_display": "большо́и",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "большую",
+      "stress_display": "большу́ю",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "бояться",
+      "stress_display": "боя́ться",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "будете",
+      "stress_display": "бу́дете",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "будут",
+      "stress_display": "бу́дут",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "бутерброд",
+      "stress_display": "бутербро́д",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "буты",
+      "stress_display": "буты́",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "бы",
+      "stress_display": "бы́",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "ваша",
+      "stress_display": "ва́ша",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "вечер",
+      "stress_display": "ве́чер",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "вечера",
+      "stress_display": "ве́чера",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "вечером",
+      "stress_display": "Ве́чером",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "видит",
+      "stress_display": "ви́дит",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "вкусно",
+      "stress_display": "вку́сно",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "вода",
+      "stress_display": "вода́",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "воду",
+      "stress_display": "воду́",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "воды",
+      "stress_display": "воды́",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "возвращается",
+      "stress_display": "возвраща́ется",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "возвращаться",
+      "stress_display": "возвраща́ться",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "возьму",
+      "stress_display": "возьму́",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "вокруг",
+      "stress_display": "Вокру́г",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "вопрос",
+      "stress_display": "вопро́с",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "вопросов",
+      "stress_display": "вопро́сов",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "всего",
+      "stress_display": "всего́",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "встречается",
+      "stress_display": "встреча́ется",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "встречаться",
+      "stress_display": "встреча́ться",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "вы",
+      "stress_display": "вы́",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "выбирать",
+      "stress_display": "выбира́ть",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "выбирают",
+      "stress_display": "выбира́ют",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "газа",
+      "stress_display": "га́за",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "газом",
+      "stress_display": "га́зом",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "главное",
+      "stress_display": "Гла́вное",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "говорит",
+      "stress_display": "говори́т",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "говорите",
+      "stress_display": "Говори́те",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "говорить",
+      "stress_display": "говори́ть",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "говоришь",
+      "stress_display": "говори́шь",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "говорю",
+      "stress_display": "говорю́",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "говорят",
+      "stress_display": "говоря́т",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "говядина",
+      "stress_display": "говя́дина",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "говядинои",
+      "stress_display": "говя́динои",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "город",
+      "stress_display": "Го́род",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "города",
+      "stress_display": "го́рода",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "горячие",
+      "stress_display": "горя́чие",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "гостиная",
+      "stress_display": "гости́ная",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "гостинице",
+      "stress_display": "гости́нице",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "гостиницеи",
+      "stress_display": "гости́ницеи",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "гостиницу",
+      "stress_display": "гости́ницу",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "гостиницы",
+      "stress_display": "гости́ницы",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "гостинои",
+      "stress_display": "гости́нои",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "готов",
+      "stress_display": "гото́в",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "готова",
+      "stress_display": "гото́ва",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "готовит",
+      "stress_display": "гото́вит",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "гулять",
+      "stress_display": "гуля́ть",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "далеко",
+      "stress_display": "далеко́",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "двести",
+      "stress_display": "две́сти",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "дедушка",
+      "stress_display": "де́душка",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "дела",
+      "stress_display": "дела́",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "делать",
+      "stress_display": "де́лать",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "делаю",
+      "stress_display": "де́лаю",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "десять",
+      "stress_display": "де́сять",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "детеи",
+      "stress_display": "дете́и",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "дети",
+      "stress_display": "де́ти",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "добрая",
+      "stress_display": "до́брая",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "добрыи",
+      "stress_display": "до́брыи",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "доволен",
+      "stress_display": "дово́лен",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "довольным",
+      "stress_display": "дово́льным",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "долгого",
+      "stress_display": "до́лгого",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "домашнии",
+      "stress_display": "дома́шнии",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "домои",
+      "stress_display": "домо́и",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "дорога",
+      "stress_display": "доро́га",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "дорогу",
+      "stress_display": "доро́гу",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "другая",
+      "stress_display": "друга́я",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "его",
+      "stress_display": "его́",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "еду",
+      "stress_display": "еду́",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "ему",
+      "stress_display": "ему́",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "женщина",
+      "stress_display": "же́нщина",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "женщину",
+      "stress_display": "же́нщину",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "заблудился",
+      "stress_display": "заблуди́лся",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "заблудиться",
+      "stress_display": "заблуди́ться",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "забронированныи",
+      "stress_display": "заброни́рованныи",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "задавать",
+      "stress_display": "задава́ть",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "заказывает",
+      "stress_display": "зака́зывает",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "заказывать",
+      "stress_display": "зака́зывать",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "заказывают",
+      "stress_display": "зака́зывают",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "засыпает",
+      "stress_display": "засыпа́ет",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "засыпать",
+      "stress_display": "засыпа́ть",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "здание",
+      "stress_display": "зда́ние",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "здании",
+      "stress_display": "зда́нии",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "здравствуи",
+      "stress_display": "Здра́вствуи",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "значит",
+      "stress_display": "зна́чит",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "зовут",
+      "stress_display": "зову́т",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "играет",
+      "stress_display": "игра́ет",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "идите",
+      "stress_display": "Иди́те",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "идти",
+      "stress_display": "идти́",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "извините",
+      "stress_display": "Извини́те",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "извиняется",
+      "stress_display": "извиня́ется",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "извиняться",
+      "stress_display": "извиня́ться",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "изучает",
+      "stress_display": "изуча́ет",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "изучаешь",
+      "stress_display": "изуча́ешь",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "или",
+      "stress_display": "и́ли",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "иногда",
+      "stress_display": "иногда́",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "интернете",
+      "stress_display": "интерне́те",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "информацию",
+      "stress_display": "информа́цию",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "ирина",
+      "stress_display": "Ири́на",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "каждыи",
+      "stress_display": "ка́ждыи",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "какои",
+      "stress_display": "Како́и",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "карте",
+      "stress_display": "ка́рте",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "картинку",
+      "stress_display": "карти́нку",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "кафе",
+      "stress_display": "кафе́",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "квартира",
+      "stress_display": "кварти́ра",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "квартире",
+      "stress_display": "кварти́ре",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "кивает",
+      "stress_display": "кива́ет",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "кивать",
+      "stress_display": "кива́ть",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "книгу",
+      "stress_display": "кни́гу",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "когда",
+      "stress_display": "Когда́",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "комната",
+      "stress_display": "ко́мната",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "комнате",
+      "stress_display": "ко́мнате",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "комнаты",
+      "stress_display": "ко́мнаты",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "компью",
+      "stress_display": "компью́",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "конечно",
+      "stress_display": "Коне́чно",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "конце",
+      "stress_display": "конце́",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "красивее",
+      "stress_display": "краси́вее",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "красивыи",
+      "stress_display": "краси́выи",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "красная",
+      "stress_display": "Кра́сная",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "красную",
+      "stress_display": "Кра́сную",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "куртка",
+      "stress_display": "ку́ртка",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "куртку",
+      "stress_display": "ку́ртку",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "кухне",
+      "stress_display": "ку́хне",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "кухню",
+      "stress_display": "ку́хню",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "кухня",
+      "stress_display": "ку́хня",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "ложка",
+      "stress_display": "ло́жка",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "ложку",
+      "stress_display": "ло́жку",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "лю",
+      "stress_display": "лю́",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "людеи",
+      "stress_display": "люде́и",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "магазин",
+      "stress_display": "магази́н",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "магазином",
+      "stress_display": "магази́ном",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "маленькими",
+      "stress_display": "ма́ленькими",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "маленьком",
+      "stress_display": "ма́леньком",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "маленькую",
+      "stress_display": "ма́ленькую",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "мама",
+      "stress_display": "ма́ма",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "маршрут",
+      "stress_display": "маршру́т",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "мастер",
+      "stress_display": "масте́р",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "мастера",
+      "stress_display": "мастера́",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "машин",
+      "stress_display": "маши́н",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "медленнее",
+      "stress_display": "медле́ннее",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "медленно",
+      "stress_display": "медле́нно",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "меню",
+      "stress_display": "меню́",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "меня",
+      "stress_display": "меня́",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "месяцев",
+      "stress_display": "ме́сяцев",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "метро",
+      "stress_display": "метро́",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "минут",
+      "stress_display": "мину́т",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "младшая",
+      "stress_display": "мла́дшая",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "младше",
+      "stress_display": "мла́дше",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "много",
+      "stress_display": "мно́го",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "моеи",
+      "stress_display": "мое́и",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "можем",
+      "stress_display": "мо́жем",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "может",
+      "stress_display": "мо́жет",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "можно",
+      "stress_display": "Мо́жно",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "моих",
+      "stress_display": "мои́х",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "молодая",
+      "stress_display": "молода́я",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "молодои",
+      "stress_display": "молодо́и",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "москва",
+      "stress_display": "Москва́",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "москве",
+      "stress_display": "Москве́",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "москву",
+      "stress_display": "Москву́",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "москвы",
+      "stress_display": "Москвы́",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "моя",
+      "stress_display": "моя́",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "мясом",
+      "stress_display": "мя́сом",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "наверное",
+      "stress_display": "наве́рное",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "надевает",
+      "stress_display": "надева́ет",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "надевать",
+      "stress_display": "надева́ть",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "надо",
+      "stress_display": "на́до",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "назад",
+      "stress_display": "наза́д",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "налево",
+      "stress_display": "нале́во",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "намного",
+      "stress_display": "намно́го",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "направо",
+      "stress_display": "напра́во",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "находится",
+      "stress_display": "нахо́дится",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "него",
+      "stress_display": "него́",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "недалеко",
+      "stress_display": "недалеко́",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "незнакомое",
+      "stress_display": "незнако́мое",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "немного",
+      "stress_display": "немно́го",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "несколько",
+      "stress_display": "не́сколько",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "неудобство",
+      "stress_display": "неудо́бство",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "ничего",
+      "stress_display": "Ничего́",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "новая",
+      "stress_display": "но́вая",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "новои",
+      "stress_display": "но́вои",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "новую",
+      "stress_display": "но́вую",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "номер",
+      "stress_display": "но́мер",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "нормально",
+      "stress_display": "норма́льно",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "нравится",
+      "stress_display": "нра́вится",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "нужна",
+      "stress_display": "нужна́",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "нужную",
+      "stress_display": "ну́жную",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "о",
+      "stress_display": "О́",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "обжигает",
+      "stress_display": "обжига́ет",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "обжигать",
+      "stress_display": "обжига́ть",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "обучения",
+      "stress_display": "обуче́ния",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "объясняет",
+      "stress_display": "объясня́ет",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "объяснять",
+      "stress_display": "объясня́ть",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "обы",
+      "stress_display": "обы́",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "овощами",
+      "stress_display": "о́вощами",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "один",
+      "stress_display": "оди́н",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "однои",
+      "stress_display": "одно́и",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "одну",
+      "stress_display": "одну́",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "около",
+      "stress_display": "о́коло",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "она",
+      "stress_display": "Она́",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "они",
+      "stress_display": "Они́",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "остался",
+      "stress_display": "оста́лся",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "осторожно",
+      "stress_display": "осторо́жно",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "острыи",
+      "stress_display": "о́стрыи",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "отвечает",
+      "stress_display": "отвеча́ет",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "отвечать",
+      "stress_display": "отвеча́ть",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "отдельно",
+      "stress_display": "отде́льно",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "открывает",
+      "stress_display": "открыва́ет",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "открывать",
+      "stress_display": "открыва́ть",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "откуда",
+      "stress_display": "отку́да",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "отправить",
+      "stress_display": "отпра́вить",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "отправляет",
+      "stress_display": "отправля́ет",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "отправлять",
+      "stress_display": "отправля́ть",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "официант",
+      "stress_display": "Официа́нт",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "официанту",
+      "stress_display": "официа́нту",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "очень",
+      "stress_display": "о́чень",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "ошибки",
+      "stress_display": "Оши́бки",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "ошибку",
+      "stress_display": "оши́бку",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "папа",
+      "stress_display": "па́па",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "пельмени",
+      "stress_display": "пельме́ни",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "первыи",
+      "stress_display": "пе́рвыи",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "пешком",
+      "stress_display": "пешко́м",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "пирог",
+      "stress_display": "пиро́г",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "площадь",
+      "stress_display": "пло́щадь",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "по-русски",
+      "stress_display": "по-ру́сски",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "повернуть",
+      "stress_display": "поверну́ть",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "поворачивает",
+      "stress_display": "повора́чивает",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "погулять",
+      "stress_display": "погуля́ть",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "подождать",
+      "stress_display": "подожда́ть",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "поездкои",
+      "stress_display": "пое́здкои",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "пожалуи",
+      "stress_display": "пожа́луи",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "пожилую",
+      "stress_display": "пожилу́ю",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "поздно",
+      "stress_display": "по́здно",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "познакомились",
+      "stress_display": "познако́мились",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "пока",
+      "stress_display": "пока́",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "покажите",
+      "stress_display": "Покажи́те",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "показать",
+      "stress_display": "показа́ть",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "показывает",
+      "stress_display": "показыва́ет",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "полезных",
+      "stress_display": "поле́зных",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "получаса",
+      "stress_display": "получаса́",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "помощи",
+      "stress_display": "по́мощи",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "помощь",
+      "stress_display": "по́мощь",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "понимает",
+      "stress_display": "понима́ет",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "понимаю",
+      "stress_display": "понима́ю",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "понимают",
+      "stress_display": "понима́ют",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "попробовать",
+      "stress_display": "попробова́ть",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "попросить",
+      "stress_display": "попроси́ть",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "посетителеи",
+      "stress_display": "посети́телеи",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "посетитель",
+      "stress_display": "посети́тель",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "после",
+      "stress_display": "по́сле",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "потом",
+      "stress_display": "пото́м",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "потому",
+      "stress_display": "потому́",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "похожи",
+      "stress_display": "похо́жи",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "похожим",
+      "stress_display": "похо́жим",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "почему",
+      "stress_display": "почему́",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "почти",
+      "stress_display": "почти́",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "поэтому",
+      "stress_display": "поэ́тому",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "права",
+      "stress_display": "права́",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "привет",
+      "stress_display": "Приве́т",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "приглашает",
+      "stress_display": "приглаша́ет",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "приглашать",
+      "stress_display": "приглаша́ть",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "приезжает",
+      "stress_display": "приезжа́ет",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "приезжать",
+      "stress_display": "приезжа́ть",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "примерно",
+      "stress_display": "приме́рно",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "принести",
+      "stress_display": "принести́",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "принимает",
+      "stress_display": "принима́ет",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "приносит",
+      "stress_display": "прино́сит",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "приносят",
+      "stress_display": "прино́сят",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "принять",
+      "stress_display": "приня́ть",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "приходит",
+      "stress_display": "прихо́дит",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "приятно",
+      "stress_display": "прия́тно",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "проблема",
+      "stress_display": "пробле́ма",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "пробует",
+      "stress_display": "про́бует",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "проверю",
+      "stress_display": "прове́рю",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "проверяет",
+      "stress_display": "проверя́ет",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "проверять",
+      "stress_display": "проверя́ть",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "продолжает",
+      "stress_display": "продолжа́ет",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "продолжать",
+      "stress_display": "продолжа́ть",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "происходит",
+      "stress_display": "происхо́дит",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "просит",
+      "stress_display": "про́сит",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "просты",
+      "stress_display": "просты́",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "проходите",
+      "stress_display": "Проходи́те",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "прямо",
+      "stress_display": "пря́мо",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "пути",
+      "stress_display": "пути́",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "пытается",
+      "stress_display": "пыта́ется",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "пятнадцать",
+      "stress_display": "пятна́дцать",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "работает",
+      "stress_display": "рабо́тает",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "равно",
+      "stress_display": "равно́",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "разрядился",
+      "stress_display": "разряди́лся",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "разрядиться",
+      "stress_display": "разряди́ться",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "регистрации",
+      "stress_display": "регистра́ции",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "ресторан",
+      "stress_display": "рестора́н",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "ресторане",
+      "stress_display": "рестора́не",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "решает",
+      "stress_display": "реша́ет",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "реюньоне",
+      "stress_display": "Реюньо́не",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "родителеи",
+      "stress_display": "роди́телеи",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "россии",
+      "stress_display": "Росси́и",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "русскии",
+      "stress_display": "ру́сскии",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "русскую",
+      "stress_display": "ру́сскую",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "рядом",
+      "stress_display": "ря́дом",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "садится",
+      "stress_display": "са́дится",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "садиться",
+      "stress_display": "сади́ться",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "сахара",
+      "stress_display": "са́хара",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "сахаром",
+      "stress_display": "са́харом",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "свинина",
+      "stress_display": "свини́на",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "свободная",
+      "stress_display": "свобо́дная",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "свободныи",
+      "stress_display": "свобо́дныи",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "сделать",
+      "stress_display": "сде́лать",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "себе",
+      "stress_display": "себе́",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "себя",
+      "stress_display": "себя́",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "сегодня",
+      "stress_display": "Сего́дня",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "секунд",
+      "stress_display": "секу́нд",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "семеи",
+      "stress_display": "семе́и",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "семью",
+      "stress_display": "семью́",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "семья",
+      "stress_display": "семья́",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "сестра",
+      "stress_display": "сестра́",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "сидит",
+      "stress_display": "сиди́т",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "сказать",
+      "stress_display": "сказа́ть",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "сколько",
+      "stress_display": "Ско́лько",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "скорого",
+      "stress_display": "ско́рого",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "слева",
+      "stress_display": "сле́ва",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "следующии",
+      "stress_display": "сле́дующии",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "слишком",
+      "stress_display": "сли́шком",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "слово",
+      "stress_display": "сло́во",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "случилось",
+      "stress_display": "случи́лось",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "сметана",
+      "stress_display": "сме́тана",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "сметану",
+      "stress_display": "сме́тану",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "сначала",
+      "stress_display": "Снача́ла",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "собакои",
+      "stress_display": "соба́кои",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "советовать",
+      "stress_display": "сове́товать",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "советует",
+      "stress_display": "сове́тует",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "советуете",
+      "stress_display": "сове́туете",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "советую",
+      "stress_display": "сове́тую",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "совсем",
+      "stress_display": "совсе́м",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "сообщение",
+      "stress_display": "сообще́ние",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "сотрудник",
+      "stress_display": "Сотру́дник",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "спасибо",
+      "stress_display": "спаси́бо",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "спешить",
+      "stress_display": "спеши́ть",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "спокои",
+      "stress_display": "споко́и",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "справа",
+      "stress_display": "спра́ва",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "спрашивает",
+      "stress_display": "спра́шивает",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "спрашивают",
+      "stress_display": "спра́шивают",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "спускается",
+      "stress_display": "спуска́ется",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "спускаться",
+      "stress_display": "спуска́ться",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "сразу",
+      "stress_display": "сра́зу",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "станция",
+      "stress_display": "ста́нция",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "старше",
+      "stress_display": "ста́рше",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "старшии",
+      "stress_display": "ста́ршии",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "стои",
+      "stress_display": "сто́и",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "стоит",
+      "stress_display": "стои́т",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "столик",
+      "stress_display": "сто́лик",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "субботу",
+      "stress_display": "суббо́ту",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "счастливого",
+      "stress_display": "Счастли́вого",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "счастью",
+      "stress_display": "сча́стью",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "сыта",
+      "stress_display": "сыта́",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "тебе",
+      "stress_display": "Тебе́",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "тебя",
+      "stress_display": "тебя́",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "телевизор",
+      "stress_display": "телеви́зор",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "телефон",
+      "stress_display": "телефо́н",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "телефоне",
+      "stress_display": "телефо́не",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "теперь",
+      "stress_display": "тепе́рь",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "тепло",
+      "stress_display": "тепло́",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "теряюсь",
+      "stress_display": "теря́юсь",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "ти",
+      "stress_display": "ти́",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "тогда",
+      "stress_display": "Тогда́",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "тоже",
+      "stress_display": "то́же",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "только",
+      "stress_display": "то́лько",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "тони",
+      "stress_display": "То́ни",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "традиционная",
+      "stress_display": "традицио́нная",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "традиционную",
+      "stress_display": "традицио́нную",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "тридцать",
+      "stress_display": "три́дцать",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "трудно",
+      "stress_display": "тру́дно",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "туда",
+      "stress_display": "туда́",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "увидеть",
+      "stress_display": "уви́деть",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "увидите",
+      "stress_display": "уви́дите",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "уже",
+      "stress_display": "уже́",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "ужин",
+      "stress_display": "у́жин",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "ужина",
+      "stress_display": "у́жина",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "ужином",
+      "stress_display": "у́жином",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "указании",
+      "stress_display": "указа́нии",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "указания",
+      "stress_display": "указа́ния",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "улице",
+      "stress_display": "у́лице",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "улицу",
+      "stress_display": "у́лицу",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "улыбается",
+      "stress_display": "улыба́ется",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "улыбаться",
+      "stress_display": "улыба́ться",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "устал",
+      "stress_display": "уста́л",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "утром",
+      "stress_display": "у́тром",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "фотографии",
+      "stress_display": "фотогра́фии",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "фотографию",
+      "stress_display": "фотогра́фию",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "фотография",
+      "stress_display": "фотогра́фия",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "фотографиях",
+      "stress_display": "фотогра́фиях",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "фразы",
+      "stress_display": "фра́зы",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "холодно",
+      "stress_display": "холо́дно",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "хорошо",
+      "stress_display": "Хорошо́",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "хотел",
+      "stress_display": "хоте́л",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "хотите",
+      "stress_display": "хоти́те",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "хочет",
+      "stress_display": "хо́чет",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "центру",
+      "stress_display": "це́нтру",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "час",
+      "stress_display": "ча́с",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "часто",
+      "stress_display": "ча́сто",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "человек",
+      "stress_display": "челове́к",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "через",
+      "stress_display": "Че́рез",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "читает",
+      "stress_display": "чита́ет",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "что-нибудь",
+      "stress_display": "Что-нибу́дь",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "чувствовать",
+      "stress_display": "чу́вствовать",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "чувствует",
+      "stress_display": "чу́вствует",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "э",
+      "stress_display": "Э́",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "этаж",
+      "stress_display": "эта́ж",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "это",
+      "stress_display": "э́то",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "этот",
+      "stress_display": "э́тот",
+      "source": "PDF-FIRST-WEEK-TONY"
+    },
+    {
+      "plain": "язы",
+      "stress_display": "язы́",
+      "source": "PDF-FIRST-WEEK-TONY"
+    }
+  ]
+}

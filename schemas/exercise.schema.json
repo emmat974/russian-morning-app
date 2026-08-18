@@ -1,0 +1,92 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "exercise.schema.json",
+  "type": "object",
+  "required": [
+    "id",
+    "lesson_id",
+    "type",
+    "difficulty",
+    "prompt",
+    "answer",
+    "concepts",
+    "error_tags"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "lesson_id": {
+      "type": "string"
+    },
+    "type": {
+      "enum": [
+        "multiple_choice",
+        "translation",
+        "fill_blank",
+        "reorder",
+        "classify",
+        "comprehension"
+      ]
+    },
+    "difficulty": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5
+    },
+    "prompt": {
+      "type": "string"
+    },
+    "answer": {
+      "type": "string"
+    },
+    "options": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "translation": {
+      "type": "string"
+    },
+    "concepts": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "error_tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "acceptable_answers": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "tokens": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "context": {
+      "type": "string"
+    },
+    "explanation": {
+      "type": "string"
+    },
+    "source": {
+      "type": "string"
+    },
+    "series": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    }
+  }
+}
